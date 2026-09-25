@@ -4,10 +4,14 @@ en: geometry
 meanings: 
   - alien: ["geometry", "be", "noun"]
     zh: 几何学是名词
+    en: Geometry is a noun
   - alien: ["geometry", "of", "morpheme", "be", "graphic", "and", "subject"]
     zh: 几何学由图形与主题构成
+    en: Geometry is made up of graphic and subject
   - alien: ["\n"]
   - alien: ["calculate", "of", "subject"]
     zh: 计算图形的学科
+    en: The subject of calculating figures
   - alien: ["geometry", "be", "math"]
     zh: 几何学是数学
+    en: Geometry is math

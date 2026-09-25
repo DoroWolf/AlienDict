@@ -4,8 +4,11 @@ en: previous one
 meanings: 
   - alien: ["previous_one", "be", "adjective"]
     zh: 前一是形容词
+    en: Previous one is an adjective
   - alien: ["previous_one", "of", "morpheme", "be", "up", "and", "one"]
     zh: 前一由上与一构成
+    en: Previous one is made up of up and one
   - alien: ["\n"]
   - alien: ["one", "up", "be_included", "order"]
     zh: 包含于顺序的前一个
+    en: The previous one included in the order

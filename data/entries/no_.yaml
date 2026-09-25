@@ -4,8 +4,11 @@ en: No.
 meanings: 
   - alien: ["no_", "be", "adjective"]
     zh: 第是形容词
+    en: No. is an adjective
   - alien: ["no_", "of", "morpheme", "be", "from", "and", "number"]
     zh: 第由从与数构成
+    en: No. is made up of from and number
   - alien: ["\n"]
   - alien: ["location", "be_included", "order", "of", "number"]
     zh: 所在位置包含于顺序的数
+    en: The number whose location is included in the order

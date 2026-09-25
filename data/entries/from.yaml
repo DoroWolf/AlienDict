@@ -4,10 +4,14 @@ en: from
 meanings: 
   - alien: ["from", "be", "conjunction"]
     zh: 从是连词
+    en: From is a conjunction
   - alien: ["from", "of", "morpheme", "be", "to"]
     zh: 从由到构成
+    en: From is made up of to
   - alien: ["\n"]
   - alien: ["from", "amass", "verb", "to", "noun"]
     zh: 从累积动词到名词
+    en: From amasses verb to noun
   - alien: ["next_word", "be", "previous_word", "of", "past", "space"]
     zh: 后词是前词的过去空间
+    en: The next word is the past space of the previous word

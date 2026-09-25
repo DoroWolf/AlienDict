@@ -4,8 +4,11 @@ en: next one
 meanings: 
   - alien: ["next_one", "be", "adjective"]
     zh: 后一是形容词
+    en: Next one is an adjective
   - alien: ["next_one", "of", "morpheme", "be", "down", "and", "one"]
     zh: 后一由下与一构成
+    en: Next one is made up of down and one
   - alien: ["\n"]
   - alien: ["one", "down", "be_included", "order"]
     zh: 包含于顺序的后一个
+    en: The next one included in the order

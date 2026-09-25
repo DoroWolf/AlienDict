@@ -4,10 +4,14 @@ en: not include
 meanings: 
   - alien: ["not_include", "be", "conjunction"]
     zh: 不包含是连词
+    en: Not include is a conjunction
   - alien: ["not_include", "of", "morpheme", "be", "not_be_included"]
     zh: 不包含由不包含于构成
+    en: Not include is made up of not be included
   - alien: ["\n"]
   - alien: ["not_include", "amass", "two", "word"]
     zh: 不包含累积两个词
+    en: Not include amasses two words
   - alien: ["previous_word", "false", "have", "next_word"]
     zh: 前词没有后词
+    en: The previous word does not have the next word

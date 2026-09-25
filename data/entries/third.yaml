@@ -4,9 +4,11 @@ en: third
 meanings: 
   - alien: ["third", "be", "adjective"]
     zh: 第三是形容词
+    en: Third is an adjective
   - alien: ["third", "of", "morpheme", "be", "from", "and", "three"]
     zh: 第三由从与三构成
+    en: Third is made up of from and three
   - alien: ["\n"]
   - alien: ["three", "no_"]
     zh: 第三个
-    en: No. two
+    en: No. three

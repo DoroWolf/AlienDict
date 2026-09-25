@@ -4,10 +4,14 @@ en: be included
 meanings: 
   - alien: ["be_included", "be", "conjunction"]
     zh: 包含于是连词
+    en: Be included is a conjunction
   - alien: ["be_included", "be", "base", "morpheme"]
     zh: 包含于是基础词素
+    en: Be included is a basic morpheme
   - alien: ["\n"]
   - alien: ["be_included", "amass", "two", "word"]
     zh: 包含于累积两个词
+    en: Be included amasses two words
   - alien: ["next_word", "have", "previous_word"]
     zh: 后词有前词
+    en: The next word has the previous word

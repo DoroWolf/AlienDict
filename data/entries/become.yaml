@@ -4,10 +4,14 @@ en: become
 meanings: 
   - alien: ["become", "be", "conjunction"]
     zh: 成为是连词
+    en: Become is a conjunction
   - alien: ["become", "of", "morpheme", "be", "object", "and", "to"]
     zh: 成为由物体与到构成
+    en: Become is made up of object and to
   - alien: ["\n"]
   - alien: ["become", "amass", "noun", "to", "noun"]
     zh: 成为累积名词到名词
+    en: Become amasses noun to noun
   - alien: ["next_word", "be", "done", "change", "of", "previous_word"]
     zh: 后词是完成变化的前词
+    en: The next word is the previous word that has undergone the change

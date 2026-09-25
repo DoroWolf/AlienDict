@@ -4,10 +4,14 @@ en: algebra
 meanings: 
   - alien: ["algebra", "be", "noun"]
     zh: 代数是名词
+    en: Algebra is a noun
   - alien: ["algebra", "of", "morpheme", "be", "number", "and", "subject"]
     zh: 代数由数与主题构成
+    en: Algebra is made up of number and subject
   - alien: ["\n"]
   - alien: ["calculate", "number", "of", "subject"]
     zh: 计算数的学科
+    en: The subject of calculating numbers
   - alien: ["algebra", "be", "base", "math"]
     zh: 代数是基础数学
+    en: Algebra is basic math

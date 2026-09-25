@@ -4,8 +4,11 @@ en: ability
 meanings: 
   - alien: ["ability", "be", "noun"]
     zh: 能力是名词
+    en: Ability is a noun
   - alien: ["ability", "of", "morpheme", "be", "can", "and", "count"]
     zh: 能力由能与数量构成
+    en: Ability is made up of can and count
   - alien: ["\n"]
   - alien: ["skill", "of", "count"]
     zh: 技能的数量
+    en: The count of a skill

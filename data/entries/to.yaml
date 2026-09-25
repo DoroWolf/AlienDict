@@ -4,10 +4,14 @@ en: to
 meanings: 
   - alien: ["to", "be", "conjunction"]
     zh: 到是连词
+    en: To is a conjunction
   - alien: ["to", "be", "base", "morpheme"]
     zh: 到是基础词素
+    en: To is a basic morpheme
   - alien: ["\n"]
   - alien: ["to", "amass", "verb", "to", "noun"]
     zh: 到累积动词到名词
+    en: To amasses verb to noun
   - alien: ["next_word", "be", "previous_word", "of", "future", "space"]
     zh: 后词是前词的未来空间
+    en: The next word is the future space of the previous word

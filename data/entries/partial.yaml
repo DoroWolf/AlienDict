@@ -11,4 +11,4 @@ meanings:
   - alien: ["\n"]
   - alien: ["one_object", "or", "many", "element_(math)", "be_included", "set_(math)"]
     zh: 包含于集合的一个或多个元素
-    en: One or many elements that be included to a set
+    en: One or many elements that are included in a set

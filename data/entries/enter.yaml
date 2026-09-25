@@ -4,8 +4,11 @@ en: enter
 meanings: 
   - alien: ["enter", "be", "verb"]
     zh: 进入是动词
+    en: Enter is a verb
   - alien: ["enter", "of", "morpheme", "be", "act", "and", "from"]
     zh: 进入由行为与从构成
+    en: Enter is made up of act and from
   - alien: ["\n"]
   - alien: ["not_include", "action", "change", "become", "include", "action"]
     zh: 不包含的动作变化成为包含的动作
+    en: An action that is not included changes to become an included action

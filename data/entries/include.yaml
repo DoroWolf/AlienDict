@@ -4,10 +4,14 @@ en: include
 meanings: 
   - alien: ["include", "be", "conjunction"]
     zh: 包含是连词
+    en: Include is a conjunction
   - alien: ["include", "of", "morpheme", "be", "be_included"]
-    zh: 包含于由包含构成
+    zh: 包含由包含于构成
+    en: Include is made up of be included
   - alien: ["\n"]
   - alien: ["include", "amass", "two", "word"]
     zh: 包含累积两个词
+    en: Include amasses two words
   - alien: ["previous_word", "have", "next_word"]
     zh: 前词有后词
+    en: The previous word has the next word

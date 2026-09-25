@@ -4,8 +4,11 @@ en: can
 meanings: 
   - alien: ["can", "be", "verb"]
     zh: 能是动词
+    en: Can is a verb
   - alien: ["can", "of", "morpheme", "be", "true", "and", "cause"]
     zh: 能由真与使得构成
+    en: Can is made up of true and cause
   - alien: ["\n"]
   - alien: ["have", "skill", "get", "next_word"]
     zh: 有技能得到后词
+    en: Having a skill gets the next word

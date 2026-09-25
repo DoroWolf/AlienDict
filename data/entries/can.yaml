@@ -9,6 +9,6 @@ meanings:
     zh: 能由真与使得构成
     en: Can is made up of true and cause
   - alien: ["\n"]
-  - alien: ["have", "skill", "get", "next_word"]
-    zh: 有技能得到后词
-    en: Having a skill gets the next word
+  - alien: ["have", "skill", "for", "next_word"]
+    zh: 有技能为了后词
+    en: Having a skill fors the next word

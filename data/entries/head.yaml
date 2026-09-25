@@ -1,0 +1,14 @@
+id: head
+translation: 头
+en: head
+meanings: 
+  - alien: ["head", "be", "noun"]
+    zh: 头是名词
+    en: Head is a noun
+  - alien: ["head", "be", "base", "morpheme"]
+    zh: 头是基础词素
+    en: Head is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["alien", "of", "up", "element_(math)"]
+    zh: 外星人的上方元素
+    en: The elements above the aliens

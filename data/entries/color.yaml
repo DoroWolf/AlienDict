@@ -1,0 +1,17 @@
+id: color
+translation: 色彩
+en: color
+meanings: 
+  - alien: ["color", "be", "noun"]
+    zh: 色彩是名词
+    en: Color is a noun
+  - alien: ["color", "of", "morpheme", "be", "of", "and", "eye"]
+    zh: 无色由的与眼构成
+    en: Color is made up of of and eye
+  - alien: ["\n"]
+  - alien: ["be_done", "see", "of", "object", "of", "description"]
+    zh: 被看的物体的描述
+    en: Description of the object being looked at
+  - alien: ["different", "wavelength", "of", "colorless", "light", "have", "different", "color"]
+    zh: 不同波长的光有不同色彩
+    en: Light of differne wavelengths has different colors

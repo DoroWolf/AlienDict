@@ -1,0 +1,7 @@
+id: mirrored_weapon
+translation: 武器
+en: weapon
+meanings: 
+  - alien: ["mirrored_weapon", "not_be", "word"]
+    zh: 武器不是词
+    en: Weapon is not a word

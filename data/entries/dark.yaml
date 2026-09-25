@@ -1,0 +1,14 @@
+id: dark
+translation: 暗
+en: dark
+meanings: 
+  - alien: ["dark", "be", "adjective"]
+    zh: 暗是形容词
+    en: Dark is an adjective
+  - alien: ["dark", "of", "morpheme", "be", "false", "and", "light"]
+    zh: 暗由假与光构成
+    en: Dark is made up of false and light
+  - alien: ["\n"]
+  - alien: ["not_include", "light"]
+    zh: 不包含光
+    en: Doesn’t include light

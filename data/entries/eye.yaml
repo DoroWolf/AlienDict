@@ -1,0 +1,14 @@
+id: eye
+translation: 眼
+en: eye
+meanings: 
+  - alien: ["eye", "be", "noun"]
+    zh: 眼是名词
+    en: Eye is a noun
+  - alien: ["eye", "be", "base", "morpheme"]
+    zh: 眼是基础词素
+    en: Eye is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["head", "of", "element_(math)", "for", "see"]
+    zh: 头的为了看的元素
+    en: The elements that the head fors to see

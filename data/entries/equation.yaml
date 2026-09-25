@@ -1,0 +1,14 @@
+id: equation
+translation: 等式
+en: equation
+meanings: 
+  - alien: ["equation", "be", "noun"]
+    zh: 等式是名词
+    en: Equation is a noun
+  - alien: ["equation", "of", "morpheme", "be", "equal", "and", "sentence"]
+    zh: 等式由等于与句子构成
+    en: Equation is made up of equal and sentence
+  - alien: ["\n"]
+  - alien: ["algebra", "sentence", "include", "equal"]
+    zh: 包含等于的代数句子
+    en: Algebraic sentences that include equals

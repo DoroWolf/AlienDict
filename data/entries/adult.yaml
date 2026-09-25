@@ -1,0 +1,17 @@
+id: adult
+translation: 成人
+en: adult
+meanings: 
+  - alien: ["adult", "be", "noun"]
+    zh: 成人是名词
+    en: Adult is a noun
+  - alien: ["adult", "of", "morpheme", "be", "big", "and", "alien"]
+    zh: 成人由大与外星人构成
+    en: Adult is made up of big and alien
+  - alien: ["\n"]
+  - alien: ["big", "alien"]
+    zh: 大外星人
+    en: Big aliens
+  - alien: ["adult", "past", "be", "child"]
+    zh: 成人过去是儿童
+    en: Adults used to be children

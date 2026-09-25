@@ -1,0 +1,14 @@
+id: weapon
+translation: 武器
+en: weapon
+meanings: 
+  - alien: ["weapon", "be", "noun"]
+    zh: 武器是名词
+    en: Weapon is a noun
+  - alien: ["weapon", "be", "base", "morpheme"]
+    zh: 武器是基础词素
+    en: Weapon is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["tool", "for", "war", "and", "kill"]
+    zh: 为了战争与杀戮的工具
+    en: A tool for war and killing

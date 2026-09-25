@@ -1,0 +1,14 @@
+id: war
+translation: 战争
+en: war
+meanings: 
+  - alien: ["war", "be", "verb"]
+    zh: 战争是动词
+    en: War is a verb
+  - alien: ["war", "of", "morpheme", "be", "weapon", "and", "(mirrored_weapon)"]
+    zh: 士兵由武器与武器构成
+    en: Soldier is made up of weapon and weapon
+  - alien: ["\n"]
+  - alien: ["many", "soldier", "attack", "distinct"]
+    zh: 不同士兵互相攻击
+    en: Distinct doldiers attacking each other

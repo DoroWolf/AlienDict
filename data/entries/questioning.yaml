@@ -9,6 +9,6 @@ meanings:
     zh: 疑问是基础词素
     en: Questioning is a basic morpheme
   - alien: ["\n"]
-  - alien: ["question", "get", "true", "or", "false"]
-    zh: 提问得到真或假
-    en: Question to get true or false
+  - alien: ["question", "for", "true", "or", "false"]
+    zh: 为真或假提问
+    en: Question to for true or false

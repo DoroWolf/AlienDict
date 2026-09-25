@@ -9,6 +9,6 @@ meanings:
     zh: 攻击由武器与使得构成
     en: Attack is made up of weapon and cause
   - alien: ["\n"]
-  - alien: ["action", "get", "destroy", "and", "kill"]
-    zh: 得到破坏与杀死的动作
-    en: Actions that get destruction and killing
+  - alien: ["action", "for", "destroy", "and", "kill"]
+    zh: 为了破坏与杀死的动作
+    en: Actions that for destruction and killing

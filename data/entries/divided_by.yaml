@@ -1,0 +1,17 @@
+id: divided_by
+translation: 除以
+en: divided by
+meanings: 
+  - alien: ["divided_by", "be", "verb"]
+    zh: 除以是动词
+    en: Divided by is a verb
+  - alien: ["divided_by", "of", "morpheme", "be", "disperse", "and", "change"]
+    zh: 除以由积累与变化构成
+    en: Divided by is made up of disperse and change
+  - alien: ["\n"]
+  - alien: ["separate", "first", "number", "become", "second", "number", "of", "set_(math)"]
+    zh: 分离第一个数成为第二个数的集合
+    en: Separate the first number into a set of the second number
+  - alien: ["be_done", "multiply"]
+    zh: 被乘
+    en: Be multiplied

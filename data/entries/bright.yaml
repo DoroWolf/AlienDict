@@ -1,0 +1,14 @@
+id: bright
+translation: 亮
+en: bright
+meanings: 
+  - alien: ["bright", "be", "adjective"]
+    zh: 亮是形容词
+    en: Bright is an adjective
+  - alien: ["bright", "of", "morpheme", "be", "true", "and", "light"]
+    zh: 亮由真与光构成
+    en: Bright is made up of true and light
+  - alien: ["\n"]
+  - alien: ["include", "light"]
+    zh: 包含光
+    en: Includes light

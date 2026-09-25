@@ -9,6 +9,6 @@ meanings:
     zh: 使得是基础词素
     en: Cause is a basic morpheme
   - alien: ["\n"]
-  - alien: ["alien", "of", "element_(math)", "get", "action"]
-    zh: 外星人个体得到动作
-    en: Alien individuals get action
+  - alien: ["alien", "of", "element_(math)", "for", "action"]
+    zh: 外星人个体为了动作
+    en: Alien individuals for action

@@ -1,0 +1,17 @@
+id: child
+translation: 儿童
+en: child
+meanings: 
+  - alien: ["child", "be", "noun"]
+    zh: 儿童是名词
+    en: Child is a noun
+  - alien: ["child", "of", "morpheme", "be", "small", "and", "alien"]
+    zh: 儿童由小与外星人构成
+    en: Child is made up of small and alien
+  - alien: ["\n"]
+  - alien: ["small", "alien"]
+    zh: 小外星人
+    en: Small aliens
+  - alien: ["child", "future", "be", "adult"]
+    zh: 成人过去是儿童
+    en: Children are the future adults

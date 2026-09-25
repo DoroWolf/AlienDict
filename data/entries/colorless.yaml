@@ -1,0 +1,17 @@
+id: colorless
+translation: 无色
+en: colorless
+meanings: 
+  - alien: ["colorless", "be", "adjective"]
+    zh: 无色是形容词
+    en: Colorless is an adjective
+  - alien: ["colorless", "of", "morpheme", "be", "false", "and", "color"]
+    zh: 无色由假与色彩构成
+    en: Colorless is made up of false and color
+  - alien: ["\n"]
+  - alien: ["not_include", "color"]
+    zh: 不包含色彩
+    en: Doesn’t include color
+  - alien: ["alien", "can", "see", "colorless", "object", "of", "back_(direction)"]
+    zh: 外星人能看到无色物体的后面
+    en: Aliens can see behind colorless objects

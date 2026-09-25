@@ -12,6 +12,6 @@ meanings:
   - alien: ["half", "word"]
     zh: 词的一半
     en: Half of a word
-  - alien: ["many", "morpheme", "accumulate", "get", "word"]
-    zh: 多个词素积累得到词
+  - alien: ["many", "morpheme", "accumulate", "for", "word"]
+    zh: 多个词素积累为了词
     en: many morphemes accumulate into a word

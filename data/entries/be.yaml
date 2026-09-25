@@ -5,9 +5,9 @@ meanings:
   - alien: ["be", "be", "verb"]
     zh: 是是动词
     en: Be is a verb
-  - alien: ["be", "of", "morpheme", "be", "(overline_and_underline)", "and", "object"]
-    zh: 是由上下划线与物体构成
-    en: Be is made up of the overline & underline and object
+  - alien: ["be", "of", "morpheme", "be", "(overline_and_underline)", "and", "true"]
+    zh: 是由上下划线与真构成
+    en: Be is made up of the overline & underline and true
   - alien: ["\n"]
   - alien: ["previous_word", "and", "next_word", "have", "same", "description"]
     zh: 前词与后词有相同描述

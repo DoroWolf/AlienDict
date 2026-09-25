@@ -12,6 +12,6 @@ meanings:
   - alien: ["base", "number"]
     zh: 基础数
     en: The basic number
-  - alien: ["zero", "be_not", "positive", "and", "negative"]
+  - alien: ["zero", "not_be", "positive", "and", "negative"]
     zh: 零不是正数与负数
     en: Zero is not positive and negative

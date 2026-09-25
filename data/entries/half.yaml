@@ -9,6 +9,6 @@ meanings:
     zh: 一半由数量与二构成
     en: Half is made up of count and two
   - alien: ["\n"]
-  - alien: ["division", "two"]
+  - alien: ["divided_by", "two"]
     zh: 除以二
     en: dispersed by two

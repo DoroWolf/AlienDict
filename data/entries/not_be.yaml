@@ -1,0 +1,14 @@
+id: not_be
+translation: 不是
+en: not be
+meanings: 
+  - alien: ["not_be", "be", "verb"]
+    zh: 不是是动词
+    en: Not be is a verb
+  - alien: ["be", "of", "morpheme", "be", "(overline_and_underline)", "and", "false"]
+    zh: 不是由上下划线与假构成
+    en: Not be is made up of the overline & underline and false
+  - alien: ["\n"]
+  - alien: ["previous_word", "and", "next_word", "have", "different", "description"]
+    zh: 前词与后词有不同描述
+    en: The previous word has the different description as the next word

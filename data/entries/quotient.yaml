@@ -5,10 +5,10 @@ meanings:
   - alien: ["quotient", "be", "noun"]
     zh: 商是名词
     en: Quotient is a noun
-  - alien: ["quotient", "of", "morpheme", "be", "division", "and", "to"]
+  - alien: ["quotient", "of", "morpheme", "be", "divided_by", "and", "to"]
     zh: 商由除以与到构成
-    en: Quotient is made up of division and to
+    en: Quotient is made up of divided_by and to
   - alien: ["\n"]
-  - alien: ["division", "of", "result"]
+  - alien: ["divided_by", "of", "result"]
     zh: 除以的结果
-    en: The result of division
+    en: The result of divided_by

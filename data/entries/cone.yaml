@@ -1,0 +1,17 @@
+id: cone
+translation: 锥
+en: cone
+meanings: 
+  - alien: ["cone", "be", "adjective"]
+    zh: 锥是形容词
+    en: Cone is an adjective
+  - alien: ["cone", "of", "morpheme", "be", "of", "and", "weapon"]
+    zh: 锥由的与武器构成
+    en: Cone is made up of of and weapon
+  - alien: ["\n"]
+  - alien: ["object", "include", "small", "front", "element_(math)", "and", "big", "back_(direction)", "element_(math)"]
+    zh: 前小后大的物体
+    en: An object that is smaller in the front and bigger in the back
+  - alien: ["cone", "object", "can", "be", "weapon"]
+    zh: 锥体可作为武器
+    en: The cone can be used as a weapon

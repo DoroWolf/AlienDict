@@ -9,6 +9,6 @@ meanings:
     zh: 火是基础词素
     en: Fire is a basic morpheme
   - alien: ["\n"]
-  - alien: ["heat_up", "combustible", "get", "create", "fire"]
+  - alien: ["heat_up", "combustible", "for", "create", "fire"]
     zh: 加热可燃物创造火
     en: Heating a combustible object creates fire

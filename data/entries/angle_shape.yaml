@@ -1,0 +1,7 @@
+id: angle_shape
+translation: 角的形状
+en: shape of the angle
+meanings: 
+  - alien: ["(angle_shape)", "not_be", "word"]
+    zh: 角的形状不是词
+    en: Shape of the angle is not word

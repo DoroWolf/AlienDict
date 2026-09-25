@@ -1,0 +1,11 @@
+id: particle
+translation: 颗粒
+en: particle
+meanings: 
+  - alien: ["particle", "be", "noun"]
+    zh: 颗粒是名词
+  - alien: ["particle", "of", "morpheme", "be", "scale"]
+    zh: 颗粒由鳞片构成
+  - alien: ["\n"]
+  - alien: ["more", "small", "of", "base", "object"]
+    zh: 更小的基础物体

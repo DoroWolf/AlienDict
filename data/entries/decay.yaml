@@ -1,0 +1,11 @@
+id: decay
+translation: 衰变
+en: decay
+meanings: 
+  - alien: ["decay", "be", "verb"]
+    zh: 衰变是动词
+  - alien: ["decay", "of", "morpheme", "be", "radioactive", "and", "change"]
+    zh: 衰变由放射性物质与变化构成
+  - alien: ["\n"]
+  - alien: ["radioactive", "of", "change"]
+    zh: 放射性物质的变化

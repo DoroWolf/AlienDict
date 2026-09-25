@@ -1,0 +1,7 @@
+id: plants
+translation: 植物
+en: plants
+meanings: 
+  - alien: ["(plants)", "not_be", "word"]
+    zh: 植物不是词
+    en: Plants bar is not word

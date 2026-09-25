@@ -1,0 +1,11 @@
+id: trade
+translation: 贸易
+en: trade
+meanings: 
+  - alien: ["trade", "be", "verb"]
+    zh: 贸易是动词
+  - alien: ["trade", "of", "morpheme", "be", "swap", "and", "cause"]
+    zh: 贸易由交换与使得构成
+  - alien: ["\n"]
+  - alien: ["swap", "possession", "for", "currency", "or", "possession"]
+    zh: 为了货币或所有物交换所有物

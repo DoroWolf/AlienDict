@@ -1,0 +1,14 @@
+id: tsunami
+translation: 海啸
+en: tsunami
+meanings: 
+  - alien: ["tsunami", "be", "noun"]
+    zh: 海啸是名词
+    en: Tsunami is a noun
+  - alien: ["tsunami", "of", "morpheme", "be", "wave"]
+    zh: 海啸由波构成
+    en: Tsunami is made up of wave
+  - alien: ["\n"]
+  - alien: ["sea", "of", "more", "big", "wave"]
+    zh: 海洋的更大的波
+    en: The bigger waves of the sea

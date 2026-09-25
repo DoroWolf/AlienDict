@@ -1,0 +1,14 @@
+id: clear
+translation: 清除
+en: clear
+meanings: 
+  - alien: ["clear", "be", "verb"]
+    zh: 清除是动词
+    en: Clear is a verb
+  - alien: ["clear", "of", "morpheme", "be", "word", "and", "not"]
+    zh: 清除由词与不得构成
+    en: Clear is made up of word and not
+  - alien: ["\n"]
+  - alien: ["destroy", "mark", "or", "word"]
+    zh: 破坏标记或词
+    en: Destroy marks or words

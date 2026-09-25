@@ -1,0 +1,11 @@
+id: metal
+translation: 金属
+en: metal
+meanings: 
+  - alien: ["metal", "be", "noun"]
+    zh: 金属是名词
+  - alien: ["metal", "be", "base", "morpheme"]
+    zh: 金属是基础词素
+  - alien: ["\n"]
+  - alien: ["can", "reflect", "light", "and", "deliver", "electric_current", "of", "hard", "solid", "object"]
+    zh: 能反射光与传递电流的硬固态物体

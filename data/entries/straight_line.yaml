@@ -1,0 +1,14 @@
+id: straight_line
+translation: 直线
+en: straight line
+meanings: 
+  - alien: ["straight_line", "be", "noun"]
+    zh: 直线是名词
+    en: Straight line is a noun
+  - alien: ["straight_line", "of", "morpheme", "be", "straight", "and", "line"]
+    zh: 直线由直与线构成
+    en: Straight line is made up of straight and line
+  - alien: ["\n"]
+  - alien: ["straight", "line"]
+    zh: 直的线
+    en: Straight line

@@ -1,0 +1,15 @@
+id: electric_charge
+translation: 电荷
+en: electric charge
+meanings: 
+  - alien: ["electric_charge", "be", "noun"]
+    zh: 电荷是名词
+  - alien: ["electric_charge", "of", "morpheme", "be", "electricity", "and", "object"]
+    zh: 电荷由电与物体构成
+  - alien: ["\n"]
+  - alien: ["electric_charge", "of", "positive", "or", "negative"]
+    zh: 电荷是正或负的
+  - alien: ["object", "include", "same", "electric_charge", "repulse"]
+    zh: 包含相同电荷的物体互相排斥
+  - alien: ["object", "include", "different", "electric_charge", "attract"]
+    zh: 包含不同电荷的物体互相吸引

@@ -1,0 +1,13 @@
+id: seagrass
+translation: 海草
+en: seagrass
+meanings: 
+  - alien: ["seagrass", "be", "noun"]
+    zh: 海草是名词
+  - alien: ["seagrass", "be", "base", "morpheme"]
+    zh: 海草是基础词素
+  - alien: ["\n"]
+  - alien: ["big", "length", "of", "object", "up", "from", "mud"]
+    zh: 泥巴上的大范围物体
+  - alien: ["seagrass", "be", "food"]
+    zh: 海草是食物

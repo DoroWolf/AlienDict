@@ -1,0 +1,11 @@
+id: kelp
+translation: 海带
+en: kelp
+meanings: 
+  - alien: ["kelp", "be", "noun"]
+    zh: 海带是名词
+  - alien: ["kelp", "of", "morpheme", "be", "tree", "and", "seagrass"]
+    zh: 海带的词素为树与海草
+  - alien: ["\n"]
+  - alien: ["tree", "of", "seagrass"]
+    zh: 树的海草

@@ -1,0 +1,14 @@
+id: animal
+translation: 动物
+en: animal
+meanings: 
+  - alien: ["animal", "be", "noun"]
+    zh: 动物是名词
+    en: Animal is a noun
+  - alien: ["animal", "of", "morpheme", "be", "fish"]
+    zh: 动物由鱼构成
+    en: Animal is made up of fish
+  - alien: ["\n"]
+  - alien: ["can", "move", "of", "alive", "object"]
+    zh: 能移动的活物
+    en: Living objects that can move

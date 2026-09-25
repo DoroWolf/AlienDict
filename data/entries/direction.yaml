@@ -1,0 +1,14 @@
+id: direction
+translation: 方位
+en: direction
+meanings: 
+  - alien: ["direction", "be", "noun"]
+    zh: 方位是名词
+    en: Direction is a noun
+  - alien: ["direction", "be", "base", "morpheme"]
+    zh: 方位是基础词素
+    en: Direction is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["from", "startpoint", "to", "endpoint", "of", "line"]
+    zh: 从起点到终点的线
+    en: A line from starting point to ending point

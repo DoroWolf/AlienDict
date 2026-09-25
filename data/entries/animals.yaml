@@ -1,0 +1,7 @@
+id: animals
+translation: 动物
+en: animals
+meanings: 
+  - alien: ["(animals)", "not_be", "word"]
+    zh: 动物不是词
+    en: Animals bar is not word

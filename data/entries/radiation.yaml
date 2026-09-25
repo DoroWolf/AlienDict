@@ -1,0 +1,11 @@
+id: radiation
+translation: 辐射
+en: radiation
+meanings: 
+  - alien: ["radiation", "be", "noun"]
+    zh: 辐射是名词
+  - alien: ["radiation", "of", "morpheme", "be", "radioactive", "and", "scale"]
+    zh: 辐射由放射性物质与鳞片构成
+  - alien: ["\n"]
+  - alien: ["particle", "from", "decay", "of", "radioactive"]
+    zh: 来自衰变的放射性物质的颗粒

@@ -9,6 +9,6 @@ meanings:
     zh: 皮由表面与物体构成
     en: Skin is made up of surface and object
   - alien: ["\n"]
-  - alien: ["soft", "surface", "element_(math)", "depend", "species"]
-    zh: 物种上的表面柔软元素
-    en: Soft elements on the surface of the species
+  - alien: ["soft", "surface", "element_(math)", "depend", "animal"]
+    zh: 动物上的表面柔软元素
+    en: Soft elements on the surface of the animals

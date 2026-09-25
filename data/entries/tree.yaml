@@ -1,0 +1,14 @@
+id: tree
+translation: 树
+en: tree
+meanings: 
+  - alien: ["tree", "be", "noun"]
+    zh: 树是名词
+    en: Tree is a noun
+  - alien: ["tree", "be", "base", "morpheme"]
+    zh: 树是基础词素
+    en: Tree is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["land", "of", "coral"]
+    zh: 陆地上的珊瑚
+    en: The corals on the land

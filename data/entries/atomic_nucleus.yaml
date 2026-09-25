@@ -1,0 +1,11 @@
+id: atomic_nucleus
+translation: 原子核
+en: atomic nucleus
+meanings: 
+  - alien: ["atomic_nucleus", "be", "noun"]
+    zh: 原子核是名词
+  - alien: ["atomic_nucleus", "of", "morpheme", "be", "center", "and", "scale"]
+    zh: 原子核由中心与鳞片构成
+  - alien: ["\n"]
+  - alien: ["atom", "of", "center", "element_(math)"]
+    zh: 原子的中心元素

@@ -1,0 +1,14 @@
+id: do
+translation: 做
+en: do
+meanings:
+  - alien: ["do", "be", "preposition"]
+    zh: 做是介词
+    en: Do is a preposition
+  - alien: ["do", "of", "morpheme", "be", "act", "and", "cause"]
+    zh: 做由行为与使得构成
+    en: Do is made up of act and cause
+  - alien: ["\n"]
+  - alien: ["do", "alter", "previous_word", "become", "verb"]
+    zh: 做改变前词成为动词
+    en: Do alter the previous word become a verb

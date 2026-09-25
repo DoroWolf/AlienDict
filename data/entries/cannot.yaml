@@ -1,0 +1,14 @@
+id: cannot
+translation: 不能
+en: cannot
+meanings: 
+  - alien: ["cannot", "be", "verb"]
+    zh: 不能是动词
+    en: Cannot is a verb
+  - alien: ["cannot", "of", "morpheme", "be", "false", "and", "cause"]
+    zh: 不能由假与使得构成
+    en: Cannot is made up of false and cause
+  - alien: ["\n"]
+  - alien: ["false", "have", "skill", "for", "next_word"]
+    zh: 没有技能为了后词
+    en: Don’t have a skill fors the next word

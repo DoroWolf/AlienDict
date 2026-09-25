@@ -1,0 +1,11 @@
+id: atomic_number
+translation: 原子序数
+en: atomic number
+meanings: 
+  - alien: ["atomic_number", "be", "noun"]
+    zh: 原子序数是名词
+  - alien: ["atomic_number", "of", "morpheme", "be", "one", "and", "scale"]
+    zh: 原子序数由一与鳞片构成
+  - alien: ["\n"]
+  - alien: ["atom", "include", "same", "proton", "count"]
+    zh: 原子包含相同质子的数量

@@ -1,0 +1,26 @@
+id: small
+translation: 小
+en: small
+meanings: 
+  - alien: ["small", "be", "adjective"]
+    zh: 小是形容词
+    en: Small is an adjective
+  - alien: ["small", "be", "base", "morpheme"]
+    zh: 小是基础词素
+    en: Small is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["less", "count"]
+    zh: 更少的数量
+    en: A fewer count
+  - alien: ["scale", "be", "small"]
+    zh: 鳞片是小的
+    en: The scale is small
+  - alien: ["microalgae", "be", "small"]
+    zh: 微藻是小的
+    en: The microalgae is small
+  - alien: ["atom", "be", "small"]
+    zh: 原子是小的
+    en: The atom is small
+  - alien: ["electronic", "be", "small"]
+    zh: 电子是小的
+    en: The electronic is small

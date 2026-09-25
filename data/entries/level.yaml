@@ -1,0 +1,14 @@
+id: level
+translation: 水平面
+en: level
+meanings: 
+  - alien: ["level", "be", "noun"]
+    zh: 水平面是名词
+    en: Level is a noun
+  - alien: ["level", "of", "morpheme", "be", "(horizon_bar)", "and", "seawater"]
+    zh: 水平面由横线与海水构成
+    en: Level is made up of horizon bar and seawater
+  - alien: ["\n"]
+  - alien: ["sea", "of", "surface"]
+    zh: 海洋的表面
+    en: The surface of the sea

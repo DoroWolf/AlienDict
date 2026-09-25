@@ -1,0 +1,14 @@
+id: creature
+translation: 生物
+en: creature
+meanings: 
+  - alien: ["creature", "be", "noun"]
+    zh: 生物是名词
+    en: Creature is a noun
+  - alien: ["creature", "of", "morpheme", "be", "(animals)", "and", "(plants)"]
+    zh: 生物由动物与植物构成
+    en: Creature is made up of animals and plants
+  - alien: ["\n"]
+  - alien: ["total", "animal", "and", "plant"]
+    zh: 动物与植物的总和
+    en: The total of animals and plants

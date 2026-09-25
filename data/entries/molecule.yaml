@@ -1,0 +1,11 @@
+id: molecule
+translation: 分子
+en: molecule
+meanings: 
+  - alien: ["molecule", "be", "noun"]
+    zh: 分子是名词
+  - alien: ["molecule", "of", "morpheme", "be", "small", "and", "scale"]
+    zh: 分子由小与鳞片构成
+  - alien: ["\n"]
+  - alien: ["object", "of", "more", "more", "small", "and", "base", "element_(math)"]
+    zh: 物体的更加小与基础的元素

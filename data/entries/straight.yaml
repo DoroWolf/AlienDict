@@ -1,0 +1,14 @@
+id: straight
+translation: 直
+en: straight
+meanings: 
+  - alien: ["straight", "be", "adjective"]
+    zh: 直是形容词
+    en: Straight is an adjective
+  - alien: ["straight", "of", "morpheme", "be", "false", "and", "wave"]
+    zh: 直由假与波构成
+    en: Straight is made up of false and wave
+  - alien: ["\n"]
+  - alien: ["not_include", "direction", "of", "change", "of", "line"]
+    zh: 不包含方位变化的线
+    en: Lines that do not include direction changes

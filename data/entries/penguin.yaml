@@ -1,0 +1,20 @@
+id: penguin
+translation: 企鹅
+en: penguin
+meanings: 
+  - alien: ["penguin", "be", "noun"]
+    zh: 企鹅是名词
+    en: Penguin is a noun
+  - alien: ["penguin", "of", "morpheme", "be", "icefield", "and", "bird"]
+    zh: 企鹅由冰原与鸟构成
+    en: Penguin is made up of icefield and bird
+  - alien: ["\n"]
+  - alien: ["icefield", "of", "bird"]
+    zh: 冰原上的鸟
+    en: The birds on the icefield
+  - alien: ["penguin", "have", "more", "skin", "for", "rivet", "on_the_ground"]
+    zh: 企鹅有更多用于固定在地面上的皮肤
+    en: Penguins have more skin for anchoring to the ground
+  - alien: ["penguin", "cannot", "migrate"]
+    zh: 企鹅不会迁徙
+    en: Penguins cannot migrate

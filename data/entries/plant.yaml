@@ -1,0 +1,14 @@
+id: plant
+translation: 植物
+en: plant
+meanings: 
+  - alien: ["plant", "be", "noun"]
+    zh: 植物是名词
+    en: Plant is a noun
+  - alien: ["plant", "of", "morpheme", "be", "seagrass"]
+    zh: 植物由海草构成
+    en: Plant is made up of seagrass
+  - alien: ["\n"]
+  - alien: ["cannot", "move", "of", "alive", "object"]
+    zh: 不能移动的活物
+    en: Living objects that cannot move

@@ -1,0 +1,11 @@
+id: dent
+translation: 凹陷
+en: dent
+meanings: 
+  - alien: ["dent", "be", "noun"]
+    zh: 凹陷是名词
+  - alien: ["dent", "of", "morpheme", "be", "bump"]
+    zh: 凹陷由凸起构成
+  - alien: ["\n"]
+  - alien: ["surface", "of", "down", "element_(math)"]
+    zh: 表面的下元素

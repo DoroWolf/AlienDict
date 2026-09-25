@@ -1,0 +1,14 @@
+id: trajectory
+translation: 轨迹
+en: trajectory
+meanings: 
+  - alien: ["trajectory", "be", "noun"]
+    zh: 方位是名词
+    en: Trajectory is a noun
+  - alien: ["trajectory", "of", "morpheme", "be", "move", "and", "line"]
+    zh: 轨迹由移动与线段构成
+    en: Trajectory is made up of move and line
+  - alien: ["\n"]
+  - alien: ["line", "from", "startpoint", "to", "endpoint"]
+    zh: 线从起点到终点
+    en: The line runs from starting point to ending point

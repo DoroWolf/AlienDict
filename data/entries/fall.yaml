@@ -1,0 +1,14 @@
+id: fall
+translation: 下降
+en: fall
+meanings: 
+  - alien: ["fall", "be", "verb"]
+    zh: 下降是动词
+    en: Fall is a verb
+  - alien: ["fall", "of", "morpheme", "be", "cause", "and", "down"]
+    zh: 下降由使得与上构成
+    en: Fall is made up of cause and down
+  - alien: ["\n"]
+  - alien: ["down", "move"]
+    zh: 移动到下方
+    en: Move to below

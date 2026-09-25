@@ -1,0 +1,14 @@
+id: wave
+translation: 波
+en: wave
+meanings: 
+  - alien: ["wave", "be", "noun"]
+    zh: 波是名词
+    en: Wave is a noun
+  - alien: ["wave", "be", "base", "morpheme"]
+    zh: 波是基础词素
+    en: Wave is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["rise", "and", "fall", "of", "level"]
+    zh: 上升与下降的水平面
+    en: Rising and falling levels

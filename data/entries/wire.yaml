@@ -1,0 +1,14 @@
+id: wire
+translation: 线材
+en: wire
+meanings: 
+  - alien: ["wire", "be", "noun"]
+    zh: 线材是名词
+    en: Wire is a noun
+  - alien: ["wire", "of", "morpheme", "be", "line", "and", "seagrass"]
+    zh: 线材由线与海草构成
+    en: Wire is made up of line and seagrass
+  - alien: ["\n"]
+  - alien: ["line", "object"]
+    zh: 线性物体
+    en: Linear objects

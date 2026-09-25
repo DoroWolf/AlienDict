@@ -1,0 +1,14 @@
+id: electric_current
+translation: 电流
+en: electric current
+meanings: 
+  - alien: ["electric_current", "be", "noun"]
+    zh: 电流是名词
+    en: Electric current is a noun
+  - alien: ["electric_current", "of", "morpheme", "be", "(horizontal_bar)", "and", "electricity"]
+    zh: 电流由横线与电构成
+    en: Electric current is made up of horizontal bar and electricity
+  - alien: ["\n"]
+  - alien: ["electron", "move", "need", "one_object", "direction"]
+    zh: 电子移动需要一个方位
+    en: Electron movement needs one direction

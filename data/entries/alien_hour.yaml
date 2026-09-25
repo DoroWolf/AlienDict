@@ -1,0 +1,14 @@
+id: alien_hour
+translation: 外星时
+en: alien hour
+meanings: 
+  - alien: ["alien_hour", "be", "noun"]
+    zh: 外星时是名词
+    en: Alien hour is a noun
+  - alien: ["alien_hour", "of", "morpheme", "be", "(horizontal_bar)", "and", "alien_second"]
+    zh: 外星时由横线与外星秒构成
+    en: Alien hour is made up of horizon bar and alien second
+  - alien: ["\n"]
+  - alien: ["percent", "alien_day"]
+    zh: 百分之一的外星日
+    en: One percent of alien day

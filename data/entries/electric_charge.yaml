@@ -4,12 +4,17 @@ en: electric charge
 meanings: 
   - alien: ["electric_charge", "be", "noun"]
     zh: 电荷是名词
+    en: Electric charge is a noun
   - alien: ["electric_charge", "of", "morpheme", "be", "electricity", "and", "object"]
     zh: 电荷由电与物体构成
+    en: Electric charge is made up of electricity and object
   - alien: ["\n"]
   - alien: ["electric_charge", "of", "positive", "or", "negative"]
     zh: 电荷是正或负的
+    en: Electric charge is positive or negative
   - alien: ["object", "include", "same", "electric_charge", "repulse"]
     zh: 包含相同电荷的物体互相排斥
+    en: Objects that include the same electric charge repulse each other
   - alien: ["object", "include", "different", "electric_charge", "attract"]
     zh: 包含不同电荷的物体互相吸引
+    en: Objects that include different electric charges attract each other

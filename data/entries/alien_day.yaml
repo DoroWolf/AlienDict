@@ -1,0 +1,14 @@
+id: alien_day
+translation: 外星日
+en: alien day
+meanings: 
+  - alien: ["alien_day", "be", "noun"]
+    zh: 外星日是名词
+    en: Alien day is a noun
+  - alien: ["alien_day", "of", "morpheme", "be", "(double_horizontal_bar)", "and", "alien_second"]
+    zh: 外星日由双横线与外星秒构成
+    en: Alien day is made up of double horizon bar and alien second
+  - alien: ["\n"]
+  - alien: ["percent", "alien_season"]
+    zh: 百分之一的外星季
+    en: One percent of alien season

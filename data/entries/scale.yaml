@@ -4,10 +4,14 @@ en: scale
 meanings: 
   - alien: ["scale", "be", "noun"]
     zh: 鳞片是名词
+    en: Scale is a noun
   - alien: ["scale", "be", "base", "morpheme"]
     zh: 鳞片是基础词素
+    en: Scale is a basic morpheme
   - alien: ["\n"]
   - alien: ["fish", "of", "small", "surface", "shell"]
     zh: 鱼表面的小壳
+    en: The small shell on the surface of a fish
   - alien: ["small", "object"]
     zh: 小物体
+    en: A small object

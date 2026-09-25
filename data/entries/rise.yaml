@@ -11,4 +11,4 @@ meanings:
   - alien: ["\n"]
   - alien: ["up", "move"]
     zh: 移动到上方
-    en: Move to the top
+    en: Move upward

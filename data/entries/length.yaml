@@ -5,7 +5,7 @@ meanings:
   - alien: ["length", "be", "noun"]
     zh: 长度是名词
     en: Length is a noun
-  - alien: ["length", "of", "morpheme", "be", "(horizon_bar)", "and", "count"]
+  - alien: ["length", "of", "morpheme", "be", "(horizontal_bar)", "and", "count"]
     zh: 长度由横线与数量构成
     en: Length is made up of horizon bar and count
   - alien: ["\n"]

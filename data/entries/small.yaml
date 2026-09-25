@@ -11,7 +11,7 @@ meanings:
   - alien: ["\n"]
   - alien: ["less", "count"]
     zh: 更少的数量
-    en: A fewer count
+    en: A smaller count
   - alien: ["scale", "be", "small"]
     zh: 鳞片是小的
     en: The scale is small

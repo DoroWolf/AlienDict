@@ -4,10 +4,14 @@ en: seagrass
 meanings: 
   - alien: ["seagrass", "be", "noun"]
     zh: 海草是名词
+    en: Seagrass is a noun
   - alien: ["seagrass", "be", "base", "morpheme"]
     zh: 海草是基础词素
+    en: Seagrass is a basic morpheme
   - alien: ["\n"]
   - alien: ["big", "length", "of", "object", "up", "from", "mud"]
     zh: 泥巴上的大范围物体
+    en: A big, long object that comes up from the mud
   - alien: ["seagrass", "be", "food"]
     zh: 海草是食物
+    en: Seagrass is food

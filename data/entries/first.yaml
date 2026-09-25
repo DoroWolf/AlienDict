@@ -11,4 +11,4 @@ meanings:
   - alien: ["\n"]
   - alien: ["object", "not_include", "previous_one", "object", "one", "no_"]
     zh: 不包含前一个物体的物体
-    en: The object that does not include the object of the previous one
+    en: The object that does not include the previous object

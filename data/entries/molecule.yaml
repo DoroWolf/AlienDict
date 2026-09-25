@@ -4,8 +4,11 @@ en: molecule
 meanings: 
   - alien: ["molecule", "be", "noun"]
     zh: 分子是名词
+    en: Molecule is a noun
   - alien: ["molecule", "of", "morpheme", "be", "small", "and", "scale"]
     zh: 分子由小与鳞片构成
+    en: Molecule is made up of small and scale
   - alien: ["\n"]
   - alien: ["object", "of", "more", "more", "small", "and", "base", "element_(math)"]
     zh: 物体的更加小与基础的元素
+    en: The much smaller and basic element of an object

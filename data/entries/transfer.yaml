@@ -1,0 +1,14 @@
+id: transfer
+translation: 传递
+en: transfer
+meanings: 
+  - alien: ["transfer", "be", "verb"]
+    zh: 传递是动词
+    en: Transfer is a verb
+  - alien: ["transfer", "of", "morpheme", "be", "receive", "and", "send"]
+    zh: 传递由接受与发送构成
+    en: Transfer is made up of receive and send
+  - alien: ["\n"]
+  - alien: ["send", "and", "receive"]
+    zh: 发送与接受
+    en: Sending and receiving

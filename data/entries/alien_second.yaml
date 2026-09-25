@@ -1,0 +1,17 @@
+id: alien_second
+translation: 外星秒
+en: alien second
+meanings: 
+  - alien: ["alien_second", "be", "noun"]
+    zh: 外星秒是名词
+    en: Alien second is a noun
+  - alien: ["alien_second", "of", "morpheme", "be", "small", "and", "moment"]
+    zh: 外星秒由小与时刻构成
+    en: Alien second is made up of small and moment
+  - alien: ["\n"]
+  - alien: ["percent", "alien_hour"]
+    zh: 百分之一的外星时
+    en: One percent of alien hour
+  - alien: ["mechanics", "of", "moment", "number_system"]
+    zh: 力学的时刻进制
+    en: Time base of mechanics

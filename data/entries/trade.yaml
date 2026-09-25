@@ -4,8 +4,11 @@ en: trade
 meanings: 
   - alien: ["trade", "be", "verb"]
     zh: 贸易是动词
+    en: Trade is a verb
   - alien: ["trade", "of", "morpheme", "be", "swap", "and", "cause"]
     zh: 贸易由交换与使得构成
+    en: Trade is made up of swap and cause
   - alien: ["\n"]
   - alien: ["swap", "possession", "for", "currency", "or", "possession"]
     zh: 为了货币或所有物交换所有物
+    en: Swapping a possession for currency or a possession

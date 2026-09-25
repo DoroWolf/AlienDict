@@ -1,0 +1,14 @@
+id: hide
+translation: 隐藏
+en: hide
+meanings: 
+  - alien: ["hide", "be", "verb"]
+    zh: 隐藏是动词
+    en: Hide is a verb
+  - alien: ["hide", "of", "morpheme", "be", "be_included", "and", "fork"]
+    zh: 隐藏由包含于与分叉构成
+    en: Hide is made up of be included and fork
+  - alien: ["\n"]
+  - alien: ["see", "change", "become", "false", "see"]
+    zh: 从看到变为看不到
+    en: From seeing to not seeing

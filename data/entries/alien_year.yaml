@@ -1,0 +1,14 @@
+id: alien_year
+translation: 外星年
+en: alien year
+meanings: 
+  - alien: ["alien_year", "be", "noun"]
+    zh: 外星年是名词
+    en: Alien year is a noun
+  - alien: ["alien_year", "of", "morpheme", "be", "big", "and", "moment"]
+    zh: 外星年由大与时刻构成
+    en: Alien year is made up of small and moment
+  - alien: ["\n"]
+  - alien: ["world", "of", "cycle", "of", "period"]
+    zh: 世界的循环周期
+    en: The cycle of the world

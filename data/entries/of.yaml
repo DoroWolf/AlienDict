@@ -11,4 +11,4 @@ meanings:
   - alien: ["\n"]
   - alien: ["of", "set_(math)", "previous_word", "for", "adjective"]
     zh: 的把前词设定为形容词
-    en: "Ofsets the previous word as an adjective"
+    en: Of sets the previous word as an adjective

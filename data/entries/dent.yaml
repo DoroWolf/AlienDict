@@ -4,8 +4,11 @@ en: dent
 meanings: 
   - alien: ["dent", "be", "noun"]
     zh: 凹陷是名词
+    en: Dent is a noun
   - alien: ["dent", "of", "morpheme", "be", "bump"]
     zh: 凹陷由凸起构成
+    en: Dent is made up of bump
   - alien: ["\n"]
   - alien: ["surface", "of", "down", "element_(math)"]
     zh: 表面的下元素
+    en: The down element of a surface

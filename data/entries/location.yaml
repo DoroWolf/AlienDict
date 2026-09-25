@@ -11,4 +11,4 @@ meanings:
   - alien: ["\n"]
   - alien: ["object", "be_included", "or", "depend", "of", "space"]
     zh: 物体包含于或依附的空间
-    en: The space in which an object is included or depended
+    en: The space in which an object is included or to which it is attached

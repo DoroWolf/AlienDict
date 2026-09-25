@@ -1,0 +1,17 @@
+id: blackhole
+translation: 黑洞
+en: blackhole
+meanings: 
+  - alien: ["blackhole", "be", "noun"]
+    zh: 黑洞是名词
+    en: Blackhole is a noun
+  - alien: ["blackhole", "of", "morpheme", "be", "sky", "and", "dark"]
+    zh: 黑洞由天空与暗构成
+    en: Blackhole is made up of sky and dark
+  - alien: ["\n"]
+  - alien: ["false", "send", "light", "of", "more", "more", "mass", "of", "object", "be_included", "universe"]
+    zh: 宇宙中不发光的极大质量的物体
+    en: Extremely massive objects in the universe that do not emit light
+  - alien: ["light", "cannot", "detach", "blackhole", "of", "force_field"]
+    zh: 光不能脱离黑洞的力场
+    en: Light cannot escape the force field of a blackhole

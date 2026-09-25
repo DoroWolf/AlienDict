@@ -9,6 +9,6 @@ meanings:
     zh: 环绕由使得与圆构成
     en: Revolve is made up of cause and circle
   - alien: ["\n"]
-  - alien: ["one_object", "loop", "move", "be_included", "ring"]
+  - alien: ["one_object", "loop", "move", "be_included", "cycle"]
     zh: 一个物体在所属环中循环移动
-    en: An object is moving cyclically within its ring
+    en: An object is moving cyclically within its cycle

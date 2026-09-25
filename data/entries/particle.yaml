@@ -4,8 +4,11 @@ en: particle
 meanings: 
   - alien: ["particle", "be", "noun"]
     zh: 颗粒是名词
+    en: Particle is a noun
   - alien: ["particle", "of", "morpheme", "be", "scale"]
     zh: 颗粒由鳞片构成
+    en: Particle is made up of scale
   - alien: ["\n"]
   - alien: ["more", "small", "of", "base", "object"]
     zh: 更小的基础物体
+    en: A smaller basic object

@@ -4,8 +4,11 @@ en: atom
 meanings: 
   - alien: ["atom", "be", "noun"]
     zh: 原子是名词
+    en: Atom is a noun
   - alien: ["atom", "of", "morpheme", "be", "less", "and", "scale"]
     zh: 原子由更小与鳞片构成
+    en: Atom is made up of less and scale
   - alien: ["\n"]
   - alien: ["molecule", "of", "element_(math)"]
     zh: 分子的元素
+    en: The element of a molecule

@@ -4,8 +4,11 @@ en: read
 meanings: 
   - alien: ["read", "be", "verb"]
     zh: 阅读是动词
+    en: Read is a verb
   - alien: ["read", "of", "morpheme", "be", "eye", "and", "word"]
     zh: 阅读由眼与词构成
+    en: Read is made up of eye and word
   - alien: ["\n"]
   - alien: ["see", "word"]
     zh: 看词
+    en: Seeing words

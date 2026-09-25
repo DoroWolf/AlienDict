@@ -4,8 +4,11 @@ en: flat
 meanings: 
   - alien: ["flat", "be", "adjective"]
     zh: 平是形容词
+    en: Flat is an adjective
   - alien: ["flat", "of", "morpheme", "be", "false", "and", "bump"]
     zh: 平由假与凸起构成
+    en: Flat is made up of false and bump
   - alien: ["\n"]
   - alien: ["surface", "not_include", "bump", "and", "dent"]
     zh: 表面不包含凸起与凹陷
+    en: A surface that does not include bumps and dents

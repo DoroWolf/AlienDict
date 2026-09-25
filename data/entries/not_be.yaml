@@ -11,4 +11,4 @@ meanings:
   - alien: ["\n"]
   - alien: ["previous_word", "and", "next_word", "have", "different", "description"]
     zh: 前词与后词有不同描述
-    en: The previous word has the different description as the next word
+    en: The previous word has a different description from the next word

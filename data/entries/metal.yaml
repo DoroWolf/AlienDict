@@ -4,8 +4,11 @@ en: metal
 meanings: 
   - alien: ["metal", "be", "noun"]
     zh: 金属是名词
+    en: Metal is a noun
   - alien: ["metal", "be", "base", "morpheme"]
     zh: 金属是基础词素
+    en: Metal is a basic morpheme
   - alien: ["\n"]
   - alien: ["can", "reflect", "light", "and", "deliver", "electric_current", "of", "hard", "solid", "object"]
     zh: 能反射光与传递电流的硬固态物体
+    en: A hard solid object that can reflect light and deliver electric current

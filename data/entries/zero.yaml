@@ -14,4 +14,4 @@ meanings:
     en: The basic number
   - alien: ["zero", "not_be", "positive", "and", "negative"]
     zh: 零不是正数与负数
-    en: Zero is not positive and negative
+    en: Zero is neither positive nor negative

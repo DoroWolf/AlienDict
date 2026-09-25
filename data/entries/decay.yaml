@@ -4,8 +4,11 @@ en: decay
 meanings: 
   - alien: ["decay", "be", "verb"]
     zh: 衰变是动词
+    en: Decay is a verb
   - alien: ["decay", "of", "morpheme", "be", "radioactive", "and", "change"]
     zh: 衰变由放射性物质与变化构成
+    en: Decay is made up of radioactive and change
   - alien: ["\n"]
   - alien: ["radioactive", "of", "change"]
     zh: 放射性物质的变化
+    en: The change of a radioactive object

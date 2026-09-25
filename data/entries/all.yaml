@@ -11,4 +11,4 @@ meanings:
   - alien: ["\n"]
   - alien: ["total", "one_object", "element_(math)", "be_included", "set_(math)"]
     zh: 所有元素都包含于集合
-    en: Total elements belong to the set
+    en: All elements are included in the set

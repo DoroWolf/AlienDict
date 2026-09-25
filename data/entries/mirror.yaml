@@ -4,8 +4,11 @@ en: mirror
 meanings: 
   - alien: ["mirror", "be", "noun"]
     zh: 镜子是名词
+    en: Mirror is a noun
   - alien: ["mirror", "of", "morpheme", "be", "intelligence", "and", "reflect"]
     zh: 镜子由智慧物种与反射构成
+    en: Mirror is made up of intelligence and reflect
   - alien: ["\n"]
   - alien: ["can", "reflect", "light", "of", "flat", "object"]
     zh: 能反射光的平物体
+    en: A flat object that can reflect light

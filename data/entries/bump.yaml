@@ -4,8 +4,11 @@ en: bump
 meanings: 
   - alien: ["bump", "be", "noun"]
     zh: 凸起是名词
+    en: Bump is a noun
   - alien: ["bump", "be", "base", "morpheme"]
     zh: 凸起是基础词素
+    en: Bump is a basic morpheme
   - alien: ["\n"]
   - alien: ["surface", "of", "up", "element_(math)"]
     zh: 表面的上元素
+    en: The up element of a surface

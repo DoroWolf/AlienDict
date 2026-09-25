@@ -11,7 +11,7 @@ meanings:
   - alien: ["\n"]
   - alien: ["depend", "amass", "two", "noun"]
     zh: 依赖累积两个名词
-    en: Depend amassing two nouns
+    en: Depend amasses two nouns
   - alien: ["previous_word", "be", "be_included", "next_word", "of", "surface"]
     zh: 前词包含于后词的表面
     en: The previous word is included within the surface of the next word

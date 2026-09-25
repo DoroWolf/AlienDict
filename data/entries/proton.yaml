@@ -4,8 +4,11 @@ en: proton
 meanings: 
   - alien: ["proton", "be", "noun"]
     zh: 质子是名词
+    en: Proton is a noun
   - alien: ["proton", "of", "morpheme", "be", "negative", "and", "scale"]
     zh: 质子由负与鳞片构成
+    en: Proton is made up of negative and scale
   - alien: ["\n"]
-  - alien: ["atomic_nucleus", "of", "element_(math)", "include", "negative", "eletric_charge"]
+  - alien: ["atomic_nucleus", "of", "element_(math)", "include", "negative", "electric_charge"]
     zh: 原子核的包含负电荷的元素
+    en: The element of the atomic nucleus that includes negative electric charge

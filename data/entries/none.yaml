@@ -11,4 +11,4 @@ meanings:
   - alien: ["\n"]
   - alien: ["false", "one_object", "element_(math)", "be_included", "set_(math)"]
     zh: 没有元素包含于集合
-    en: No elements are included to the set
+    en: No elements are included in the set

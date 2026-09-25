@@ -1,0 +1,17 @@
+id: velocity
+translation: 速度
+en: velocity
+meanings: 
+  - alien: ["velocity", "be", "noun"]
+    zh: 速度是名词
+    en: Velocity is a noun
+  - alien: ["velocity", "of", "morpheme", "be", "move", "and", "count"]
+    zh: 速度由移动与数量构成
+    en: Velocity is made up of move and count
+  - alien: ["\n"]
+  - alien: ["move", "of", "ability"]
+    zh: 移动的能力
+    en: The ability of movement
+  - alien: ["velocity", "equal", "displacement", "divided_by", "time"]
+    zh: 速度等于位移除以时间
+    en: Velocity equals displacement divided by time

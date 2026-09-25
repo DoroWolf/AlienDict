@@ -4,8 +4,11 @@ en: currency
 meanings: 
   - alien: ["currency", "be", "noun"]
     zh: 货币是名词
+    en: Currency is a noun
   - alien: ["currency", "of", "morpheme", "be", "shell", "and", "swap"]
     zh: 货币由壳与交换构成
+    en: Currency is made up of shell and swap
   - alien: ["\n"]
   - alien: ["object", "for", "calculate", "trade", "count"]
     zh: 为了计算交易数量的物体
+    en: An object for calculating the count of trades

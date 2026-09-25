@@ -4,8 +4,11 @@ en: atomic number
 meanings: 
   - alien: ["atomic_number", "be", "noun"]
     zh: 原子序数是名词
+    en: Atomic number is a noun
   - alien: ["atomic_number", "of", "morpheme", "be", "one", "and", "scale"]
     zh: 原子序数由一与鳞片构成
+    en: Atomic number is made up of one and scale
   - alien: ["\n"]
   - alien: ["atom", "include", "same", "proton", "count"]
     zh: 原子包含相同质子的数量
+    en: The count of the same protons that an atom contains

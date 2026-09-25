@@ -4,8 +4,11 @@ en: radiation
 meanings: 
   - alien: ["radiation", "be", "noun"]
     zh: 辐射是名词
+    en: Radiation is a noun
   - alien: ["radiation", "of", "morpheme", "be", "radioactive", "and", "scale"]
     zh: 辐射由放射性物质与鳞片构成
+    en: Radiation is made up of radioactive and scale
   - alien: ["\n"]
   - alien: ["particle", "from", "decay", "of", "radioactive"]
     zh: 来自衰变的放射性物质的颗粒
+    en: Particles from the decay of a radioactive object

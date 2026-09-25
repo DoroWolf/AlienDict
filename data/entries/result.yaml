@@ -11,4 +11,4 @@ meanings:
   - alien: ["\n"]
   - alien: ["done", "action", "of", "object"]
     zh: 完成动作的物体
-    en: Objects that perform actions
+    en: The object that has completed the action

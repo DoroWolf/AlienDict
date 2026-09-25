@@ -4,8 +4,11 @@ en: radioactive
 meanings: 
   - alien: ["radioactive", "be", "noun"]
     zh: 放射性物质是名词
+    en: Radioactive is a noun
   - alien: ["radioactive", "be", "base", "morpheme"]
     zh: 放射性物质是基础词素
+    en: Radioactive is a basic morpheme
   - alien: ["\n"]
   - alien: ["object", "include", "radiation"]
     zh: 有辐射的物质
+    en: An object that includes radiation

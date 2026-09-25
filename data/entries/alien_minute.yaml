@@ -1,0 +1,14 @@
+id: alien_minute
+translation: 外星分钟
+en: alien minute
+meanings: 
+  - alien: ["alien_minute", "be", "noun"]
+    zh: 外星分钟是名词
+    en: Alien minute is a noun
+  - alien: ["alien_minute", "of", "morpheme", "be", "(horizontal_bar)", "and", "alien_second"]
+    zh: 外星分钟由横线与外星秒构成
+    en: Alien minute is made up of horizontal bar and alien second
+  - alien: ["\n"]
+  - alien: ["percent", "alien_hour"]
+    zh: 百分之一的外星时
+    en: One percent of alien hour

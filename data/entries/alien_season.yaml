@@ -1,13 +1,13 @@
-id: alien_season
-translation: 外星季
-en: alien season
+id: alien_day
+translation: 外星日
+en: alien day
 meanings: 
-  - alien: ["alien_season", "be", "noun"]
-    zh: 外星季是名词
-    en: Alien season is a noun
-  - alien: ["alien_season", "of", "morpheme", "be", "(triple_horizontal_bar)", "and", "alien_second"]
-    zh: 外星季由三横线与外星秒构成
-    en: Alien season is made up of triple horizontal bar and alien second
+  - alien: ["alien_day", "be", "noun"]
+    zh: 外星日是名词
+    en: Alien day is a noun
+  - alien: ["alien_day", "of", "morpheme", "be", "(triple_horizontal_bar)", "and", "alien_second"]
+    zh: 外星日由三横线与外星秒构成
+    en: Alien day is made up of triple horizontal bar and alien second
   - alien: ["\n"]
   - alien: ["one_seventh", "alien_year"]
     zh: 七分之一的外星年

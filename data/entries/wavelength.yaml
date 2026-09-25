@@ -1,0 +1,14 @@
+id: wavelength
+translation: 波长
+en: wavelength
+meanings: 
+  - alien: ["wavelength", "be", "noun"]
+    zh: 波长是名词
+    en: Wavelength is a noun
+  - alien: ["wavelength", "of", "morpheme", "be", "wave", "and", "length"]
+    zh: 波长由波与长度构成
+    en: Wavelength is made up of wave and length
+  - alien: ["\n"]
+  - alien: ["wave", "of", "all", "period", "of", "length"]
+    zh: 波的全部周期的长度
+    en: The length of the entire period of the wave

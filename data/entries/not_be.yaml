@@ -5,7 +5,7 @@ meanings:
   - alien: ["not_be", "be", "verb"]
     zh: 不是是动词
     en: Not be is a verb
-  - alien: ["be", "of", "morpheme", "be", "(overline_and_underline)", "and", "false"]
+  - alien: ["not_be", "of", "morpheme", "be", "(overline_and_underline)", "and", "false"]
     zh: 不是由上下划线与假构成
     en: Not be is made up of the overline & underline and false
   - alien: ["\n"]

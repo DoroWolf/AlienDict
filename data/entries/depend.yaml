@@ -1,0 +1,17 @@
+id: depend
+translation: 依赖
+en: depend
+meanings: 
+  - alien: ["depend", "be", "conjunction"]
+    zh: 依赖是连词
+    en: Depend is a conjunction
+  - alien: ["depend", "be", "base", "morpheme"]
+    zh: 依赖是基础词素
+    en: Depend is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["depend", "amass", "two", "noun"]
+    zh: 依赖累积两个名词
+    en: Depend amassing two nouns
+  - alien: ["previous_word", "be", "be_included", "next_word", "of", "surface"]
+    zh: 前词包含于后词的表面
+    en: The previous word is included within the surface of the next word

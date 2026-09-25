@@ -1,0 +1,14 @@
+id: location
+translation: 所在位置
+en: location
+meanings: 
+  - alien: ["location", "be", "noun"]
+    zh: 所在位置是名词
+    en: Location is a noun
+  - alien: ["location", "of", "morpheme", "be", "one", "and", "space"]
+    zh: 所在位置由一与空间构成
+    en: Location is made up of one and space
+  - alien: ["\n"]
+  - alien: ["object", "be_included", "or", "depend", "of", "space"]
+    zh: 物体包含于或依附的空间
+    en: The space in which an object is included or depended

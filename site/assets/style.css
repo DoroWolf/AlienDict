@@ -267,6 +267,25 @@ code {
 .morphemes__h:hover .morphemes__title { color: var(--accent); }
 .morphemes__n, .morphemes__fold { color: var(--muted); font-size: 0.9em; }
 .morphemes__lead { color: var(--muted); margin: 0 0 0.75rem; }
+
+/* 分成两栏：实义词素在上、非实义词素在下（各占一整行，不左右并排） */
+.morphemes__cols { display: block; }
+.morphemes__col { min-width: 0; }
+.morphemes__col + .morphemes__col {
+  margin-top: 0.9rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--line);
+}
+.morphemes__colh {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--muted);
+  margin: 0 0 0.3rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+.morphemes__collead { color: var(--muted); font-size: 0.9em; margin: 0 0 0.5rem; }
 .morphemes__state { margin: 0.75rem 0 0; color: var(--muted); }
 .morphemes__clear {
   font: inherit;

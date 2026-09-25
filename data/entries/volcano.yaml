@@ -1,0 +1,14 @@
+id: volcano
+translation: 火山
+en: volcano
+meanings: 
+  - alien: ["volcano", "be", "noun"]
+    zh: 火山是名词
+    en: Volcano is a noun
+  - alien: ["volcano", "of", "morpheme", "be", "fire", "and", "soil"]
+    zh: 火山由火与土构成
+    en: Volcano is made up of fire and soil
+  - alien: ["\n"]
+  - alien: ["spout", "upward", "lava", "of", "mountain"]
+    zh: 向上喷出熔岩的山
+    en: Mountains spouting lava upwards

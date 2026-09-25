@@ -15,7 +15,7 @@
 </form>
 
 {% if morphemes %}
-{# 按词素找词：点一个词素，只看由它（间接）构成的词；深链用 index.html#m=<词素 id>；可折叠 #}
+{# 按词素找词：点一个词素，只看由它（间接）构成的词；分成实义 / 非实义两栏；深链用 index.html#m=<词素 id>；可折叠 #}
 <details class="morphemes" id="morphemes">
   <summary class="morphemes__h">
     <span class="morphemes__arrow closed" aria-hidden="true">▸</span>
@@ -26,8 +26,15 @@
     <span class="morphemes__fold open">折叠</span>
   </summary>
   <p class="morphemes__lead">点一个词素，只看含此词素的词，再点一次取消。</p>
-  <div class="chips">
-    {% for m in morphemes %}{{ m.button }}{% endfor %}
+  {# 分两栏（上下排列）：上＝实义词素，下＝非实义词素（原文写明「X 不是词」的符号，如横线、角的形状） #}
+  <div class="morphemes__cols">
+    {% for group in morphemes %}
+    <section class="morphemes__col morphemes__col--{{ group.key }}">
+      <h3 class="morphemes__colh">{{ group.title }}<span class="morphemes__n">{{ group.chips|length }}</span></h3>
+      {% if group.lead %}<p class="morphemes__collead">{{ group.lead }}</p>{% endif %}
+      <div class="chips">{% for m in group.chips %}{{ m.button }}{% endfor %}</div>
+    </section>
+    {% endfor %}
   </div>
   <p class="morphemes__state" id="morph-state" hidden>
     <span id="morph-state-text"></span>
@@ -51,7 +58,7 @@
 {% if pending %}
 <section class="pending">
   <h2 class="pending__h">待补词条</h2>
-  <p class="pending__lead">下列 id 被原文引用，但还没有 <code>data/entries/&lt;id&gt;.yaml</code>，故不可点击（被括号框住的虚词与纯数字不算正式词，不在此列）。</p>
+  <p class="pending__lead">下列 id 被原文引用，但还没有 <code>data/entries/&lt;id&gt;.yaml</code>，故不可点击（被括号框住的虚词与纯数字不算实义词，不在此列）。</p>
   <ul class="pending__list">{% for p in pending %}<li>{{ p }}</li>{% endfor %}</ul>
 </section>
 {% endif %}

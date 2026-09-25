@@ -47,7 +47,7 @@ DEFAULT_OUT = ROOT / "site"
 VIEWBOX_RE = re.compile(r'viewBox="([^"]+)"')
 SVG_INNER_RE = re.compile(r"<svg[^>]*>(.*)</svg>", re.S)
 
-# 纯数字 token：数字不是正式词，出现在原文里也不跳转
+# 纯数字 token：数字不是实义词，出现在原文里也不跳转
 NUMBER_RE = re.compile(r"^\d+$")
 
 # 括号（半角/全角）：整个词被括号框住时（如 "(be)"）只显示字形、不跳转；空括号 () 等同于一个空格。
@@ -63,14 +63,24 @@ MORPHEME_MARK = ("of", "morpheme", "be")
 # 基础词素句式：「X be base morpheme」＝ X 是基础词素
 BASE_MARK = ("base", "morpheme")
 
+# 非词句式：「X not_be word」＝ X 不是词（符号，如横线、角的形状），不算实义词素
+NONWORD_MARK = ("not_be", "word")
+
 # 词素之间的连接词：不算词素
 CONNECTORS = ("and", "or")
 
 # 代码里动态拼出的提示文案：这些字不会出现在 data/ 里，但可能渲染到页面上，
 # 需一并喂给字库子集化，避免届时时缺字
 UI_TEXT = (
-    "缺字形待补词条原文译文目录含义翻译不作正式词，：（）【】"
+    "缺字形待补词条原文译文目录含义翻译不作实义词，：（）【】"
     "按词素找词清除个由构成含此在里基础不可再分点只看它再取消展开折叠经由"
+    "实义词素非符号如名词动容数横线角形状有不是"
+)
+
+# 目录页「按词素找词」的两栏：实义词素 / 非实义词素（原文写明「X 不是词」的符号）
+MORPHEME_COLUMNS = (
+    ("content", "实义词素"),
+    ("function", "非实义词素"),
 )
 
 
@@ -82,7 +92,7 @@ def load_lexicon():
 
 
 def is_number(word_id):
-    """纯数字不是正式词：原文里出现时只显示字形、不跳转。"""
+    """纯数字不是实义词：原文里出现时只显示字形、不跳转。"""
     return NUMBER_RE.match(word_id) is not None
 
 
@@ -298,6 +308,19 @@ def is_base_morpheme(entry):
     return False
 
 
+def is_nonword(entry):
+    """「X not_be word」＝不是词（符号，如横线、角的形状）。
+
+    这类词素只用来画符号、没有实在含义，按词素找词时归入「非实义词素」一栏；
+    没有词条的待补词素一律当实义词素（多半是名词、动词一类的实词）。
+    """
+    for meaning in entry["meanings"]:
+        for words in words_of(meaning["alien"]):
+            if len(words) >= 2 and tuple(words[-2:]) == NONWORD_MARK:
+                return True
+    return False
+
+
 def check_morpheme_lines(entry, warnings):
     """词素句式的首词应当是本词 id（写错多半是复制粘贴）。"""
     for index, meaning in enumerate(entry["meanings"], 1):
@@ -325,9 +348,9 @@ def morpheme_index(ordered, entries):
 
 
 def collect_pending(entries):
-    """原文里引用到、但没有对应词条的正式词 id。
+    """原文里引用到、但没有对应词条的实义词 id。
 
-    括号框住的词（虚词等）与纯数字不作正式词，不算待补。
+    括号框住的词（虚词等）与纯数字不作实义词，不算待补。
     """
     pending = []
     for entry in entries.values():
@@ -352,7 +375,7 @@ def glyph_node(word_id, entries, root, link=True, nested=True, plain=False):
 
     link   —— 这个 token 本身是否可点跳转（括号框住的词、纯数字＝不可点）
     nested —— 是否允许在此生成 <a>（目录卡片整块已是链接，传 False）
-    plain  —— 只作装饰（如词素徽章里的字形）：不生成 <a>，也不用「不作正式词」的提示
+    plain  —— 只作装饰（如词素徽章里的字形）：不生成 <a>，也不用「不作实义词」的提示
     """
     entry = entries.get(word_id)
     label = gloss(entry) if entry else word_id
@@ -397,7 +420,7 @@ def glyph_node(word_id, entries, root, link=True, nested=True, plain=False):
     if is_number(word_id) or not link:
         # 虚词（原文里用括号框住）与数字：字形照常显示，不跳转
         return Markup(
-            '<span class="gl__nonlink" title="不作正式词，不跳转：{}">{}</span>'.format(
+            '<span class="gl__nonlink" title="不作实义词，不跳转：{}">{}</span>'.format(
                 escape(label), glyph
             )
         )
@@ -496,28 +519,36 @@ def morph_context(entry, entries, morphs, root):
 
 
 def morpheme_groups(ordered, entries, morphs, root):
-    """目录页「按词素找词」的一组词素：徽章（按钮）＝筛选开关。
+    """目录页「按词素找词」的两栏词素：实义词素 / 非实义词素。
 
-    徽章上的数字＝含此词素的词数，由它（间接）构成的词 + 它自己（有词条时）；
+    徽章（按钮）＝筛选开关。原文写明「X not_be word」（不是词）的词素（如横线、角的形状）
+    归入「非实义词素」，其余（含还没词条的待补词素）都是实义词素。每栏内部词多的在前，
+    其次按字序。徽章上的数字＝含此词素的词数，由它（间接）构成的词 + 它自己（有词条时）；
     词素自己的词条页就从筛选结果里的那张卡片进，不再单独给一个「词条」链接。
-    词多的在前，其次按字序。
     """
     order = {entry["id"]: index for index, entry in enumerate(ordered)}
-    items = []
+    buckets = {key: [] for key, _title in MORPHEME_COLUMNS}
     for mor, derived in morphs.items():
         words = list(derived)
         if mor in entries and mor not in words:
             words.append(mor)      # 词素自己也是一个含此词素的词
-        items.append((mor, words))
-    items.sort(key=lambda pair: (-len(pair[1]), order.get(pair[0], len(ordered)), pair[0]))
-    return [
-        {
-            "id": mor,
-            "count": len(words),
-            "button": morpheme_button(mor, entries, root, words),
-        }
-        for mor, words in items
-    ]
+        entry = entries.get(mor)
+        key = "function" if entry and is_nonword(entry) else "content"
+        buckets[key].append(
+            {
+                "id": mor,
+                "count": len(words),
+                "button": morpheme_button(mor, entries, root, words),
+            }
+        )
+    groups = []
+    for key, title in MORPHEME_COLUMNS:
+        items = buckets[key]
+        items.sort(
+            key=lambda item: (-item["count"], order.get(item["id"], len(ordered)), item["id"])
+        )
+        groups.append({"key": key, "title": title, "chips": items})
+    return groups
 
 
 def build(out_dir, only=None, quiet=False, clean=False, font=True):
@@ -587,6 +618,7 @@ def build(out_dir, only=None, quiet=False, clean=False, font=True):
         entry["id"]: render_alien(entry["alien"], entries, "", nested=False)
         for entry in ordered
     }
+    morpheme_columns = morpheme_groups(ordered, entries, morphs, "")
     index_html = env.get_template("index.html.j2").render(
         site=lexicon,
         ordered=ordered,
@@ -594,7 +626,7 @@ def build(out_dir, only=None, quiet=False, clean=False, font=True):
         cards=cards,
         pending=pending,
         total=total,
-        morphemes=morpheme_groups(ordered, entries, morphs, ""),
+        morphemes=morpheme_columns,
         morpheme_total=len(morphs),
     )
     (out_dir / "index.html").write_text(index_html, encoding="utf-8")
@@ -663,8 +695,15 @@ def build(out_dir, only=None, quiet=False, clean=False, font=True):
         if pending:
             print("[待补] {} 个 id 被原文引用但无词条：{}".format(len(pending), "、".join(pending)))
         covered = sum(1 for entry in ordered if morphemes_of(entry))
+        column_counts = {group["key"]: len(group["chips"]) for group in morpheme_columns}
         print(
-            "[词素] {} 个词素，{} / {} 个词写明了构成词素".format(len(morphs), covered, total)
+            "[词素] {} 个词素（实义 {} / 非实义 {}），{} / {} 个词写明了构成词素".format(
+                len(morphs),
+                column_counts["content"],
+                column_counts["function"],
+                covered,
+                total,
+            )
         )
         print("[字形] SVG {} / PNG {}".format(svg_count, png_count))
         if svg_count < png_count:

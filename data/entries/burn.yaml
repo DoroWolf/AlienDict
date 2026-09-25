@@ -1,0 +1,14 @@
+id: burn
+translation: 燃烧
+en: burn
+meanings: 
+  - alien: ["burn", "be", "verb"]
+    zh: 燃烧是动词
+    en: Burn is a verb
+  - alien: ["burn", "of", "morpheme", "be", "fire", "and", "cause"]
+    zh: 燃烧由火与使得构成
+    en: Burn is made up of fire and cause
+  - alien: ["\n"]
+  - alien: ["enter", "fire", "need", "object"]
+    zh: 需要物体进入火
+    en: Objects need to enter the fire

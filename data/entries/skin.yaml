@@ -1,0 +1,14 @@
+id: skin
+translation: 皮
+en: skin
+meanings: 
+  - alien: ["skin", "be", "noun"]
+    zh: 皮是连词
+    en: Skin is a conjunction
+  - alien: ["skin", "of", "morpheme", "be", "surface", "and", "object"]
+    zh: 皮由表面与物体构成
+    en: Skin is made up of surface and object
+  - alien: ["\n"]
+  - alien: ["soft", "surface", "element_(math)", "depend", "species"]
+    zh: 物种上的表面柔软元素
+    en: Soft elements on the surface of the species

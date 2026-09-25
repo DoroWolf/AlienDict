@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" shape-rendering="crispEdges" role="img" aria-label="location">
+<rect x="0" y="2" width="1" height="12" fill="currentColor"/>
+<rect x="3" y="2" width="12" height="1" fill="currentColor"/>
+<rect x="3" y="3" width="1" height="10" fill="currentColor"/>
+<rect x="14" y="3" width="1" height="10" fill="currentColor"/>
+<rect x="3" y="13" width="12" height="1" fill="currentColor"/>
+</svg>

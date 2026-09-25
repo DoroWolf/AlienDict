@@ -1,0 +1,14 @@
+id: detach
+translation: 脱离
+en: detach
+meanings: 
+  - alien: ["detach", "be", "verb"]
+    zh: 脱离是动词
+    en: Detach is a verb
+  - alien: ["detach", "of", "morpheme", "be", "cause", "and", "not_be_included"]
+    zh: 脱离由使得与圆构成
+    en: Detach is made up of cause and not be included
+  - alien: ["\n"]
+  - alien: ["transfer", "from", "space"]
+    zh: 从空间转移
+    en: transfer from space

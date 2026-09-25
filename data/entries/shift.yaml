@@ -1,0 +1,14 @@
+id: transfer
+translation: 转移
+en: transfer
+meanings: 
+  - alien: ["transfer", "be", "verb"]
+    zh: 转移是动词
+    en: Transfer is a verb
+  - alien: ["transfer", "of", "morpheme", "be", "cause", "and", "space"]
+    zh: 转移由使得与空间构成
+    en: Transfer is made up of cause and space
+  - alien: ["\n"]
+  - alien: ["location", "change"]
+    zh: 所在位置变化
+    en: Location changed

@@ -1,0 +1,14 @@
+id: front
+translation: 前
+en: front
+meanings: 
+  - alien: ["front", "be", "adjective"]
+    zh: 前是形容词
+    en: Front is an adjective
+  - alien: ["front", "be", "base", "morpheme"]
+    zh: 前是基础词素
+    en: Front is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["opposite", "back_(direction)"]
+    zh: 后的反义
+    en: The opposite of back

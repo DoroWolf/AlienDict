@@ -1,0 +1,14 @@
+id: before
+translation: 之前
+en: before
+meanings: 
+  - alien: ["before", "be", "adjective"]
+    zh: 之前是形容词
+    en: Before is an adjective
+  - alien: ["before", "of", "morpheme", "be", "after"]
+    zh: 之前由之后构成
+    en: Before is made up of after
+  - alien: ["\n"]
+  - alien: ["previous_one", "moment"]
+    zh: 上一时刻
+    en: The previous moment

@@ -1,0 +1,14 @@
+id: mud
+translation: 泥
+en: mud
+meanings: 
+  - alien: ["mud", "be", "noun"]
+    zh: 泥是名词
+    en: Mud is a noun
+  - alien: ["mud", "of", "morpheme", "be", "seawater", "and", "soil"]
+    zh: 泥由海水与土构成
+    en: Mud is made up of seawater and soil
+  - alien: ["\n"]
+  - alien: ["down", "from", "sea", "of", "soil"]
+    zh: 来自海底的土
+    en: The soil from the down of the sea

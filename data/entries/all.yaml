@@ -1,0 +1,14 @@
+id: all
+translation: 全部
+en: all
+meanings: 
+  - alien: ["all", "be", "adjective"]
+    zh: 全部是形容词
+    en: All is an adjective
+  - alien: ["all", "of", "morpheme", "be", "true", "and", "set_(math)"]
+    zh: 全部由真与集合构成
+    en: All is made up of true and set
+  - alien: ["\n"]
+  - alien: ["total", "one_object", "element_(math)", "be_included", "set_(math)"]
+    zh: 所有元素都包含于集合
+    en: Total elements belong to the set

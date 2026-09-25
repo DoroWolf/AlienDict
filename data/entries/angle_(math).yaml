@@ -1,0 +1,14 @@
+id: angle_(math)
+translation: 角度
+en: angle
+meanings: 
+  - alien: ["angle_(math)", "be", "noun"]
+    zh: 角度是名词
+    en: Angle is a noun
+  - alien: ["angle_(math)", "of", "morpheme", "be", "(angle_shape)", "and", "count"]
+    zh: 角度由角的形状与数量构成
+    en: Angle is made up of the shape of the angle and count
+  - alien: ["\n"]
+  - alien: ["angle", "of", "count"]
+    zh: 角的数量
+    en: The count of angles

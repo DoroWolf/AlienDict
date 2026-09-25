@@ -1,0 +1,14 @@
+id: less_than
+translation: 小于
+en: less than
+meanings: 
+  - alien: ["less_than", "be", "verb"]
+    zh: 小于是动词
+    en: Less than is a verb
+  - alien: ["less_than", "of", "morpheme", "be", "(overline_and_underline)", "and", "small"]
+    zh: 小于由上下划线与小构成
+    en: Less than is made up of the overline & underline and small
+  - alien: ["\n"]
+  - alien: ["be", "less", "count", "from"]
+    zh: 是比另一个数量更少的数量
+    en: A count less than another

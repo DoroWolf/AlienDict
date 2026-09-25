@@ -1,0 +1,14 @@
+id: description
+translation: 描述
+en: description
+meanings: 
+  - alien: ["description", "be", "noun"]
+    zh: 描述是名词
+    en: Description is a noun
+  - alien: ["description", "of", "morpheme", "be", "of", "and", "object"]
+    zh: 描述由的与物体构成
+    en: Description is made up of of and object
+  - alien: ["\n"]
+  - alien: ["object", "of", "adjective"]
+    zh: 物体的形容词
+    en: The adjectives of the object

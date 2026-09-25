@@ -1,0 +1,14 @@
+id: negative
+translation: 负
+en: negative
+meanings: 
+  - alien: ["negative", "be", "adjective"]
+    zh: 负是形容词
+    en: Negative is an adjective
+  - alien: ["negative", "be", "base", "morpheme"]
+    zh: 负是基础词素
+    en: Negative is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["less_than", "zero", "of", "number"]
+    zh: 小于零的数
+    en: A number less than zero

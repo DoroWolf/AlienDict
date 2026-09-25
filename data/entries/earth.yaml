@@ -1,0 +1,14 @@
+id: earth
+translation: 地球
+en: Earth
+meanings: 
+  - alien: ["earth", "be", "noun"]
+    zh: 地球是名词
+    en: Earth is a noun
+  - alien: ["earth", "of", "morpheme", "be", "space", "and", "human"]
+    zh: 地球由空间与人类构成
+    en: Earth is made up of space and human
+  - alien: ["\n"]
+  - alien: ["human", "of", "world"]
+    zh: 人类的世界
+    en: The world of human

@@ -1,0 +1,17 @@
+id: zero
+translation: 零
+en: zero
+meanings:
+  - alien: ["zero", "be", "numeral"]
+    zh: 零是数词
+    en: Zero is a numeral
+  - alien: ["zero", "be", "base", "morpheme"]
+    zh: 零是基础词素
+    en: Zero is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["base", "number"]
+    zh: 基础数
+    en: The basic number
+  - alien: ["zero", "be_not", "positive", "and", "negative"]
+    zh: 零不是正数与负数
+    en: Zero is not positive and negative

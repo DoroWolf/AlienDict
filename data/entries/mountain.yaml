@@ -1,0 +1,14 @@
+id: mountain
+translation: 山
+en: mountain
+meanings: 
+  - alien: ["mountain", "be", "noun"]
+    zh: 山是名词
+    en: Mountain is a noun
+  - alien: ["mountain", "of", "morpheme", "be", "up", "and", "soil"]
+    zh: 山由上与土构成
+    en: Mountain is made up of up and soil
+  - alien: ["\n"]
+  - alien: ["up", "land", "of", "big", "stone"]
+    zh: 陆地上的大石头
+    en: The big stone of the up land

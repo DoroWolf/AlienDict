@@ -1,0 +1,14 @@
+id: difference_(math)
+translation: 差
+en: difference
+meanings: 
+  - alien: ["difference_(math)", "be", "noun"]
+    zh: 差是名词
+    en: Difference is a noun
+  - alien: ["difference_(math)", "of", "morpheme", "be", "minus", "and", "to"]
+    zh: 差由减与到构成
+    en: Difference is made up of minus and to
+  - alien: ["\n"]
+  - alien: ["minus", "of", "result"]
+    zh: 减的结果
+    en: The result of minus

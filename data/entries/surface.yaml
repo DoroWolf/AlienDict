@@ -1,0 +1,14 @@
+id: surface
+translation: 表面
+en: surface
+meanings: 
+  - alien: ["surface", "be", "noun"]
+    zh: 表面是名词
+    en: Surface is a noun
+  - alien: ["surface", "be", "base", "morpheme"]
+    zh: 表面是基础词素
+    en: Surface is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["object", "of", "skin"]
+    zh: 物体的皮
+    en: The skin of the object

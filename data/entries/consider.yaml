@@ -1,0 +1,14 @@
+id: consider
+translation: 认为
+en: consider
+meanings: 
+  - alien: ["consider", "be", "verb"]
+    zh: 认为是动词
+    en: Consider is a verb
+  - alien: ["consider", "of", "morpheme", "be", "(overline_and_underline)", "and", "think"]
+    zh: 认为由上下划线与想构成
+    en: Consider is made up of the overline & underline and think
+  - alien: ["\n"]
+  - alien: ["previous_word", "and", "next_word", "have", "similar", "thought"]
+    zh: 前词与后词有相似想法
+    en: The previous word and the next word have similar thoughts

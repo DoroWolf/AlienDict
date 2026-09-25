@@ -1,0 +1,14 @@
+id: result
+translation: 结果
+en: result
+meanings: 
+  - alien: ["result", "be", "noun"]
+    zh: 结果是名词
+    en: Result is a noun
+  - alien: ["result", "of", "morpheme", "be", "to", "and", "be_called"]
+    zh: 结果由到与被称为构成
+    en: Result is made up of to and be called
+  - alien: ["\n"]
+  - alien: ["done", "action", "of", "object"]
+    zh: 完成动作的物体
+    en: Objects that perform actions

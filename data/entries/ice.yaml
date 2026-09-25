@@ -1,0 +1,17 @@
+id: ice
+translation: 冰
+en: ice
+meanings: 
+  - alien: ["ice", "be", "noun"]
+    zh: 冰是名词
+    en: Ice is a noun
+  - alien: ["ice", "be", "base", "morpheme"]
+    zh: 冰是基础词素
+    en: Ice is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["ice", "heat_up", "become", "freshwater"]
+    zh: 冰加热成为淡水
+    en: Ice heated up becomes freshwater
+  - alien: ["freshwater", "cool_down", "become", "ice"]
+    zh: 淡水冷却成为冰
+    en: Freshwater cooled down becomes ice

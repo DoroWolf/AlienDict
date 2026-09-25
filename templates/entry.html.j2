@@ -1,0 +1,79 @@
+{% extends "base.html.j2" %}
+
+{% block title %}{{ entry.translation }}{% if entry.en %} {{ entry.en }}{% endif %} · {{ site.title }}{% endblock %}
+{% block desc %}{{ entry.translation }}{% if entry.en %}（{{ entry.en }}）{% endif %} —— {{ site.description }}{% endblock %}
+
+{% block content %}
+<article class="entry">
+
+  {# 词头：左＝放大的外星字形（原文，不跳转），右＝中英释义（译文） #}
+  <header class="head">
+    <div class="head__alien">{{ alien_head }}</div>
+    <div class="head__gloss">
+      <h1 class="head__zh">{{ entry.translation }}</h1>
+      {% if entry.en %}<p class="head__en">{{ entry.en }}</p>{% endif %}
+    </div>
+  </header>
+
+  {% if meanings %}
+  <div class="text">
+    {# 上方：原文——所有义项的原文行聚成一块（多行就在一起） #}
+    <div class="text__alien">
+      {% for m in meanings %}
+      {% if m.blank %}<span class="gl gl--blank" aria-hidden="true"></span>
+      {% else %}{{ m.alien }}{% endif %}
+      {% endfor %}
+    </div>
+    {# 下方：译文——与原文逐行对应，聚成一块 #}
+    <h2 class="text__label">【翻译】</h2>
+    <div class="text__zh">
+      {% for m in meanings %}
+      {% if m.blank %}<span class="line line--blank" aria-hidden="true"></span>
+      {% else %}<span class="line">{% if m.zh %}{{ m.zh }}{% endif %}{% if m.en %}<span class="line__en">{{ m.en }}</span>{% endif %}{% if not m.zh and not m.en %}<span class="dash">—</span>{% endif %}</span>{% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <p class="empty">（含义待补）</p>
+  {% endif %}
+
+  {# 词素：本词最终由哪些基础词素构成（点徽章跳词条）+ 含此词素的词（按词素找词的入口） #}
+  {% if morph.morphemes or morph.derived or morph.base %}
+  <section class="morph">
+    <h2 class="morph__h">词素</h2>
+
+    {% if morph.morphemes %}
+    <div class="morph__row">
+      <span class="morph__label">由这些词素构成</span>
+      <div class="chips">{% for m in morph.morphemes %}{{ m.chip }}{% endfor %}</div>
+    </div>
+    {% elif morph.base %}
+    <p class="morph__base">基础词素</p>
+    {% endif %}
+
+    {% if morph.derived %}
+    <details class="morph__more" {% if morph.derived|length <= 12 %}open{% endif %}>
+      <summary class="morph__label">
+        <span class="morph__arrow closed" aria-hidden="true">▸</span>
+        <span class="morph__arrow open" aria-hidden="true">▾</span>
+        含此词素的词（{{ morph.derived|length }}）
+        <span class="morph__fold closed">展开</span>
+        <span class="morph__fold open">折叠</span>
+      </summary>
+      <div class="chips">
+        {% for d in morph.derived %}{{ d.chip }}{% endfor %}
+      </div>
+      <p class="morph__find"><a href="{{ root }}index.html#m={{ entry.id }}">在目录里按词素找 →</a></p>
+    </details>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  <nav class="nav">
+    {% if prev %}<a class="nav__link" href="{{ root }}w/{{ prev.id }}.html">← {{ prev.translation }}</a>{% else %}<span class="nav__off">←</span>{% endif %}
+    <a class="nav__link nav__link--home" href="{{ root }}index.html">目录</a>
+    {% if next %}<a class="nav__link" href="{{ root }}w/{{ next.id }}.html">{{ next.translation }} →</a>{% else %}<span class="nav__off">→</span>{% endif %}
+  </nav>
+
+</article>
+{% endblock %}

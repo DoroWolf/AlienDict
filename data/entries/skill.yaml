@@ -1,0 +1,11 @@
+id: skill
+translation: 技能
+en: skill
+meanings: 
+  - alien: ["skill", "be", "noun"]
+    zh: 技能是名词
+  - alien: ["skill", "of", "morpheme", "be", "can", "and", "be_called"]
+    zh: 技能由能与被称为构成
+  - alien: ["\n"]
+  - alien: ["alien", "can", "of", "action"]
+    zh: 人能做的动作

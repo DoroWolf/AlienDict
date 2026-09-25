@@ -1,0 +1,156 @@
+{% extends "base.html.j2" %}
+
+{% block title %}{{ site.title }}{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <h1 class="hero__title">{{ site.title }}</h1>
+  {% if site.description %}<p class="hero__lead">{{ site.description }}</p>{% endif %}
+</section>
+
+<form class="search" role="search" onsubmit="return false">
+  <input id="q" class="search__input" type="search" autocomplete="off"
+         placeholder="搜字 / search" aria-label="搜字">
+  <span id="count" class="search__count"></span>
+</form>
+
+{% if morphemes %}
+{# 按词素找词：点一个词素，只看由它（间接）构成的词；深链用 index.html#m=<词素 id>；可折叠 #}
+<details class="morphemes" id="morphemes">
+  <summary class="morphemes__h">
+    <span class="morphemes__arrow closed" aria-hidden="true">▸</span>
+    <span class="morphemes__arrow open" aria-hidden="true">▾</span>
+    <span class="morphemes__title">按词素找词</span>
+    <span class="morphemes__n">{{ morpheme_total }} 个词素</span>
+    <span class="morphemes__fold closed">展开</span>
+    <span class="morphemes__fold open">折叠</span>
+  </summary>
+  <p class="morphemes__lead">点一个词素，只看含此词素的词，再点一次取消。</p>
+  <div class="chips">
+    {% for m in morphemes %}{{ m.button }}{% endfor %}
+  </div>
+  <p class="morphemes__state" id="morph-state" hidden>
+    <span id="morph-state-text"></span>
+    <button class="morphemes__clear" id="morph-clear" type="button">清除</button>
+  </p>
+</details>
+{% endif %}
+
+<ul class="grid">
+  {% for e in ordered %}
+  <li class="card" id="card-{{ e.id }}">
+    <a class="card__link" href="{{ root }}w/{{ e.id }}.html" title="{{ e.translation }}{% if e.en %}（{{ e.en }}）{% endif %}">
+      <span class="card__glyph">{{ cards[e.id] }}</span>
+      <span class="card__zh">{{ e.translation }}</span>
+      {% if e.en %}<span class="card__en">{{ e.en }}</span>{% endif %}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
+{% if pending %}
+<section class="pending">
+  <h2 class="pending__h">待补词条</h2>
+  <p class="pending__lead">下列 id 被原文引用，但还没有 <code>data/entries/&lt;id&gt;.yaml</code>，故不可点击（被括号框住的虚词与纯数字不算正式词，不在此列）。</p>
+  <ul class="pending__list">{% for p in pending %}<li>{{ p }}</li>{% endfor %}</ul>
+</section>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ root }}assets/search-index.js"></script>
+<script>
+(function () {
+  var data = window.LEXICON || [];
+  var input = document.getElementById('q');
+  var count = document.getElementById('count');
+  var state = document.getElementById('morph-state');
+  var stateText = document.getElementById('morph-state-text');
+  var clear = document.getElementById('morph-clear');
+  var box = document.getElementById('morphemes');
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.chip--morph'));
+  var active = null;
+
+  // 每个词素由哪些词构成：直接读按钮上的 data-words（构建时就写好了，无需再取数据）
+  var wordsOf = {};
+  var zhOf = {};
+  chips.forEach(function (chip) {
+    wordsOf[chip.dataset.morpheme] = (chip.dataset.words || '').split(' ').filter(Boolean);
+    zhOf[chip.dataset.morpheme] = chip.dataset.zh || chip.dataset.morpheme;
+  });
+
+  function hashMorpheme() {
+    var m = /^#m=(.+)$/.exec(location.hash || '');
+    var id = m ? decodeURIComponent(m[1]) : null;
+    return id && wordsOf[id] ? id : null;   // 不认识的词素就当没选
+  }
+
+  function apply() {
+    var query = (input.value || '').trim().toLowerCase();
+    var allow = null;
+    if (active) {
+      allow = Object.create(null);
+      // data-words 里也含该词素自己（构建时并入，见 build.py），结果中直接有它那张卡片
+      wordsOf[active].forEach(function (id) { allow[id] = true; });
+    }
+
+    var shown = 0;
+    data.forEach(function (item) {
+      var card = document.getElementById('card-' + item.id);
+      if (!card) return;
+      var text = (item.zh + ' ' + (item.en || '') + ' ' + item.id).toLowerCase();
+      var hit = (!query || text.indexOf(query) !== -1) && (!allow || allow[item.id]);
+      card.hidden = !hit;
+      if (hit) shown += 1;
+    });
+    count.textContent = query || active ? shown + ' / ' + data.length : String(data.length);
+
+    chips.forEach(function (chip) {
+      var on = chip.dataset.morpheme === active;
+      chip.classList.toggle('is-active', on);
+      chip.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+
+    if (state) {
+      state.hidden = !active;
+      if (active) {
+        stateText.textContent = '词素：' + (zhOf[active] || active) + '（'
+          + wordsOf[active].length + ' 个词）';
+      }
+    }
+  }
+
+  function setActive(id) {
+    active = id || null;
+    // 选中词素时把折叠的词素索引展开（之后的开合由用户自己决定）
+    if (active && box) box.open = true;
+    try {
+      history.replaceState(null, '', active
+        ? '#m=' + encodeURIComponent(active)
+        : location.pathname + location.search);
+    } catch (err) {
+      location.hash = active ? 'm=' + encodeURIComponent(active) : '';
+    }
+    apply();
+  }
+
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      setActive(chip.dataset.morpheme === active ? null : chip.dataset.morpheme);
+    });
+  });
+  if (clear) clear.addEventListener('click', function () { setActive(null); input.focus(); });
+  window.addEventListener('hashchange', function () {
+    active = hashMorpheme();
+    if (active && box) box.open = true;
+    apply();
+  });
+  input.addEventListener('input', apply);
+  input.addEventListener('search', apply);
+
+  active = hashMorpheme();          // 深链 index.html#m=<词素 id> 直接进筛选态
+  if (active && box) box.open = true;
+  apply();
+})();
+</script>
+{% endblock %}

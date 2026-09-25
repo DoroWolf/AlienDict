@@ -1,0 +1,14 @@
+id: remain
+translation: 剩余
+en: remain
+meanings: 
+  - alien: ["remain", "be", "verb"]
+    zh: 剩余是动词
+    en: Remain is a verb
+  - alien: ["remain", "of", "morpheme", "be", "after", "and", "change"]
+    zh: 群组由之后与变化构成
+    en: Remain is made up of alien and set
+  - alien: ["\n"]
+  - alien: ["done", "change", "of", "object", "or", "number"]
+    zh: 完成变化的物体或数
+    en: The object or number that has undergone the change

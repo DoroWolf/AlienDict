@@ -1,0 +1,14 @@
+id: approximately_equal
+translation: 约等于
+en: approximately equal
+meanings: 
+  - alien: ["approximately_equal", "be", "verb"]
+    zh: 约等于是动词
+    en: Approximately equal is a verb
+  - alien: ["approximately_equal", "of", "morpheme", "be", "(overline_and_underline)", "and", "similar"]
+    zh: 约等于由上下划线与相似构成
+    en: Approximately equal is made up of the overline & underline and similar
+  - alien: ["\n"]
+  - alien: ["count", "be", "similar"]
+    zh: 是相似的数量
+    en: Is the similar count

@@ -1,0 +1,17 @@
+id: or
+translation: 或
+en: or
+meanings: 
+  - alien: ["or", "be", "conjunction"]
+    zh: 或是连词
+    en: Or is a conjunction
+  - alien: ["or", "be", "base", "morpheme"]
+    zh: 或是基础词素
+    en: Or is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["or", "word", "amass", "many", "word", "become", "set_(math)"]
+    zh: 或是累积许多词并成为集合的词
+    en: Or is a word that amasses many words and becomes a set
+  - alien: ["previous_word", "and", "next_word", "two_objects", "of", "element_(math)", "be", "true"]
+    zh: 前词与后词的元素集合为真
+    en: The set of elements of the previous word and the next word is true

@@ -1,0 +1,12 @@
+id: second
+translation: 第二
+en: second
+meanings: 
+  - alien: ["second", "be", "adjective"]
+    zh: 第二是形容词
+  - alien: ["second", "of", "morpheme", "be", "from", "and", "two"]
+    zh: 第二由从与二构成
+  - alien: ["\n"]
+  - alien: ["two", "no_"]
+    zh: 第二个
+    en: No. two

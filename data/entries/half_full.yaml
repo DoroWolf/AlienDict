@@ -1,0 +1,14 @@
+id: half_full
+translation: 半满
+en: half full
+meanings: 
+  - alien: ["half_full", "be", "adjective"]
+    zh: 半满是形容词
+    en: Half full is an adjective
+  - alien: ["half_full", "of", "morpheme", "be", "mark", "and", "half"]
+    zh: 半满由标记与一半构成
+    en: Half full is made up of mark and half
+  - alien: ["\n"]
+  - alien: ["half", "full", "and", "half", "empty"]
+    zh: 一半满与一半空
+    en: Half full and half empty

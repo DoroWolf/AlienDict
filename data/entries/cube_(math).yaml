@@ -1,0 +1,14 @@
+id: cube_(math)
+translation: 立方
+en: cube
+meanings: 
+  - alien: ["cube_(math)", "be", "noun"]
+    zh: 立方是名词
+    en: Cube is a noun
+  - alien: ["cube_(math)", "of", "morpheme", "be", "exponentiation", "and", "three"]
+    zh: 立方由乘方与三构成
+    en: Cube is made up of exponentiation and three
+  - alien: ["\n"]
+  - alien: ["previous_word", "number", "exponentiation", "three"]
+    zh: 前一个数词的三次方
+    en: The previous number raised to the power of three

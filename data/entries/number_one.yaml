@@ -1,0 +1,14 @@
+id: number_one
+translation: 数一
+en: number one
+meanings:
+  - alien: ["number_one", "be", "numeral"]
+    zh: 数一是数词
+    en: Number one is a numeral
+  - alien: ["number_one", "of", "morpheme", "be", "number", "and", "one"]
+    zh: 数一的词素为数与一
+    en: The morpheme of number one is number and one
+  - alien: ["\n"]
+  - alien: ["first", "variable"]
+    zh: 第一个变量
+    en: The first variable

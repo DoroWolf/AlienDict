@@ -1,0 +1,14 @@
+id: combustible
+translation: 可燃物
+en: combustible
+meanings: 
+  - alien: ["combustible", "be", "noun"]
+    zh: 可燃物是名词
+    en: Combustible is a noun
+  - alien: ["combustible", "of", "morpheme", "be", "fire", "and", "from"]
+    zh: 可燃物由火与从构成
+    en: Combustible is made up of fire and from
+  - alien: ["\n"]
+  - alien: ["can", "burn", "of", "object"]
+    zh: 能够燃烧的物体
+    en: Objects that can burn

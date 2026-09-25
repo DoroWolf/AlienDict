@@ -1,0 +1,14 @@
+id: language
+translation: 语言
+en: language
+meanings: 
+  - alien: ["language", "be", "noun"]
+    zh: 语言是名词
+    en: Language is a noun
+  - alien: ["language", "of", "morpheme", "be", "word"]
+    zh: 语言由词构成
+    en: Language is made up of word
+  - alien: ["\n"]
+  - alien: ["total", "word", "of", "set_(math)"]
+    zh: 所有词的集合
+    en: The set of all words

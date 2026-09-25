@@ -1,0 +1,17 @@
+id: through
+translation: 通过
+en: through
+meanings: 
+  - alien: ["through", "be", "conjunction"]
+    zh: 通过是连词
+    en: Through is a conjunction
+  - alien: ["through", "of", "morpheme", "be", "from", "and", "to"]
+    zh: 通过由从与到构成
+    en: Through is made up of from and to
+  - alien: ["\n"]
+  - alien: ["through", "amass", "two", "space"]
+    zh: 通过累积两个空间
+    en: Through amasses two spaces
+  - alien: ["through", "first", "space", "and", "second", "space", "consider", "space", "from", "first", "space", "to", "second", "space"]
+    zh: 通过第一个空间与第二个空间认为空间从第一个空间到第二个空间
+    en: Through uses the first space and the second space to consider the space from the first space to the second space

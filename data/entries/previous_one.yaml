@@ -1,0 +1,11 @@
+id: previous_one
+translation: 前一
+en: previous one
+meanings: 
+  - alien: ["previous_one", "be", "adjective"]
+    zh: 前一是形容词
+  - alien: ["previous_one", "of", "morpheme", "be", "up", "and", "one"]
+    zh: 前一由上与一构成
+  - alien: ["\n"]
+  - alien: ["one", "up", "be_included", "order"]
+    zh: 包含于顺序的前一个

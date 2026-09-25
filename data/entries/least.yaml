@@ -1,0 +1,14 @@
+id: least
+translation: 最小
+en: least
+meanings: 
+  - alien: ["least", "be", "adjective"]
+    zh: 最小是形容词
+    en: Least is an adjective
+  - alien: ["least", "of", "morpheme", "be", "small"]
+    zh: 最小由小构成
+    en: Least is made up of small
+  - alien: ["\n"]
+  - alien: ["less_than", "total", "distinct"]
+    zh: 小于所有不同的物体
+    en: Less than all distinct objects

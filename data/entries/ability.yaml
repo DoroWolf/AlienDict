@@ -1,0 +1,11 @@
+id: ability
+translation: 能力
+en: ability
+meanings: 
+  - alien: ["ability", "be", "noun"]
+    zh: 能力是名词
+  - alien: ["ability", "of", "morpheme", "be", "can", "and", "count"]
+    zh: 能力由能与数量构成
+  - alien: ["\n"]
+  - alien: ["skill", "of", "count"]
+    zh: 技能的数量

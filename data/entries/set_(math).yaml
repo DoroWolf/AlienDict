@@ -1,0 +1,14 @@
+id: set_(math)
+translation: 集合
+en: set
+meanings: 
+  - alien: ["set_(math)", "be", "noun"]
+    zh: 集合是名词
+    en: Set is a noun
+  - alien: ["set_(math)", "of", "morpheme", "be", "shell"]
+    zh: 集合由壳构成
+    en: Set is made up of shell
+  - alien: ["\n"]
+  - alien: ["accumulate", "of", "many", "object"]
+    zh: 积累的多个物体
+    en: Many accumulated objects

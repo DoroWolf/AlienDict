@@ -1,0 +1,14 @@
+id: sand
+translation: 沙子
+en: sand
+meanings: 
+  - alien: ["sand", "be", "noun"]
+    zh: 沙子是名词
+    en: Sand is a noun
+  - alien: ["sand", "of", "morpheme", "be", "small", "and", "soil"]
+    zh: 沙子由小与土构成
+    en: Sand is made up of small and soil
+  - alien: ["\n"]
+  - alien: ["soil", "disperse", "become", "sand"]
+    zh: 分散土成为沙子
+    en: Dispersed soil becomes sand

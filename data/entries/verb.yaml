@@ -1,0 +1,17 @@
+id: verb
+translation: 动词
+en: verb
+meanings: 
+  - alien: ["verb", "be", "noun"]
+    zh: 动词是名词
+    en: Verb is a noun
+  - alien: ["verb", "of", "morpheme", "be", "act", "and", "word"]
+    zh: 动词由行动与词构成
+    en: Verb is made up of act and word
+  - alien: ["\n"]
+  - alien: ["action", "of", "word"]
+    zh: 动作的词
+    en: The word of an action
+  - alien: ["verb", "be", "part_of_speech"]
+    zh: 动词是词性
+    en: Verb is a part of speech

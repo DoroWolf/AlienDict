@@ -1,0 +1,14 @@
+id: prohibit
+translation: 禁止
+en: prohibit
+meanings: 
+  - alien: ["prohibit", "be", "verb"]
+    zh: 禁止是动词
+    en: Prohibit is a verb
+  - alien: ["prohibit", "of", "morpheme", "be", "not"]
+    zh: 禁止由不得构成
+    en: Prohibit is made up of not
+  - alien: ["\n"]
+  - alien: ["not", "help"]
+    zh: 不得帮助
+    en: Must not help

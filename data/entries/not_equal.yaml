@@ -1,0 +1,14 @@
+id: not_equal
+translation: 不等于
+en: not equal
+meanings: 
+  - alien: ["not_equal", "be", "verb"]
+    zh: 不等于是动词
+    en: Not equal is a verb
+  - alien: ["not_equal", "of", "morpheme", "be", "(overline_and_underline)", "and", "different"]
+    zh: 不等于由上下划线与不同构成
+    en: Not equal is made up of the overline & underline and different
+  - alien: ["\n"]
+  - alien: ["be", "different", "count"]
+    zh: 是不同的数量
+    en: Is a different count

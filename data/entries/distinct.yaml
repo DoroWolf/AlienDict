@@ -1,0 +1,14 @@
+id: distinct
+translation: 各异
+en: distinct
+meanings:
+  - alien: ["distinct", "be", "adjective"]
+    zh: 各异是形容词
+    en: Distinct is an adjective
+  - alien: ["distinct", "of", "morpheme", "be", "different", "and", "set_(math)"]
+    zh: 各异由不同与集合构成
+    en: Distinct is made up of different and set
+  - alien: ["\n"]
+  - alien: ["different", "object", "be_included", "set_(math)"]
+    zh: 包含于集合的不同物体
+    en: Different objects that be included to a set

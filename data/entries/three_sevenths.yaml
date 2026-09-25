@@ -1,0 +1,14 @@
+id: three_sevenths
+translation: 七分之三
+en: three sevenths
+meanings:
+  - alien: ["three_sevenths", "be", "numeral"]
+    zh: 七分之三是数词
+    en: Three sevenths is a numeral
+  - alien: ["three_sevenths", "be", "base", "morpheme"]
+    zh: 七分之三是基础词素
+    en: Three sevenths is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["decimal"]
+    zh: 小数
+    en: The decimal

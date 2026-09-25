@@ -1,0 +1,14 @@
+id: protect
+translation: 保护
+en: protect
+meanings: 
+  - alien: ["protect", "be", "verb"]
+    zh: 保护是动词
+    en: Protect is a verb
+  - alien: ["protect", "of", "morpheme", "be", "weapon", "and", "not"]
+    zh: 保护由武器与不得构成
+    en: Protect is made up of weapon and not
+  - alien: ["\n"]
+  - alien: ["prohibit", "attack"]
+    zh: 禁止攻击
+    en: Prohibit attacking

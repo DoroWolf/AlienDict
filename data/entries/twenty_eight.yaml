@@ -1,0 +1,14 @@
+id: twenty_eight
+translation: 二十八
+en: twenty-eight
+meanings:
+  - alien: ["twenty_eight", "be", "numeral"]
+    zh: 二十八是数词
+    en: Twenty-eight is a numeral
+  - alien: ["twenty_eight", "be", "base", "morpheme"]
+    zh: 二十八是基础词素
+    en: Twenty-eight is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["number"]
+    zh: 数
+    en: The number

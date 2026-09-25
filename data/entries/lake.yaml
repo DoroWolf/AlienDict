@@ -1,0 +1,14 @@
+id: lake
+translation: 湖
+en: lake
+meanings: 
+  - alien: ["lake", "be", "noun"]
+    zh: 湖是名词
+    en: Lake is a noun
+  - alien: ["lake", "of", "morpheme", "be", "space", "and", "freshwater"]
+    zh: 湖由空间与淡水构成
+    en: Lake is made up of space and freshwater
+  - alien: ["\n"]
+  - alien: ["space", "include", "lot", "freshwater"]
+    zh: 包含许多淡水的空间
+    en: A space that includes lots of freshwater

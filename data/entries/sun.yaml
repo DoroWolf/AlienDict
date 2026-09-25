@@ -1,0 +1,14 @@
+id: sun
+translation: 太阳
+en: sun
+meanings: 
+  - alien: ["sun", "be", "noun"]
+    zh: 太阳是名词
+    en: Sun is a noun
+  - alien: ["sun", "of", "morpheme", "be", "sky", "and", "god"]
+    zh: 太阳由天空与神构成
+    en: Sun is made up of sky and god
+  - alien: ["\n"]
+  - alien: ["world", "revolve", "of", "star"]
+    zh: 环绕世界的恒星
+    en: The star that revolves around the world

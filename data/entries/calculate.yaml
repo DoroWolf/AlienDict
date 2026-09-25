@@ -1,0 +1,18 @@
+id: calculate
+translation: 计算
+en: calculate
+meanings: 
+  - alien: ["calculate", "be", "verb"]
+    zh: 计算是动词
+    en: Calculate is a verb
+  - alien: ["calculate", "of", "morpheme", "be", "number", "and", "cause"]
+    zh: 计算由数与使得构成
+    en: Calculate is made up of number and cause
+  - alien: ["\n"]
+  - alien: ["alter", "number", "need", "number"]
+    zh: 需要数来改变数
+    en: Numbers are needed to alter numbers
+  - alien: ["calculate", "be", "base", "math"]
+    zh: 计算是数学的基础
+    en: Calculate is the base of math
+

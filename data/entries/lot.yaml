@@ -1,0 +1,14 @@
+id: lot
+translation: 许多个
+en: lots of
+meanings: 
+  - alien: ["lot", "be", "adjective"]
+    zh: 许多个是形容词
+    en: Lots of is an adjective
+  - alien: ["lot", "of", "morpheme", "be", "object"]
+    zh: 许多个的词素为物体
+    en: The morpheme of lots of is object
+  - alien: ["\n"]
+  - alien: ["more", "more", "object"]
+    zh: 多于多个物体
+    en: More than many objects

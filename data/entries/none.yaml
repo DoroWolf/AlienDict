@@ -1,0 +1,14 @@
+id: none
+translation: 没有任何
+en: none
+meanings: 
+  - alien: ["none", "be", "adjective"]
+    zh: 没有任何是形容词
+    en: None is an adjective
+  - alien: ["none", "of", "morpheme", "be", "false", "and", "set_(math)"]
+    zh: 没有任何由假与集合构成
+    en: None is made up of false and set
+  - alien: ["\n"]
+  - alien: ["false", "one_object", "element_(math)", "be_included", "set_(math)"]
+    zh: 没有元素包含于集合
+    en: No elements are included to the set

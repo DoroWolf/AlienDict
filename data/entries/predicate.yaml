@@ -1,0 +1,14 @@
+id: predicate
+translation: 谓词
+en: predicate
+meanings: 
+  - alien: ["predicate", "be", "noun"]
+    zh: 谓词是名词
+    en: Predicate is a noun
+  - alien: ["predicate", "of", "morpheme", "be", "of", "and", "set_(math)"]
+    zh: 谓词由的与集合构成
+    en: Predicate is made up of of and set
+  - alien: ["\n"]
+  - alien: ["set_(math)", "of", "description"]
+    zh: 集合的描述
+    en: The description of a set

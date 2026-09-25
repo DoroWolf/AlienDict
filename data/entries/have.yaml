@@ -1,0 +1,14 @@
+id: have
+translation: 有
+en: have
+meanings: 
+  - alien: ["have", "be", "verb"]
+    zh: 有是动词
+    en: Have is a verb
+  - alien: ["have", "of", "morpheme", "be", "of", "and", "cause"]
+    zh: 有由的与使得构成
+    en: Have is made up of of and cause
+  - alien: ["\n"]
+  - alien: ["next_word", "be", "previous_word", "of", "possession"]
+    zh: 后词是前词的所有物
+    en: Next word is the possession of previous word

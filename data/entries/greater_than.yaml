@@ -1,0 +1,14 @@
+id: greater_than
+translation: 大于
+en: greater than
+meanings: 
+  - alien: ["greater_than", "be", "verb"]
+    zh: 大于是动词
+    en: Greater than is a verb
+  - alien: ["greater_than", "of", "morpheme", "be", "(overline_and_underline)", "and", "big"]
+    zh: 大于由上下划线与大构成
+    en: Greater than is made up of the overline & underline and big
+  - alien: ["\n"]
+  - alien: ["be", "more", "count", "from"]
+    zh: 是比另一个数量更多的数量
+    en: A count more than another

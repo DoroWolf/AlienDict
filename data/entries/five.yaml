@@ -1,0 +1,14 @@
+id: five
+translation: 五
+en: five
+meanings:
+  - alien: ["five", "be", "numeral"]
+    zh: 五是数词
+    en: Five is a numeral
+  - alien: ["five", "be", "base", "morpheme"]
+    zh: 五是基础词素
+    en: Five is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["base", "number"]
+    zh: 基础数
+    en: The basic number

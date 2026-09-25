@@ -1,0 +1,14 @@
+id: action
+translation: 动作
+en: action
+meanings: 
+  - alien: ["action", "be", "noun"]
+    zh: 动作是名词
+    en: Action is a noun
+  - alien: ["action", "of", "morpheme", "be", "act", "and", "be_called"]
+    zh: 动作由行动与被称为构成
+    en: Action is made up of act and be called
+  - alien: ["\n"]
+  - alien: ["total", "verb", "be", "action"]
+    zh: 动作是动词的总和
+    en: An action is the total of verbs

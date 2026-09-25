@@ -1,0 +1,14 @@
+id: number_two
+translation: 数二
+en: number two
+meanings:
+  - alien: ["number_two", "be", "numeral"]
+    zh: 数二是数词
+    en: Number two is a numeral
+  - alien: ["number_two", "of", "morpheme", "be", "number", "and", "two"]
+    zh: 数二的词素为数与二
+    en: The morpheme of number two is number and two
+  - alien: ["\n"]
+  - alien: ["second", "variable"]
+    zh: 第二个变量
+    en: The second variable

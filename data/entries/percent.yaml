@@ -1,0 +1,14 @@
+id: percent
+translation: 百分之一
+en: percent
+meanings:
+  - alien: ["percent", "be", "numeral"]
+    zh: 百分之一是数词
+    en: Percent is a numeral
+  - alien: ["percent", "be", "base", "morpheme"]
+    zh: 百分之一是基础词素
+    en: Percent is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["decimal"]
+    zh: 小数
+    en: The decimal

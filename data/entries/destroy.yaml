@@ -1,0 +1,14 @@
+id: destroy
+translation: 破坏
+en: destroy
+meanings: 
+  - alien: ["destroy", "be", "verb"]
+    zh: 破坏是动词
+    en: Destroy is a verb
+  - alien: ["destroy", "of", "morpheme", "be", "object", "and", "not"]
+    zh: 破坏由物体与不得构成
+    en: Destroy is made up of object and not
+  - alien: ["\n"]
+  - alien: ["alter", "object", "become", "not_exist"]
+    zh: 改变物体成为不存在
+    en: Alter objects to become non-existent

@@ -1,0 +1,14 @@
+id: icefield
+translation: 冰原
+en: icefield
+meanings: 
+  - alien: ["icefield", "be", "noun"]
+    zh: 冰原是名词
+    en: Icefield is a noun
+  - alien: ["icefield", "of", "morpheme", "be", "space", "and", "ice"]
+    zh: 冰原由空间与冰构成
+    en: Icefield is made up of space and ice
+  - alien: ["\n"]
+  - alien: ["ice", "of", "land"]
+    zh: 冰的陆地
+    en: The land of ice

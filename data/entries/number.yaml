@@ -1,0 +1,14 @@
+id: number
+translation: 数
+en: number
+meanings: 
+  - alien: ["number", "be", "noun"]
+    zh: 数是名词
+    en: Number is a noun
+  - alien: ["number", "of", "morpheme", "be", "mark", "and", "count"]
+    zh: 数由标记与数量构成
+    en: Number is made up of mark and count
+  - alien: ["\n"]
+  - alien: ["count", "of", "mark"]
+    zh: 数量的标记
+    en: The mark of a count

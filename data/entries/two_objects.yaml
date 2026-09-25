@@ -1,0 +1,14 @@
+id: two_objects
+translation: 两个
+en: two objects
+meanings: 
+  - alien: ["two_objects", "be", "adjective"]
+    zh: 两个是形容词
+    en: Two objects is an adjective
+  - alien: ["two_objects", "of", "morpheme", "be", "two", "and", "object"]
+    zh: 两个的词素为二与物体
+    en: The morpheme of two objects is two and object
+  - alien: ["\n"]
+  - alien: ["two", "object"]
+    zh: 两个物体
+    en: Two objects

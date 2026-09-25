@@ -1,0 +1,14 @@
+id: done
+translation: 完成
+en: done
+meanings: 
+  - alien: ["done", "be", "conjunction"]
+    zh: 完成是连词
+    en: Done is a conjunction
+  - alien: ["done", "of", "morpheme", "be", "after"]
+    zh: 完成由之后构成
+    en: Done is made up of alien
+  - alien: ["\n"]
+  - alien: ["next_word", "of", "after", "moment"]
+    zh: 后词的之后时刻
+    en: The moment after the next word

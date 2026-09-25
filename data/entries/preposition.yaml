@@ -1,0 +1,17 @@
+id: preposition
+translation: 介词
+en: preposition
+meanings: 
+  - alien: ["preposition", "be", "noun"]
+    zh: 介词是名词
+    en: Preposition is a noun
+  - alien: ["preposition", "of", "morpheme", "be", "change", "and", "word"]
+    zh: 介词由变化与词构成
+    en: Preposition is made up of change and word
+  - alien: ["\n"]
+  - alien: ["alter", "previous_word", "or", "next_word", "of", "word"]
+    zh: 改变前词或后词的词
+    en: A word that alters the previous word or the next word
+  - alien: ["preposition", "be", "part_of_speech"]
+    zh: 介词是词性
+    en: Preposition is a part of speech

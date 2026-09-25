@@ -1,0 +1,14 @@
+id: cool_down
+translation: 冷却
+en: cool down
+meanings: 
+  - alien: ["cool_down", "be", "verb"]
+    zh: 冷却是动词
+    en: Cool down is a verb
+  - alien: ["cool_down", "of", "morpheme", "be", "downward", "and", "change"]
+    zh: 冷却由向下与变化构成
+    en: Cool down is made up of downward and change
+  - alien: ["\n"]
+  - alien: ["change", "become", "downward"]
+    zh: 向下变化
+    en: Changing downward

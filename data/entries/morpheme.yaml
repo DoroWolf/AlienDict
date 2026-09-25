@@ -1,0 +1,17 @@
+id: morpheme
+translation: 词素
+en: morpheme
+meanings: 
+  - alien: ["morpheme", "be", "noun"]
+    zh: 词素是名词
+    en: Morpheme is a noun
+  - alien: ["morpheme", "of", "morpheme", "be", "word", "and", "two"]
+    zh: 词素由词与二构成
+    en: Morpheme is made up of word and two
+  - alien: ["\n"]
+  - alien: ["half", "word"]
+    zh: 词的一半
+    en: Half of a word
+  - alien: ["many", "morpheme", "accumulate", "get", "word"]
+    zh: 多个词素积累得到词
+    en: many morphemes accumulate into a word

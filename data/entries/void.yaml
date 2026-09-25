@@ -1,0 +1,14 @@
+id: void
+translation: 虚空
+en: void
+meanings: 
+  - alien: ["void", "be", "noun"]
+    zh: 虚空是名词
+    en: Void is a noun
+  - alien: ["void", "of", "morpheme", "be", "space", "and", "false"]
+    zh: 虚空由空间与假构成
+    en: Void is made up of space and false
+  - alien: ["\n"]
+  - alien: ["empty", "space"]
+    zh: 空的空间
+    en: The empty space

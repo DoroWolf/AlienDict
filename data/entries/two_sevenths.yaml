@@ -1,0 +1,14 @@
+id: two_sevenths
+translation: 七分之二
+en: two sevenths
+meanings:
+  - alien: ["two_sevenths", "be", "numeral"]
+    zh: 七分之二是数词
+    en: Two sevenths is a numeral
+  - alien: ["two_sevenths", "be", "base", "morpheme"]
+    zh: 七分之二是基础词素
+    en: Two sevenths is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["decimal"]
+    zh: 小数
+    en: The decimal

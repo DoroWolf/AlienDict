@@ -1,0 +1,11 @@
+id: no_
+translation: 第
+en: No.
+meanings: 
+  - alien: ["no_", "be", "adjective"]
+    zh: 第是形容词
+  - alien: ["no_", "of", "morpheme", "be", "from", "and", "number"]
+    zh: 第由从与数构成
+  - alien: ["\n"]
+  - alien: ["location", "be_included", "order", "of", "number"]
+    zh: 所在位置包含于顺序的数

@@ -1,0 +1,14 @@
+id: two
+translation: 二
+en: two
+meanings:
+  - alien: ["two", "be", "numeral"]
+    zh: 二是数词
+    en: Two is a numeral
+  - alien: ["two", "be", "base", "morpheme"]
+    zh: 二是基础词素
+    en: Two is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["base", "number"]
+    zh: 基础数
+    en: The basic number

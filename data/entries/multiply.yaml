@@ -1,0 +1,14 @@
+id: multiply
+translation: 乘
+en: multiply
+meanings: 
+  - alien: ["multiply", "be", "verb"]
+    zh: 乘是动词
+    en: Multiply is a verb
+  - alien: ["multiply", "of", "morpheme", "be", "accumulate", "and", "change"]
+    zh: 乘由积累与变化构成
+    en: Multiply is made up of accumulate and change
+  - alien: ["\n"]
+  - alien: ["loop", "plus", "first", "number", "of", "second", "number"]
+    zh: 循环把第一个数加到第二个数上
+    en: Loop adding the first number to the second number

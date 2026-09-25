@@ -1,0 +1,14 @@
+id: forty_two
+translation: 四十二
+en: forty-two
+meanings:
+  - alien: ["forty_two", "be", "numeral"]
+    zh: 四十二是数词
+    en: Forty-two is a numeral
+  - alien: ["forty_two", "be", "base", "morpheme"]
+    zh: 四十二是基础词素
+    en: Forty-two is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["number"]
+    zh: 数
+    en: The number

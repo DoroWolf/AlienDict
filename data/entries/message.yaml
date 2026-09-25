@@ -1,0 +1,14 @@
+id: message
+translation: 消息
+en: message
+meanings: 
+  - alien: ["message", "be", "noun"]
+    zh: 消息是名词
+    en: Message is a noun
+  - alien: ["message", "of", "morpheme", "be", "word"]
+    zh: 消息由词构成
+    en: Message is made up of word
+  - alien: ["\n"]
+  - alien: ["many", "sentence", "include", "thought"]
+    zh: 多个包含想法的句子
+    en: Many sentences include thoughts

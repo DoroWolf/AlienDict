@@ -1,0 +1,14 @@
+id: future
+translation: 未来
+en: future
+meanings: 
+  - alien: ["future", "be", "adjective"]
+    zh: 未来是形容词
+    en: Future is an adjective
+  - alien: ["future", "of", "morpheme", "be", "after"]
+    zh: 未来由之后构成
+    en: Future is made up of after
+  - alien: ["\n"]
+  - alien: ["future", "be", "more", "after", "moment"]
+    zh: 未来是更靠后的时刻
+    en: Future is a moment further after

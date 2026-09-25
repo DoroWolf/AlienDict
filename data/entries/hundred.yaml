@@ -1,0 +1,14 @@
+id: hundred
+translation: 百
+en: hundred
+meanings:
+  - alien: ["hundred", "be", "numeral"]
+    zh: 百是数词
+    en: Hundred is a numeral
+  - alien: ["hundred", "be", "base", "morpheme"]
+    zh: 百是基础词素
+    en: Hundred is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["number"]
+    zh: 数
+    en: The number

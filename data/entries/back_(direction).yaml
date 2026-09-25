@@ -1,0 +1,14 @@
+id: back_(direction)
+translation: 后
+en: back
+meanings: 
+  - alien: ["back_(direction)", "be", "adjective"]
+    zh: 后是形容词
+    en: Back is an adjective
+  - alien: ["back_(direction)", "be", "base", "morpheme"]
+    zh: 后是基础词素
+    en: Back is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["opposite", "front"]
+    zh: 前的反义
+    en: The opposite of front

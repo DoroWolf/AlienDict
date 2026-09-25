@@ -1,0 +1,17 @@
+id: dot
+translation: 点
+en: dot
+meanings:
+  - alien: ["dot", "be", "noun"]
+    zh: 点是名词
+    en: Dot is a noun
+  - alien: ["dot", "of", "morpheme", "be", "mark", "and", "one"]
+    zh: 点由标记与一构成
+    en: Dot is made up of mark and one
+  - alien: ["\n"]
+  - alien: ["most", "small", "mark"]
+    zh: 最小的标记
+    en: The smallest mark
+  - alien: ["dot", "of", "volume", "be", "infinitesimal"]
+    zh: 点的体积是无穷小
+    en: The volume of a dot is infinitesimal

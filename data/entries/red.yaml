@@ -1,0 +1,17 @@
+id: red
+translation: 红色
+en: red
+meanings: 
+  - alien: ["red", "be", "noun"]
+    zh: 红色是名词
+    en: Red is a noun
+  - alien: ["red", "of", "morpheme", "be", "sun", "and", "color"]
+    zh: 红色由太阳与颜色构成
+    en: Red is made up of sun and color
+  - alien: ["\n"]
+  - alien: ["lava", "of", "color"]
+    zh: 熔岩的颜色
+    en: The color of the lava
+  - alien: ["sun", "of", "color"]
+    zh: 太阳的颜色
+    en: The color of the sun

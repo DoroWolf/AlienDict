@@ -1,0 +1,14 @@
+id: full
+translation: 满
+en: full
+meanings: 
+  - alien: ["full", "be", "adjective"]
+    zh: 满是形容词
+    en: Full is an adjective
+  - alien: ["full", "of", "morpheme", "be", "mark", "and", "include"]
+    zh: 满由标记与包含构成
+    en: Full is made up of mark and include
+  - alien: ["\n"]
+  - alien: ["not_include", "empty"]
+    zh: 不包含空
+    en: Not including emptiness

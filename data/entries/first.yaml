@@ -1,0 +1,11 @@
+id: first
+translation: 第一
+en: first
+meanings: 
+  - alien: ["first", "be", "adjective"]
+    zh: 第一是形容词
+  - alien: ["first", "of", "morpheme", "be", "from", "and", "one"]
+    zh: 第一由从与一构成
+  - alien: ["\n"]
+  - alien: ["object", "not_include", "previous_one", "object", "one", "no_"]
+    zh: 不包含前一个物体的物体

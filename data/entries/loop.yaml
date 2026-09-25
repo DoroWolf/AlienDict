@@ -1,0 +1,14 @@
+id: loop
+translation: 循环
+en: loop
+meanings: 
+  - alien: ["loop", "be", "noun"]
+    zh: 循环是名词
+    en: Loop is a noun
+  - alien: ["loop", "be", "base", "morpheme"]
+    zh: 循环是基础词素
+    en: Loop is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["repeat", "change", "and", "opposite", "change"]
+    zh: 重复变化和相反的变化
+    en: Repeat change and opposite change

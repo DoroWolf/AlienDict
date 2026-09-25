@@ -1,0 +1,14 @@
+id: scientific
+translation: 科学计数
+en: scientific
+meanings: 
+  - alien: ["scientific", "be", "verb"]
+    zh: 科学计数是动词
+    en: Scientific is a verb
+  - alien: ["scientific", "of", "morpheme", "be", "seven", "and", "change"]
+    zh: 科学计数由七与变化构成
+    en: Scientific is made up of seven and change
+  - alien: ["\n"]
+  - alien: ["seven", "exponentiation", "next_word", "number"]
+    zh: 七的后一个数的乘方
+    en: Seven raised to the power of the next number

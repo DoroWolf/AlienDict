@@ -1,0 +1,14 @@
+id: past
+translation: 过去
+en: past
+meanings: 
+  - alien: ["past", "be", "adjective"]
+    zh: 过去是形容词
+    en: Past is an adjective
+  - alien: ["past", "of", "morpheme", "be", "before"]
+    zh: 过去由之前构成
+    en: Past is made up of before
+  - alien: ["\n"]
+  - alien: ["past", "be", "more", "before", "moment"]
+    zh: 过去是更靠前的时刻
+    en: Past is a moment further before

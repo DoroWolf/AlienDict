@@ -1,0 +1,13 @@
+id: math
+translation: 数学
+en: math
+meanings: 
+  - alien: ["math", "be", "noun"]
+    zh: 数学是名词
+  - alien: ["math", "of", "morpheme", "be", "calculate", "and", "subject"]
+    zh: 数学由计算与主题构成
+  - alien: ["\n"]
+  - alien: ["calculate", "of", "subject"]
+    zh: 计算的学科
+  - alien: ["math", "be", "base", "subject"]
+    zh: 数学是基础学科

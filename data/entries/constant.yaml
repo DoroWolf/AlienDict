@@ -1,0 +1,14 @@
+id: constant
+translation: 常量
+en: constant
+meanings: 
+  - alien: ["constant", "be", "noun"]
+    zh: 常量是名词
+    en: Constant is a noun
+  - alien: ["constant", "of", "morpheme", "be", "fixed", "and", "count"]
+    zh: 常量由固定与数构成
+    en: Constant is made up of fixed and count
+  - alien: ["\n"]
+  - alien: ["fixed", "count"]
+    zh: 固定的数
+    en: The fixed count

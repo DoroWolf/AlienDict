@@ -1,0 +1,12 @@
+id: third
+translation: 第三
+en: third
+meanings: 
+  - alien: ["third", "be", "adjective"]
+    zh: 第三是形容词
+  - alien: ["third", "of", "morpheme", "be", "from", "and", "three"]
+    zh: 第三由从与三构成
+  - alien: ["\n"]
+  - alien: ["three", "no_"]
+    zh: 第三个
+    en: No. two

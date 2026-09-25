@@ -1,0 +1,14 @@
+id: separate
+translation: 分离
+en: separate
+meanings: 
+  - alien: ["separate", "be", "verb"]
+    zh: 分离是动词
+    en: Separate is a verb
+  - alien: ["separate", "of", "morpheme", "be", "disperse", "and", "cause"]
+    zh: 分离的词素为分散与使得
+    en: The morpheme of separate is disperse and cause
+  - alien: ["\n"]
+  - alien: ["alter", "set_(math)", "become", "many", "object"]
+    zh: 改变集合成为多个物体
+    en: Changing a set into many objects

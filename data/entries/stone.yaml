@@ -1,0 +1,14 @@
+id: stone
+translation: 石头
+en: stone
+meanings: 
+  - alien: ["stone", "be", "noun"]
+    zh: 石头是名词
+    en: Stone is a noun
+  - alien: ["stone", "of", "morpheme", "be", "big", "and", "soil"]
+    zh: 石头由大与土构成
+    en: Stone is made up of big and soil
+  - alien: ["\n"]
+  - alien: ["stone", "disperse", "become", "soil"]
+    zh: 分散石头成为土
+    en: Dispersed stone becomes soil

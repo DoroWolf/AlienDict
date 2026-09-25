@@ -1,0 +1,11 @@
+id: enter
+translation: 进入
+en: enter
+meanings: 
+  - alien: ["enter", "be", "verb"]
+    zh: 进入是动词
+  - alien: ["enter", "of", "morpheme", "be", "act", "and", "from"]
+    zh: 进入由行为与从构成
+  - alien: ["\n"]
+  - alien: ["not_include", "action", "change", "become", "include", "action"]
+    zh: 不包含的动作变化成为包含的动作

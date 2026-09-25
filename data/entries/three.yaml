@@ -1,0 +1,14 @@
+id: three
+translation: 三
+en: three
+meanings:
+  - alien: ["three", "be", "numeral"]
+    zh: 三是数词
+    en: Three is a numeral
+  - alien: ["three", "be", "base", "morpheme"]
+    zh: 三是基础词素
+    en: Three is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["base", "number"]
+    zh: 基础数
+    en: The base number

@@ -1,0 +1,14 @@
+id: "false"
+translation: 假
+en: "false"
+meanings: 
+  - alien: ["false", "be", "adjective"]
+    zh: 假是形容词
+    en: False is an adjective
+  - alien: ["false", "of", "morpheme", "be", "true"]
+    zh: 假由真构成
+    en: False is made up of true
+  - alien: ["\n"]
+  - alien: ["not", "true"]
+    zh: 非真
+    en: Not true

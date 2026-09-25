@@ -1,0 +1,14 @@
+id: four_seventh
+translation: 七分之四
+en: four sevenths
+meanings:
+  - alien: ["four_seventh", "be", "numeral"]
+    zh: 七分之四是数词
+    en: Four sevenths is a numeral
+  - alien: ["four_seventh", "be", "base", "morpheme"]
+    zh: 七分之四是基础词素
+    en: Four sevenths is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["decimal"]
+    zh: 小数
+    en: The decimal

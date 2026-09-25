@@ -1,0 +1,14 @@
+id: square_root
+translation: 平方根
+en: square root
+meanings: 
+  - alien: ["square_root", "be", "noun"]
+    zh: 平方根是名词
+    en: Square root is a noun
+  - alien: ["square_root", "of", "morpheme", "be", "exponentiation", "and", "half"]
+    zh: 平方根由乘方与一半构成
+    en: Square root is made up of exponentiation and half
+  - alien: ["\n"]
+  - alien: ["previous_word", "number", "exponentiation", "half"]
+    zh: 前一个数词的半次方
+    en: The previous number raised to the power of a half

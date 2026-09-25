@@ -1,0 +1,14 @@
+id: up
+translation: 上
+en: up
+meanings: 
+  - alien: ["up", "be", "adjective"]
+    zh: 上是形容词
+    en: Up is an adjective
+  - alien: ["up", "be", "base", "morpheme"]
+    zh: 上是基础词素
+    en: Up is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["opposite", "down"]
+    zh: 下的反义
+    en: The opposite of down

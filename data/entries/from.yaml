@@ -1,0 +1,13 @@
+id: from
+translation: 从
+en: from
+meanings: 
+  - alien: ["from", "be", "conjunction"]
+    zh: 从是连词
+  - alien: ["from", "of", "morpheme", "be", "to"]
+    zh: 从由到构成
+  - alien: ["\n"]
+  - alien: ["from", "amass", "verb", "to", "noun"]
+    zh: 从累积动词到名词
+  - alien: ["next_word", "be", "previous_word", "of", "past", "space"]
+    zh: 后词是前词的过去空间

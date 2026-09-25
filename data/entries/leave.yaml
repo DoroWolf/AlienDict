@@ -1,0 +1,11 @@
+id: leave
+translation: 离开
+en: leave
+meanings: 
+  - alien: ["leave", "be", "verb"]
+    zh: 离开是动词
+  - alien: ["leave", "of", "morpheme", "be", "act", "and", "to"]
+    zh: 离开由行为与到构成
+  - alien: ["\n"]
+  - alien: ["include", "action", "change", "become", "not_include", "action"]
+    zh: 包含的动作变化成为不包含的动作

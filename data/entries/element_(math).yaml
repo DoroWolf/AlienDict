@@ -1,0 +1,14 @@
+id: element_(math)
+translation: 元素
+en: element
+meanings: 
+  - alien: ["element_(math)", "be", "noun"]
+    zh: 元素是名词
+    en: Element is a noun
+  - alien: ["element_(math)", "of", "morpheme", "be", "object", "and", "set_(math)"]
+    zh: 元素由物体与集合构成
+    en: Element is made up of object and set
+  - alien: ["\n"]
+  - alien: ["object", "be_included", "set_(math)"]
+    zh: 物体包含于集合
+    en: The objects are included to the set

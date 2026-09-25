@@ -1,0 +1,14 @@
+id: land
+translation: 陆地
+en: land
+meanings: 
+  - alien: ["land", "be", "noun"]
+    zh: 陆地是名词
+    en: Land is a noun
+  - alien: ["land", "of", "morpheme", "be", "space", "and", "soil"]
+    zh: 陆地由空间与土构成
+    en: Land is made up of space and soil
+  - alien: ["\n"]
+  - alien: ["space", "include", "lot", "soil"]
+    zh: 包含许多土的空间
+    en: A space that includes lots of soil

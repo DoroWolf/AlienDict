@@ -1,0 +1,14 @@
+id: think
+translation: 想
+en: think
+meanings: 
+  - alien: ["think", "be", "verb"]
+    zh: 想是动词
+    en: Think is a verb
+  - alien: ["think", "be", "base", "morpheme"]
+    zh: 想是基础词素
+    en: Think is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["create", "or", "alter", "thought"]
+    zh: 创造或改变想法
+    en: Create or change thoughts

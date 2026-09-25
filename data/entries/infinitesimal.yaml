@@ -1,0 +1,14 @@
+id: infinitesimal
+translation: 无穷小
+en: infinitesimal
+meanings: 
+  - alien: ["infinitesimal", "be", "adjective"]
+    zh: 无穷小是形容词
+    en: Infinitesimal is an adjective
+  - alien: ["infinitesimal", "of", "morpheme", "be", "small"]
+    zh: 无穷小由小构成
+    en: Infinitesimal is made up of small
+  - alien: ["\n"]
+  - alien: ["greater_than", "zero", "and", "less_than", "total", "positive", "number"]
+    zh: 大于零且小于所有正数
+    en: Greater than zero and less than all positive numbers

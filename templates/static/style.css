@@ -1,0 +1,326 @@
+/* 外星词典 · 样式
+   无衬线/无装饰、单色灰阶 + 一个蓝色强调；正文全部用 GNU Unifont（点阵字体）。
+   字形为内联 SVG（fill="currentColor"），随 --fg 自动适配明暗主题。 */
+
+@font-face {
+  font-family: "Unifont";
+  src: local("GNU Unifont"),
+       local("Unifont"),
+       url("fonts/unifont.woff2") format("woff2");
+  font-display: swap;
+}
+
+:root {
+  --bg: #f2f3f5;
+  --panel: #ffffff;
+  --fg: #16181d;
+  --muted: #707786;
+  --line: #d7dbe2;
+  --accent: #2563eb;
+  --font: "Unifont", "GNU Unifont", ui-monospace, "Cascadia Mono", Consolas, monospace;
+  --gl-head: 64px;
+  --gl-row: 32px;
+  --gl-card: 40px;
+  --gl-chip: 24px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1013;
+    --panel: #16191f;
+    --fg: #e8eaee;
+    --muted: #878e9c;
+    --line: #262b34;
+    --accent: #5b9bff;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.6;
+  font-synthesis: none;
+  -webkit-font-smoothing: none;
+  font-smooth: never;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+code {
+  font-family: inherit;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  padding: 0 0.3em;
+}
+
+/* ── 骨架 ────────────────────────────────────────── */
+.bar {
+  border-bottom: 1px solid var(--line);
+  background: var(--panel);
+  padding: 0.75rem 1rem;
+}
+.bar__home { color: var(--fg); }
+.bar__home:hover { color: var(--accent); text-decoration: none; }
+
+.page { max-width: 720px; margin: 0 auto; padding: 1.5rem 1rem 4rem; }
+
+/* ── 字形链（原文） ──────────────────────────────── */
+/* 多行原文的容器：原文里每换一行就是一条 .gl，自上而下排；
+   换行高度＝字符高度（行与行紧贴），空行同样占一个字符高度（--gl-line） */
+.gl-lines { display: inline-flex; flex-direction: column; align-items: flex-start; gap: 0; }
+
+/* 一行字形：一个词一个字形；水平方向字符之间留一点空隙方便阅读（要空一整格就写空格元素 ""） */
+.gl { --gl-line: var(--gl-row); display: inline-flex; flex-wrap: wrap; align-items: center; gap: 2px; }
+.gl--lg { --gl-line: var(--gl-head); gap: 3px; }
+
+.gl__glyph {
+  width: var(--gl-row);
+  height: var(--gl-row);
+  color: var(--fg);
+  display: block;
+}
+.gl--lg .gl__glyph { width: var(--gl-head); height: var(--gl-head); }
+.glyph--png { image-rendering: pixelated; }
+
+.gl__link { display: inline-flex; }
+.gl__link:hover { background: color-mix(in srgb, var(--accent) 18%, transparent); }
+.gl__link:hover .gl__glyph { color: var(--accent); }
+
+/* 空格：空一个字符大小的空格（元素 ""） */
+.gl__space { display: inline-block; flex: 0 0 auto; width: var(--gl-row); }
+.gl--lg .gl__space { width: var(--gl-head); }
+
+/* 空行：额外换一行，高度＝一个字符高度 */
+.gl--blank { display: block; height: var(--gl-line); }
+
+/* 有词条但此处不点（如目录卡片整块是链接） */
+.gl__word { display: inline-flex; }
+
+/* 虚词/数字：字形照旧显示，不跳转 */
+.gl__nonlink { display: inline-flex; cursor: default; }
+
+/* 有引用但无词条：字形照旧显示，用虚线标记不可点 */
+.gl__pending { display: inline-flex; opacity: 0.4; border-bottom: 1px dashed var(--muted); cursor: help; }
+
+/* 连字形文件都还没有 */
+.gl__none {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--gl-row);
+  height: var(--gl-row);
+  border: 1px dashed var(--muted);
+  color: var(--muted);
+  cursor: help;
+}
+.gl--lg .gl__none { width: var(--gl-head); height: var(--gl-head); }
+
+/* ── 词头（左＝放大的外星字形，右＝中英释义） ────── */
+.head {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+.head__alien { flex: 0 0 auto; }
+.head__gloss { flex: 1 1 auto; min-width: 0; }
+.head__zh {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0;
+}
+.head__en { color: var(--muted); margin: 0.35rem 0 0; }
+
+/* ── 原文在上、译文在下（各一大块，多行聚在一起） ── */
+.text__alien {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;                   /* 行与行紧贴：换行高度＝字符高度，义项之间用空行元素隔开 */
+}
+.text__label {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--muted);
+  margin: 1.75rem 0 0.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+}
+.text__zh {
+  display: flex;
+  flex-direction: column;
+  gap: 0;                   /* 译文行与行紧贴，与原文行一一对应 */
+}
+.line { display: block; }
+.line__en { color: var(--muted); margin-left: 0.6em; }
+.line--blank { height: 1.6em; }   /* 译文的空行＝一行译文的高度 */
+.dash, .empty { color: var(--muted); }
+
+/* ── 前后导航 ────────────────────────────────────── */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+  color: var(--muted);
+}
+.nav__link--home { color: var(--muted); }
+.nav__off { opacity: 0.35; }
+
+/* ── 目录页 ──────────────────────────────────────── */
+.hero { margin-bottom: 1.5rem; }
+.hero__title { font-size: 32px; font-weight: 400; margin: 0 0 0.5rem; }
+.hero__lead { color: var(--muted); margin: 0; }
+
+.search { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
+.search__input {
+  flex: 1 1 auto;
+  font: inherit;
+  color: var(--fg);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 0.4rem 0.6rem;
+}
+.search__input:focus { outline: 1px solid var(--accent); outline-offset: 0; }
+.search__count { color: var(--muted); }
+
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+.card { background: var(--panel); }
+.card__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.75rem 0.25rem;
+  color: var(--fg);
+}
+.card__link:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); text-decoration: none; }
+.card__glyph .gl { --gl-line: var(--gl-card); }
+.card__glyph .gl__glyph { width: var(--gl-card); height: var(--gl-card); }
+.card__glyph .gl__space { width: var(--gl-card); }
+.card__zh { color: var(--fg); }
+.card__en { color: var(--muted); }
+
+/* ── 词素徽章 / 按词素找词 ───────────────────────── */
+.chips { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; }
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font: inherit;
+  color: var(--fg);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 0.15rem 0.5rem;
+  cursor: pointer;
+}
+.chip:hover { border-color: var(--accent); text-decoration: none; }
+.chip__glyph { display: inline-flex; }
+.chip__glyph .gl__glyph,
+.chip__glyph .gl__none { width: var(--gl-chip); height: var(--gl-chip); }
+.chip__en { color: var(--muted); }
+.chip__n { color: var(--muted); }
+.chip--morph.is-active {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+.chip--morph.is-active .chip__zh { color: var(--accent); }
+.chip--base::after { color: var(--muted); font-size: 0.85em; }
+.chip--pending { border-style: dashed; cursor: help; color: var(--muted); }
+
+.morphemes { margin-bottom: 1.5rem; }
+/* 折叠头：▸/▾ 与「展开/折叠」两套文案，按 details 的开合状态切换 */
+.morphemes__h {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 0.35rem;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  list-style: none;
+}
+.morphemes__h::-webkit-details-marker { display: none; }
+.morphemes__h:hover .morphemes__title { color: var(--accent); }
+.morphemes__n, .morphemes__fold { color: var(--muted); font-size: 0.9em; }
+.morphemes__lead { color: var(--muted); margin: 0 0 0.75rem; }
+.morphemes__state { margin: 0.75rem 0 0; color: var(--muted); }
+.morphemes__clear {
+  font: inherit;
+  color: var(--accent);
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 0 0.4rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.morphemes__clear:hover { border-color: var(--accent); }
+
+/* 折叠状态：.open 只在展开时显示，.closed 只在收起时显示 */
+.morphemes .open, .morph__more .open { display: none; }
+details[open] > summary .open { display: inline; }
+details[open] > summary .closed { display: none; }
+
+/* ── 词条页的「词素」区块 ────────────────────────── */
+.morph {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+}
+.morph__h { font-size: 16px; font-weight: 400; color: var(--muted); margin: 0 0 0.75rem; }
+.morph__row { margin-bottom: 0.75rem; }
+.morph__row:last-child { margin-bottom: 0; }
+.morph__label { display: block; color: var(--muted); margin-bottom: 0.4rem; }
+.morph__more > .morph__label { cursor: pointer; list-style: none; }
+.morph__more > .morph__label::-webkit-details-marker { display: none; }
+.morph__more > .morph__label:hover { color: var(--accent); }
+.morph__fold { font-size: 0.9em; }
+.morph__base { color: var(--muted); margin: 0; }
+.morph__find { color: var(--muted); margin: 0.6rem 0 0; }
+
+.pending { margin-top: 2rem; }
+.pending__h { font-size: 16px; font-weight: 400; color: var(--muted); margin: 0 0 0.5rem; }
+.pending__lead { color: var(--muted); margin: 0 0 0.5rem; }
+.pending__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.pending__list li {
+  border: 1px dashed var(--muted);
+  color: var(--muted);
+  padding: 0 0.5rem;
+}
+
+@media (max-width: 480px) {
+  :root { --gl-head: 48px; --gl-row: 24px; --gl-card: 32px; --gl-chip: 20px; }
+  /* 窄屏时词头改为上下堆叠 */
+  .head { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+}

@@ -1,0 +1,14 @@
+id: revolve
+translation: 环绕
+en: revolve
+meanings: 
+  - alien: ["revolve", "be", "verb"]
+    zh: 环绕是动词
+    en: Revolve is a verb
+  - alien: ["revolve", "of", "morpheme", "be", "cause", "and", "circle"]
+    zh: 环绕由使得与圆构成
+    en: Revolve is made up of cause and circle
+  - alien: ["\n"]
+  - alien: ["one_object", "loop", "in", "be_included", "ring"]
+    zh: 一个物体在所属环中循环
+    en: An object looping in the ring it belongs to

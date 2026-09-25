@@ -1,0 +1,14 @@
+id: amass
+translation: 累积
+en: amass
+meanings: 
+  - alien: ["amass", "be", "verb"]
+    zh: 累积是动词
+    en: Amass is a verb
+  - alien: ["amass", "of", "morpheme", "be", "accumulate", "and", "cause"]
+    zh: 累积的词素为积累与使得
+    en: The morpheme of amass is accumulate and cause
+  - alien: ["\n"]
+  - alien: ["alter", "many", "object", "become", "set_(math)"]
+    zh: 改变多个物体成为集合
+    en: Changing many objects into a set

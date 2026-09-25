@@ -1,0 +1,14 @@
+id: exponentiation
+translation: 乘方
+en: exponentiation
+meanings: 
+  - alien: ["exponentiation", "be", "verb"]
+    zh: 乘方是动词
+    en: Exponentiation is a verb
+  - alien: ["exponentiation", "of", "morpheme", "be", "big", "and", "change"]
+    zh: 乘方由大与变化构成
+    en: Exponentiation is made up of big and change
+  - alien: ["\n"]
+  - alien: ["next_word", "number", "count", "of", "previous_word", "number", "second", "of", "product_(math)"]
+    zh: 后词数的数量是前词数的第二的乘积
+    en: The count of the next number is the product of the second of the previous number

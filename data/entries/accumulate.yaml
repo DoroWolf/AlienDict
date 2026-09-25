@@ -1,0 +1,14 @@
+id: accumulate
+translation: 积累
+en: accumulate
+meanings: 
+  - alien: ["accumulate", "be", "verb"]
+    zh: 积累是动词
+    en: Accumulate is a verb
+  - alien: ["accumulate", "be", "base", "morpheme"]
+    zh: 积累是基础词素
+    en: Accumulate is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["amass", "previous_word", "and", "next_word"]
+    zh: 累积前词与后词
+    en: Amassing the previous word and the next word

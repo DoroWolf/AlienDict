@@ -1,0 +1,14 @@
+id: change_language
+translation: 改变语言
+en: change language
+meanings: 
+  - alien: ["change_language", "be", "verb"]
+    zh: 改变语言是动词
+    en: Change language is a verb
+  - alien: ["change_language", "of", "morpheme", "be", "change", "and", "language"]
+    zh: 改变语言由变化与语言构成
+    en: Change language is made up of change and language
+  - alien: ["\n"]
+  - alien: ["alter", "message", "become", "different", "language"]
+    zh: 改变信息成为不同语言
+    en: Changing a message into a different language

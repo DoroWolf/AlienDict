@@ -1,0 +1,14 @@
+id: cause
+translation: 使得
+en: cause
+meanings: 
+  - alien: ["cause", "be", "noun"]
+    zh: 使得是名词
+    en: Cause is a noun
+  - alien: ["cause", "be", "base", "morpheme"]
+    zh: 使得是基础词素
+    en: Cause is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["alien", "of", "element_(math)", "get", "action"]
+    zh: 外星人个体得到动作
+    en: Alien individuals get action

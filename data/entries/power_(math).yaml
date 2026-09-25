@@ -1,0 +1,14 @@
+id: power_(math)
+translation: 幂
+en: power
+meanings: 
+  - alien: ["power_(math)", "be", "noun"]
+    zh: 幂是名词
+    en: Power is a noun
+  - alien: ["power_(math)", "of", "morpheme", "be", "exponentiation", "and", "to"]
+    zh: 幂由乘方与到构成
+    en: Power is made up of exponentiation and to
+  - alien: ["\n"]
+  - alien: ["exponentiation", "of", "result"]
+    zh: 乘方的结果
+    en: The result of exponentiation

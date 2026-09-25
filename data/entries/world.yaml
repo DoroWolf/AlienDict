@@ -1,0 +1,14 @@
+id: world
+translation: 世界
+en: world
+meanings: 
+  - alien: ["world", "be", "noun"]
+    zh: 世界是名词
+    en: World is a noun
+  - alien: ["world", "of", "morpheme", "be", "space", "and", "on_the_ground"]
+    zh: 世界由空间与地面上构成
+    en: World is made up of space and ground
+  - alien: ["\n"]
+  - alien: ["aliens", "of", "settlement", "planet"]
+    zh: 外星人们定居的行星
+    en: The planet where aliens settle

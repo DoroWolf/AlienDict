@@ -1,0 +1,14 @@
+id: fire
+translation: 火
+en: fire
+meanings: 
+  - alien: ["fire", "be", "noun"]
+    zh: 火是名词
+    en: Fire is a noun
+  - alien: ["fire", "be", "base", "morpheme"]
+    zh: 火是基础词素
+    en: Fire is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["heat_up", "combustible", "get", "create", "fire"]
+    zh: 加热可燃物创造火
+    en: Heating a combustible object creates fire

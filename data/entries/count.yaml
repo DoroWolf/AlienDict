@@ -1,0 +1,14 @@
+id: count
+translation: 数量
+en: count
+meanings: 
+  - alien: ["count", "be", "noun"]
+    zh: 数量是名词
+    en: Count is a noun
+  - alien: ["count", "be", "base", "morpheme"]
+    zh: 数量是基础词素
+    en: Count is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["object", "of", "number"]
+    zh: 物体的数
+    en: The number of an object

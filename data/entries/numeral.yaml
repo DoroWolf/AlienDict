@@ -1,0 +1,17 @@
+id: numeral
+translation: 数词
+en: numeral
+meanings:
+  - alien: ["numeral", "be", "noun"]
+    zh: 数词是名词
+    en: Numeral is a noun
+  - alien: ["numeral", "of", "morpheme", "be", "number", "and", "word"]
+    zh: 数词由数和词构成
+    en: Numeral is made up of number and word
+  - alien: ["\n"]
+  - alien: ["number", "of", "word"]
+    zh: 数的词
+    en: A word about numbers
+  - alien: ["numeral", "be", "noun", "or", "adjective"]
+    zh: 数词是名词或形容词
+    en: Numeral is a noun or an adjective

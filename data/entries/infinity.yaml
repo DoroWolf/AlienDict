@@ -1,0 +1,14 @@
+id: infinity
+translation: 无穷大
+en: infinity
+meanings: 
+  - alien: ["infinity", "be", "adjective"]
+    zh: 无穷大是形容词
+    en: Infinity is an adjective
+  - alien: ["infinity", "of", "morpheme", "be", "big"]
+    zh: 无穷大由大构成
+    en: Infinity is made up of big
+  - alien: ["\n"]
+  - alien: ["greater_than", "total", "positive", "number"]
+    zh: 大于所有正数
+    en: Greater than all positive numbers

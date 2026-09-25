@@ -1,0 +1,14 @@
+id: many
+translation: 多个
+en: many
+meanings: 
+  - alien: ["many", "be", "adjective"]
+    zh: 多个是形容词
+    en: Many is an adjective
+  - alien: ["many", "of", "morpheme", "be", "object"]
+    zh: 多个的词素为物体
+    en: The morpheme of many is object
+  - alien: ["\n"]
+  - alien: ["more", "one", "object"]
+    zh: 多于一个物体
+    en: More than one object

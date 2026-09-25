@@ -1,0 +1,14 @@
+id: repeat
+translation: 重复
+en: repeat
+meanings: 
+  - alien: ["repeat", "be", "verb"]
+    zh: 重复是动词
+    en: Repeat is a verb
+  - alien: ["repeat", "of", "morpheme", "be", "word", "and", "two"]
+    zh: 重复的词素为词与二
+    en: The morpheme of repeat is word and two
+  - alien: ["\n"]
+  - alien: ["express", "same", "sentence"]
+    zh: 表达相同的句子
+    en: Express the same sentence

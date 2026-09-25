@@ -1,0 +1,14 @@
+id: sky
+translation: 天空
+en: sky
+meanings: 
+  - alien: ["sky", "be", "noun"]
+    zh: 天空是名词
+    en: Sky is a noun
+  - alien: ["sky", "be", "base", "morpheme"]
+    zh: 天空是基础词素
+    en: Sky is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["up", "world", "of", "air"]
+    zh: 世界上方的空气
+    en: The air above the world

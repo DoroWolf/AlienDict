@@ -1,0 +1,14 @@
+id: equal
+translation: 等于
+en: equal
+meanings: 
+  - alien: ["equal", "be", "verb"]
+    zh: 等于是动词
+    en: Equal is a verb
+  - alien: ["equal", "of", "morpheme", "be", "(overline_and_underline)", "and", "same"]
+    zh: 等于由上下划线与相同构成
+    en: Equal is made up of the overline & underline and same
+  - alien: ["\n"]
+  - alien: ["be", "same", "count"]
+    zh: 是相同的数量
+    en: Is the same count

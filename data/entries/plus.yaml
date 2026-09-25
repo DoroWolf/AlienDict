@@ -1,0 +1,14 @@
+id: plus
+translation: 加
+en: plus
+meanings: 
+  - alien: ["plus", "be", "verb"]
+    zh: 加是动词
+    en: Plus is a verb
+  - alien: ["plus", "of", "morpheme", "be", "positive", "and", "change"]
+    zh: 加由正与变化构成
+    en: Plus is made up of positive and change
+  - alien: ["\n"]
+  - alien: ["first", "number", "increase", "need", "second", "number"]
+    zh: 增大第一个数需要第二个数
+    en: Enlarging the first number needs the second number

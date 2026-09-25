@@ -1,0 +1,23 @@
+id: big
+translation: 大
+en: big
+meanings: 
+  - alien: ["big", "be", "adjective"]
+    zh: 大是形容词
+    en: Big is an adjective
+  - alien: ["big", "be", "base", "morpheme"]
+    zh: 大是基础词素
+    en: Big is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["more", "count"]
+    zh: 更多的数量
+    en: A larger count
+  - alien: ["sea", "be", "big"]
+    zh: 海是大的
+    en: The sea is big
+  - alien: ["world", "be", "big"]
+    zh: 世界是大的
+    en: The world is big
+  - alien: ["sun", "be", "big"]
+    zh: 太阳是大的
+    en: The sun is big

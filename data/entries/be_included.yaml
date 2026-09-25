@@ -1,0 +1,13 @@
+id: be_included
+translation: 包含于
+en: be included
+meanings: 
+  - alien: ["be_included", "be", "conjunction"]
+    zh: 包含于是连词
+  - alien: ["be_included", "be", "base", "morpheme"]
+    zh: 包含于是基础词素
+  - alien: ["\n"]
+  - alien: ["be_included", "amass", "two", "word"]
+    zh: 包含于累积两个词
+  - alien: ["next_word", "have", "previous_word"]
+    zh: 后词有前词

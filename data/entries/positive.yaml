@@ -1,0 +1,14 @@
+id: positive
+translation: 正
+en: positive
+meanings: 
+  - alien: ["positive", "be", "adjective"]
+    zh: 正是形容词
+    en: Positive is an adjective
+  - alien: ["positive", "be", "base", "morpheme"]
+    zh: 正是基础词素
+    en: Positive is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["greater_than", "zero", "of", "number"]
+    zh: 大于零的数
+    en: A number greater than zero

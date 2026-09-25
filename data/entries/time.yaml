@@ -1,0 +1,14 @@
+id: time
+translation: 时间
+en: time
+meanings: 
+  - alien: ["time", "be", "noun"]
+    zh: 时间是名词
+    en: Time is a noun
+  - alien: ["time", "of", "morpheme", "be", "moment", "and", "count"]
+    zh: 时间由时刻与数量构成
+    en: Time is made up of moment and count
+  - alien: ["\n"]
+  - alien: ["moment", "of", "count"]
+    zh: 时刻的数量
+    en: The count of moments

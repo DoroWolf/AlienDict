@@ -1,0 +1,14 @@
+id: angle
+translation: 角
+en: angle
+meanings: 
+  - alien: ["angle", "be", "noun"]
+    zh: 角是名词
+    en: Angle is a noun
+  - alien: ["angle", "of", "morpheme", "be", "mark", "and", "(angle_shape)"]
+    zh: 角由标记与角的形状构成
+    en: Angle is made up of mark and the shape of the angle
+  - alien: ["\n"]
+  - alien: ["mark", "include", "one_object", "direction", "of", "change"]
+    zh: 包含一个方位变化的标记
+    en: A mark includes a change in direction

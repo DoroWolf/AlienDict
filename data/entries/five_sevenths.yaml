@@ -1,0 +1,14 @@
+id: five_sevenths
+translation: 七分之五
+en: five sevenths
+meanings:
+  - alien: ["five_sevenths", "be", "numeral"]
+    zh: 七分之五是数词
+    en: Five sevenths is a numeral
+  - alien: ["five_sevenths", "be", "base", "morpheme"]
+    zh: 七分之五是基础词素
+    en: Five sevenths is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["decimal"]
+    zh: 小数
+    en: The decimal

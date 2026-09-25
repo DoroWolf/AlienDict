@@ -1,0 +1,14 @@
+id: thousand
+translation: 千
+en: thousand
+meanings:
+  - alien: ["thousand", "be", "numeral"]
+    zh: 千是数词
+    en: Thousand is a numeral
+  - alien: ["thousand", "be", "base", "morpheme"]
+    zh: 千是基础词素
+    en: Thousand is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["number"]
+    zh: 数
+    en: The number

@@ -1,0 +1,14 @@
+id: same
+translation: 相同
+en: same
+meanings:
+  - alien: ["same", "be", "adjective"]
+    zh: 相同是形容词
+    en: Same is an adjective
+  - alien: ["same", "be", "base", "morpheme"]
+    zh: 相同是基础词素
+    en: Same is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["many", "object", "include", "one", "predicate"]
+    zh: 包含一个谓词的多个物体
+    en: Many objects include a predicate

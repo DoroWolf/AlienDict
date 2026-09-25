@@ -1,0 +1,14 @@
+id: word
+translation: 词
+en: word
+meanings: 
+  - alien: ["word", "be", "noun"]
+    zh: 词是名词
+    en: Word is a noun
+  - alien: ["word", "of", "morpheme", "be", "mark", "and", "think"]
+    zh: 词由标记与想构成
+    en: Word is made up of mark and think
+  - alien: ["\n"]
+  - alien: ["thought", "of", "mark"]
+    zh: 想法的标记
+    en: The marks of thoughts

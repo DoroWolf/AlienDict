@@ -1,0 +1,14 @@
+id: minus
+translation: 减
+en: minus
+meanings: 
+  - alien: ["minus", "be", "verb"]
+    zh: 减是动词
+    en: Minus is a verb
+  - alien: ["minus", "of", "morpheme", "be", "negative", "and", "change"]
+    zh: 减由负与变化构成
+    en: Minus is made up of negative and change
+  - alien: ["\n"]
+  - alien: ["first", "number", "decrease", "need", "second", "number"]
+    zh: 减少第一个数需要第二个数
+    en: Reducing the first number needs the second number

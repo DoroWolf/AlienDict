@@ -1,0 +1,14 @@
+id: number_three
+translation: 数三
+en: number three
+meanings:
+  - alien: ["number_three", "be", "numeral"]
+    zh: 数三是数词
+    en: Number three is a numeral
+  - alien: ["number_three", "of", "morpheme", "be", "number", "and", "three"]
+    zh: 数三的词素为数与三
+    en: The morpheme of number three is number and three
+  - alien: ["\n"]
+  - alien: ["third", "variable"]
+    zh: 第三个变量
+    en: The third variable

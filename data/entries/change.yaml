@@ -1,0 +1,14 @@
+id: change
+translation: 变化
+en: change
+meanings: 
+  - alien: ["change", "be", "verb"]
+    zh: 变化是动词
+    en: Change is a verb
+  - alien: ["change", "be", "base", "morpheme"]
+    zh: 变化是基础词素
+    en: Change is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["be", "different", "from", "past", "object"]
+    zh: 从过去的物体到不同的物体
+    en: Being different from the past object

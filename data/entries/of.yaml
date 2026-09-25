@@ -1,0 +1,14 @@
+id: of
+translation: 的
+en: of
+meanings:
+  - alien: ["of", "be", "preposition"]
+    zh: 的是介词
+    en: Of is a functional word
+  - alien: ["of", "be", "base", "morpheme"]
+    zh: 的是基础词素
+    en: Of is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["of", "set_(math)", "previous_word", "for", "adjective"]
+    zh: 的把前词设定为形容词
+    en: "Ofsets the previous word as an adjective"

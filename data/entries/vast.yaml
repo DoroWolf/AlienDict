@@ -1,0 +1,14 @@
+id: vast
+translation: 广阔
+en: vast
+meanings: 
+  - alien: ["vast", "be", "adjective"]
+    zh: 广阔是形容词
+    en: Vast is an adjective
+  - alien: ["vast", "of", "morpheme", "be", "big", "and", "set_(math)"]
+    zh: 广阔由大与集合构成
+    en: Vast is made up of big and set
+  - alien: ["\n"]
+  - alien: ["set_(math)", "of", "big", "element_(math)"]
+    zh: 集合的大元素
+    en: The big element of a set

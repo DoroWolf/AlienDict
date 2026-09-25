@@ -1,0 +1,14 @@
+id: product_(math)
+translation: 积
+en: product
+meanings: 
+  - alien: ["product_(math)", "be", "noun"]
+    zh: 积是名词
+    en: Product is a noun
+  - alien: ["product_(math)", "of", "morpheme", "be", "multiply", "and", "to"]
+    zh: 积由乘与到构成
+    en: Product is made up of multiply and to
+  - alien: ["\n"]
+  - alien: ["multiply", "of", "result"]
+    zh: 乘的结果
+    en: The result of multiply

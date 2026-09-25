@@ -1,0 +1,13 @@
+id: include
+translation: 包含
+en: include
+meanings: 
+  - alien: ["include", "be", "conjunction"]
+    zh: 包含是连词
+  - alien: ["include", "of", "morpheme", "be", "be_included"]
+    zh: 包含于由包含构成
+  - alien: ["\n"]
+  - alien: ["include", "amass", "two", "word"]
+    zh: 包含累积两个词
+  - alien: ["previous_word", "have", "next_word"]
+    zh: 前词有后词

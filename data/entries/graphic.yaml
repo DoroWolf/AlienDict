@@ -1,0 +1,14 @@
+id: graphic
+translation: 图形
+en: graphic
+meanings: 
+  - alien: ["graphic", "be", "noun"]
+    zh: 图形是名词
+    en: Graphic is a noun
+  - alien: ["graphic", "of", "morpheme", "be", "mark", "and", "object"]
+    zh: 图形由标记与物体构成
+    en: Graphic is made up of mark and object
+  - alien: ["\n"]
+  - alien: ["object", "of", "mark"]
+    zh: 物体的标记
+    en: The mark of an object

@@ -1,0 +1,14 @@
+id: sentence
+translation: 句子
+en: sentence
+meanings: 
+  - alien: ["sentence", "be", "noun"]
+    zh: 句子是名词
+    en: Sentence is a noun
+  - alien: ["sentence", "of", "morpheme", "be", "word"]
+    zh: 句子的词素为词
+    en: The morpheme of a sentence is word
+  - alien: ["\n"]
+  - alien: ["amass", "of", "many", "word"]
+    zh: 累积的多个词
+    en: Many amassed words

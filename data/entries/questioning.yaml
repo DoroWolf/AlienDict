@@ -1,0 +1,14 @@
+id: questioning
+translation: 疑问
+en: questioning
+meanings: 
+  - alien: ["questioning", "be", "adjective"]
+    zh: 疑问是形容词
+    en: Questioning is an adjective
+  - alien: ["questioning", "be", "base", "morpheme"]
+    zh: 疑问是基础词素
+    en: Questioning is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["question", "get", "true", "or", "false"]
+    zh: 提问得到真或假
+    en: Question to get true or false

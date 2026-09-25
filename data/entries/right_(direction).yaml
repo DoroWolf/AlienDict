@@ -1,0 +1,14 @@
+id: right_(direction)
+translation: 右
+en: right
+meanings: 
+  - alien: ["right_(direction)", "be", "adjective"]
+    zh: 右是形容词
+    en: Right is an adjective
+  - alien: ["right_(direction)", "be", "base", "morpheme"]
+    zh: 右是基础词素
+    en: Right is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["opposite", "left"]
+    zh: 左的反义
+    en: The opposite of left

@@ -1,0 +1,14 @@
+id: sea
+translation: 海洋
+en: sea
+meanings: 
+  - alien: ["sea", "be", "noun"]
+    zh: 海洋是名词
+    en: Sea is a noun
+  - alien: ["sea", "of", "morpheme", "be", "space", "and", "seawater"]
+    zh: 海洋由空间与海水构成
+    en: Sea is made up of space and seawater
+  - alien: ["\n"]
+  - alien: ["space", "include", "lot", "seawater"]
+    zh: 包含许多海水的空间
+    en: A space that includes lots of seawater

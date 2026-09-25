@@ -1,0 +1,14 @@
+id: half
+translation: 一半
+en: half
+meanings: 
+  - alien: ["half", "be", "numeral"]
+    zh: 一半是数词
+    en: Half is a numeral
+  - alien: ["half", "of", "morpheme", "be", "count", "and", "two"]
+    zh: 一半由数量与二构成
+    en: Half is made up of count and two
+  - alien: ["\n"]
+  - alien: ["division", "two"]
+    zh: 除以二
+    en: dispersed by two

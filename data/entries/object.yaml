@@ -1,0 +1,14 @@
+id: "object"
+translation: 物体
+en: "object"
+meanings: 
+  - alien: ["object", "be", "noun"]
+    zh: 物体是名词
+    en: Object is a noun
+  - alien: ["object", "be", "base", "morpheme"]
+    zh: 物体是基础词素
+    en: Object is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["total", "noun", "be", "object"]
+    zh: 物体是名词的总和
+    en: An object is the total of nouns

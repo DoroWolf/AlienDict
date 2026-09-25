@@ -1,0 +1,14 @@
+id: partial
+translation: 部分
+en: partial
+meanings: 
+  - alien: ["partial", "be", "adjective"]
+    zh: 部分是形容词
+    en: Partial is an adjective
+  - alien: ["partial", "of", "morpheme", "be", "one", "and", "set_(math)"]
+    zh: 部分由一与集合构成
+    en: Partial is made up of one and set
+  - alien: ["\n"]
+  - alien: ["one_object", "or", "many", "element_(math)", "be_included", "set_(math)"]
+    zh: 包含于集合的一个或多个元素
+    en: One or many elements that be included to a set

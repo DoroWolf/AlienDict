@@ -1,0 +1,14 @@
+id: left
+translation: 左
+en: left
+meanings: 
+  - alien: ["left", "be", "adjective"]
+    zh: 左是形容词
+    en: Left is an adjective
+  - alien: ["left", "be", "base", "morpheme"]
+    zh: 左是基础词素
+    en: Left is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["opposite", "right_(direction)"]
+    zh: 右的反义
+    en: The opposite of right

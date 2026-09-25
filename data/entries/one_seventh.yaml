@@ -1,0 +1,14 @@
+id: one_seventh
+translation: 七分之一
+en: one seventh
+meanings:
+  - alien: ["one_seventh", "be", "numeral"]
+    zh: 七分之一是数词
+    en: One seventh is a numeral
+  - alien: ["one_seventh", "be", "base", "morpheme"]
+    zh: 七分之一是基础词素
+    en: One seventh is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["decimal"]
+    zh: 小数
+    en: The decimal

@@ -1,0 +1,14 @@
+id: liquid
+translation: 液态
+en: liquid
+meanings: 
+  - alien: ["liquid", "be", "adjective"]
+    zh: 液态是形容词
+    en: Liquid is an adjective
+  - alien: ["liquid", "of", "morpheme", "be", "of", "and", "seawater"]
+    zh: 液态由的与海水构成
+    en: Liquid is made up of of and seawater
+  - alien: ["\n"]
+  - alien: ["object", "predicate", "similar", "to", "seawater"]
+    zh: 与海水相似的物体
+    en: An object that is similar to seawater

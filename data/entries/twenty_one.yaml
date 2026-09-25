@@ -1,0 +1,14 @@
+id: twenty_one
+translation: 二十一
+en: twenty-one
+meanings:
+  - alien: ["twenty_one", "be", "numeral"]
+    zh: 二十一是数词
+    en: Twenty-one is a numeral
+  - alien: ["twenty_one", "be", "base", "morpheme"]
+    zh: 二十一是基础词素
+    en: Twenty-one is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["number"]
+    zh: 数
+    en: The number

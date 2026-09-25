@@ -1,0 +1,14 @@
+id: one_object
+translation: 一个
+en: one object
+meanings: 
+  - alien: ["one_object", "be", "adjective"]
+    zh: 一个是形容词
+    en: One object is an adjective
+  - alien: ["one_object", "of", "morpheme", "be", "one", "and", "object"]
+    zh: 一个的词素为一与物体
+    en: The morpheme of one object is one and object
+  - alien: ["\n"]
+  - alien: ["one", "object"]
+    zh: 一个物体
+    en: An object

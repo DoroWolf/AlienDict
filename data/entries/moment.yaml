@@ -1,0 +1,14 @@
+id: moment
+translation: 时刻
+en: moment
+meanings: 
+  - alien: ["moment", "be", "noun"]
+    zh: 时刻是名词
+    en: Moment is a noun
+  - alien: ["moment", "be", "base", "morpheme"]
+    zh: 时刻是基础词素
+    en: Moment is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["infinitesimal", "time"]
+    zh: 无穷小的时间
+    en: An infinitesimal amount of time

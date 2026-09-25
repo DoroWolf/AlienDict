@@ -1,0 +1,17 @@
+id: more
+translation: 更大
+en: more
+meanings: 
+  - alien: ["more", "be", "adjective"]
+    zh: 更大是形容词
+    en: More is an adjective
+  - alien: ["more", "of", "morpheme", "be", "big"]
+    zh: 更大由大构成
+    en: More is made up of big
+  - alien: ["\n"]
+  - alien: ["big", "number", "or", "object", "be_included", "two_objects"]
+    zh: 大的数或物体包含于两个物体
+    en: A big number or object belongs to two objects
+  - alien: ["big", "from", "vast", "count"]
+    zh: 大来自广阔的数量
+    en: Big comes from a vast count

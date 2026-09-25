@@ -1,0 +1,17 @@
+id: adjective
+translation: 形容词
+en: adjective
+meanings: 
+  - alien: ["adjective", "be", "noun"]
+    zh: 形容词是名词
+    en: Adjective is a noun
+  - alien: ["adjective", "of", "morpheme", "be", "of", "and", "word"]
+    zh: 形容词由的与词构成
+    en: Adjective is made up of of and word
+  - alien: ["\n"]
+  - alien: ["object", "or", "action", "description", "of", "word"]
+    zh: 描述物体或动作的词
+    en: A word that describes an object or an action
+  - alien: ["adjective", "be", "part_of_speech"]
+    zh: 形容词是词性
+    en: Adjective is a part of speech

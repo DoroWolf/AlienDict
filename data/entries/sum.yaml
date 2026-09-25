@@ -1,0 +1,14 @@
+id: sum
+translation: 和
+en: sum
+meanings: 
+  - alien: ["sum", "be", "noun"]
+    zh: 和是名词
+    en: Sum is a noun
+  - alien: ["sum", "of", "morpheme", "be", "plus", "and", "to"]
+    zh: 和由加与到构成
+    en: Sum is made up of plus and to
+  - alien: ["\n"]
+  - alien: ["plus", "of", "result"]
+    zh: 加的结果
+    en: The result of plus

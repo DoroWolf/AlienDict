@@ -1,0 +1,14 @@
+id: part_of_speech
+translation: 词性
+en: part of speech
+meanings: 
+  - alien: ["part_of_speech", "be", "noun"]
+    zh: 词性是名词
+    en: Part of speech is a noun
+  - alien: ["part_of_speech", "of", "morpheme", "be", "word", "and", "predicate"]
+    zh: 词性由词与谓词构成
+    en: Part of speech is made up of word and predicate
+  - alien: ["\n"]
+  - alien: ["word", "of", "predicate"]
+    zh: 词的谓词
+    en: The predicate of a word

@@ -1,0 +1,14 @@
+id: total
+translation: 总和
+en: total
+meanings: 
+  - alien: ["total", "be", "adjective"]
+    zh: 总和是形容词
+    en: Total is an adjective
+  - alien: ["total", "of", "morpheme", "be", "object"]
+    zh: 总和由物体构成
+    en: Total is made up of object
+  - alien: ["\n"]
+  - alien: ["accumulate", "of", "all", "object"]
+    zh: 积累的所有物体
+    en: All accumulated objects

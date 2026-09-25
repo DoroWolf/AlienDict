@@ -1,0 +1,14 @@
+id: "true"
+translation: 真
+en: "true"
+meanings: 
+  - alien: ["true", "be", "adjective"]
+    zh: 真是形容词
+    en: True is an adjective
+  - alien: ["true", "be", "base", "morpheme"]
+    zh: 真是基础词素
+    en: True is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["not", "false"]
+    zh: 非假
+    en: Not false

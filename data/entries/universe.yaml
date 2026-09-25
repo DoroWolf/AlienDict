@@ -1,0 +1,14 @@
+id: universe
+translation: 宇宙
+en: universe
+meanings: 
+  - alien: ["universe", "be", "noun"]
+    zh: 宇宙是名词
+    en: Universe is a noun
+  - alien: ["universe", "of", "morpheme", "be", "sky"]
+    zh: 宇宙由天空构成
+    en: Universe is made up of sky
+  - alien: ["\n"]
+  - alien: ["total", "outer_space", "of", "set_(math)"]
+    zh: 所有太空的集合
+    en: The set of total outer space

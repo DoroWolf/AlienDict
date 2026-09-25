@@ -1,0 +1,14 @@
+id: six
+translation: 六
+en: six
+meanings:
+  - alien: ["six", "be", "numeral"]
+    zh: 六是数词
+    en: Six is a numeral
+  - alien: ["six", "be", "base", "morpheme"]
+    zh: 六是基础词素
+    en: Six is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["base", "number"]
+    zh: 基础数
+    en: The basic number

@@ -1,0 +1,14 @@
+id: human
+translation: 人类
+en: human
+meanings: 
+  - alien: ["human", "be", "noun"]
+    zh: 人类是名词
+    en: Human is a noun
+  - alien: ["human", "be", "base", "morpheme"]
+    zh: 人类是基础词素
+    en: Human is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["earth", "of", "intelligence"]
+    zh: 地球的智慧物种
+    en: Intelligence on Earth

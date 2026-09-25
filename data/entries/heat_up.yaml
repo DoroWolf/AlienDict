@@ -1,0 +1,14 @@
+id: heat_up
+translation: 加热
+en: heat up
+meanings: 
+  - alien: ["heat_up", "be", "verb"]
+    zh: 加热是动词
+    en: Heat up is a verb
+  - alien: ["heat_up", "of", "morpheme", "be", "upward", "and", "change"]
+    zh: 加热由向上与变化构成
+    en: Heat up is made up of upward and change
+  - alien: ["\n"]
+  - alien: ["change", "become", "upward"]
+    zh: 向上变化
+    en: Changing upward

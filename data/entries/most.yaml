@@ -1,0 +1,14 @@
+id: most
+translation: 最大
+en: most
+meanings: 
+  - alien: ["most", "be", "adjective"]
+    zh: 最大是形容词
+    en: Most is an adjective
+  - alien: ["most", "of", "morpheme", "be", "big"]
+    zh: 最大由大构成
+    en: Most is made up of big
+  - alien: ["\n"]
+  - alien: ["greater_than", "total", "distinct"]
+    zh: 大于所有不同的物体
+    en: Greater than all distinct objects

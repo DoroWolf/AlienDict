@@ -1,0 +1,17 @@
+id: steam
+translation: 蒸汽
+en: steam
+meanings: 
+  - alien: ["steam", "be", "noun"]
+    zh: 蒸汽是名词
+    en: Steam is a noun
+  - alien: ["steam", "of", "morpheme", "be", "sky", "and", "seawater"]
+    zh: 蒸汽由天空与海水构成
+    en: Steam is made up of sky and seawater
+  - alien: ["\n"]
+  - alien: ["freshwater", "heat_up", "become", "steam"]
+    zh: 淡水加热成为蒸汽
+    en: Freshwater heated up becomes steam
+  - alien: ["steam", "cool_down", "become", "freshwater"]
+    zh: 蒸汽冷却成为淡水
+    en: Steam cooled down becomes freshwater

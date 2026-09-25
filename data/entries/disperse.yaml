@@ -1,0 +1,14 @@
+id: disperse
+translation: 分散
+en: disperse
+meanings: 
+  - alien: ["disperse", "be", "verb"]
+    zh: 分散是动词
+    en: Disperse is a verb
+  - alien: ["disperse", "be", "base", "morpheme"]
+    zh: 分散是基础词素
+    en: Disperse is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["separate", "previous_word", "and", "next_word"]
+    zh: 分离前词与后词
+    en: Separating the previous word and the next word

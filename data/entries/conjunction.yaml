@@ -1,0 +1,17 @@
+id: conjunction
+translation: 连词
+en: conjunction
+meanings: 
+  - alien: ["conjunction", "be", "noun"]
+    zh: 连词是名词
+    en: Conjunction is a noun
+  - alien: ["conjunction", "of", "morpheme", "be", "accumulate", "and", "word"]
+    zh: 连词由积累与词构成
+    en: Conjunction is made up of accumulate and word
+  - alien: ["\n"]
+  - alien: ["amass", "previous_word", "and", "next_word", "of", "word"]
+    zh: 累积前词与后词的词
+    en: A word that amasses the previous word and the next word
+  - alien: ["conjunction", "be", "part_of_speech"]
+    zh: 连词是词性
+    en: Conjunction is a part of speech

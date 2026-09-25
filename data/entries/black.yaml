@@ -1,0 +1,14 @@
+id: black
+translation: 黑色
+en: black
+meanings: 
+  - alien: ["black", "be", "noun"]
+    zh: 黑色是名词
+    en: White is a noun
+  - alien: ["black", "of", "morpheme", "be", "dark", "and", "color"]
+    zh: 黑色由暗与颜色构成
+    en: White is made up of bright and color
+  - alien: ["\n"]
+  - alien: ["space", "not_include", "light", "of", "color"]
+    zh: 空间不包含光的颜色
+    en: The color of space does not include light

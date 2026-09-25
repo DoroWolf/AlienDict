@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" shape-rendering="crispEdges" role="img" aria-label="mountain">
+<rect x="7" y="0" width="1" height="3" fill="currentColor"/>
+<rect x="4" y="3" width="7" height="1" fill="currentColor"/>
+<rect x="4" y="4" width="1" height="5" fill="currentColor"/>
+<rect x="7" y="4" width="1" height="3" fill="currentColor"/>
+<rect x="10" y="4" width="1" height="5" fill="currentColor"/>
+<rect x="4" y="9" width="7" height="1" fill="currentColor"/>
+<rect x="4" y="11" width="7" height="1" fill="currentColor"/>
+<rect x="4" y="12" width="1" height="3" fill="currentColor"/>
+<rect x="10" y="12" width="1" height="3" fill="currentColor"/>
+<rect x="4" y="15" width="7" height="1" fill="currentColor"/>
+</svg>

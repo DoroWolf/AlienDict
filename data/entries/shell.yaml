@@ -1,0 +1,14 @@
+id: shell
+translation: 壳
+en: shell
+meanings: 
+  - alien: ["shell", "be", "noun"]
+    zh: 壳是名词
+    en: Shell is a noun
+  - alien: ["shell", "be", "base", "morpheme"]
+    zh: 壳是基础词素
+    en: Shell is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["flat", "and", "hard", "object", "get", "protect"]
+    zh: 平与硬的物体，提供保护
+    en: Flat and hard objects provide protection

@@ -1,0 +1,14 @@
+id: after
+translation: 之后
+en: after
+meanings: 
+  - alien: ["after", "be", "adjective"]
+    zh: 之后是形容词
+    en: After is an adjective
+  - alien: ["after", "be", "base", "morpheme"]
+    zh: 之后是基础词素
+    en: After is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["next_one", "moment"]
+    zh: 后一时刻
+    en: The next moment

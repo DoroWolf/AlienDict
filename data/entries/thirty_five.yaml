@@ -1,0 +1,14 @@
+id: thirty_five
+translation: 三十五
+en: thirty-five
+meanings:
+  - alien: ["thirty_five", "be", "numeral"]
+    zh: 三十五是数词
+    en: Thirty-five is a numeral
+  - alien: ["thirty_five", "be", "base", "morpheme"]
+    zh: 三十五是基础词素
+    en: Thirty-five is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["number"]
+    zh: 数
+    en: The number

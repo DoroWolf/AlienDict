@@ -1,0 +1,17 @@
+id: noun
+translation: 名词
+en: noun
+meanings: 
+  - alien: ["noun", "be", "noun"]
+    zh: 名词是名词
+    en: Noun is a noun
+  - alien: ["noun", "of", "morpheme", "be", "object", "and", "word"]
+    zh: 名词由物体与词构成
+    en: Noun is made up of object and word
+  - alien: ["\n"]
+  - alien: ["object", "of", "word"]
+    zh: 物体的词
+    en: The word of an object
+  - alien: ["noun", "be", "part_of_speech"]
+    zh: 名词是词性
+    en: Noun is a part of speech

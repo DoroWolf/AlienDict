@@ -1,0 +1,14 @@
+id: mass
+translation: 质量
+en: mass
+meanings: 
+  - alien: ["mass", "be", "noun"]
+    zh: 质量是名词
+    en: Mass is a noun
+  - alien: ["mass", "of", "morpheme", "be", "object", "and", "count"]
+    zh: 质量由物体与数量构成
+    en: Mass is made up of object and count
+  - alien: ["\n"]
+  - alien: ["object", "of", "count"]
+    zh: 物体的数量
+    en: The count of the object

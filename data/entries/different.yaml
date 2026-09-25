@@ -1,0 +1,14 @@
+id: different
+translation: 不同
+en: different
+meanings:
+  - alien: ["different", "be", "adjective"]
+    zh: 不同是形容词
+    en: Different is an adjective
+  - alien: ["different", "be", "base", "morpheme"]
+    zh: 不同是基础词素
+    en: Different is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["false", "same", "object"]
+    zh: 不是相同的物体
+    en: Not the same object

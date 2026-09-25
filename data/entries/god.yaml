@@ -1,0 +1,14 @@
+id: god
+translation: 神
+en: god
+meanings: 
+  - alien: ["god", "be", "noun"]
+    zh: 神是名词
+    en: God is a noun
+  - alien: ["god", "be", "base", "morpheme"]
+    zh: 神是基础词素
+    en: God is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["universe", "of", "creator"]
+    zh: 宇宙的创造者
+    en: Creator of the universe

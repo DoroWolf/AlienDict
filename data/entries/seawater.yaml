@@ -1,0 +1,17 @@
+id: seawater
+translation: 海水
+en: seawater
+meanings: 
+  - alien: ["seawater", "be", "noun"]
+    zh: 海水是名词
+    en: Seawater is a noun
+  - alien: ["seawater", "be", "base", "morpheme"]
+    zh: 海水是基础词素
+    en: Seawater is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["sea", "of", "base", "element_(math)"]
+    zh: 海洋的基础元素
+    en: The basic element of the sea
+  - alien: ["seawater", "be", "freshwater", "include", "salt"]
+    zh: 海水是含有盐的淡水
+    en: Seawater is freshwater that includes salt

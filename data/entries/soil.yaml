@@ -1,0 +1,14 @@
+id: soil
+translation: 土
+en: soil
+meanings: 
+  - alien: ["soil", "be", "noun"]
+    zh: 土是名词
+    en: Soil is a noun
+  - alien: ["soil", "be", "base", "morpheme"]
+    zh: 土是基础词素
+    en: Soil is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["land", "surface", "of", "soft", "element_(math)"]
+    zh: 陆地表面的柔软元素
+    en: The soft element on the surface of the land

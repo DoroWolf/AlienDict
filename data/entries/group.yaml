@@ -1,0 +1,14 @@
+id: group
+translation: 群组
+en: group
+meanings: 
+  - alien: ["group", "be", "noun"]
+    zh: 群组是名词
+    en: Group is a noun
+  - alien: ["group", "of", "morpheme", "be", "alien", "and", "set_(math)"]
+    zh: 群组由外星人与集合构成
+    en: Protect is made up of alien and set
+  - alien: ["\n"]
+  - alien: ["alien", "of", "set_(math)"]
+    zh: 外星人的集合
+    en: The set of aliens

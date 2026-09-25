@@ -1,0 +1,17 @@
+id: decimal
+translation: 小数
+en: decimal
+meanings: 
+  - alien: ["decimal", "be", "noun"]
+    zh: 小数是名词
+    en: Decimal is a noun
+  - alien: ["decimal", "of", "morpheme", "be", "small", "and", "number"]
+    zh: 小数由小与数构成
+    en: Decimal is made up of small and number
+  - alien: ["\n"]
+  - alien: ["less_than", "one", "and", "greater_than", "zero", "of", "number"]
+    zh: 小于一且大于零的数
+    en: A number less than one and greater than zero
+  - alien: ["vast", "express", "less_than", "milli", "of", "decimal", "need", "scientific"]
+    zh: 表达比千分之一更小的小数需要科学计数法
+    en: Expressing decimals smaller than one thousandth needs scientific notation

@@ -1,0 +1,14 @@
+id: empty
+translation: 空
+en: empty
+meanings: 
+  - alien: ["empty", "be", "adjective"]
+    zh: 空是形容词
+    en: Empty is an adjective
+  - alien: ["empty", "of", "morpheme", "be", "mark", "and", "not_include"]
+    zh: 空由标记与不包含构成
+    en: Empty is made up of mark and not include
+  - alien: ["\n"]
+  - alien: ["not_include", "mark"]
+    zh: 不包含标记
+    en: Not including a mark

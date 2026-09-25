@@ -1,0 +1,17 @@
+id: and
+translation: 与
+en: and
+meanings: 
+  - alien: ["and", "be", "conjunction"]
+    zh: 与是连词
+    en: And is a conjunction
+  - alien: ["and", "be", "base", "morpheme"]
+    zh: 与是基础词素
+    en: And is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["and", "word", "amass", "many", "word", "become", "set_(math)"]
+    zh: 与是累积许多词并成为集合的词
+    en: And is a word that amasses many words and becomes a set
+  - alien: ["previous_word", "and", "next_word", "two_objects", "be", "true"]
+    zh: 前词与后词皆为真
+    en: The previous word and the next word are both true

@@ -1,0 +1,14 @@
+id: white
+translation: 白色
+en: white
+meanings: 
+  - alien: ["white", "be", "noun"]
+    zh: 白色是名词
+    en: White is a noun
+  - alien: ["white", "of", "morpheme", "be", "bright", "and", "color"]
+    zh: 白色由亮与颜色构成
+    en: White is made up of bright and color
+  - alien: ["\n"]
+  - alien: ["total", "color", "of", "accumulate", "be_called"]
+    zh: 所有颜色积累的颜色
+    en: The color of all colors accumulated

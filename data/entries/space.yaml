@@ -1,0 +1,14 @@
+id: space
+translation: 空间
+en: space
+meanings: 
+  - alien: ["space", "be", "noun"]
+    zh: 空间是名词
+    en: Space is a noun
+  - alien: ["space", "be", "base", "morpheme"]
+    zh: 空间是基础词素
+    en: Space is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["sea", "or", "land", "or", "sky"]
+    zh: 海洋、陆地或天空
+    en: Sea, land or sky

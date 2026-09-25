@@ -1,0 +1,17 @@
+id: freshwater
+translation: 淡水
+en: freshwater
+meanings: 
+  - alien: ["freshwater", "be", "noun"]
+    zh: 淡水是名词
+    en: Freshwater is a noun
+  - alien: ["freshwater", "of", "morpheme", "be", "false", "and", "seawater"]
+    zh: 淡水由假与海水构成
+    en: Freshwater is made up of false and seawater
+  - alien: ["\n"]
+  - alien: ["lake", "of", "base", "element_(math)"]
+    zh: 湖的基础元素
+    en: The basic element of a lake
+  - alien: ["freshwater", "be", "seawater", "not_include", "salt"]
+    zh: 淡水是不含有盐的海水
+    en: Freshwater is seawater that does not include salt

@@ -1,0 +1,14 @@
+id: air
+translation: 空气
+en: air
+meanings: 
+  - alien: ["air", "be", "noun"]
+    zh: 空气是名词
+    en: Air is a noun
+  - alien: ["air", "be", "base", "morpheme"]
+    zh: 空气是基础词素
+    en: Air is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["sky", "of", "colorless", "element_(math)"]
+    zh: 天空的无色元素
+    en: The colorless element of the sky

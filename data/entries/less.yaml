@@ -1,0 +1,17 @@
+id: less
+translation: 更小
+en: less
+meanings: 
+  - alien: ["less", "be", "adjective"]
+    zh: 更小是形容词
+    en: Less is an adjective
+  - alien: ["less", "of", "morpheme", "be", "small"]
+    zh: 更小由小构成
+    en: Less is made up of small
+  - alien: ["\n"]
+  - alien: ["small", "number", "or", "object", "be_included", "two_objects"]
+    zh: 小的数或物体包含于两个物体
+    en: A smaller number or object belongs to two objects
+  - alien: ["small", "from", "vast", "count"]
+    zh: 小来自广阔的数量
+    en: Small comes from a vast count

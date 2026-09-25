@@ -1,0 +1,14 @@
+id: down
+translation: 下
+en: down
+meanings: 
+  - alien: ["down", "be", "adjective"]
+    zh: 下是形容词
+    en: Down is an adjective
+  - alien: ["down", "be", "base", "morpheme"]
+    zh: 下是基础词素
+    en: Down is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["opposite", "up"]
+    zh: 上的反义
+    en: The opposite of up

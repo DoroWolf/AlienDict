@@ -1,0 +1,14 @@
+id: be_called
+translation: 被称为
+en: be called
+meanings: 
+  - alien: ["be_called", "be", "preposition"]
+    zh: 被称为是介词
+    en: Be called is a preposition
+  - alien: ["be_called", "be", "base", "morpheme"]
+    zh: 被称为是基础词素
+    en: Be called is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["be_called", "alter", "previous_word", "become", "noun"]
+    zh: 被称为改变前词成为名词
+    en: Be called alters the previous word to become a noun

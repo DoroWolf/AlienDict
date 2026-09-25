@@ -1,0 +1,19 @@
+GNU Unifont — 本站正文字体
+================================
+
+文件：unifont-18.0.01.otf（源字体，5.1 MB，58911 字形，覆盖整个 BMP 含全部汉字）
+来源：https://unifoundry.com/pub/unifont/unifont-18.0.01/font-builds/unifont-18.0.01.otf
+版本：18.0.01
+
+版权：Copyright © 1998-2026 Roman Czyborra, Paul Hardy, Qianqian Fang,
+      Andrew Miller, Johnnie Weaver, David Corbett, Ælla Chiana Moskopp,
+      Rebecca Bettencourt, Ho-Seok Ee, 等。
+
+授权：双许可（可择一遵守）
+      · SIL Open Font License version 1.1 —— https://scripts.sil.org/OFL
+      · GNU GPL version 2 or later 附字体嵌入例外（GNU Font Embedding Exception）
+        —— https://gnu.org/licenses/gpl.html
+
+本项目仅把该字体作为网页字体嵌入使用，并自动生成子集
+（tools/subset_font.py → site/assets/fonts/unifont.woff2），
+不修改字形设计。子集文件同样是上述字体的衍生，遵循同一授权。

@@ -1,0 +1,14 @@
+id: square_(math)
+translation: 平方
+en: square
+meanings: 
+  - alien: ["square_(math)", "be", "noun"]
+    zh: 平方是名词
+    en: Square is a noun
+  - alien: ["square_(math)", "of", "morpheme", "be", "exponentiation", "and", "two"]
+    zh: 平方由乘方与二构成
+    en: Square is made up of exponentiation and two
+  - alien: ["\n"]
+  - alien: ["previous_word", "number", "exponentiation", "two"]
+    zh: 前一个数词的二次方
+    en: The previous number raised to the power of two

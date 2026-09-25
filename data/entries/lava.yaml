@@ -1,0 +1,14 @@
+id: lava
+translation: 熔岩
+en: lava
+meanings: 
+  - alien: ["lava", "be", "noun"]
+    zh: 熔岩是名词
+    en: Lava is a noun
+  - alien: ["lava", "of", "morpheme", "be", "volcano", "and", "seawater"]
+    zh: 熔岩由火山与海水构成
+    en: Lava is made up of volcano and seawater
+  - alien: ["\n"]
+  - alien: ["upward", "liquid", "stone", "from", "volcano"]
+    zh: 来自火山的向上的液态岩石
+    en: The liquid stone that goes up from a volcano

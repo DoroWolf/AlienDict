@@ -1,0 +1,14 @@
+id: on_the_ground
+translation: 地面上
+en: on the ground
+meanings: 
+  - alien: ["on_the_ground", "be", "adjective"]
+    zh: 地面上是形容词
+    en: On the ground is an adjective
+  - alien: ["on_the_ground", "be", "base", "morpheme"]
+    zh: 地面上是基础词素
+    en: On the ground is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["false", "upward", "and", "false", "downward"]
+    zh: 既不向上也不向下
+    en: Neither upward nor downward

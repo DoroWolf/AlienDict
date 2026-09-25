@@ -1,0 +1,17 @@
+id: fruit
+translation: 果实
+en: fruit
+meanings: 
+  - alien: ["fruit", "be", "noun"]
+    zh: 果实是名词
+    en: Fruit is a noun
+  - alien: ["fruit", "of", "morpheme", "be", "tree", "and", "to"]
+    zh: 果实由树与到构成
+    en: Fruit is made up of be tree and to
+  - alien: ["\n"]
+  - alien: ["tree", "of", "egg"]
+    zh: 树的卵
+    en: The eggs of trees
+  - alien: ["fruit", "be", "food"]
+    zh: 果实是食物
+    en: Fruit is food

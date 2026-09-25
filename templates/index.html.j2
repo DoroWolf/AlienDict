@@ -37,7 +37,7 @@
     {% endfor %}
   </div>
   <p class="morphemes__state" id="morph-state" hidden>
-    <span id="morph-state-text"></span>
+    <span id="morph-state-text" data-spoiler></span>
     <button class="morphemes__clear" id="morph-clear" type="button">清除</button>
   </p>
 </details>
@@ -46,10 +46,10 @@
 <ul class="grid">
   {% for e in ordered %}
   <li class="card" id="card-{{ e.id }}">
-    <a class="card__link" href="{{ root }}w/{{ e.id }}.html" title="{{ e.translation }}{% if e.en %}（{{ e.en }}）{% endif %}">
+    <a class="card__link" href="{{ root }}w/{{ e.id }}.html" title="{{ e.translation }}{% if e.en %}（{{ e.en }}）{% endif %}" data-spoiler-title="{{ e.translation }}{% if e.en %}（{{ e.en }}）{% endif %}">
       <span class="card__glyph">{{ cards[e.id] }}</span>
-      <span class="card__zh">{{ e.translation }}</span>
-      {% if e.en %}<span class="card__en">{{ e.en }}</span>{% endif %}
+      <span class="card__zh" data-spoiler>{{ e.translation }}</span>
+      {% if e.en %}<span class="card__en" data-spoiler>{{ e.en }}</span>{% endif %}
     </a>
   </li>
   {% endfor %}

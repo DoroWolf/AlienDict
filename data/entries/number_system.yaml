@@ -1,0 +1,17 @@
+id: number_system
+translation: 进制
+en: number system
+meanings: 
+  - alien: ["number_system", "be", "noun"]
+    zh: 进制是名词
+    en: Number system is a noun
+  - alien: ["number_system", "of", "morpheme", "be", "count", "and", "one"]
+    zh: 进制由数量与一构成
+    en: Number system is made up of count and one
+  - alien: ["\n"]
+  - alien: ["base", "count"]
+    zh: 基础数量
+    en: The basic count
+  - alien: ["aliens", "express", "count", "need", "number_system", "of", "multiplier"]
+    zh: 外星人们需要进制的因数来表达数量
+    en: Aliens need to express counts using base-based factors

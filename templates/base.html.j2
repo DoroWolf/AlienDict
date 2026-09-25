@@ -6,15 +6,44 @@
 <title>{% block title %}{{ site.title }}{% endblock %}</title>
 <meta name="description" content="{% block desc %}{{ site.description }}{% endblock %}">
 <link rel="stylesheet" href="{{ root }}assets/style.css">
+{% if spoiler %}
+{# 防剧透（默认开启）：早于首帧给 <html> 加类，避免译文先闪一下；
+   JS 不可用时不加类＝内容照常可读；点开关关掉后写 localStorage，下次进站同样是关的 #}
+<script>
+(function () {
+  var off = false;
+  try { off = localStorage.getItem('alien-dict-spoiler') === 'off'; } catch (err) {}
+  if (!off) document.documentElement.className += ' spoiler-on';
+})();
+</script>
+{% endif %}
 {% block head %}{% endblock %}
 </head>
 <body>
 <header class="bar">
   <a class="bar__home" href="{{ root }}index.html">{{ site.title }}</a>
+  {% if spoiler %}<button class="bar__spoiler" id="spoiler-toggle" type="button" aria-pressed="true"
+          title="防剧透：译文默认遮住，点一下切换">防剧透：开</button>{% endif %}
 </header>
 <main class="page">
 {% block content %}{% endblock %}
 </main>
 {% block scripts %}{% endblock %}
+{% if spoiler %}
+{# 剧透警告弹窗：点被遮住的译文、或点开关关掉防剧透时先弹它（文案与焦点由 spoiler.js 接管） #}
+<div class="modal" id="spoiler-modal" role="dialog" aria-modal="true"
+     aria-labelledby="spoiler-modal-title" aria-describedby="spoiler-modal-text" hidden>
+  <div class="modal__backdrop" data-modal-close></div>
+  <div class="modal__box">
+    <h2 class="modal__title" id="spoiler-modal-title">剧透警告</h2>
+    <p class="modal__text" id="spoiler-modal-text">这会显示外星词的译文（中文与英文释义）。确定要看吗？</p>
+    <div class="modal__actions">
+      <button class="modal__btn" type="button" id="spoiler-cancel">再想想</button>
+      <button class="modal__btn modal__btn--primary" type="button" id="spoiler-confirm">显示译文</button>
+    </div>
+  </div>
+</div>
+<script src="{{ root }}assets/spoiler.js"></script>
+{% endif %}
 </body>
 </html>

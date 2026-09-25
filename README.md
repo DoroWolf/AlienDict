@@ -19,7 +19,7 @@ alien_dict/
 │  └─ entries/<id>.yaml   一个词一个文件（<id>＝文件名/URL/原文引用键，与英文释义解耦）
 ├─ templates/
 │  ├─ base.html.j2  entry.html.j2  index.html.j2
-│  └─ static/style.css
+│  └─ static/style.css  spoiler.js
 ├─ tools/
 │  ├─ png2svg.py          点阵 PNG -> SVG（pixel 模式，逐墨点无损）
 │  ├─ subset_font.py      GNU Unifont -> 只含站点用字的 woff2（5.1 MB -> 6 KB）
@@ -99,6 +99,25 @@ python -m http.server 8000 --directory site # 本地预览（也可直接双击 
 并汇总到目录页底部的「待补词条」；括号框住的词与数字不算实义词，不在此列。
 补齐 YAML 后重新构建即自动点亮。
 
+## 防剧透（默认开启）
+
+译文本身就是谜底，所以站点默认**遮住译文**：
+
+- 页头右侧有个**开关**（「防剧透：开 / 防剧透：关」）。开着时，译文/释义都糊掉 ——
+  目录卡片上的中英释义、词头释义、【翻译】整块、词素徽章上的文字、前后导航的词名；
+  **原文（外星字形）从不遮挡**。
+- 想看被糊住的内容要过一道**剧透警告**弹窗（「剧透警告 / 再想想 / 显示译文」）：确认后只揭开这一处，
+  取消（或按 Esc、点背景）就维持原样；点开关关掉防剧透则弹同款警告，确认后**全站**显示译文。
+- 开关状态记在浏览器 `localStorage`（键 `alien-dict-spoiler`），下次进站照旧。
+  遮住时连 `title` 提示、字形上的读屏文案（`aria-label` / `alt`）以及**标签页标题**（词条页标题里带着译文，
+  这时只留站点名）都一并藏好，悬停与读屏都不漏底；**没有 JS 时不遮挡**（不会把内容锁死），双击打开也能读。
+- 不想要这套遮挡：`data/lexicon.yaml` 里写 `spoiler: false` 重新构建即可
+  （开关、弹窗、脚本一律不输出，页面上的 `data-spoiler` 标记留着但没人理会，不影响阅读）。
+
+自己往模板里新增译文时，标两下即可复用：`data-spoiler`（要遮的文本节点）、
+`data-spoiler-title` / `data-spoiler-label`（提示与字形读屏文案里的释义），
+逻辑都在 `templates/static/spoiler.js`（构建时会拷到 `site/assets/spoiler.js`）。
+
 ## 设计要点
 
 - **原文即字形链**：`alien: ["a", "", "b"]` 渲染成 `[a] [b]`，词间靠空格元素 `""` 空一个字符大小，
@@ -120,4 +139,8 @@ python -m http.server 8000 --directory site # 本地预览（也可直接双击 
 - **GNU Unifont 自动子集化**：正文用 Unifont（点阵字体，覆盖全部汉字），构建时扫描产物 HTML 得到精确字符集，5.1 MB 源字体裁到约 6 KB；新增词条后重新构建即可。
 - **缺 SVG 时回退位图**，字形转换可分步做，站点始终可用。
 - **检索用 `assets/search-index.js` 而非 JSON**：`fetch()` 在 `file://` 下会被 CORS 拦，`<script>` 不会，保证双击可开。
+- **防剧透默认开启**：遮住的是译文、不遮原文（字形）；遮挡只看 `<html class="spoiler-on">` 这个类，
+  由 `<head>` 里的内联脚本早于首帧加上（译文不会先闪一下），没有 JS 自然就不加＝内容照常可读。
+  要遮的节点标 `data-spoiler`，含释义的提示/读屏文案标 `data-spoiler-title` / `data-spoiler-label`，
+  点开先过「剧透警告」弹窗 —— 静态标记 + 一段无依赖的 `spoiler.js`，`file://` 双击可用。
 - **构建可增量**：不整目录删除（Windows 下文件被占用会让全量删除中断），改成写完再清理多余产物。

@@ -1,0 +1,14 @@
+id: eat
+translation: 吃
+en: eat
+meanings: 
+  - alien: ["eat", "be", "verb"]
+    zh: 吃是动词
+    en: Eat is a verb
+  - alien: ["eat", "of", "morpheme", "be", "to", "and", "mouth"]
+    zh: 吃由到与口构成
+    en: Eat is made up of to and mouth
+  - alien: ["\n"]
+  - alien: ["receive", "food", "to", "stomach", "need", "mouth"]
+    zh: 需要口接受食物到胃
+    en: Food needs to be received through the mouth into the stomach

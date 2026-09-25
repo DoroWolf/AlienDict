@@ -5,9 +5,9 @@ meanings:
   - alien: ["plant", "be", "noun"]
     zh: 植物是名词
     en: Plant is a noun
-  - alien: ["plant", "of", "morpheme", "be", "seagrass"]
+  - alien: ["plant", "of", "morpheme", "be", "seaweed"]
     zh: 植物由海草构成
-    en: Plant is made up of seagrass
+    en: Plant is made up of seaweed
   - alien: ["\n"]
   - alien: ["cannot", "move", "of", "alive", "object"]
     zh: 不能移动的活物

@@ -5,10 +5,10 @@ meanings:
   - alien: ["microalgae", "be", "noun"]
     zh: 微藻是名词
     en: Microalgae is a noun
-  - alien: ["microalgae", "of", "morpheme", "be", "scale", "and", "seagrass"]
+  - alien: ["microalgae", "of", "morpheme", "be", "scale", "and", "seaweed"]
     zh: 微藻的词素为鳞片与海草
-    en: The morphemes of microalgae are scale and seagrass
+    en: The morphemes of microalgae are scale and seaweed
   - alien: ["\n"]
-  - alien: ["more", "small", "seagrass"]
+  - alien: ["more", "small", "seaweed"]
     zh: 更小的海草
-    en: A smaller seagrass
+    en: A smaller seaweed

@@ -1,0 +1,14 @@
+id: right_number
+translation: 右侧数
+en: right number
+meanings: 
+  - alien: ["right_number", "be", "noun"]
+    zh: 右侧数是名词
+    en: Right number is a noun
+  - alien: ["right_number", "of", "morpheme", "be", "right_(direction)", "and", "number"]
+    zh: 右侧数由右与数构成
+    en: Right number is made up of right and number
+  - alien: ["\n"]
+  - alien: ["algebra", "verb", "of", "next_word"]
+    zh: 代数动词的后词
+    en: The next word following an algebraic verb

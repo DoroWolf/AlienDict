@@ -21,6 +21,6 @@ meanings:
   - alien: ["atom", "be", "small"]
     zh: 原子是小的
     en: The atom is small
-  - alien: ["electronic", "be", "small"]
+  - alien: ["electron", "be", "small"]
     zh: 电子是小的
-    en: The electronic is small
+    en: The electron is small

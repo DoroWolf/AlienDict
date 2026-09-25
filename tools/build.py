@@ -75,6 +75,8 @@ UI_TEXT = (
     "缺字形待补词条原文译文目录含义翻译不作实义词，：（）【】"
     "按词素找词清除个由构成含此在里基础不可再分点只看它再取消展开折叠经由"
     "实义词素非符号如名词动容数横线角形状有不是"
+    # 防剧透（页头开关 + 剧透警告弹窗）由 spoiler.js 动态写入的文案
+    "防剧透开关切换隐藏释义显示这处是外星词的中英文确定要看吗闭后全站都会出来一下"
 )
 
 # 目录页「按词素找词」的两栏：实义词素 / 非实义词素（原文写明「X 不是词」的符号）
@@ -86,9 +88,27 @@ MORPHEME_COLUMNS = (
 
 def load_lexicon():
     data = yaml.safe_load(LEXICON_FILE.read_text(encoding="utf-8")) or {}
-    for key, default in (("title", "外星词典"), ("description", ""), ("lang", "zh-CN")):
+    for key, default in (
+        ("title", "外星词典"),
+        ("description", ""),
+        ("lang", "zh-CN"),
+        ("spoiler", True),      # 防剧透默认开启（写 spoiler: false 可整块关掉）
+    ):
         data.setdefault(key, default)
     return data
+
+
+def spoiler_attrs(title=None, label=None):
+    """防剧透的「揭底文案」：提示（title）或字形（aria-label / alt）里含释义时额外写一份原话。
+
+    遮住时由 static/spoiler.js 换成一句提示（悬停 / 读屏都不漏剧透），揭开后再换回来。
+    """
+    out = ""
+    if title:
+        out += ' data-spoiler-title="{}"'.format(escape(title))
+    if label:
+        out += ' data-spoiler-label="{}"'.format(escape(label))
+    return out
 
 
 def is_number(word_id):
@@ -382,23 +402,26 @@ def glyph_node(word_id, entries, root, link=True, nested=True, plain=False):
     name = str(entry["glyph"]) if entry else word_id
     svg_path = SVG_DIR / (name + ".svg")
     png_path = GLYPH_DIR / (name + ".png")
+    # 字形的 alt / aria-label 就是中英释义：防剧透遮住时先换成提示（读屏也不漏）
+    mark = spoiler_attrs(label=label) if entry else ""
 
     if svg_path.exists():
         text = svg_path.read_text(encoding="utf-8")
         viewbox = VIEWBOX_RE.search(text)
         inner = SVG_INNER_RE.search(text)
         glyph = (
-            '<svg class="gl__glyph" viewBox="{}" role="img" aria-label="{}"'
+            '<svg class="gl__glyph" viewBox="{}" role="img" aria-label="{}"{}'
             ' shape-rendering="crispEdges" focusable="false">{}</svg>'.format(
                 viewbox.group(1) if viewbox else "0 0 16 16",
                 escape(label),
+                mark,
                 inner.group(1).strip() if inner else "",
             )
         )
     elif png_path.exists():
         glyph = (
-            '<img class="gl__glyph glyph--png" src="{}assets/glyph/{}" alt="{}"'
-            ' width="16" height="16">'.format(root, png_path.name, escape(label))
+            '<img class="gl__glyph glyph--png" src="{}assets/glyph/{}" alt="{}"{}'
+            ' width="16" height="16">'.format(root, png_path.name, escape(label), mark)
         )
     else:
         return Markup('<span class="gl__none" title="缺字形：{}">?</span>'.format(escape(word_id)))
@@ -406,26 +429,33 @@ def glyph_node(word_id, entries, root, link=True, nested=True, plain=False):
     if plain:
         if entry:
             return Markup(
-                '<span class="gl__word" title="{}">{}</span>'.format(escape(label), glyph)
+                '<span class="gl__word" title="{}"{}>{}</span>'.format(
+                    escape(label), spoiler_attrs(title=label), glyph
+                )
             )
         return Markup(
             '<span class="gl__pending" title="待补词条：{}">{}</span>'.format(escape(word_id), glyph)
         )
     if entry and link and nested and not is_number(word_id):
         return Markup(
-            '<a class="gl__link" href="{}w/{}.html" title="{}">{}</a>'.format(
-                root, word_id, escape(label), glyph
+            '<a class="gl__link" href="{}w/{}.html" title="{}"{}>{}</a>'.format(
+                root, word_id, escape(label), spoiler_attrs(title=label), glyph
             )
         )
     if is_number(word_id) or not link:
         # 虚词（原文里用括号框住）与数字：字形照常显示，不跳转
+        title = "不作实义词，不跳转：{}".format(label)
         return Markup(
-            '<span class="gl__nonlink" title="不作实义词，不跳转：{}">{}</span>'.format(
-                escape(label), glyph
+            '<span class="gl__nonlink" title="{}"{}>{}</span>'.format(
+                escape(title), spoiler_attrs(title=title) if entry else "", glyph
             )
         )
     if entry:
-        return Markup('<span class="gl__word" title="{}">{}</span>'.format(escape(label), glyph))
+        return Markup(
+            '<span class="gl__word" title="{}"{}>{}</span>'.format(
+                escape(label), spoiler_attrs(title=label), glyph
+            )
+        )
     return Markup('<span class="gl__pending" title="待补词条：{}">{}</span>'.format(escape(word_id), glyph))
 
 
@@ -448,13 +478,18 @@ def render_alien(lines, entries, root, link=True, nested=True, css="gl"):
 
 
 def chip_body(word_id, entries, root, count=None):
-    """词素徽章的内容：小字形 + 中译（+ 灰英文 + 派生词数）。"""
+    """词素徽章的内容：小字形 + 中译（+ 灰英文 + 派生词数）。
+
+    中译与英文是译文：标 data-spoiler，防剧透开着时遮住（字形＝原文不遮）。
+    """
     entry = entries.get(word_id)
     glyph = glyph_node(word_id, entries, root, link=False, nested=False, plain=True)
     zh = escape(str(entry["translation"])) if entry else escape(word_id)
-    body = '<span class="chip__glyph">{}</span><span class="chip__zh">{}</span>'.format(glyph, zh)
+    body = '<span class="chip__glyph">{}</span><span class="chip__zh"{}>{}</span>'.format(
+        glyph, " data-spoiler" if entry else "", zh
+    )
     if entry and entry["en"]:
-        body += '<span class="chip__en">{}</span>'.format(escape(str(entry["en"])))
+        body += '<span class="chip__en" data-spoiler>{}</span>'.format(escape(str(entry["en"])))
     if count is not None:
         body += '<span class="chip__n">{}</span>'.format(int(count))
     return body
@@ -471,10 +506,11 @@ def chip_node(word_id, entries, root, count=None, via=None):
         label += " · 经由 {}".format("、".join(gloss(entries.get(w)) if entries.get(w) else w for w in via))
     if entry:
         return Markup(
-            '<a class="chip" href="{}w/{}.html" title="{}">{}</a>'.format(
+            '<a class="chip" href="{}w/{}.html" title="{}"{}>{}</a>'.format(
                 root,
                 word_id,
                 escape(label),
+                spoiler_attrs(title=label),
                 chip_body(word_id, entries, root, count),
             )
         )
@@ -491,13 +527,14 @@ def morpheme_button(word_id, entries, root, words):
     label = gloss(entry) if entry else "待补词条：{}".format(word_id)
     return Markup(
         '<button class="chip chip--morph{}{}" type="button" data-morpheme="{}" data-words="{}"'
-        ' data-zh="{}" aria-pressed="false" title="{}">{}</button>'.format(
+        ' data-zh="{}" aria-pressed="false" title="{}"{}>{}</button>'.format(
             " chip--pending" if not entry else "",
             " chip--base" if entry and is_base_morpheme(entry) else "",
             escape(word_id),
             escape(" ".join(words)),
             escape(str(entry["translation"]) if entry else word_id),
             escape(label),
+            spoiler_attrs(title=label) if entry else "",
             chip_body(word_id, entries, root, len(words)),
         )
     )
@@ -554,6 +591,7 @@ def morpheme_groups(ordered, entries, morphs, root):
 def build(out_dir, only=None, quiet=False, clean=False, font=True):
     warnings = []
     lexicon = load_lexicon()
+    spoiler = bool(lexicon.get("spoiler", True))   # 防剧透：默认开启，可写 false 整块关掉
     entries = load_entries(warnings)
     ordered = sort_entries(entries)
     pending = collect_pending(entries)
@@ -579,10 +617,11 @@ def build(out_dir, only=None, quiet=False, clean=False, font=True):
     assets = out_dir / "assets"
     (assets / "glyph").mkdir(parents=True, exist_ok=True)
     shutil.copyfile(STATIC_DIR / "style.css", assets / "style.css")
+    shutil.copyfile(STATIC_DIR / "spoiler.js", assets / "spoiler.js")
     for png in sorted(GLYPH_DIR.glob("*.png")):
         shutil.copyfile(png, assets / "glyph" / png.name)
 
-    expected = {"index.html", "assets/style.css", "assets/search-index.js"}
+    expected = {"index.html", "assets/style.css", "assets/search-index.js", "assets/spoiler.js"}
     expected |= {"assets/glyph/{}".format(p.name) for p in GLYPH_DIR.glob("*.png")}
 
     written = []
@@ -601,6 +640,7 @@ def build(out_dir, only=None, quiet=False, clean=False, font=True):
         ]
         html = env.get_template("entry.html.j2").render(
             site=lexicon,
+            spoiler=spoiler,
             entry=entry,
             root="../",
             alien_head=render_alien(entry["alien"], entries, "../", nested=False, css="gl gl--lg"),
@@ -621,6 +661,7 @@ def build(out_dir, only=None, quiet=False, clean=False, font=True):
     morpheme_columns = morpheme_groups(ordered, entries, morphs, "")
     index_html = env.get_template("index.html.j2").render(
         site=lexicon,
+        spoiler=spoiler,
         ordered=ordered,
         root="",
         cards=cards,

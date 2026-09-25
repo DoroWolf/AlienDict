@@ -1,0 +1,14 @@
+id: period
+translation: 周期
+en: period
+meanings: 
+  - alien: ["period", "be", "noun"]
+    zh: 周期是名词
+    en: Period is a noun
+  - alien: ["period", "of", "morpheme", "be", "loop", "and", "moment"]
+    zh: 周期由循环与时刻构成
+    en: Period is made up of loop and moment
+  - alien: ["\n"]
+  - alien: ["all", "loop", "of", "time"]
+    zh: 完全循环的时间
+    en: Time of complete cycle

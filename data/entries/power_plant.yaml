@@ -1,0 +1,11 @@
+id: power_plant
+translation: 发电厂
+en: power plant
+meanings: 
+  - alien: ["power_plant", "be", "noun"]
+    zh: 发电厂是名词
+  - alien: ["power_plant", "of", "morpheme", "be", "space", "and", "electric_current"]
+    zh: 发电厂由空间与电流构成
+  - alien: ["\n"]
+  - alien: ["create", "elecrticity", "energy", "of", "factory"]
+    zh: 创造电能的工厂

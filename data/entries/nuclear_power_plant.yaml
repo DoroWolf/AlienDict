@@ -1,0 +1,11 @@
+id: nuclear_power_plant
+translation: 核电厂
+en: nuclear power plant
+meanings: 
+  - alien: ["nuclear_power_plant", "be", "noun"]
+    zh: 发电厂是名词
+  - alien: ["nuclear_power_plant", "of", "morpheme", "be", "space", "and", "nulcear_energy"]
+    zh: 发电厂由空间与核能构成
+  - alien: ["\n"]
+  - alien: ["power_plant", "need", "tranfumation"]
+    zh: 需要嬗变的发电厂

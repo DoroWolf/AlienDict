@@ -1,0 +1,11 @@
+id: school
+translation: 学校
+en: school
+meanings: 
+  - alien: ["school", "be", "noun"]
+    zh: 学校是名词
+  - alien: ["school", "of", "morpheme", "be", "space", "and", "subject"]
+    zh: 学校由空间与主题构成
+  - alien: ["\n"]
+  - alien: ["space", "for", "subject", "of", "study"]
+    zh: 学习主题的空间

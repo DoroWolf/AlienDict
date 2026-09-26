@@ -1,11 +1,11 @@
 id: product
-translation: 生产
+translation: 产品
 en: product
 meanings: 
-  - alien: ["product", "be", "verb"]
-    zh: 生产是动词
-  - alien: ["product", "of", "morpheme", "be", "tool", "and", "cause"]
-    zh: 生产由工具与使得构成
+  - alien: ["product", "be", "noun"]
+    zh: 产品是名词
+  - alien: ["product", "of", "morpheme", "be", "from", "and", "tool"]
+    zh: 产品由从与工具构成
   - alien: ["\n"]
-  - alien: ["action", "for", "create"]
-    zh: 用于创造的动作
+  - alien: ["machine", "create", "of", "object"]
+    zh: 机器创造的物品

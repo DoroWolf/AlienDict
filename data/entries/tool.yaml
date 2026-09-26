@@ -1,0 +1,11 @@
+id: tool
+translation: 工具
+en: tool
+meanings: 
+  - alien: ["tool", "be", "noun"]
+    zh: 工具是名词
+  - alien: ["tool", "be", "base", "morpheme"]
+    zh: 工具是基础词素
+  - alien: ["\n"]
+  - alien: ["works", "for", "help", "produce"]
+    zh: 用于帮助生产的工具

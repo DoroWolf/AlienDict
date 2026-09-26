@@ -4,10 +4,14 @@ en: fish
 meanings: 
   - alien: ["fish", "be", "noun"]
     zh: 鱼是名词
+    en: Fish is a noun
   - alien: ["fish", "be", "base", "morpheme"]
     zh: 鱼是基础词素
+    en: Fish is a basic morpheme
   - alien: ["\n"]
   - alien: ["seawater", "of", "animal"]
     zh: 海水的动物
+    en: Animals of the seawater
   - alien: ["fish", "have", "fin", "for", "move"]
     zh: 鱼有用于移动的鳍
+    en: Fish have fins for moving

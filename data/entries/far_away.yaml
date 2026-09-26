@@ -4,8 +4,11 @@ en: far away
 meanings: 
   - alien: ["far_away", "be", "adjective"]
     zh: 远离是形容词
+    en: Far away is an adjective
   - alien: ["far_away", "of", "morpheme", "be", "false", "and", "accumulate"]
     zh: 远离由假与积累构成
+    en: Far away is made up of false and accumulate
   - alien: ["\n"]
   - alien: ["big", "displacement", "from", "space"]
     zh: 从空间的大位移
+    en: A big displacement from space

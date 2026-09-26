@@ -1,0 +1,14 @@
+id: corpse
+translation: 尸体
+en: corpse
+meanings: 
+  - alien: ["corpse", "be", "noun"]
+    zh: 尸体是名词
+    en: Corpse is a noun
+  - alien: ["corpse", "of", "morpheme", "be", "after", "and", "alien"]
+    zh: 尸体由之后与外星人构成
+    en: Corpse is made up of after and alien
+  - alien: ["\n"]
+  - alien: ["dead", "alien"]
+    zh: 死亡的外星人
+    en: Dead aliens

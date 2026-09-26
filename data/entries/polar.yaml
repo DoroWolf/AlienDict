@@ -4,8 +4,11 @@ en: polar
 meanings: 
   - alien: ["polar", "be", "noun"]
     zh: 极是名词
+    en: Polar is a noun
   - alien: ["polar", "of", "morpheme", "be", "space", "and", "most"]
     zh: 极由空间与最大构成
+    en: Polar is made up of space and most
   - alien: ["\n"]
   - alien: ["direction", "of", "most", "or", "least", "space"]
     zh: 方位的最大或最小空间
+    en: The direction of the most or least space

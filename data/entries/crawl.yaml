@@ -4,8 +4,11 @@ en: crawl
 meanings: 
   - alien: ["crawl", "be", "verb"]
     zh: 爬是动词
+    en: Crawl is a verb
   - alien: ["crawl", "of", "morpheme", "be", "hand", "and", "soil"]
     zh: 爬由手与土构成
+    en: Crawl is made up of hand and soil
   - alien: ["\n"]
   - alien: ["move", "depend", "mud"]
     zh: 依靠泥移动
+    en: Move depending on mud

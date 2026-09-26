@@ -4,8 +4,11 @@ en: probability
 meanings: 
   - alien: ["probability", "be", "noun"]
     zh: 概率是名词
+    en: Probability is a noun
   - alien: ["probability", "of", "morpheme", "be", "pearl", "and", "count"]
     zh: 概率由珍珠与数量构成
+    en: Probability is made up of pearl and count
   - alien: ["\n"]
   - alien: ["if", "probability", "act", "repeat", "then", "result", "of", "probability", "be", "it", "result", "of", "act", "count", "divided_by", "total", "act", "count"]
     zh: 如果重复概率事件，则结果的概率是其结果的事件数量除以总事件数量
+    en: If a probability event repeats, the probability of the result is its result's event count divided by the total event count

@@ -4,8 +4,11 @@ en: fantasy
 meanings: 
   - alien: ["fantasy", "be", "adjective"]
     zh: 幻想是形容词
+    en: Fantasy is an adjective
   - alien: ["fantasy", "of", "morpheme", "be", "not_exist", "and", "space"]
     zh: 幻想由不存在与空间构成
+    en: Fantasy is made up of not exist and space
   - alien: ["\n"]
   - alien: ["not_exist", "be_included", "reality"]
     zh: 在现实中不存在
+    en: Not existing in reality

@@ -4,10 +4,14 @@ en: not exist
 meanings: 
   - alien: ["exist", "be", "verb"]
     zh: 不存在是动词
+    en: Not exist is a verb
   - alien: ["exist", "of", "morpheme", "be", "false", "and", "object"]
     zh: 不存在由假与物体构成
+    en: Not exist is made up of false and object
   - alien: ["\n"]
   - alien: ["be_not", "be_included", "space"]
     zh: 不包含于空间
+    en: Is not included in space
   - alien: ["be_not", "be_included", "actual", "reality"]
     zh: 不包含于实际现实
+    en: Is not included in actual reality

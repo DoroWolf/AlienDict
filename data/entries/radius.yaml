@@ -4,8 +4,11 @@ en: radius
 meanings: 
   - alien: ["radius", "be", "noun"]
     zh: 半径是名词
+    en: Radius is a noun
   - alien: ["radius", "of", "morpheme", "be", "(horizontal_bar)", "and", "count"]
-    zh: 半径由横线与圆构成
+    zh: 半径由横线与数量构成
+    en: Radius is made up of the horizontal bar and count
   - alien: ["\n"]
   - alien: ["straight_line", "from", "dot", "be_included", "circle", "to", "central"]
     zh: 圆上一点到中心的直线
+    en: A straight line from a point on the circle to the center

@@ -4,8 +4,11 @@ en: male
 meanings: 
   - alien: ["male", "be", "adjective"]
     zh: 雄性是形容词
+    en: Male is an adjective
   - alien: ["male", "be", "base", "morpheme"]
     zh: 雄性是基础词素
+    en: Male is a basic morpheme
   - alien: ["\n"]
   - alien: ["alien", "of", "sex", "predicate"]
     zh: 外星人的性别谓词
+    en: The predicate of sex for aliens

@@ -4,8 +4,11 @@ en: actual
 meanings: 
   - alien: ["actual", "be", "adjective"]
     zh: 实际是形容词
+    en: Actual is an adjective
   - alien: ["actual", "of", "morpheme", "be", "exist", "and", "space"]
     zh: 实际由存在与空间构成
+    en: Actual is made up of exist and space
   - alien: ["\n"]
   - alien: ["exist", "be_included", "reality"]
     zh: 在现实中存在
+    en: Existing in reality

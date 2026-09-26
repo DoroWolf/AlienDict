@@ -4,10 +4,14 @@ en: terrestrial
 meanings: 
   - alien: ["terrestrial", "be", "noun"]
     zh: 陆生动物是名词
+    en: Terrestrial is a noun
   - alien: ["terrestrial", "be", "base", "morpheme"]
     zh: 陆生动物是基础词素
+    en: Terrestrial is a basic morpheme
   - alien: ["\n"]
   - alien: ["land", "of", "animal"]
     zh: 陆地的动物
+    en: Animals of the land
   - alien: ["terrestrial", "have", "leg", "for", "move"]
     zh: 陆生动物有用于移动的腿
+    en: Terrestrial animals have legs for moving

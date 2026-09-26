@@ -4,10 +4,14 @@ en: circle
 meanings: 
   - alien: ["circle", "be", "noun"]
     zh: 圆是名词
+    en: Circle is a noun
   - alien: ["circle", "of", "morpheme", "be", "mark", "and", "loop"]
     zh: 圆由标记与循环构成
+    en: Circle is made up of mark and loop
   - alien: ["\n"]
   - alien: ["loop", "curved_line", "of", "closed_shape"]
     zh: 循环曲线的封闭图形
+    en: The closed shape of a looping curved line
   - alien: ["circle", "of", "total", "dot", "to", "central", "of", "length", "be", "same"]
     zh: 圆的所有点到中心的距离相同
+    en: All the points of a circle are the same distance from the center

@@ -4,8 +4,11 @@ en: deep sea
 meanings: 
   - alien: ["deep_sea", "be", "noun"]
     zh: 深海是名词
+    en: Deep sea is a noun
   - alien: ["deep_sea", "of", "morpheme", "be", "down", "and", "sea"]
     zh: 深海由下与海洋构成
+    en: Deep sea is made up of down and sea
   - alien: ["\n"]
   - alien: ["far_away", "land", "of", "more", "depth", "of", "sea"]
     zh: 远离陆地的更深的海洋
+    en: The deeper sea far away from the land

@@ -4,8 +4,11 @@ en: body
 meanings: 
   - alien: ["body", "be", "noun"]
     zh: 身体是名词
+    en: Body is a noun
   - alien: ["body", "of", "morpheme", "be", "alien", "and", "exist"]
     zh: 身体由外星人与存在构成
+    en: Body is made up of alien and exist
   - alien: ["\n"]
   - alien: ["alien", "of", "exist", "be_called"]
     zh: 被称为外星人的存在
+    en: The existence called an alien

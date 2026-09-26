@@ -4,8 +4,11 @@ en: option
 meanings: 
   - alien: ["option", "be", "noun"]
     zh: 选项是名词
+    en: Option is a noun
   - alien: ["option", "of", "morpheme", "be", "choose", "and", "object"]
     zh: 选项由选择与物体构成
+    en: Option is made up of choose and object
   - alien: ["\n"]
   - alien: ["object", "of", "choose"]
     zh: 用于选择的物体
+    en: The object used for choosing

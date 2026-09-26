@@ -4,10 +4,14 @@ en: lightning
 meanings: 
   - alien: ["lightning", "be", "noun"]
     zh: 闪电是名词
+    en: Lightning is a noun
   - alien: ["lightning", "of", "morpheme", "be", "sky", "and", "fork"]
     zh: 闪电由天空与分叉构成
+    en: Lightning is made up of sky and fork
   - alien: ["\n"]
   - alien: ["sky", "of", "fork", "light", "include", "more", "small", "lifespan"]
     zh: 天空的分叉光，包含极短的生命
+    en: Forked light in the sky that includes an extremely short lifespan
   - alien: ["lightning", "be", "more", "small", "lifespan", "of", "more", "big", "electric_current"]
     zh: 闪电是极短生命的极大电流
+    en: Lightning is an extremely big electric current of an extremely short lifespan

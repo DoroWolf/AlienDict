@@ -4,8 +4,11 @@ en: leg
 meanings: 
   - alien: ["leg", "be", "noun"]
     zh: 腿是名词
+    en: Leg is a noun
   - alien: ["leg", "of", "morpheme", "be", "terrestrial", "and", "hand"]
     zh: 腿由陆生动物与手构成
+    en: Leg is made up of terrestrial and hand
   - alien: ["\n"]
   - alien: ["terrestrial", "of", "element_(math)", "for", "crawl", "or", "walk"]
     zh: 陆生动物的用于爬或走的元素
+    en: The element of terrestrial animals for crawling or walking

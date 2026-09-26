@@ -4,8 +4,11 @@ en: it
 meanings: 
   - alien: ["it", "be", "noun"]
     zh: 其是名词
+    en: It is a noun
   - alien: ["it", "be", "base", "morpheme"]
     zh: 其是基础词素
+    en: It is a basic morpheme
   - alien: ["\n"]
   - alien: ["near", "of", "previous_word"]
     zh: 靠近的前词
+    en: The nearby previous word

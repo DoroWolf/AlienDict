@@ -4,8 +4,11 @@ en: touch
 meanings: 
   - alien: ["touch", "be", "verb"]
     zh: 触摸是动词
+    en: Touch is a verb
   - alien: ["touch", "of", "morpheme", "be", "hand", "and", "surface"]
     zh: 触摸由手与表面构成
+    en: Touch is made up of hand and surface
   - alien: ["\n"]
   - alien: ["hand", "accumulate", "object", "of", "surface"]
     zh: 手积累物体的表面
+    en: The hand accumulates the surface of an object

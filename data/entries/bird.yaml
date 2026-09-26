@@ -4,10 +4,14 @@ en: bird
 meanings: 
   - alien: ["bird", "be", "noun"]
     zh: 鸟是名词
+    en: Bird is a noun
   - alien: ["bird", "be", "base", "morpheme"]
     zh: 鸟是基础词素
+    en: Bird is a basic morpheme
   - alien: ["\n"]
   - alien: ["sky", "of", "animal"]
     zh: 天空的动物
+    en: Animals of the sky
   - alien: ["bird", "have", "wing", "for", "move"]
     zh: 鸟有用于移动的翅膀
+    en: Birds have wings for moving

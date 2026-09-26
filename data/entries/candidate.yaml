@@ -4,10 +4,14 @@ en: candidate
 meanings: 
   - alien: ["candidate", "be", "noun"]
     zh: 候选是名词
+    en: Candidate is a noun
   - alien: ["candidate", "of", "morpheme", "be", "unique", "and", "set_(math)"]
     zh: 候选由独特与集合构成
+    en: Candidate is made up of unique and set
   - alien: ["\n"]
   - alien: ["set_(math)", "of", "unique", "element_(math)"]
     zh: 集合的独特元素
+    en: The unique element of a set
   - alien: ["distinct", "element_(math)", "be", "similar", "from", "candidate"]
     zh: 候选中的不同元素是相似的
+    en: The distinct elements of candidates are similar

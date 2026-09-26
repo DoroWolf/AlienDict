@@ -4,8 +4,11 @@ en: circuit
 meanings: 
   - alien: ["circuit", "be", "noun"]
     zh: 电路是名词
+    en: Circuit is a noun
   - alien: ["circuit", "of", "morpheme", "be", "electricity", "and", "loop"]
     zh: 电路由电与循环构成
+    en: Circuit is made up of electricity and loop
   - alien: ["\n"]
   - alien: ["loop", "of", "metal", "wire", "include", "power_source", "and", "electric_load"]
     zh: 循环的金属线材，包含电源与负载
+    en: A loop of metal wire that includes a power source and an electric load

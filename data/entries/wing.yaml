@@ -4,8 +4,11 @@ en: wing
 meanings: 
   - alien: ["wing", "be", "noun"]
     zh: 翅膀是名词
+    en: Wing is a noun
   - alien: ["wing", "of", "morpheme", "be", "bird", "and", "small"]
-    zh: 翅膀由鸟与鳍构成
+    zh: 翅膀由鸟与小构成
+    en: Wing is made up of bird and small
   - alien: ["\n"]
   - alien: ["bird", "of", "element_(math)", "for", "fly"]
     zh: 鸟用于飞的元素
+    en: The element of a bird for flying

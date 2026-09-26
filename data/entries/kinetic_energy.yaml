@@ -4,8 +4,11 @@ en: kinetic energy
 meanings: 
   - alien: ["kinetic_energy", "be", "noun"]
     zh: 动能是名词
+    en: Kinetic energy is a noun
   - alien: ["kinetic_energy", "of", "morpheme", "be", "energy", "and", "to"]
     zh: 动能由能量与到构成
+    en: Kinetic energy is made up of energy and to
   - alien: ["\n"]
   - alien: ["move", "object", "of", "energy"]
     zh: 移动物体的能量
+    en: The energy of a moving object

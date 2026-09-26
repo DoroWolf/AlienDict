@@ -4,8 +4,11 @@ en: female
 meanings: 
   - alien: ["female", "be", "adjective"]
     zh: 雌性是形容词
+    en: Female is an adjective
   - alien: ["female", "be", "base", "morpheme"]
     zh: 雌性是基础词素
+    en: Female is a basic morpheme
   - alien: ["\n"]
   - alien: ["alien", "of", "sex", "predicate"]
     zh: 外星人的性别谓词
+    en: The predicate of sex for aliens

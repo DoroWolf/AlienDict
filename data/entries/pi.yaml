@@ -4,10 +4,14 @@ en: pi
 meanings: 
   - alien: ["pi", "be", "noun"]
     zh: 圆周率是名词
+    en: Pi is a noun
   - alien: ["pi", "of", "morpheme", "be", "circle", "and", "count"]
     zh: 圆周率由圆与数量构成
+    en: Pi is made up of circle and count
   - alien: ["\n"]
   - alien: ["circle", "of", "edge", "length", "of", "half", "divided_by", "radius"]
     zh: 圆的周长的一半除以半径
+    en: Half of the circumference of a circle divided by the radius
   - alien: ["pi", "be", "irrational_number", "and", "constant"]
     zh: 圆周率是无理数与常数
+    en: Pi is an irrational number and a constant

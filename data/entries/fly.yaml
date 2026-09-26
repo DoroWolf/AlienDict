@@ -4,8 +4,11 @@ en: fly
 meanings: 
   - alien: ["fly", "be", "verb"]
     zh: 飞是动词
+    en: Fly is a verb
   - alien: ["fly", "of", "morpheme", "be", "bird", "and", "space"]
     zh: 飞由鸟与空间构成
+    en: Fly is made up of bird and space
   - alien: ["\n"]
   - alien: ["move", "need", "wing"]
     zh: 需要翅膀移动
+    en: Moving needs wings

@@ -1,0 +1,17 @@
+id: aquatoxin
+translation: 水毒
+en: aquatoxin
+notes:
+  - 外星人的身体难以适应淡水环境。它们曾误认为淡水中含有某种毒素，并将其称作“水毒”。
+meanings: 
+  - alien: ["aquatoxin", "be", "noun"]
+    zh: 水毒是名词
+  - alien: ["aquatoxin", "of", "morpheme", "be", "seawater", "and", "toxin"]
+    zh: 水毒由海水与毒素构成
+  - alien: ["\n"]
+  - alien: ["alien", "lose", "ability", "be_included", "freshwater"]
+    zh: 在淡水中令外星人失去能力
+  - alien: ["past", "researcher", "claim", "that", "be", "since", "aquatoxin"]
+    zh: 过去研究者主张其是由于水毒导致
+  - alien: ["aquatoxin", "not_exist"]
+    zh: 水毒不存在

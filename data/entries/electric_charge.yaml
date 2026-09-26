@@ -1,6 +1,8 @@
 id: electric_charge
 translation: 电荷
 en: electric charge
+notes:
+  - 外星人的电荷正负规定与人类相反。
 meanings: 
   - alien: ["electric_charge", "be", "noun"]
     zh: 电荷是名词

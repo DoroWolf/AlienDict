@@ -1,0 +1,14 @@
+id: creator
+translation: 创造者
+en: creator
+meanings: 
+  - alien: ["creator", "be", "noun"]
+    zh: 创造者是名词
+    en: Creator is a noun
+  - alien: ["creator", "of", "morpheme", "be", "create", "and", "alien"]
+    zh: 创造者由创造与外星人构成
+    en: Creator is made up of create and alien
+  - alien: ["\n"]
+  - alien: ["create", "of", "alien"]
+    zh: 创造的外星人
+    en: Creating aliens

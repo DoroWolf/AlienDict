@@ -1,6 +1,8 @@
 id: zero
 translation: 零
 en: zero
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["zero", "be", "numeral"]
     zh: 零是数词
@@ -12,6 +14,6 @@ meanings:
   - alien: ["base", "number"]
     zh: 基础数
     en: The basic number
-  - alien: ["zero", "not_be", "positive", "and", "negative"]
+  - alien: ["zero", "be_not", "positive", "and", "negative"]
     zh: 零不是正数与负数
     en: Zero is neither positive nor negative

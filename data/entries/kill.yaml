@@ -1,0 +1,11 @@
+id: kill
+translation: 杀
+en: kill
+meanings: 
+  - alien: ["kill", "be", "verb"]
+    zh: 杀是动词
+  - alien: ["kill", "of", "morpheme", "be", "alien", "and", "not"]
+    zh: 杀由外星人与不得构成
+  - alien: ["\n"]
+  - alien: ["destroy", "alien", "become", "dead", "alien"]
+    zh: 破坏外星人成为死外星人

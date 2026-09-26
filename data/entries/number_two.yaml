@@ -1,6 +1,8 @@
 id: number_two
 translation: 数二
 en: number two
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["number_two", "be", "numeral"]
     zh: 数二是数词

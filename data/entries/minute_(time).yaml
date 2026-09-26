@@ -1,0 +1,16 @@
+id: minute_(time)
+translation: 分钟
+en: minute
+notes:
+  - 1 外星秒约等于 0.64 地球秒。外星人的星球没有类似月球的卫星。
+meanings: 
+  - alien: ["minute_(time)", "be", "noun"]
+    zh: 分钟是名词
+    en: Minute is a noun
+  - alien: ["minute_(time)", "of", "morpheme", "be", "(horizontal_bar)", "and", "second_(time)"]
+    zh: 分钟由横线与外星秒构成
+    en: Minute is made up of horizontal bar and second
+  - alien: ["\n"]
+  - alien: ["percent", "hour"]
+    zh: 百分之一小时
+    en: One percent of hour

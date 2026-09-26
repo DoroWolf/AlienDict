@@ -1,6 +1,8 @@
 id: decimal
 translation: 小数
 en: decimal
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings: 
   - alien: ["decimal", "be", "noun"]
     zh: 小数是名词

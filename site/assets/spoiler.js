@@ -16,10 +16,10 @@
   'use strict';
 
   var KEY = 'alien-dict-spoiler';                 // on / off
-  var HINT = '防剧透：已隐藏释义，点一下显示';
-  var HINT_LABEL = '防剧透：字形（释义已隐藏）';
-  var TEXT_ONE = '这一处是外星词的译文（中文与英文释义）。确定要看吗？';
-  var TEXT_ALL = '关闭防剧透后，全站的译文都会显示出来。确定要看吗？';
+  var HINT = '防剧透：已隐藏释义';
+  var HINT_LABEL = '防剧透：已隐藏释义';
+  var TEXT_ONE = '此处是可能导致游戏剧透的内容。确定吗？';
+  var TEXT_ALL = '关闭防剧透后，全站的译文都会显示。强烈建议首先通关游戏。确定吗？';
 
   var root = document.documentElement;
   var toggle = document.getElementById('spoiler-toggle');
@@ -29,10 +29,6 @@
   var cancelBtn = document.getElementById('spoiler-cancel');
   var pendingAction = null;
   var lastFocus = null;
-  /* 词条页的 <title> 里带着译文（如「一 one · 外星词典」）：遮住时只留末段的站点名 */
-  var fullTitle = document.title;
-  var titleParts = fullTitle.split(' · ');
-  var siteTitle = titleParts[titleParts.length - 1];
 
   function isOn() {
     return root.classList.contains('spoiler-on');
@@ -76,10 +72,6 @@
     toggle.setAttribute('aria-pressed', on ? 'true' : 'false');
   }
 
-  function syncDocTitle() {
-    document.title = isOn() ? siteTitle : fullTitle;
-  }
-
   function remember(on) {
     try {
       localStorage.setItem(KEY, on ? 'on' : 'off');
@@ -100,7 +92,6 @@
     syncToggle();
     syncTitles();
     syncLabels();
-    syncDocTitle();
   }
 
   /* ── 剧透警告弹窗 ───────────────────────────────── */
@@ -172,5 +163,4 @@
   syncToggle();
   syncTitles();
   syncLabels();
-  syncDocTitle();
 })();

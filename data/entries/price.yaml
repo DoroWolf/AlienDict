@@ -1,0 +1,11 @@
+id: price
+translation: 价格
+en: price
+meanings: 
+  - alien: ["price", "be", "noun"]
+    zh: 价格是名词
+  - alien: ["price", "of", "morpheme", "be", "currency", "and", "same"]
+    zh: 价格由空间与交易构成
+  - alien: ["\n"]
+  - alien: ["possession", "of", "value"]
+    zh: 所有物的价值

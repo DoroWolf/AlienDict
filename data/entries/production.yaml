@@ -1,0 +1,11 @@
+id: production
+translation: 产品
+en: production
+meanings: 
+  - alien: ["production", "be", "noun"]
+    zh: 产品是名词
+  - alien: ["production", "of", "morpheme", "be", "from", "and", "tool"]
+    zh: 产品由从与工具构成
+  - alien: ["\n"]
+  - alien: ["machine", "create", "of", "object"]
+    zh: 机器创造的物品

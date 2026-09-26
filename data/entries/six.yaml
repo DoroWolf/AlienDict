@@ -1,6 +1,8 @@
 id: six
 translation: 六
 en: six
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["six", "be", "numeral"]
     zh: 六是数词

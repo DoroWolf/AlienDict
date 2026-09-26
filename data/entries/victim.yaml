@@ -1,0 +1,11 @@
+id: victim
+translation: 受害者
+en: victim
+meanings: 
+  - alien: ["victim", "be", "noun"]
+    zh: 受害者是名词
+  - alien: ["victim", "of", "morpheme", "be", "destroy", "and", "to"]
+    zh: 受害者由破坏与到构成
+  - alien: ["\n"]
+  - alien: ["be_done", "destroy", "of", "alien", "or", "object"]
+    zh: 被破坏的外星人或物体

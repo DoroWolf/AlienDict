@@ -1,6 +1,8 @@
 id: past
 translation: 过去
 en: past
+notes:
+  - 1 外星秒约等于 0.64 地球秒。外星人的星球没有类似月球的卫星。
 meanings: 
   - alien: ["past", "be", "adjective"]
     zh: 过去是形容词

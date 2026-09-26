@@ -1,6 +1,8 @@
 id: twenty_one
 translation: 二十一
 en: twenty-one
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["twenty_one", "be", "numeral"]
     zh: 二十一是数词

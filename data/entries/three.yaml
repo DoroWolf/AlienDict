@@ -1,6 +1,8 @@
 id: three
 translation: 三
 en: three
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["three", "be", "numeral"]
     zh: 三是数词

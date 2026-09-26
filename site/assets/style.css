@@ -325,6 +325,33 @@ details[open] > summary .closed { display: none; }
 .morph__base { color: var(--muted); margin: 0; }
 .morph__find { color: var(--muted); margin: 0.6rem 0 0; }
 
+/* ── 词条页的「提示」区块 ──────────────────────────
+   上下文说明（世界设定、换算关系等），写在词条的 notes: 里；内容是中文说明，
+   与其它译文一样标 data-spoiler（防剧透开着时遮住，点一下揭开）。 */
+.notes {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+}
+.notes__h { font-size: 16px; font-weight: 400; color: var(--muted); margin: 0 0 0.75rem; }
+.notes__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.note {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-left: 2px solid var(--muted);
+  border-radius: 4px;
+  padding: 0.4rem 0.75rem;
+}
+.note__title { display: block; color: var(--accent); }
+.note__text { display: block; }
+
 .pending { margin-top: 2rem; }
 .pending__h { font-size: 16px; font-weight: 400; color: var(--muted); margin: 0 0 0.5rem; }
 .pending__lead { color: var(--muted); margin: 0 0 0.5rem; }

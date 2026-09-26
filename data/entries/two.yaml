@@ -1,6 +1,8 @@
 id: two
 translation: 二
 en: two
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["two", "be", "numeral"]
     zh: 二是数词

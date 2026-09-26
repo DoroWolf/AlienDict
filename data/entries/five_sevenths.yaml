@@ -1,6 +1,8 @@
 id: five_sevenths
 translation: 七分之五
 en: five sevenths
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["five_sevenths", "be", "numeral"]
     zh: 七分之五是数词

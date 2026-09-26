@@ -1,0 +1,16 @@
+id: hour
+translation: 小时
+en: hour
+notes:
+  - 1 外星秒约等于 0.64 地球秒。外星人的星球没有类似月球的卫星。
+meanings: 
+  - alien: ["hour", "be", "noun"]
+    zh: 小时是名词
+    en: Hour is a noun
+  - alien: ["hour", "of", "morpheme", "be", "(double_horizontal_bar)", "and", "second_(time)"]
+    zh: 小时由双横线与秒构成
+    en: Hour is made up of double horizontal bar and second
+  - alien: ["\n"]
+  - alien: ["percent", "day"]
+    zh: 百分之一天
+    en: One percent of day

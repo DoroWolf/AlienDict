@@ -1,6 +1,8 @@
 id: four_seventh
 translation: 七分之四
 en: four sevenths
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["four_seventh", "be", "numeral"]
     zh: 七分之四是数词

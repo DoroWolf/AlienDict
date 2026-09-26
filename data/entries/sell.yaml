@@ -1,0 +1,11 @@
+id: sell
+translation: 卖
+en: sell
+meanings: 
+  - alien: ["sell", "be", "verb"]
+    zh: 卖是动词
+  - alien: ["sell", "of", "morpheme", "be", "currency", "and", "from"]
+    zh: 卖由货币与从构成
+  - alien: ["\n"]
+  - alien: ["receive", "currency"]
+    zh: 接受货币

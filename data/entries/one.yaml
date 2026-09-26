@@ -1,6 +1,8 @@
 id: one
 translation: 一
 en: one
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["one", "be", "numeral"]
     zh: 一是数词

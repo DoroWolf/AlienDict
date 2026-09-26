@@ -1,6 +1,8 @@
 id: future
 translation: 未来
 en: future
+notes:
+  - 1 外星秒约等于 0.64 地球秒。外星人的星球没有类似月球的卫星。
 meanings: 
   - alien: ["future", "be", "adjective"]
     zh: 未来是形容词

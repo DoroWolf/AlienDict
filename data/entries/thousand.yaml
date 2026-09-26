@@ -1,6 +1,8 @@
 id: thousand
 translation: 千
 en: thousand
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["thousand", "be", "numeral"]
     zh: 千是数词

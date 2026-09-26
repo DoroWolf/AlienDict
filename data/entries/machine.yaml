@@ -1,0 +1,11 @@
+id: machine
+translation: 机器
+en: machine
+meanings: 
+  - alien: ["machine", "be", "noun"]
+    zh: 机器是名词
+  - alien: ["machine", "of", "morpheme", "be", "tool", "and", "object"]
+    zh: 功能由工具与物体构成
+  - alien: ["\n"]
+  - alien: ["can", "automatic", "product", "of", "works"]
+    zh: 能自动生产的作品

@@ -1,0 +1,19 @@
+id: second_(time)
+translation: 秒
+en: second
+notes:
+  - 1 外星秒约等于 0.64 地球秒。外星人的星球没有类似月球的卫星。
+meanings: 
+  - alien: ["second_(time)", "be", "noun"]
+    zh: 秒是名词
+    en: Second is a noun
+  - alien: ["second_(time)", "of", "morpheme", "be", "small", "and", "moment"]
+    zh: 秒由小与时刻构成
+    en: Second is made up of small and moment
+  - alien: ["\n"]
+  - alien: ["percent", "minute_(time)"]
+    zh: 百分之一分钟
+    en: One percent of minute
+  - alien: ["mechanics", "of", "moment", "number_system"]
+    zh: 力学的时刻进制
+    en: Time base of mechanics

@@ -1,6 +1,8 @@
 id: percent
 translation: 百分之一
 en: percent
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["percent", "be", "numeral"]
     zh: 百分之一是数词

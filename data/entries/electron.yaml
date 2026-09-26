@@ -1,6 +1,8 @@
 id: electron
 translation: 电子
 en: electron
+notes:
+  - 外星人的电荷正负规定与人类相反。
 meanings: 
   - alien: ["electron", "be", "noun"]
     zh: 电子是名词

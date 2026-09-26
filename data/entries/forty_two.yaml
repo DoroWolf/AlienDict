@@ -1,6 +1,8 @@
 id: forty_two
 translation: 四十二
 en: forty-two
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["forty_two", "be", "numeral"]
     zh: 四十二是数词

@@ -1,0 +1,11 @@
+id: thought
+translation: 想法
+en: thought
+meanings: 
+  - alien: ["thought", "be", "noun"]
+    zh: 想法是名词
+  - alien: ["thought", "of", "morpheme", "be", "think", "and", "be_called"]
+    zh: 想法由想与被称为构成
+  - alien: ["\n"]
+  - alien: ["works", "from", "think"]
+    zh: 来自想的作品

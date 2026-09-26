@@ -1,6 +1,8 @@
 id: three_sevenths
 translation: 七分之三
 en: three sevenths
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["three_sevenths", "be", "numeral"]
     zh: 七分之三是数词

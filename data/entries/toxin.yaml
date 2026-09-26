@@ -1,0 +1,13 @@
+id: toxin
+translation: 毒素
+en: toxin
+meanings: 
+  - alien: ["toxin", "be", "noun"]
+    zh: 毒素是名词
+  - alien: ["toxin", "of", "morpheme", "be", "true", "and", "snake"]
+    zh: 毒素由真与蛇构成
+  - alien: ["\n"]
+  - alien: ["some", "animal", "can", "send", "toxin", "for", "attack"]
+    zh: 一些动物能发送毒素用于攻击
+  - alien: ["receive", "toxin", "of", "victim", "die"]
+    zh: 接受毒素的受害者死亡

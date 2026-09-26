@@ -1,6 +1,8 @@
 id: thirty_five
 translation: 三十五
 en: thirty-five
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["thirty_five", "be", "numeral"]
     zh: 三十五是数词

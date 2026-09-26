@@ -1,6 +1,8 @@
 id: number_three
 translation: 数三
 en: number three
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["number_three", "be", "numeral"]
     zh: 数三是数词

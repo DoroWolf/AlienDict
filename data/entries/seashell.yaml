@@ -1,0 +1,11 @@
+id: seashell
+translation: 贝壳
+en: seashell
+meanings: 
+  - alien: ["seashell", "be", "noun"]
+    zh: 贝壳是名词
+  - alien: ["seashell", "of", "morpheme", "be", "shell", "and", "set_(math)"]
+    zh: 贝壳由壳与集合构成
+  - alien: ["\n"]
+  - alien: ["clam", "of", "shell"]
+    zh: 贝的壳

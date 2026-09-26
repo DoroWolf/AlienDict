@@ -1,0 +1,13 @@
+id: pearl
+translation: 珍珠
+en: pearl
+meanings: 
+  - alien: ["pearl", "be", "noun"]
+    zh: 珍珠是名词
+  - alien: ["pearl", "of", "morpheme", "be", "shell", "and", "circle"]
+    zh: 珍珠由壳与圆构成
+  - alien: ["\n"]
+  - alien: ["pearl", "be", "circle", "from", "clam"]
+    zh: 珍珠是来自贝的圆球
+  - alien: ["pearl", "past", "be", "small", "currency"]
+    zh: 珍珠过去是小货币

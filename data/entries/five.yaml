@@ -1,6 +1,8 @@
 id: five
 translation: 五
 en: five
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["five", "be", "numeral"]
     zh: 五是数词

@@ -1,6 +1,8 @@
 id: twenty_eight
 translation: 二十八
 en: twenty-eight
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["twenty_eight", "be", "numeral"]
     zh: 二十八是数词

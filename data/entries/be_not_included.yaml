@@ -1,0 +1,17 @@
+id: be_not_included
+translation: 不包含于
+en: be not included
+meanings: 
+  - alien: ["be_not_included", "be", "conjunction"]
+    zh: 不包含于是连词
+    en: Be not included is a conjunction
+  - alien: ["be_not_included", "be", "base", "morpheme"]
+    zh: 不包含于是基础词素
+    en: Be not included is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["be_not_included", "amass", "two", "word"]
+    zh: 不包含于累积两个词
+    en: Be not included amasses two words
+  - alien: ["next_word", "false", "have", "previous_word"]
+    zh: 后词没有前词
+    en: The next word does not have the previous word

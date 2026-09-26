@@ -5,9 +5,9 @@ meanings:
   - alien: ["detach", "be", "verb"]
     zh: 脱离是动词
     en: Detach is a verb
-  - alien: ["detach", "of", "morpheme", "be", "cause", "and", "not_be_included"]
+  - alien: ["detach", "of", "morpheme", "be", "cause", "and", "be_not_included"]
     zh: 脱离由使得与不包含于构成
-    en: Detach is made up of cause and not be included
+    en: Detach is made up of cause and be not included
   - alien: ["\n"]
   - alien: ["move", "from", "space"]
     zh: 从空间移动

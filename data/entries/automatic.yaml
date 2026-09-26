@@ -1,0 +1,11 @@
+id: automatic
+translation: 自动
+en: automatic
+meanings: 
+  - alien: ["automatic", "be", "adjective"]
+    zh: 自动是形容词
+  - alien: ["automatic", "of", "morpheme", "be", "no_one", "and", "tool"]
+    zh: 自动由无人与工具构成
+  - alien: ["\n"]
+  - alien: ["automatic", "tool", "can", "function", "do", "be_not_included", "alien"]
+    zh: 自动工具能根据功能做，不用人

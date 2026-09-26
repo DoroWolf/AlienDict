@@ -1,6 +1,8 @@
 id: hundred
 translation: 百
 en: hundred
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["hundred", "be", "numeral"]
     zh: 百是数词

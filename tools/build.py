@@ -63,8 +63,8 @@ MORPHEME_MARK = ("of", "morpheme", "be")
 # 基础词素句式：「X be base morpheme」＝ X 是基础词素
 BASE_MARK = ("base", "morpheme")
 
-# 非词句式：「X not_be word」＝ X 不是词（符号，如横线、角的形状），不算实义词素
-NONWORD_MARK = ("not_be", "word")
+# 非词句式：「X be_not word」＝ X 不是词（符号，如横线、角的形状），不算实义词素
+NONWORD_MARK = ("be_not", "word")
 
 # 词素之间的连接词：不算词素
 CONNECTORS = ("and", "or")
@@ -77,6 +77,8 @@ UI_TEXT = (
     "实义词素非符号如名词动容数横线角形状有不是"
     # 防剧透（页头开关 + 剧透警告弹窗）由 spoiler.js 动态写入的文案
     "防剧透开关切换隐藏释义显示这处是外星词的中英文确定要看吗闭后全站都会出来一下"
+    # 词条页「提示」区块的标题（提示的正文来自各词条的 notes:，随页面一并扫到）
+    "提示"
 )
 
 # 目录页「按词素找词」的两栏：实义词素 / 非实义词素（原文写明「X 不是词」的符号）
@@ -195,6 +197,8 @@ def load_entries(warnings):
         if not raw["en"]:
             warnings.append("{}：缺 en（英文释义）".format(path.name))
         raw["alien"] = parse_alien(raw.get("alien")) or [[(eid, True)]]
+        # 提示（可选）：上下文说明，直接写在词条里，渲染到词条页正文下方的「提示」栏
+        raw["notes"] = normalize_notes(raw, warnings)
         raw["meanings"] = normalize_meanings(raw, warnings)
         check_morpheme_lines(raw, warnings)
         entries[eid] = raw
@@ -213,6 +217,39 @@ def load_entries(warnings):
         if len(ids) > 1:
             warnings.append("字序 {} 被多个词条占用：{}".format(order, "、".join(ids)))
     return entries
+
+
+def normalize_notes(entry, warnings):
+    """上下文提示（可选）——直接写在词条里的补充说明，渲染到词条页正文下方的「提示」栏。
+
+    允许的写法（可混用）：
+        notes: 外星人使用七进制。                     # 一段文字
+        notes: ["外星人使用七进制。", "……"]           # 多段
+        notes:                                        # 需要小标题时
+          - title: 七进制
+            text: 外星人使用七进制。
+    """
+    value = entry.get("notes")
+    if value is None or value == "":
+        return []
+    items = [value] if isinstance(value, (str, dict)) else list(value)
+    result = []
+    for index, item in enumerate(items, 1):
+        if isinstance(item, dict):
+            title = str(item.get("title") or "")
+            text = str(item.get("text") or item.get("zh") or "")
+        elif isinstance(item, (str, int, float)):
+            title, text = "", str(item)
+        else:
+            warnings.append(
+                "{}：第 {} 条提示格式不对（应为一段文字或 title/text 映射）".format(entry["file"], index)
+            )
+            continue
+        if not text.strip():
+            warnings.append("{}：第 {} 条提示是空的".format(entry["file"], index))
+            continue
+        result.append({"title": title, "text": text})
+    return result
 
 
 def normalize_meanings(entry, warnings):
@@ -329,7 +366,7 @@ def is_base_morpheme(entry):
 
 
 def is_nonword(entry):
-    """「X not_be word」＝不是词（符号，如横线、角的形状）。
+    """「X be_not word」＝不是词（符号，如横线、角的形状）。
 
     这类词素只用来画符号、没有实在含义，按词素找词时归入「非实义词素」一栏；
     没有词条的待补词素一律当实义词素（多半是名词、动词一类的实词）。
@@ -558,7 +595,7 @@ def morph_context(entry, entries, morphs, root):
 def morpheme_groups(ordered, entries, morphs, root):
     """目录页「按词素找词」的两栏词素：实义词素 / 非实义词素。
 
-    徽章（按钮）＝筛选开关。原文写明「X not_be word」（不是词）的词素（如横线、角的形状）
+    徽章（按钮）＝筛选开关。原文写明「X be_not word」（不是词）的词素（如横线、角的形状）
     归入「非实义词素」，其余（含还没词条的待补词素）都是实义词素。每栏内部词多的在前，
     其次按字序。徽章上的数字＝含此词素的词数，由它（间接）构成的词 + 它自己（有词条时）；
     词素自己的词条页就从筛选结果里的那张卡片进，不再单独给一个「词条」链接。
@@ -646,6 +683,7 @@ def build(out_dir, only=None, quiet=False, clean=False, font=True):
             alien_head=render_alien(entry["alien"], entries, "../", nested=False, css="gl gl--lg"),
             meanings=meanings,
             morph=morph_context(entry, entries, morphs, "../"),
+            notes=entry["notes"],
             prev=ordered[index - 1] if index > 0 else None,
             next=ordered[index + 1] if index + 1 < total else None,
         )
@@ -746,6 +784,13 @@ def build(out_dir, only=None, quiet=False, clean=False, font=True):
                 total,
             )
         )
+        noted = [entry for entry in ordered if entry["notes"]]
+        if noted:
+            print(
+                "[提示] {} 条提示，挂在 {} / {} 个词条上".format(
+                    sum(len(entry["notes"]) for entry in noted), len(noted), total
+                )
+            )
         print("[字形] SVG {} / PNG {}".format(svg_count, png_count))
         if svg_count < png_count:
             print("       ! {} 个字形尚未转 SVG（python tools/png2svg.py --all）".format(png_count - svg_count))

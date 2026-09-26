@@ -1,6 +1,8 @@
 id: six_sevenths
 translation: 七分之六
 en: six sevenths
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["six_sevenths", "be", "numeral"]
     zh: 七分之六是数词

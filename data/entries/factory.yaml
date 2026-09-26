@@ -1,0 +1,11 @@
+id: factory
+translation: 工厂
+en: factory
+meanings: 
+  - alien: ["factory", "be", "noun"]
+    zh: 工厂是名词
+  - alien: ["factory", "of", "morpheme", "be", "space", "and", "machine"]
+    zh: 工厂由空间与机器构成
+  - alien: ["\n"]
+  - alien: ["space", "for", "create", "production"]
+    zh: 用于创造产品的空间

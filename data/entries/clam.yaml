@@ -1,0 +1,13 @@
+id: clam
+translation: 贝
+en: clam
+meanings: 
+  - alien: ["clam", "be", "noun"]
+    zh: 贝是名词
+  - alien: ["clam", "of", "morpheme", "be", "shell", "and", "set_(math)"]
+    zh: 贝由壳与集合构成
+  - alien: ["\n"]
+  - alien: ["animal", "be_included", "seashell"]
+    zh: 贝壳里的动物
+  - alien: ["clam", "cannot", "move"]
+    zh: 贝不能移动

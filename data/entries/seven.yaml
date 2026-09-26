@@ -1,6 +1,8 @@
 id: seven
 translation: 七
 en: seven
+notes:
+  - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["seven", "be", "numeral"]
     zh: 七是数词

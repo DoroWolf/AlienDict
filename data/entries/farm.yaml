@@ -4,8 +4,11 @@ en: farm
 meanings: 
   - alien: ["farm", "be", "noun"]
     zh: 农场是名词
+    en: Farm is a noun
   - alien: ["farm", "of", "morpheme", "be", "space", "and", "seaweed"]
     zh: 农场由空间与海草构成
+    en: Farm is made up of space and seaweed
   - alien: ["\n"]
   - alien: ["seaweed", "increase", "of", "space"]
     zh: 海草增大的空间
+    en: A space where seaweed increases

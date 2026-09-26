@@ -4,12 +4,17 @@ en: since
 meanings: 
   - alien: ["since", "be", "conjunction"]
     zh: 由于是连词
+    en: Since is a conjunction
   - alien: ["since", "of", "morpheme", "be", "from", "and", "moment"]
     zh: 由于由从与时刻构成
+    en: Since is made up of from and moment
   - alien: ["\n"]
   - alien: ["since", "amass", "two", "component"]
     zh: 由于累积两个句子成分
+    en: Since amasses two components of a sentence
   - alien: ["next_word", "be", "previous_word", "of", "reason"]
     zh: 后词是前词的原因
+    en: The next word is the reason of the previous word
   - alien: ["previous_word", "be", "next_word", "of", "result"]
     zh: 前词是后词的结果
+    en: The previous word is the result of the next word

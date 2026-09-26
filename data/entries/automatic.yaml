@@ -4,8 +4,11 @@ en: automatic
 meanings: 
   - alien: ["automatic", "be", "adjective"]
     zh: 自动是形容词
+    en: Automatic is an adjective
   - alien: ["automatic", "of", "morpheme", "be", "no_one", "and", "tool"]
     zh: 自动由无人与工具构成
+    en: Automatic is made up of no one and tool
   - alien: ["\n"]
   - alien: ["automatic", "tool", "can", "function", "do", "be_not_included", "alien"]
     zh: 自动工具能根据功能做，不用人
+    en: An automatic tool can work by function without an alien

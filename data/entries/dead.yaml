@@ -4,8 +4,11 @@ en: dead
 meanings: 
   - alien: ["dead", "be", "adjective"]
     zh: 死是形容词
+    en: Dead is an adjective
   - alien: ["dead", "of", "morpheme", "be", "false", "and", "alive"]
     zh: 死由假与活构成
+    en: Dead is made up of false and alive
   - alien: ["\n"]
   - alien: ["be_done", "kill", "and", "cannot", "action", "do"]
     zh: 被杀死与不能做动作
+    en: Be killed and cannot do actions

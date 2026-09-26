@@ -1,0 +1,14 @@
+id: electric_fish
+translation: 放电鱼
+en: electric fish
+meanings: 
+  - alien: ["electric_fish", "be", "noun"]
+    zh: 放电鱼是名词
+    en: Electric fish is a noun
+  - alien: ["electric_fish", "of", "morpheme", "be", "electricity", "and", "fish"]
+    zh: 放电鱼由电与鱼构成
+    en: Electric fish is made up of electric and fish
+  - alien: ["\n"]
+  - alien: ["send", "electric_current", "of", "fish"]
+    zh: 发送电流的鱼
+    en: A fish that sends electric current

@@ -4,8 +4,11 @@ en: assume
 meanings: 
   - alien: ["assume", "be", "verb"]
     zh: 假设是动词
+    en: Assume is a verb
   - alien: ["assume", "of", "morpheme", "be", "not_exist", "and", "think"]
     zh: 假设由不存在与想构成
+    en: Assume is made up of not exist and think
   - alien: ["\n"]
   - alien: ["less", "think", "thought", "be", "true"]
     zh: 认为更小的想法是真
+    en: Thinking that a smaller thought is true

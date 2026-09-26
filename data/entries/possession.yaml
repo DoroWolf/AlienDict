@@ -4,8 +4,11 @@ en: possession
 meanings: 
   - alien: ["possession", "be", "noun"]
     zh: 所有物是名词
+    en: Possession is a noun
   - alien: ["possession", "of", "morpheme", "be", "alien", "and", "object"]
     zh: 所有物由外星人与物体构成
+    en: Possession is made up of alien and object
   - alien: ["\n"]
   - alien: ["alien", "have", "of", "object"]
     zh: 外星人有的物体
+    en: An object that an alien has

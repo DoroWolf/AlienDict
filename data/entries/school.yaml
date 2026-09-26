@@ -4,8 +4,11 @@ en: school
 meanings: 
   - alien: ["school", "be", "noun"]
     zh: 学校是名词
+    en: School is a noun
   - alien: ["school", "of", "morpheme", "be", "space", "and", "subject"]
     zh: 学校由空间与主题构成
+    en: School is made up of space and subject
   - alien: ["\n"]
   - alien: ["space", "for", "subject", "of", "study"]
     zh: 学习主题的空间
+    en: A space for studying subjects

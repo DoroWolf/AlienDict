@@ -4,8 +4,11 @@ en: victim
 meanings: 
   - alien: ["victim", "be", "noun"]
     zh: 受害者是名词
+    en: Victim is a noun
   - alien: ["victim", "of", "morpheme", "be", "destroy", "and", "to"]
     zh: 受害者由破坏与到构成
+    en: Victim is made up of destroy and to
   - alien: ["\n"]
   - alien: ["be_done", "destroy", "of", "alien", "or", "object"]
     zh: 被破坏的外星人或物体
+    en: An alien or object that has been destroyed

@@ -4,8 +4,11 @@ en: factory
 meanings: 
   - alien: ["factory", "be", "noun"]
     zh: 工厂是名词
+    en: Factory is a noun
   - alien: ["factory", "of", "morpheme", "be", "space", "and", "machine"]
     zh: 工厂由空间与机器构成
+    en: Factory is made up of space and machine
   - alien: ["\n"]
   - alien: ["space", "for", "create", "product"]
     zh: 用于创造产品的空间
+    en: A space for creating products

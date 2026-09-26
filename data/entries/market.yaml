@@ -4,8 +4,11 @@ en: market
 meanings: 
   - alien: ["market", "be", "noun"]
     zh: 市场是名词
+    en: Market is a noun
   - alien: ["market", "of", "morpheme", "be", "space", "and", "trade"]
     zh: 市场由空间与交易构成
+    en: Market is made up of space and trade
   - alien: ["\n"]
   - alien: ["trade", "be_included", "of", "space"]
     zh: 包含交易的空间
+    en: A space that includes trade

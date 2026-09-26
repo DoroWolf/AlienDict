@@ -4,8 +4,11 @@ en: sell
 meanings: 
   - alien: ["sell", "be", "verb"]
     zh: 卖是动词
+    en: Sell is a verb
   - alien: ["sell", "of", "morpheme", "be", "currency", "and", "from"]
     zh: 卖由货币与从构成
+    en: Sell is made up of currency and from
   - alien: ["\n"]
   - alien: ["receive", "currency"]
     zh: 接受货币
+    en: Receiving currency

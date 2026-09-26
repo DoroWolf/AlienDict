@@ -4,8 +4,11 @@ en: seashell
 meanings: 
   - alien: ["seashell", "be", "noun"]
     zh: 贝壳是名词
+    en: Seashell is a noun
   - alien: ["seashell", "of", "morpheme", "be", "shell", "and", "set_(math)"]
     zh: 贝壳由壳与集合构成
+    en: Seashell is made up of shell and set
   - alien: ["\n"]
   - alien: ["clam", "of", "shell"]
     zh: 贝的壳
+    en: The shell of a clam

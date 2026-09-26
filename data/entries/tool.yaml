@@ -4,8 +4,11 @@ en: tool
 meanings: 
   - alien: ["tool", "be", "noun"]
     zh: 工具是名词
+    en: Tool is a noun
   - alien: ["tool", "be", "base", "morpheme"]
     zh: 工具是基础词素
+    en: Tool is a basic morpheme
   - alien: ["\n"]
   - alien: ["works", "for", "help", "produce"]
     zh: 用于帮助生产的工具
+    en: A tool for helping production

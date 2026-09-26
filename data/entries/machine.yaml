@@ -4,8 +4,11 @@ en: machine
 meanings: 
   - alien: ["machine", "be", "noun"]
     zh: 机器是名词
+    en: Machine is a noun
   - alien: ["machine", "of", "morpheme", "be", "tool", "and", "object"]
-    zh: 功能由工具与物体构成
+    zh: 机器由工具与物体构成
+    en: Machine is made up of tool and object
   - alien: ["\n"]
   - alien: ["can", "automatic", "produce", "of", "works"]
     zh: 能自动生产的作品
+    en: Works that can be automatically produced

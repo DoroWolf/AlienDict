@@ -4,8 +4,11 @@ en: lose
 meanings: 
   - alien: ["lose", "be", "verb"]
     zh: 失去是动词
-  - alien: ["lose", "of", "morpheme", "be", "lifespan", "and", "not"]
+    en: Lose is a verb
+  - alien: ["lose", "of", "morpheme", "be", "possession", "and", "not"]
     zh: 失去由所有物与不得构成
+    en: Lose is made up of possession and not
   - alien: ["\n"]
   - alien: ["send", "possession"]
     zh: 发送所有物
+    en: Sending a possession

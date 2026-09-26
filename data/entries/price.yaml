@@ -4,8 +4,11 @@ en: price
 meanings: 
   - alien: ["price", "be", "noun"]
     zh: 价格是名词
+    en: Price is a noun
   - alien: ["price", "of", "morpheme", "be", "currency", "and", "same"]
-    zh: 价格由空间与交易构成
+    zh: 价格由货币与相同构成
+    en: Price is made up of currency and same
   - alien: ["\n"]
   - alien: ["possession", "of", "value"]
     zh: 所有物的价值
+    en: The value of a possession

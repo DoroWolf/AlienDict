@@ -4,8 +4,11 @@ en: nuclear energy
 meanings: 
   - alien: ["nuclear_energy", "be", "noun"]
     zh: 核能是名词
+    en: Nuclear energy is a noun
   - alien: ["nuclear_energy", "of", "morpheme", "be", "scale", "and", "energy"]
     zh: 核能由鳞片与能量构成
+    en: Nuclear energy is made up of scale and energy
   - alien: ["\n"]
   - alien: ["energy", "need", "tranfumation", "of", "change"]
     zh: 需要嬗变的能量
+    en: Energy that needs transmutation

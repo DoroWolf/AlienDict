@@ -11,4 +11,4 @@ meanings:
   - alien: ["\n"]
   - alien: ["algebra", "verb", "of", "previous_word"]
     zh: 代数动词的前词
-    en: The previous word following an algebraic verb
+    en: The previous word of an algebraic verb

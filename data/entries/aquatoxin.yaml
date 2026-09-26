@@ -6,12 +6,17 @@ notes:
 meanings: 
   - alien: ["aquatoxin", "be", "noun"]
     zh: 水毒是名词
+    en: Aquatoxin is a noun
   - alien: ["aquatoxin", "of", "morpheme", "be", "seawater", "and", "toxin"]
     zh: 水毒由海水与毒素构成
+    en: Aquatoxin is made up of seawater and toxin
   - alien: ["\n"]
   - alien: ["alien", "lose", "ability", "be_included", "freshwater"]
     zh: 在淡水中令外星人失去能力
+    en: Making aliens lose their ability in freshwater
   - alien: ["past", "researcher", "claim", "that", "be", "since", "aquatoxin"]
     zh: 过去研究者主张其是由于水毒导致
+    en: Past researchers claimed that it was caused by aquatoxin
   - alien: ["aquatoxin", "not_exist"]
     zh: 水毒不存在
+    en: Aquatoxin does not exist

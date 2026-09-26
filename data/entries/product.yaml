@@ -4,8 +4,11 @@ en: product
 meanings: 
   - alien: ["product", "be", "noun"]
     zh: 产品是名词
+    en: Product is a noun
   - alien: ["product", "of", "morpheme", "be", "from", "and", "tool"]
     zh: 产品由从与工具构成
+    en: Product is made up of from and tool
   - alien: ["\n"]
   - alien: ["machine", "create", "of", "object"]
     zh: 机器创造的物品
+    en: An object created by a machine

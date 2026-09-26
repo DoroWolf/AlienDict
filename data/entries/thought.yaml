@@ -4,8 +4,11 @@ en: thought
 meanings: 
   - alien: ["thought", "be", "noun"]
     zh: 想法是名词
+    en: Thought is a noun
   - alien: ["thought", "of", "morpheme", "be", "think", "and", "be_called"]
     zh: 想法由想与被称为构成
+    en: Thought is made up of think and be called
   - alien: ["\n"]
   - alien: ["works", "from", "think"]
     zh: 来自想的作品
+    en: Works that come from thinking

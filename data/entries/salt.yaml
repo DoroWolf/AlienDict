@@ -6,10 +6,14 @@ notes:
 meanings: 
   - alien: ["salt", "be", "noun"]
     zh: 盐是名词
+    en: Salt is a noun
   - alien: ["salt", "of", "morpheme", "be", "seawater", "and", "medicine"]
     zh: 盐由海水与药构成
+    en: Salt is made up of seawater and medicine
   - alien: ["\n"]
   - alien: ["sea", "of", "seawater", "of", "element_(math)"]
     zh: 海洋中海水的元素
+    en: The element of seawater in the sea
   - alien: ["salt", "be", "medicine", "for", "aquatoxin"]
     zh: 盐是用于水毒的药
+    en: Salt is a medicine for aquatoxin

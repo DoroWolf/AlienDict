@@ -4,8 +4,11 @@ en: claim
 meanings: 
   - alien: ["claim", "be", "verb"]
     zh: 主张是动词
+    en: Claim is a verb
   - alien: ["claim", "of", "morpheme", "be", "exist", "and", "think"]
     zh: 主张由存在与想构成
+    en: Claim is made up of exist and think
   - alien: ["\n"]
   - alien: ["more", "think", "thought", "be", "true"]
     zh: 认为更大的想法是真
+    en: Thinking that a bigger thought is true

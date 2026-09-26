@@ -4,10 +4,14 @@ en: clam
 meanings: 
   - alien: ["clam", "be", "noun"]
     zh: 贝是名词
+    en: Clam is a noun
   - alien: ["clam", "of", "morpheme", "be", "shell", "and", "set_(math)"]
     zh: 贝由壳与集合构成
+    en: Clam is made up of shell and set
   - alien: ["\n"]
   - alien: ["animal", "be_included", "seashell"]
     zh: 贝壳里的动物
+    en: An animal included in a seashell
   - alien: ["clam", "cannot", "move"]
     zh: 贝不能移动
+    en: A clam cannot move

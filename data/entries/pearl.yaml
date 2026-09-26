@@ -4,10 +4,14 @@ en: pearl
 meanings: 
   - alien: ["pearl", "be", "noun"]
     zh: 珍珠是名词
+    en: Pearl is a noun
   - alien: ["pearl", "of", "morpheme", "be", "shell", "and", "circle"]
     zh: 珍珠由壳与圆构成
+    en: Pearl is made up of shell and circle
   - alien: ["\n"]
   - alien: ["pearl", "be", "circle", "from", "clam"]
     zh: 珍珠是来自贝的圆球
+    en: A pearl is a sphere from a clam
   - alien: ["pearl", "past", "be", "small", "currency"]
     zh: 珍珠过去是小货币
+    en: A pearl used to be a small currency

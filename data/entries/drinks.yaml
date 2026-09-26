@@ -4,8 +4,11 @@ en: drinks
 meanings: 
   - alien: ["drinks", "be", "noun"]
     zh: 饮料是名词
+    en: Drinks is a noun
   - alien: ["drinks", "of", "morpheme", "be", "seawater", "and", "mouth"]
     zh: 饮料由海水与口构成
+    en: Drinks is made up of seawater and mouth
   - alien: ["\n"]
   - alien: ["liquid", "food"]
     zh: 液态食物
+    en: Liquid food

@@ -1,0 +1,11 @@
+id: similar
+translation: 相似
+en: similar
+meanings: 
+  - alien: ["similar", "be", "adjective"]
+    zh: 相似是形容词
+  - alien: ["similar", "of", "morpheme", "be", "same", "and", "two"]
+    zh: 相似由相同与二构成
+  - alien: ["\n"]
+  - alien: ["be", "near", "same", "from", "next_word"]
+    zh: 从下词靠近相同的

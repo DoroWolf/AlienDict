@@ -1,0 +1,13 @@
+id: not_exist
+translation: 不存在
+en: not exist
+meanings: 
+  - alien: ["exist", "be", "verb"]
+    zh: 不存在是动词
+  - alien: ["exist", "of", "morpheme", "be", "false", "and", "object"]
+    zh: 不存在由假与物体构成
+  - alien: ["\n"]
+  - alien: ["be_not", "be_included", "space"]
+    zh: 不包含于空间
+  - alien: ["be_not", "be_included", "actual", "reality"]
+    zh: 不包含于实际现实

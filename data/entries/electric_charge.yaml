@@ -14,9 +14,9 @@ meanings:
   - alien: ["electric_charge", "of", "positive", "or", "negative"]
     zh: 电荷是正或负的
     en: Electric charge is positive or negative
-  - alien: ["object", "include", "same", "electric_charge", "repulse"]
-    zh: 包含相同电荷的物体互相排斥
-    en: Objects that include the same electric charge repulse each other
-  - alien: ["object", "include", "different", "electric_charge", "attract"]
-    zh: 包含不同电荷的物体互相吸引
-    en: Objects that include different electric charges attract each other
+  - alien: ["object", "include", "same", "electric_charge", "scatter"]
+    zh: 包含相同电荷的物体互相散开
+    en: Objects that include the same electric charge scatter each other
+  - alien: ["object", "include", "different", "electric_charge", "gather"]
+    zh: 包含不同电荷的物体互相聚集
+    en: Objects that include different electric charges gather each other

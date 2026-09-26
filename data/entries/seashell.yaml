@@ -5,9 +5,9 @@ meanings:
   - alien: ["seashell", "be", "noun"]
     zh: 贝壳是名词
     en: Seashell is a noun
-  - alien: ["seashell", "of", "morpheme", "be", "shell", "and", "set_(math)"]
-    zh: 贝壳由壳与集合构成
-    en: Seashell is made up of shell and set
+  - alien: ["seashell", "of", "morpheme", "be", "shell", "and", "be_not_included"]
+    zh: 贝壳由壳与不包含于构成
+    en: Seashell is made up of shell and be not included
   - alien: ["\n"]
   - alien: ["clam", "of", "shell"]
     zh: 贝的壳

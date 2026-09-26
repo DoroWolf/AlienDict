@@ -1,0 +1,13 @@
+id: bird
+translation: 鸟
+en: bird
+meanings: 
+  - alien: ["bird", "be", "noun"]
+    zh: 鸟是名词
+  - alien: ["bird", "be", "base", "morpheme"]
+    zh: 鸟是基础词素
+  - alien: ["\n"]
+  - alien: ["sky", "of", "animal"]
+    zh: 天空的动物
+  - alien: ["bird", "have", "wing", "for", "move"]
+    zh: 鸟有用于移动的翅膀

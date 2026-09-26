@@ -1,0 +1,11 @@
+id: fantasy
+translation: 幻想
+en: fantasy
+meanings: 
+  - alien: ["fantasy", "be", "adjective"]
+    zh: 幻想是形容词
+  - alien: ["fantasy", "of", "morpheme", "be", "not_exist", "and", "space"]
+    zh: 幻想由不存在与空间构成
+  - alien: ["\n"]
+  - alien: ["not_exist", "be_included", "reality"]
+    zh: 在现实中不存在

@@ -12,6 +12,6 @@ meanings:
   - alien: ["false", "send", "light", "of", "more", "more", "mass", "of", "object", "be_included", "universe"]
     zh: 宇宙中不发光的极大质量的物体
     en: Extremely massive objects in the universe that do not emit light
-  - alien: ["light", "cannot", "detach", "black_hole", "of", "force_field"]
-    zh: 光不能脱离黑洞的力场
-    en: Light cannot escape the force field of a black hole
+  - alien: ["light", "cannot", "detach", "black_hole", "of", "gravitational_field"]
+    zh: 光不能脱离黑洞的引力场
+    en: Light cannot escape the gravitational field of a black hole

@@ -1,0 +1,13 @@
+id: snake
+translation: 蛇
+en: snake
+meanings: 
+  - alien: ["snake", "be", "noun"]
+    zh: 蛇是名词
+  - alien: ["snake", "be", "base", "morpheme"]
+    zh: 蛇是基础词素
+  - alien: ["\n"]
+  - alien: ["seawater", "or", "land", "of", "line", "shape", "of", "animal"]
+    zh: 海水或陆地的线形动物
+  - alien: ["snake", "false", "have", "fin", "or", "wing", "or", "leg", "or", "hand"]
+    zh: 蛇没有鳍、翅膀、腿或手

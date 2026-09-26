@@ -5,8 +5,8 @@ meanings:
   - alien: ["have", "be", "verb"]
     zh: 有是动词
     en: Have is a verb
-  - alien: ["have", "of", "morpheme", "be", "of", "and", "cause"]
-    zh: 有由的与使得构成
+  - alien: ["have", "of", "morpheme", "be", "of", "and", "hand"]
+    zh: 有由的与手构成
     en: Have is made up of of and cause
   - alien: ["\n"]
   - alien: ["next_word", "be", "previous_word", "of", "possession"]

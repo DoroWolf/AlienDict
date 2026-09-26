@@ -5,8 +5,8 @@ meanings:
   - alien: ["attack", "be", "verb"]
     zh: 攻击是动词
     en: Attack is a verb
-  - alien: ["attack", "of", "morpheme", "be", "weapon", "and", "cause"]
-    zh: 攻击由武器与使得构成
+  - alien: ["attack", "of", "morpheme", "be", "weapon", "and", "hand"]
+    zh: 攻击由武器与手构成
     en: Attack is made up of weapon and cause
   - alien: ["\n"]
   - alien: ["action", "for", "destroy", "and", "kill"]

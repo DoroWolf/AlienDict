@@ -1,0 +1,11 @@
+id: electric_energy
+translation: 电能
+en: electric energy
+meanings: 
+  - alien: ["electric_energy", "be", "noun"]
+    zh: 电能是名词
+  - alien: ["electric_energy", "of", "morpheme", "be", "electricity", "and", "energy"]
+    zh: 电能由电与能量构成
+  - alien: ["\n"]
+  - alien: ["electric_current", "of", "energy"]
+    zh: 电流的能量

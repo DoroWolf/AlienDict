@@ -1,0 +1,11 @@
+id: fin
+translation: 鳍
+en: fin
+meanings: 
+  - alien: ["fin", "be", "noun"]
+    zh: 鳍是名词
+  - alien: ["fin", "be", "base", "morpheme"]
+    zh: 鳍是基础词素
+  - alien: ["\n"]
+  - alien: ["fish", "of", "element_(math)", "for", "swim"]
+    zh: 鱼用于游的元素

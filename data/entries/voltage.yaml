@@ -1,0 +1,11 @@
+id: voltage
+translation: 电能
+en: voltage
+meanings: 
+  - alien: ["voltage", "be", "noun"]
+    zh: 电压是名词
+  - alien: ["voltage", "of", "morpheme", "be", "electricity", "and", "count"]
+    zh: 电压由电与数量构成
+  - alien: ["\n"]
+  - alien: ["power_source", "of", "ability"]
+    zh: 电源的能力

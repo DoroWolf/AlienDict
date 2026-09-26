@@ -1,0 +1,11 @@
+id: brain
+translation: 脑
+en: brain
+meanings: 
+  - alien: ["brain", "be", "noun"]
+    zh: 脑是名词
+  - alien: ["brain", "be", "base", "morpheme"]
+    zh: 脑是基础词素
+  - alien: ["\n"]
+  - alien: ["head", "of", "front", "element_(math)", "for", "think"]
+    zh: 头前方的用于思考的元素

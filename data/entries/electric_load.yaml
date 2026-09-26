@@ -1,0 +1,13 @@
+id: electric_load
+translation: 负载
+en: electric load
+meanings: 
+  - alien: ["electric_load", "be", "noun"]
+    zh: 负载是名词
+  - alien: ["electric_load", "of", "morpheme", "be", "electricity", "and", "to"]
+    zh: 负载由电与到构成
+  - alien: ["\n"]
+  - alien: ["circuit", "of", "element_(math)"]
+    zh: 电路的元素
+  - alien: ["alter", "electric_energy", "become", "distinct", "energy"]
+    zh: 改变电能成为不同能量

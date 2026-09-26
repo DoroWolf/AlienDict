@@ -1,0 +1,13 @@
+id: energy
+translation: 能量
+en: energy
+meanings: 
+  - alien: ["energy", "be", "noun"]
+    zh: 能量是名词
+  - alien: ["energy", "of", "morpheme", "be", "do", "and", "count"]
+    zh: 能量由做与数量构成
+  - alien: ["\n"]
+  - alien: ["action", "of", "ability"]
+    zh: 动作的能力
+  - alien: ["kinetic_energy", "and", "potential_energy", "be", "energy"]
+    zh: 动能与势能是能量

@@ -1,0 +1,11 @@
+id: female
+translation: 雌性
+en: female
+meanings: 
+  - alien: ["female", "be", "adjective"]
+    zh: 雌性是形容词
+  - alien: ["female", "be", "base", "morpheme"]
+    zh: 雌性是基础词素
+  - alien: ["\n"]
+  - alien: ["alien", "of", "sex", "predicate"]
+    zh: 外星人的性别谓词

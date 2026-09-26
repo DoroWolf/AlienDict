@@ -15,6 +15,6 @@ meanings:
   - alien: ["penguin", "have", "more", "skin", "for", "rivet", "on_the_ground"]
     zh: 企鹅有更多用于固定在地面上的皮肤
     en: Penguins have more skin for anchoring to the ground
-  - alien: ["penguin", "cannot", "migrate"]
-    zh: 企鹅不会迁徙
-    en: Penguins cannot migrate
+  - alien: ["penguin", "cannot", "fly"]
+    zh: 企鹅不会飞
+    en: Penguins cannot fly

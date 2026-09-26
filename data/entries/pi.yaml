@@ -1,0 +1,13 @@
+id: pi
+translation: 圆周率
+en: pi
+meanings: 
+  - alien: ["pi", "be", "noun"]
+    zh: 圆周率是名词
+  - alien: ["pi", "of", "morpheme", "be", "circle", "and", "count"]
+    zh: 圆周率由圆与数量构成
+  - alien: ["\n"]
+  - alien: ["circle", "of", "edge", "length", "of", "half", "divided_by", "radius"]
+    zh: 圆的周长的一半除以半径
+  - alien: ["pi", "be", "irrational_number", "and", "constant"]
+    zh: 圆周率是无理数与常数

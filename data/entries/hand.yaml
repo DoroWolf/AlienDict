@@ -1,0 +1,14 @@
+id: hand
+translation: 手
+en: hand
+meanings: 
+  - alien: ["hand", "be", "noun"]
+    zh: 手是名词
+    en: Hand is a noun
+  - alien: ["hand", "be", "base", "morpheme"]
+    zh: 手是基础词素
+    en: Hand is a basic morpheme
+  - alien: ["\n"]
+  - alien: ["alien", "of", "element_(math)", "for", "action"]
+    zh: 外星人为做动作的元素
+    en: The elements used by aliens to perform actions

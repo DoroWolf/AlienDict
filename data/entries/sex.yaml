@@ -1,0 +1,11 @@
+id: sex
+translation: 性别
+en: sex
+meanings: 
+  - alien: ["sex", "be", "noun"]
+    zh: 性别是形容词
+  - alien: ["sex", "be", "base", "morpheme"]
+    zh: 性别是基础词素
+  - alien: ["\n"]
+  - alien: ["male", "", "female", "and", "androgynous"]
+    zh: 雄性、雌性与双性

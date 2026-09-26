@@ -1,0 +1,17 @@
+id: star
+translation: 恒星
+en: star
+meanings: 
+  - alien: ["star", "be", "noun"]
+    zh: 恒星是名词
+    en: Star is a noun
+  - alien: ["star", "of", "morpheme", "be", "sky", "and", "starfish"]
+    zh: 恒星由天空与海星构成
+    en: Star is made up of sky and starfish
+  - alien: ["\n"]
+  - alien: ["lot", "mass", "of", "object", "be_included", "universe"]
+    zh: 宇宙中的极大质量物体
+    en: Extremely massive objects in the universe
+  - alien: ["star", "can", "send", "light"]
+    zh: 恒星能发光
+    en: Stars can emit light

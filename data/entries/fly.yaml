@@ -1,0 +1,11 @@
+id: fly
+translation: 飞
+en: fly
+meanings: 
+  - alien: ["fly", "be", "verb"]
+    zh: 飞是动词
+  - alien: ["fly", "of", "morpheme", "be", "bird", "and", "space"]
+    zh: 飞由鸟与空间构成
+  - alien: ["\n"]
+  - alien: ["move", "need", "wing"]
+    zh: 需要翅膀移动

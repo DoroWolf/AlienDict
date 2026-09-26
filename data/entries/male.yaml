@@ -1,0 +1,11 @@
+id: male
+translation: 雄性
+en: male
+meanings: 
+  - alien: ["male", "be", "adjective"]
+    zh: 雄性是形容词
+  - alien: ["male", "be", "base", "morpheme"]
+    zh: 雄性是基础词素
+  - alien: ["\n"]
+  - alien: ["alien", "of", "sex", "predicate"]
+    zh: 外星人的性别谓词

@@ -1,0 +1,11 @@
+id: radius
+translation: 半径
+en: radius
+meanings: 
+  - alien: ["radius", "be", "noun"]
+    zh: 半径是名词
+  - alien: ["radius", "of", "morpheme", "be", "(horizontal_bar)", "and", "count"]
+    zh: 半径由横线与圆构成
+  - alien: ["\n"]
+  - alien: ["straight_line", "from", "dot", "be_included", "circle", "to", "central"]
+    zh: 圆上一点到中心的直线

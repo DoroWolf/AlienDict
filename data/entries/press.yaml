@@ -1,0 +1,11 @@
+id: press
+translation: 按
+en: press
+meanings: 
+  - alien: ["press", "be", "verb"]
+    zh: 触摸是动词
+  - alien: ["press", "of", "morpheme", "be", "hand", "and", "bump"]
+    zh: 触摸由手与凸起构成
+  - alien: ["\n"]
+  - alien: ["touch", "button", "for", "button", "of", "function", "do"]
+    zh: 触摸按钮以做按钮的功能

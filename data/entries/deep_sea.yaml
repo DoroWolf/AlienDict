@@ -1,0 +1,11 @@
+id: deep_sea
+translation: 深海
+en: deep sea
+meanings: 
+  - alien: ["deep_sea", "be", "noun"]
+    zh: 深海是名词
+  - alien: ["deep_sea", "of", "morpheme", "be", "down", "and", "sea"]
+    zh: 深海由下与海洋构成
+  - alien: ["\n"]
+  - alien: ["far_away", "land", "of", "more", "depth", "of", "sea"]
+    zh: 远离陆地的更深的海洋

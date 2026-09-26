@@ -1,0 +1,13 @@
+id: candidate
+translation: 候选
+en: candidate
+meanings: 
+  - alien: ["candidate", "be", "noun"]
+    zh: 候选是名词
+  - alien: ["candidate", "of", "morpheme", "be", "unique", "and", "set_(math)"]
+    zh: 候选由独特与集合构成
+  - alien: ["\n"]
+  - alien: ["set_(math)", "of", "unique", "element_(math)"]
+    zh: 集合的独特元素
+  - alien: ["distinct", "element_(math)", "be", "similar", "from", "candidate"]
+    zh: 候选中的不同元素是相似的

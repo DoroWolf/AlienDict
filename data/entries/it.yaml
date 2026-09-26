@@ -1,0 +1,11 @@
+id: it
+translation: 其
+en: it
+meanings: 
+  - alien: ["it", "be", "noun"]
+    zh: 其是名词
+  - alien: ["it", "be", "base", "morpheme"]
+    zh: 其是基础词素
+  - alien: ["\n"]
+  - alien: ["near", "of", "previous_word"]
+    zh: 靠近的前词

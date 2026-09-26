@@ -1,0 +1,11 @@
+id: probability
+translation: 概率
+en: probability
+meanings: 
+  - alien: ["probability", "be", "noun"]
+    zh: 概率是名词
+  - alien: ["probability", "of", "morpheme", "be", "pearl", "and", "count"]
+    zh: 概率由珍珠与数量构成
+  - alien: ["\n"]
+  - alien: ["if", "probability", "act", "repeat", "then", "result", "of", "probability", "be", "it", "result", "of", "act", "count", "divided_by", "total", "act", "count"]
+    zh: 如果重复概率事件，则结果的概率是其结果的事件数量除以总事件数量

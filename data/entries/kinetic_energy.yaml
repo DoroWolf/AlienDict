@@ -1,0 +1,11 @@
+id: kinetic_energy
+translation: 动能
+en: kinetic energy
+meanings: 
+  - alien: ["kinetic_energy", "be", "noun"]
+    zh: 动能是名词
+  - alien: ["kinetic_energy", "of", "morpheme", "be", "energy", "and", "to"]
+    zh: 动能由能量与到构成
+  - alien: ["\n"]
+  - alien: ["move", "object", "of", "energy"]
+    zh: 移动物体的能量

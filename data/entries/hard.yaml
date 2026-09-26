@@ -9,6 +9,6 @@ meanings:
     zh: 硬由真与壳构成
     en: Hard is made up of true and shell
   - alien: ["\n"]
-  - alien: ["less", "can", "be_done", "change", "graphic"]
-    zh: 难以被改变图形
-    en: Difficult to change the graphic
+  - alien: ["less", "can", "be_done", "change", "shape"]
+    zh: 难以被改变形状
+    en: Difficult to change the shape

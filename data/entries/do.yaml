@@ -5,8 +5,8 @@ meanings:
   - alien: ["do", "be", "preposition"]
     zh: 做是介词
     en: Do is a preposition
-  - alien: ["do", "of", "morpheme", "be", "act", "and", "cause"]
-    zh: 做由行为与使得构成
+  - alien: ["do", "of", "morpheme", "be", "act", "and", "hand"]
+    zh: 做由行为与手构成
     en: Do is made up of act and cause
   - alien: ["\n"]
   - alien: ["do", "alter", "previous_word", "become", "verb"]

@@ -1,0 +1,13 @@
+id: button
+translation: 按钮
+en: button
+meanings: 
+  - alien: ["button", "be", "noun"]
+    zh: 按钮是动词
+  - alien: ["button", "of", "morpheme", "be", "bump", "and", "machine"]
+    zh: 按钮由凸起与机器构成
+  - alien: ["\n"]
+  - alien: ["machine", "of", "bump", "element_(math)"]
+    zh: 机器的凸起元素
+  - alien: ["press", "button", "for", "it", "of", "function"]
+    zh: 按下按钮以实现其功能

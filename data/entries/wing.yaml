@@ -1,0 +1,11 @@
+id: wing
+translation: 翅膀
+en: wing
+meanings: 
+  - alien: ["wing", "be", "noun"]
+    zh: 翅膀是名词
+  - alien: ["wing", "of", "morpheme", "be", "bird", "and", "small"]
+    zh: 翅膀由鸟与鳍构成
+  - alien: ["\n"]
+  - alien: ["bird", "of", "element_(math)", "for", "fly"]
+    zh: 鸟用于飞的元素

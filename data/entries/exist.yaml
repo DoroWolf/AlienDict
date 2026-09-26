@@ -1,0 +1,13 @@
+id: exist
+translation: 存在
+en: exist
+meanings: 
+  - alien: ["exist", "be", "verb"]
+    zh: 存在是动词
+  - alien: ["exist", "of", "morpheme", "be", "true", "and", "object"]
+    zh: 存在由真与物体构成
+  - alien: ["\n"]
+  - alien: ["be", "be_included", "space"]
+    zh: 包含于空间
+  - alien: ["be", "be_included", "actual", "reality"]
+    zh: 包含于实际现实

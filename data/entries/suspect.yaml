@@ -1,0 +1,14 @@
+id: suspect
+translation: 怀疑
+en: suspect
+meanings: 
+  - alien: ["suspect", "be", "verb"]
+    zh: 怀疑是动词
+    en: Suspect is a verb
+  - alien: ["suspect", "of", "morpheme", "be", "not_exist", "and", "think"]
+    zh: 怀疑由不存在与想构成
+    en: Suspect is made up of not exist and think
+  - alien: ["\n"]
+  - alien: ["less", "think", "thought", "be", "true"]
+    zh: 认为更小的想法是真
+    en: Thinking that a smaller thought is true

@@ -1,0 +1,13 @@
+id: fish
+translation: 鱼
+en: fish
+meanings: 
+  - alien: ["fish", "be", "noun"]
+    zh: 鱼是名词
+  - alien: ["fish", "be", "base", "morpheme"]
+    zh: 鱼是基础词素
+  - alien: ["\n"]
+  - alien: ["seawater", "of", "animal"]
+    zh: 海水的动物
+  - alien: ["fish", "have", "fin", "for", "move"]
+    zh: 鱼有用于移动的鳍

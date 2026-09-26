@@ -1,0 +1,11 @@
+id: option
+translation: 选项
+en: option
+meanings: 
+  - alien: ["option", "be", "noun"]
+    zh: 选项是名词
+  - alien: ["option", "of", "morpheme", "be", "choose", "and", "object"]
+    zh: 选项由选择与物体构成
+  - alien: ["\n"]
+  - alien: ["object", "of", "choose"]
+    zh: 用于选择的物体

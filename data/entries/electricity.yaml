@@ -1,0 +1,15 @@
+id: electricity
+translation: 电
+en: electricity
+meanings: 
+  - alien: ["electricity", "be", "noun"]
+    zh: 电是名词
+  - alien: ["electricity", "be", "base", "morpheme"]
+    zh: 电是基础词素
+  - alien: ["\n"]
+  - alien: ["electric_fish", "of", "skill", "for", "shock"]
+    zh: 放电鱼的用于使休克的技能
+  - alien: ["lightning"]
+    zh: 闪电
+  - alien: ["energy", "for", "electric_load"]
+    zh: 或用于负载的能量

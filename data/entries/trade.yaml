@@ -5,8 +5,8 @@ meanings:
   - alien: ["trade", "be", "verb"]
     zh: 交易是动词
     en: Trade is a verb
-  - alien: ["trade", "of", "morpheme", "be", "swap", "and", "cause"]
-    zh: 交易由交换与使得构成
+  - alien: ["trade", "of", "morpheme", "be", "swap", "and", "hand"]
+    zh: 交易由交换与手构成
     en: Trade is made up of swap and cause
   - alien: ["\n"]
   - alien: ["swap", "possession", "for", "currency", "or", "possession"]

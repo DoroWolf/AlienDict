@@ -5,8 +5,8 @@ meanings:
   - alien: ["move", "be", "verb"]
     zh: 移动是动词
     en: Move is a verb
-  - alien: ["move", "of", "morpheme", "be", "cause", "and", "space"]
-    zh: 移动由使得与空间构成
+  - alien: ["move", "of", "morpheme", "be", "hand", "and", "space"]
+    zh: 移动由手与空间构成
     en: Move is made up of cause and space
   - alien: ["\n"]
   - alien: ["location", "change"]

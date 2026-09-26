@@ -1,0 +1,11 @@
+id: touch
+translation: 触摸
+en: touch
+meanings: 
+  - alien: ["touch", "be", "verb"]
+    zh: 触摸是动词
+  - alien: ["touch", "of", "morpheme", "be", "hand", "and", "surface"]
+    zh: 触摸由手与表面构成
+  - alien: ["\n"]
+  - alien: ["hand", "accumulate", "object", "of", "surface"]
+    zh: 手积累物体的表面

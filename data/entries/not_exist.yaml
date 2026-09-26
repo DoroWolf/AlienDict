@@ -2,10 +2,10 @@ id: not_exist
 translation: 不存在
 en: not exist
 meanings: 
-  - alien: ["exist", "be", "verb"]
+  - alien: ["not_exist", "be", "verb"]
     zh: 不存在是动词
     en: Not exist is a verb
-  - alien: ["exist", "of", "morpheme", "be", "false", "and", "object"]
+  - alien: ["not_exist", "of", "morpheme", "be", "false", "and", "object"]
     zh: 不存在由假与物体构成
     en: Not exist is made up of false and object
   - alien: ["\n"]

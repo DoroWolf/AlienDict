@@ -1,0 +1,17 @@
+id: someone
+translation: 有人
+en: someone
+meanings: 
+  - alien: ["someone", "be", "adjective"]
+    zh: 有人是形容词
+    en: Someone is an adjective
+  - alien: ["someone", "of", "morpheme", "be", "true", "and", "alien"]
+    zh: 有人由真与外星人构成
+    en: Someone is made up of true and alien
+  - alien: ["\n"]
+  - alien: ["cannot", "do", "be_not_included", "alien"]
+    zh: 不用人不能做
+    en: Cannot do without an alien
+  - alien: ["or", "space", "be_included", "alien"]
+    zh: 或有人的空间
+    en: Or a space that includes an alien

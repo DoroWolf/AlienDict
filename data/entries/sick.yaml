@@ -1,0 +1,20 @@
+id: sick
+translation: 生病
+en: sick
+meanings: 
+  - alien: ["sick", "be", "adjective"]
+    zh: 生病是形容词
+    en: Sick is an adjective
+  - alien: ["sick", "of", "morpheme", "be", "false", "and", "act"]
+    zh: 生病由假与行动构成
+    en: Sick is made up of false and act
+  - alien: ["\n"]
+  - alien: ["less", "alive"]
+    zh: 更难存活
+    en: More difficult to alive
+  - alien: ["alien", "have", "disease"]
+    zh: 外星人有疾病
+    en: Aliens have disease
+  - alien: ["alien", "possible", "die"]
+    zh: 外星人可能死亡
+    en: Aliens may be die

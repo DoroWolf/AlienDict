@@ -7,9 +7,9 @@ meanings:
   - alien: ["minute_(time)", "be", "noun"]
     zh: 分钟是名词
     en: Minute is a noun
-  - alien: ["minute_(time)", "of", "morpheme", "be", "(horizontal_bar)", "and", "second_(time)"]
+  - alien: ["minute_(time)", "of", "morpheme", "be", "(horizontal_line)", "and", "second_(time)"]
     zh: 分钟由横线与外星秒构成
-    en: Minute is made up of horizontal bar and second
+    en: Minute is made up of horizontal line and second
   - alien: ["\n"]
   - alien: ["percent", "hour"]
     zh: 百分之一小时

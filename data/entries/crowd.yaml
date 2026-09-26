@@ -1,0 +1,14 @@
+id: crowd
+translation: 人群
+en: crowd
+meanings: 
+  - alien: ["crowd", "be", "noun"]
+    zh: 人群是名词
+    en: Crowd is a noun
+  - alien: ["crowd", "of", "morpheme", "be", "alien"]
+    zh: 人群由外星人构成
+    en: Crowd is made up of alien
+  - alien: ["\n"]
+  - alien: ["many", "alien"]
+    zh: 多个外星人
+    en: Many aliens

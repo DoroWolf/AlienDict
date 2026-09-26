@@ -1,0 +1,14 @@
+id: possible
+translation: 可能
+en: possible
+meanings: 
+  - alien: ["possible", "be", "adjective"]
+    zh: 可能是形容词
+    en: Possible is an adjective
+  - alien: ["possible", "of", "morpheme", "be", "some", "and", "moment"]
+    zh: 可能由部分与时刻构成
+    en: Possible is made up of some and moment
+  - alien: ["\n"]
+  - alien: ["false", "impossible", "and", "false", "inevitable"]
+    zh: 既不是不可能也不是必然
+    en: Neither impossible nor inevitable

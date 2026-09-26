@@ -1,0 +1,14 @@
+id: disease
+translation: 疾病
+en: disease
+meanings: 
+  - alien: ["disease", "be", "noun"]
+    zh: 疾病是名词
+    en: Disease is a noun
+  - alien: ["disease", "of", "morpheme", "be", "sick", "and", "from"]
+    zh: 疾病由生病与从构成
+    en: Disease is made up of sick and from
+  - alien: ["\n"]
+  - alien: ["crowd", "change", "become", "sick", "need", "disease"]
+    zh: 人群需要感染才会生病
+    en: Crowd need disease to get sick

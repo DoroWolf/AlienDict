@@ -1,14 +1,15 @@
 id: face
-translation: 脸
+translation: 面
 en: face
 meanings: 
   - alien: ["face", "be", "noun"]
-    zh: 脸是名词
+    zh: 面是名词
     en: Face is a noun
-  - alien: ["face", "of", "morpheme", "be", "head", "and", "front"]
-    zh: 脸由头与前构成
-    en: Face is made up of head and front
+  - alien: ["face", "of", "morpheme", "be", "surface", "and", "be_not_included"]
+    zh: 面由表面与不包含于构成
+    en: Face is made up of surface and be not included
   - alien: ["\n"]
-  - alien: ["head", "of", "front"]
-    zh: 头的前方
-    en: In front of the head
+  - alien: ["alien", "of", "first", "skin"]
+    zh: 外星人的第一个皮
+  - alien: ["or", "three_dimensional", "object", "of", "surface"]
+    zh: 或三维物体的表面

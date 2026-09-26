@@ -12,6 +12,6 @@ meanings:
   - alien: ["small", "number", "or", "object", "be_included", "two_objects"]
     zh: 小的数或物体包含于两个物体
     en: A smaller number or object belongs to two objects
-  - alien: ["small", "from", "vast", "count"]
-    zh: 小来自广阔的数量
-    en: Small comes from a vast count
+  - alien: ["small", "from", "major", "count"]
+    zh: 主要是小的数量
+    en: Small comes from a major count

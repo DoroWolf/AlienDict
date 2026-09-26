@@ -1,0 +1,14 @@
+id: major
+translation: 主要
+en: major
+meanings: 
+  - alien: ["major", "be", "adjective"]
+    zh: 主要是形容词
+    en: Major is an adjective
+  - alien: ["major", "of", "morpheme", "be", "big", "and", "set_(math)"]
+    zh: 主要由大与集合构成
+    en: Major is made up of big and set
+  - alien: ["\n"]
+  - alien: ["set_(math)", "of", "big", "element_(math)"]
+    zh: 集合的大元素
+    en: The big element of a set

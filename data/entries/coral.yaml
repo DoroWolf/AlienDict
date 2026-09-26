@@ -1,0 +1,13 @@
+id: coral
+translation: 珊瑚
+en: coral
+meanings: 
+  - alien: ["coral", "be", "noun"]
+    zh: 珊瑚是名词
+  - alien: ["coral", "of", "morpheme", "be", "fork", "and", "fork"]
+    zh: 珊瑚由分叉与分叉构成
+  - alien: ["\n"]
+  - alien: ["many", "fork", "up", "mud"]
+    zh: 泥巴上的多个分叉
+  - alien: ["coral", "be", "animal", "but", "coral", "major", "false", "move"]
+    zh: 珊瑚是动物，但大部分珊瑚不移动

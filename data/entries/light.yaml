@@ -5,9 +5,9 @@ meanings:
   - alien: ["light", "be", "noun"]
     zh: 光是名词
     en: Light is a noun
-  - alien: ["light", "of", "morpheme", "be", "sky", "and", "(horizontal_bar)"]
+  - alien: ["light", "of", "morpheme", "be", "sky", "and", "(horizontal_line)"]
     zh: 光由天空与横线构成
-    en: Light is made up of sky and horizontal bar
+    en: Light is made up of sky and horizontal line
   - alien: ["\n"]
   - alien: ["energy", "from", "sun"]
     zh: 来自太阳的能量

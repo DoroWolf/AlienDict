@@ -12,6 +12,6 @@ meanings:
   - alien: ["big", "number", "or", "object", "be_included", "two_objects"]
     zh: 大的数或物体包含于两个物体
     en: A big number or object belongs to two objects
-  - alien: ["big", "from", "vast", "count"]
-    zh: 大来自广阔的数量
-    en: Big comes from a vast count
+  - alien: ["big", "from", "major", "count"]
+    zh: 主要是大的数量
+    en: Big comes from a major count

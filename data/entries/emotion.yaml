@@ -1,0 +1,11 @@
+id: emotion
+translation: 表情
+en: emotion
+meanings: 
+  - alien: ["emotion", "be", "noun"]
+    zh: 表情是名词
+  - alien: ["emotion", "of", "morpheme", "be", "head", "and", "color"]
+    zh: 表情由头与色彩构成
+  - alien: ["\n"]
+  - alien: ["alien", "of", "feel", "be_called"]
+    zh: 被称为外星人的感受

@@ -1,0 +1,17 @@
+id: present
+translation: 现在
+en: present
+meanings: 
+  - alien: ["present", "be", "noun"]
+    zh: 现在是名词
+    en: Present is a noun
+  - alien: ["present", "of", "morpheme", "be", "central", "and", "moment"]
+    zh: 现在由中心与时刻构成
+    en: Present is made up of central and moment
+  - alien: ["\n"]
+  - alien: ["it", "moment"]
+    zh: 这个时刻
+    en: This moment
+  - alien: ["you", "be_included", "of", "moment"]
+    zh: 包含你的时刻
+    en: moment that include you

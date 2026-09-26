@@ -1,0 +1,17 @@
+id: but
+translation: 但是
+en: but
+meanings: 
+  - alien: ["but", "be", "conjunction"]
+    zh: 但是是连词
+    en: But is a conjunction
+  - alien: ["but", "of", "morpheme", "be", "not", "and", "think"]
+    zh: 但是由不得与想构成
+    en: But is made up of not and think
+  - alien: ["\n"]
+  - alien: ["but", "amass", "two", "component"]
+    zh: 但是累积两个句子成分
+    en: But amasses two components of a sentence
+  - alien: ["next_word", "be", "false", "previous_word"]
+    zh: 后词不是前词
+    en: The next word is not the previous word

@@ -7,9 +7,9 @@ meanings:
   - alien: ["day", "be", "noun"]
     zh: 天是名词
     en: Day is a noun
-  - alien: ["day", "of", "morpheme", "be", "(triple_horizontal_bar)", "and", "second_(time)"]
+  - alien: ["day", "of", "morpheme", "be", "(triple_horizontal_line)", "and", "second_(time)"]
     zh: 天由三横线与秒构成
-    en: Day is made up of triple horizontal bar and second
+    en: Day is made up of triple horizontal line and second
   - alien: ["\n"]
   - alien: ["one_seventh", "year"]
     zh: 七分之一年

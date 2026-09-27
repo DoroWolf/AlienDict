@@ -33,16 +33,36 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Python 就位（build.mjs 用 `python` 调字库子集化）
+        run: |
+          if ! command -v python >/dev/null 2>&1; then
+            sudo ln -sf "$(command -v python3)" /usr/local/bin/python
+          fi
+          python -V
+
+      - name: Install fontTools（tools/subset_font.py 依赖）
+        run: python -m pip install --upgrade pip fonttools brotli
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      # 构建产物落在 site/（tools/build.mjs 的 DEFAULT_OUT），不是 vite 的 web/dist/
       - name: Build
         run: npm run build
+
+      # Pages 用产物直传，跳过 Jekyll 处理（下划线开头的资源/目录不会被吞掉）
+      - name: Add .nojekyll
+        run: touch site/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: site
 
   deploy:
     name: Deploy

@@ -3,11 +3,11 @@ zh: 船
 en: ship
 meanings: 
   - alien: ["ship", "be", "noun"]
-    zh: 船是动词
+    zh: 船是名词
   - alien: ["ship", "be", "base", "morpheme"]
-    zh: 船是独立词素
+    zh: 船是基础词素
   - alien: ["\n"]
   - alien: ["depend", "seawater", "of", "machine"]
     zh: 依赖海水的船
-  - alien: ["alien", "control", "ship", "for", "big", "deplacement", "of", "move"]
+  - alien: ["alien", "control", "ship", "for", "big", "displacement", "of", "move"]
     zh: 外星人控制船用于大位移的移动

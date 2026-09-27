@@ -7,5 +7,5 @@ meanings:
   - alien: ["medicine", "of", "morpheme", "be", "false", "and", "snake"]
     zh: 药由假与蛇构成
   - alien: ["\n"]
-  - alien: ["alien", "eat", "medicine", "for", "not", "toxin", "or", "cure", "disease"]
+  - alien: ["alien", "eat", "medicine", "for", "do_not", "toxin", "or", "cure", "disease"]
     zh: 外星人为了不中毒或治疗感染而吃药

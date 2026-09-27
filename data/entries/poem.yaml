@@ -1,0 +1,11 @@
+id: poem
+zh: 诗歌
+en: poem
+meanings: 
+  - alien: ["poem", "be", "noun"]
+    zh: 诗歌是名词
+  - alien: ["poem", "of", "morpheme", "be", "word", "and", "art"]
+    zh: 诗歌由词与艺术组成
+  - alien: ["\n"]
+  - alien: ["less", "word", "of", "art", "message"]
+    zh: 更少词的艺术信息

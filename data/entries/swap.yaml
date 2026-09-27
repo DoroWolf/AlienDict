@@ -1,0 +1,11 @@
+id: swap
+zh: 交换
+en: swap
+meanings: 
+  - alien: ["swap", "be", "verb"]
+    zh: 交换是动词
+  - alien: ["swap", "of", "morpheme", "be", "change", "and", "two"]
+    zh: 交换由变化与二构成
+  - alien: ["\n"]
+  - alien: ["transfer", "first", "object", "to", "second", "object", "of", "location", "meanwhile", "transfer", "second", "object", "to", "first", "object", "of", "location"]
+    zh: 转移第一个物体到第二个物体的所在空间同时转移第二个物体到第一个物体的所在空间

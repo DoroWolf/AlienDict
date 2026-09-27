@@ -1,11 +1,11 @@
 id: loop
-zh: 循环
+zh: 环路
 en: loop
 meanings: 
   - alien: ["loop", "be", "noun"]
-    zh: 循环是名词
-  - alien: ["loop", "be", "base", "morpheme"]
-    zh: 循环是基础词素
+    zh: 环路是名词
+  - alien: ["loop", "of", "morpheme", "be", "cycle", "and", "line"]
+    zh: 环路由循环与线构成
   - alien: ["\n"]
-  - alien: ["repeat", "change", "and", "opposite", "change"]
-    zh: 重复变化和相反的变化
+  - alien: ["cycle", "move", "action", "of", "closed_shape", "trajectory"]
+    zh: 循环移动的封闭轨迹

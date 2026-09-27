@@ -1,0 +1,11 @@
+id: spout
+zh: 喷
+en: spout
+meanings: 
+  - alien: ["spout", "be", "verb"]
+    zh: 喷是动词
+  - alien: ["spout", "of", "morpheme", "be", "gill", "and", "be_not_included"]
+    zh: 喷由鳃与不包含于构成
+  - alien: ["\n"]
+  - alien: ["send", "seawater", "from", "gill"]
+    zh: 从鳃发送海水

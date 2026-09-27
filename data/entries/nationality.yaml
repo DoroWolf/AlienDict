@@ -1,0 +1,11 @@
+id: nationality
+zh: 民族
+en: nationality
+meanings: 
+  - alien: ["nationality", "be", "noun"]
+    zh: 民族是名词
+  - alien: ["nationality", "of", "morpheme", "be", "alien"]
+    zh: 民族由外星人构成
+  - alien: ["\n"]
+  - alien: ["same", "nation", "of", "crowd", "of", "group"]
+    zh: 相同国家的人群的群组

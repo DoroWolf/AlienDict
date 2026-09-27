@@ -1,0 +1,11 @@
+id: altitude
+zh: 海拔
+en: altitude
+meanings: 
+  - alien: ["altitude", "be", "noun"]
+    zh: 海拔是名词
+  - alien: ["altitude", "of", "morpheme", "be", "on_the_ground", "and", "count"]
+    zh: 海拔由地面上与数量组成
+  - alien: ["\n"]
+  - alien: ["count", "for", "measure", "upward", "of", "ability"]
+    zh: 用于测量向上的能力的数量

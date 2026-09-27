@@ -1,0 +1,11 @@
+id: rectangle
+zh: 矩形
+en: rectangle
+meanings: 
+  - alien: ["rectangle", "be", "noun"]
+    zh: 矩形是名词
+  - alien: ["rectangle", "of", "morpheme", "be", "line", "and", "four"]
+    zh: 矩形由线与四构成
+  - alien: ["\n"]
+  - alien: ["four", "accumulate", "straight_line", "of", "closed_shape"]
+    zh: 积累四条直线的封闭图形

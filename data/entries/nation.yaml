@@ -1,0 +1,11 @@
+id: nation
+zh: 国家
+en: nation
+meanings: 
+  - alien: ["nation", "be", "noun"]
+    zh: 国家是名词
+  - alien: ["nation", "of", "morpheme", "be", "space", "and", "nationality"]
+    zh: 国家由空间与民族构成
+  - alien: ["\n"]
+  - alien: ["space", "include", "nationality", "of", "total", "crowd"]
+    zh: 包含民族的全部人群的空间

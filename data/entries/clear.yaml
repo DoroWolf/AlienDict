@@ -4,7 +4,7 @@ en: clear
 meanings: 
   - alien: ["clear", "be", "verb"]
     zh: 清除是动词
-  - alien: ["clear", "of", "morpheme", "be", "word", "and", "not"]
+  - alien: ["clear", "of", "morpheme", "be", "word", "and", "do_not"]
     zh: 清除由词与不得构成
   - alien: ["\n"]
   - alien: ["destroy", "mark", "or", "word"]

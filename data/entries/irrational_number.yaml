@@ -1,0 +1,11 @@
+id: irrational_number
+zh: 无理数
+en: irrational number
+meanings: 
+  - alien: ["irrational_number", "be", "noun"]
+    zh: 无理数是名词
+  - alien: ["irrational_number", "of", "morpheme", "be", "cannot", "and", "number"]
+    zh: 无理数由不能与数组成
+  - alien: ["\n"]
+  - alien: ["cannot", "equal", "two_objects", "integer_set", "of", "quotient", "of", "number"]
+    zh: 不能等于两个整数集的商的数

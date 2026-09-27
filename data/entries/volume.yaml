@@ -1,0 +1,11 @@
+id: volume
+zh: 体积
+en: volume
+meanings: 
+  - alien: ["volume", "be", "noun"]
+    zh: 体积是名词
+  - alien: ["volume", "of", "morpheme", "be", "set_(math)", "and", "count"]
+    zh: 体积由集合与数量构成
+  - alien: ["\n"]
+  - alien: ["void", "be_included", "three_dimensional", "closed_shape", "of", "count"]
+    zh: 三维封闭图形包含的虚空的数量

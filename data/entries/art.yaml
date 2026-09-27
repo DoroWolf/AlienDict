@@ -1,0 +1,11 @@
+id: art
+zh: 艺术
+en: art
+meanings: 
+  - alien: ["art", "be", "noun"]
+    zh: 艺术是名词
+  - alien: ["art", "of", "morpheme", "be", "true", "and", "mark"]
+    zh: 艺术由真与标记组成
+  - alien: ["\n"]
+  - alien: ["painting", "", "poem", "", "writing", "", "game", "", "music", "and", "dance", "be", "art"]
+    zh: 绘画、诗歌、写作、游戏、音乐与舞蹈是艺术

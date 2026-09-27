@@ -4,7 +4,7 @@ en: die
 meanings: 
   - alien: ["die", "be", "verb"]
     zh: 死亡是动词
-  - alien: ["die", "of", "morpheme", "be", "lifespan", "and", "not"]
+  - alien: ["die", "of", "morpheme", "be", "lifespan", "and", "do_not"]
     zh: 死亡由生命与不得构成
   - alien: ["\n"]
   - alien: ["alien", "change", "become", "corpse"]

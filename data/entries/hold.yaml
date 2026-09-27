@@ -1,0 +1,11 @@
+id: hold
+zh: 持有
+en: hold
+meanings: 
+  - alien: ["hold", "be", "verb"]
+    zh: 持有是动词
+  - alien: ["hold", "of", "morpheme", "be", "be_included", "and", "hand"]
+    zh: 持有由被包含于与手构成
+  - alien: ["\n"]
+  - alien: ["receive", "object", "to", "hand"]
+    zh: 接受物体到手

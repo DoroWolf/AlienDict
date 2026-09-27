@@ -7,5 +7,5 @@ meanings:
   - alien: ["false", "of", "morpheme", "be", "true"]
     zh: 假由真构成
   - alien: ["\n"]
-  - alien: ["not", "true"]
+  - alien: ["do_not", "true"]
     zh: 非真

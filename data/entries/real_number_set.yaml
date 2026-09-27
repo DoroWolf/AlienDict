@@ -1,0 +1,11 @@
+id: real_number_set
+zh: 实数集
+en: real number set
+meanings: 
+  - alien: ["real_number_set", "be", "noun"]
+    zh: 实数集是名词
+  - alien: ["real_number_set", "of", "morpheme", "be", "true", "and", "decimal"]
+    zh: 实数集由真与小数组成
+  - alien: ["\n"]
+  - alien: ["number", "include", "decimal", "element_(math)"]
+    zh: 含小数的数字元素

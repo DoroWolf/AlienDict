@@ -4,8 +4,8 @@ en: prohibit
 meanings: 
   - alien: ["prohibit", "be", "verb"]
     zh: 禁止是动词
-  - alien: ["prohibit", "of", "morpheme", "be", "not"]
+  - alien: ["prohibit", "of", "morpheme", "be", "do_not"]
     zh: 禁止由不得构成
   - alien: ["\n"]
-  - alien: ["not", "help"]
+  - alien: ["do_not", "help"]
     zh: 不得帮助

@@ -1,11 +1,11 @@
 id: component
-zh: 句子成分
+zh: 句子组件
 en: component
 meanings: 
   - alien: ["component", "be", "noun"]
-    zh: 句子成分是名词
+    zh: 句子组件是名词
   - alien: ["component", "of", "morpheme", "be", "sentence", "and", "two"]
-    zh: 句子成分由句子与二构成
+    zh: 句子组件由句子与二构成
   - alien: ["\n"]
   - alien: ["sentence", "of", "element_(math)"]
     zh: 句子的元素

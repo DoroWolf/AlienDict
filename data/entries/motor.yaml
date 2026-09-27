@@ -1,0 +1,13 @@
+id: motor
+zh: 电机
+en: motor
+meanings: 
+  - alien: ["motor", "be", "noun"]
+    zh: 电机是名词
+  - alien: ["motor", "of", "morpheme", "be", "electricity", "and", "move"]
+    zh: 电机由电与移动构成
+  - alien: ["\n"]
+  - alien: ["electric_load"]
+    zh: 负载
+  - alien: ["move", "accross", "motor", "of", "electric_current", "send", "kinetic_energy"]
+    zh: 穿过电机的电流传送动能

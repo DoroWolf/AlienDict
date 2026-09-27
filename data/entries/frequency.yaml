@@ -1,0 +1,11 @@
+id: frequency
+zh: 频率
+en: frequency
+meanings: 
+  - alien: ["frequency", "be", "noun"]
+    zh: 频率是名词
+  - alien: ["frequency", "of", "morpheme", "be", "moment", "and", "wave"]
+    zh: 频率由时刻与波构成
+  - alien: ["\n"]
+  - alien: ["all", "second_(time)", "of", "period", "count"]
+    zh: 全部每秒的周期数量

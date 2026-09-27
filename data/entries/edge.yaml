@@ -1,0 +1,11 @@
+id: edge
+zh: 边缘
+en: edge
+meanings: 
+  - alien: ["edge", "be", "noun"]
+    zh: 边缘是名词
+  - alien: ["edge", "of", "morpheme", "be", "be_not_included", "and", "line"]
+    zh: 边缘由不包含于与线构成
+  - alien: ["\n"]
+  - alien: ["depend", "closed_shape", "of", "line"]
+    zh: 依赖封闭图形的线

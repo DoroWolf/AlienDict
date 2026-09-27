@@ -4,7 +4,7 @@ en: cure
 meanings: 
   - alien: ["cure", "be", "noun"]
     zh: 治疗是名词
-  - alien: ["cure", "of", "morpheme", "be", "sick", "and", "not"]
+  - alien: ["cure", "of", "morpheme", "be", "sick", "and", "do_not"]
     zh: 治疗由生病与不得构成
   - alien: ["\n"]
   - alien: ["alter", "sick", "become", "healthy"]

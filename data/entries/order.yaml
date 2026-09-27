@@ -1,0 +1,11 @@
+id: order
+zh: 顺序
+en: order
+meanings: 
+  - alien: ["order", "be", "noun"]
+    zh: 顺序是名词
+  - alien: ["order", "of", "morpheme", "be", "object", "and", "line"]
+    zh: 顺序由物体与线构成
+  - alien: ["\n"]
+  - alien: ["object", "set_(math)", "include", "transfer", "of", "rule"]
+    zh: 包含转移规则的物体集合

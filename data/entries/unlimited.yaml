@@ -1,0 +1,11 @@
+id: unlimited
+zh: 无限
+en: unlimited
+meanings: 
+  - alien: ["unlimited", "be", "adjective"]
+    zh: 无限是形容词
+  - alien: ["unlimited", "of", "morpheme", "be", "not_include", "and", "more"]
+    zh: 无限由不包含与最大构成
+  - alien: ["\n"]
+  - alien: ["not_include", "more"]
+    zh: 不包含最值

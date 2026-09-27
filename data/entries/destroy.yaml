@@ -4,7 +4,7 @@ en: destroy
 meanings: 
   - alien: ["destroy", "be", "verb"]
     zh: 破坏是动词
-  - alien: ["destroy", "of", "morpheme", "be", "object", "and", "not"]
+  - alien: ["destroy", "of", "morpheme", "be", "object", "and", "do_not"]
     zh: 破坏由物体与不得构成
   - alien: ["\n"]
   - alien: ["alter", "object", "become", "not_exist"]

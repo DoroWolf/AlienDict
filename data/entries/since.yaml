@@ -8,7 +8,7 @@ meanings:
     zh: 由于由从与时刻构成
   - alien: ["\n"]
   - alien: ["since", "amass", "two", "component"]
-    zh: 由于累积两个句子成分
+    zh: 由于累积两个句子组件
   - alien: ["next_word", "be", "previous_word", "of", "reason"]
     zh: 后词是前词的原因
   - alien: ["previous_word", "be", "next_word", "of", "result"]

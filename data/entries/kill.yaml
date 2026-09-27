@@ -4,7 +4,7 @@ en: kill
 meanings: 
   - alien: ["kill", "be", "verb"]
     zh: 杀是动词
-  - alien: ["kill", "of", "morpheme", "be", "alien", "and", "not"]
+  - alien: ["kill", "of", "morpheme", "be", "alien", "and", "do_not"]
     zh: 杀由外星人与不得构成
   - alien: ["\n"]
   - alien: ["destroy", "alien", "become", "dead", "alien"]

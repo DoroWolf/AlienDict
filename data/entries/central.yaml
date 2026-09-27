@@ -1,0 +1,11 @@
+id: central
+zh: 中心
+en: central
+meanings: 
+  - alien: ["central", "be", "adjective"]
+    zh: 中心是形容词
+  - alien: ["central", "be", "base", "morpheme"]
+    zh: 中心是基础词素
+  - alien: ["\n"]
+  - alien: ["be_included", "space", "and", "false", "near", "surface"]
+    zh: 包含于空间且不靠近表面

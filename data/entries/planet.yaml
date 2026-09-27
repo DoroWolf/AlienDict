@@ -1,0 +1,11 @@
+id: planet
+zh: 行星
+en: planet
+meanings: 
+  - alien: ["planet", "be", "noun"]
+    zh: 行星是名词
+  - alien: ["planet", "of", "morpheme", "be", "sky", "and", "fixed"]
+    zh: 行星由天空与固定构成
+  - alien: ["\n"]
+  - alien: ["revolve", "sun", "of", "object"]
+    zh: 围绕太阳的物体

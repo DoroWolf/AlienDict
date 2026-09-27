@@ -1,0 +1,11 @@
+id: pentagon
+zh: 五边形
+en: pentagon
+meanings: 
+  - alien: ["pentagon", "be", "noun"]
+    zh: 五边形是名词
+  - alien: ["pentagon", "of", "morpheme", "be", "line", "and", "five"]
+    zh: 五边形由线与五构成
+  - alien: ["\n"]
+  - alien: ["five", "accumulate", "straight_line", "of", "closed_shape"]
+    zh: 积累五条直线的封闭图形

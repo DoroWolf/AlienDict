@@ -4,10 +4,10 @@ en: demo game
 meanings: 
   - alien: ["demo_game", "be", "noun"]
     zh: 试玩版是名词
-  - alien: ["home", "of", "morpheme", "be", "before", "and", "game"]
+  - alien: ["demo_game", "of", "morpheme", "be", "before", "and", "game"]
     zh: 试玩版由之前与游戏构成
   - alien: ["\n"]
-  - alien: ["not", "full", "of", "game"]
+  - alien: ["do_not", "full", "of", "game"]
     zh: 不完整的游戏
   - alien: ["game", "creator", "send", "false", "price", "of", "demo_game", "for", "attract", "player"]
     zh: 不完整的游戏

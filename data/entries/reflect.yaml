@@ -4,7 +4,7 @@ en: reflect
 meanings: 
   - alien: ["reflect", "be", "verb"]
     zh: 反射是动词
-  - alien: ["reflect", "of", "morpheme", "be", "light", "and", "not"]
+  - alien: ["reflect", "of", "morpheme", "be", "light", "and", "do_not"]
     zh: 反射由光与不得构成
   - alien: ["\n"]
   - alien: ["light", "change", "become", "opposite", "direction", "need", "mirror", "or", "water_surface"]

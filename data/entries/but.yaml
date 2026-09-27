@@ -4,10 +4,10 @@ en: but
 meanings: 
   - alien: ["but", "be", "conjunction"]
     zh: 但是是连词
-  - alien: ["but", "of", "morpheme", "be", "not", "and", "think"]
+  - alien: ["but", "of", "morpheme", "be", "do_not", "and", "think"]
     zh: 但是由不得与想构成
   - alien: ["\n"]
   - alien: ["but", "amass", "two", "component"]
-    zh: 但是累积两个句子成分
+    zh: 但是累积两个句子组件
   - alien: ["next_word", "be", "false", "previous_word"]
     zh: 后词不是前词

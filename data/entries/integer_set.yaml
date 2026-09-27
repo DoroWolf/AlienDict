@@ -1,0 +1,11 @@
+id: integer_set
+zh: 整数集
+en: integer set
+meanings: 
+  - alien: ["integer_set", "be", "noun"]
+    zh: 整数集是名词
+  - alien: ["integer_set", "of", "morpheme", "be", "false", "and", "decimal"]
+    zh: 整数集由假与小数组成
+  - alien: ["\n"]
+  - alien: ["number", "not_include", "decimal", "element_(math)"]
+    zh: 不含小数的数字元素

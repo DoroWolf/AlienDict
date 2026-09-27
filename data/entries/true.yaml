@@ -7,5 +7,5 @@ meanings:
   - alien: ["true", "be", "base", "morpheme"]
     zh: 真是基础词素
   - alien: ["\n"]
-  - alien: ["not", "false"]
+  - alien: ["do_not", "false"]
     zh: 非假

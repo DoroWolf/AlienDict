@@ -1,0 +1,12 @@
+/* 外星词典 · 字体
+   Unifont 的点阵字形，路径相对 assets/ 下的本文件：assets/fonts/unifont.woff2
+   （由 tools/subset_font.py 在构建末尾子集化生成）。本文件不经过打包器处理，
+   路径原样保留，双击打开（file://）也能取到字库。 */
+
+@font-face {
+  font-family: "Unifont";
+  src: local("GNU Unifont"),
+       local("Unifont"),
+       url("fonts/unifont.woff2") format("woff2");
+  font-display: swap;
+}

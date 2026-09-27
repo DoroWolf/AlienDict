@@ -1,0 +1,25 @@
+{
+  "name": "alien-dict",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "外星词典：字形（原文）与译文对照站（Vue + Vite 预渲染）",
+  "scripts": {
+    "dev": "vite --config web/vite.config.mjs",
+    "build": "npm run build:client && npm run build:ssr && node tools/build.mjs",
+    "build:client": "vite build --config web/vite.config.mjs",
+    "build:ssr": "vite build --config web/vite.ssr.config.mjs",
+    "build:site": "node tools/build.mjs",
+    "glyph": "python tools/png2svg.py --all --changed",
+    "subset": "python tools/subset_font.py --scan site --out site/assets/fonts/unifont.woff2"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/server-renderer": "^3.5.13",
+    "vite": "^6.0.7",
+    "yaml": "^2.7.0"
+  }
+}

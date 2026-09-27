@@ -4,7 +4,7 @@ en: line
 meanings:
   - alien: ["line", "be", "noun"]
     zh: 线是名词
-  - alien: ["line", "of", "morpheme", "be", "mark", "and", "(horizontal_line)"]
+  - alien: ["line", "of", "morpheme", "be", "mark", "and", "horizontal_line"]
     zh: 线由标记与横线构成
   - alien: ["\n"]
   - alien: ["accumulate", "two", "dot", "of", "mark"]

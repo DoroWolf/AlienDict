@@ -4,8 +4,8 @@ en: approximately equal
 meanings: 
   - alien: ["approximately_equal", "be", "verb"]
     zh: 约等于是动词
-  - alien: ["approximately_equal", "of", "morpheme", "be", "(overline_and_underline)", "and", "similar"]
-    zh: 约等于由上下划线与相似构成
+  - alien: ["approximately_equal", "of", "morpheme", "be", "equal_shape", "and", "similar"]
+    zh: 约等于由等于形状与相似构成
   - alien: ["\n"]
   - alien: ["count", "be", "similar"]
     zh: 是相似的数量

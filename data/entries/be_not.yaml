@@ -4,8 +4,8 @@ en: be not
 meanings: 
   - alien: ["be_not", "be", "verb"]
     zh: 不是是动词
-  - alien: ["be_not", "of", "morpheme", "be", "(overline_and_underline)", "and", "false"]
-    zh: 不是由上下划线与假构成
+  - alien: ["be_not", "of", "morpheme", "be", "equal_shape", "and", "false"]
+    zh: 不是由等于形状与假构成
   - alien: ["\n"]
   - alien: ["previous_word", "and", "next_word", "have", "different", "description"]
     zh: 前词与后词有不同描述

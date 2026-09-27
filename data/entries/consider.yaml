@@ -4,8 +4,8 @@ en: consider
 meanings: 
   - alien: ["consider", "be", "verb"]
     zh: 认为是动词
-  - alien: ["consider", "of", "morpheme", "be", "(overline_and_underline)", "and", "think"]
-    zh: 认为由上下划线与想构成
+  - alien: ["consider", "of", "morpheme", "be", "equal_shape", "and", "think"]
+    zh: 认为由等于形状与想构成
   - alien: ["\n"]
   - alien: ["previous_word", "and", "next_word", "have", "similar", "thought"]
     zh: 前词与后词有相似想法

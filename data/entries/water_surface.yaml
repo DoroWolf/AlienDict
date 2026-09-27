@@ -4,7 +4,7 @@ en: water surface
 meanings: 
   - alien: ["water_surface", "be", "noun"]
     zh: 水面是名词
-  - alien: ["water_surface", "of", "morpheme", "be", "(horizontal_line)", "and", "seawater"]
+  - alien: ["water_surface", "of", "morpheme", "be", "horizontal_line", "and", "seawater"]
     zh: 水面由横线与海水构成
   - alien: ["\n"]
   - alien: ["sea", "of", "surface"]

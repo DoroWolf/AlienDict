@@ -1,14 +1,7 @@
-/* 外星词典 · 样式
-   无衬线/无装饰、单色灰阶 + 一个蓝色强调；正文全部用 GNU Unifont（点阵字体）。
+/* 外星词典 · 样式（Vue 组件共用）
+   无衬线/无装饰、单色灰阶 + 一个蓝色强调；正文全部用 GNU Unifont（点阵字体，@font-face 在
+   static/fonts.css 里，构建时原样拷进 site/assets/，指到子集化出来的 woff2）。
    字形为内联 SVG（fill="currentColor"），随 --fg 自动适配明暗主题。 */
-
-@font-face {
-  font-family: "Unifont";
-  src: local("GNU Unifont"),
-       local("Unifont"),
-       url("fonts/unifont.woff2") format("woff2");
-  font-display: swap;
-}
 
 :root {
   --bg: #f2f3f5;
@@ -78,38 +71,46 @@ code {
 
 /* ── 字形链（原文） ──────────────────────────────── */
 /* 多行原文的容器：原文里每换一行就是一条 .gl，自上而下排；
-   换行高度＝字符高度（行与行紧贴），空行同样占一个字符高度（--gl-line） */
+   换行高度＝字符高度（行与行紧贴），空行同样占一个字符高度 */
 .gl-lines { display: inline-flex; flex-direction: column; align-items: flex-start; gap: 0; }
 
-/* 一行字形：一个词一个字形；水平方向字符之间留一点空隙方便阅读（要空一整格就写空格元素 ""） */
-.gl { --gl-line: var(--gl-row); display: inline-flex; flex-wrap: wrap; align-items: center; gap: 2px; }
-.gl--lg { --gl-line: var(--gl-head); gap: 3px; }
+/* 一行字形：一个词一个字形；水平方向字符之间留一点空隙方便阅读（要空一整格就写空格元素 ""）。
+   这里用行内排版（不是 flex），于是放不下时由浏览器自己折行；折行后的行首要空一个单位：
+   整行留一格左内边距，再用负缩进把**第一行**拉回原位 —— 于是只有「溢出折出来的行」
+   行首空一格，数据里显式写的换行（另起一个 .gl）不受影响。
+   line-height: 0 让行盒高度只由字形决定：换行与空行都恰好占一格高。 */
+.gl {
+  --gl-cell: var(--gl-row);   /* 本行一个字符的尺寸，各处的上下文各自覆盖 */
+  --gl-gap: 2px;              /* 字符之间那道缝 */
+  --gl-unit: calc(var(--gl-cell) + var(--gl-gap));   /* 一格＝字符宽 + 缝 */
+  display: inline-block;
+  padding-left: var(--gl-unit);              /* 折行后的行首留一格 */
+  text-indent: calc(-1 * var(--gl-unit));    /* 只有第一行拉回原位 */
+  line-height: 0;
+}
+.gl--lg { --gl-cell: var(--gl-head); --gl-gap: 3px; }
+.gl > * { margin-right: var(--gl-gap); vertical-align: top; }
 
 .gl__glyph {
-  width: var(--gl-row);
-  height: var(--gl-row);
+  width: var(--gl-cell, var(--gl-row, 32px));
+  height: var(--gl-cell, var(--gl-row, 32px));
   color: var(--fg);
   display: block;
 }
-.gl--lg .gl__glyph { width: var(--gl-head); height: var(--gl-head); }
 .glyph--png { image-rendering: pixelated; }
 
 .gl__link { display: inline-flex; }
 .gl__link:hover { background: color-mix(in srgb, var(--accent) 18%, transparent); }
 .gl__link:hover .gl__glyph { color: var(--accent); }
 
-/* 空格：空一个字符大小的空格（元素 ""） */
-.gl__space { display: inline-block; flex: 0 0 auto; width: var(--gl-row); }
-.gl--lg .gl__space { width: var(--gl-head); }
+/* 空格：空一个字符大小的空格（元素 ""），高度按一格算（整行都是空格时也占一格高） */
+.gl__space { display: inline-block; width: var(--gl-cell); height: var(--gl-cell); }
 
-/* 空行：额外换一行，高度＝一个字符高度 */
-.gl--blank { display: block; height: var(--gl-line); }
+/* 空行：额外换一行，高度＝一个字符高度（不加行首空格） */
+.gl--blank { display: block; height: var(--gl-cell); padding-left: 0; text-indent: 0; }
 
 /* 有词条但此处不点（如目录卡片整块是链接） */
 .gl__word { display: inline-flex; }
-
-/* 虚词/数字：字形照旧显示，不跳转 */
-.gl__nonlink { display: inline-flex; cursor: default; }
 
 /* 有引用但无词条：字形照旧显示，用虚线标记不可点 */
 .gl__pending { display: inline-flex; opacity: 0.4; border-bottom: 1px dashed var(--muted); cursor: help; }
@@ -119,13 +120,13 @@ code {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: var(--gl-row);
-  height: var(--gl-row);
+  width: var(--gl-cell, var(--gl-row, 32px));
+  height: var(--gl-cell, var(--gl-row, 32px));
+  line-height: 1;                 /* 里面有个「?」文字，别被 line-height: 0 压没 */
   border: 1px dashed var(--muted);
   color: var(--muted);
   cursor: help;
 }
-.gl--lg .gl__none { width: var(--gl-head); height: var(--gl-head); }
 
 /* ── 词头（左＝放大的外星字形，右＝中英释义） ────── */
 .head {
@@ -219,9 +220,8 @@ code {
   color: var(--fg);
 }
 .card__link:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); text-decoration: none; }
-.card__glyph .gl { --gl-line: var(--gl-card); }
-.card__glyph .gl__glyph { width: var(--gl-card); height: var(--gl-card); }
-.card__glyph .gl__space { width: var(--gl-card); }
+/* 目录卡片里的字形链：一格的大小跟着卡片走（--gl-cell 决定字形、空格与折行缩进） */
+.card__glyph .gl { --gl-cell: var(--gl-card); }
 .card__zh { color: var(--fg); }
 .card__en { color: var(--muted); }
 
@@ -241,10 +241,7 @@ code {
   cursor: pointer;
 }
 .chip:hover { border-color: var(--accent); text-decoration: none; }
-.chip__glyph { display: inline-flex; }
-.chip__glyph .gl__glyph,
-.chip__glyph .gl__none { width: var(--gl-chip); height: var(--gl-chip); }
-.chip__en { color: var(--muted); }
+.chip__glyph { display: inline-flex; --gl-cell: var(--gl-chip); }
 .chip__n { color: var(--muted); }
 .chip--morph.is-active {
   border-color: var(--accent);
@@ -368,7 +365,7 @@ details[open] > summary .closed { display: none; }
   padding: 0 0.5rem;
 }
 
-/* ── 防剧透（默认开启，见 spoiler.js） ───────────────
+/* ── 防剧透（默认开启，见 web/src/composables/useSpoiler.js） ───────────────
    开关在页头右侧；开着时译文/释义标了 data-spoiler，先遮住，点一下要过弹窗才揭开。
    原文＝外星字形不遮；<html> 上没 spoiler-on 类（关掉了 / 没有 JS）时一切照常显示。 */
 .bar__spoiler {

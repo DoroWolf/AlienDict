@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-page-title="有人 someone · 外星词典" data-masked-title="外星词典">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>有人 someone · 外星词典</title>
 <meta name="description" content="有人（someone） —— 外星词的字形（原文）与译文对照。">
+<link rel="stylesheet" href="../assets/fonts.css">
 <link rel="stylesheet" href="../assets/style.css">
+<script>
+(function () {
+  var off = false;
+  try { off = localStorage.getItem('alien-dict-spoiler') === 'off'; } catch (err) {}
+  if (off) return;
+  var root = document.documentElement;
+  root.className += ' spoiler-on';
+  var masked = root.getAttribute('data-masked-title');   // 标签页标题里也带着译文
+  if (masked) document.title = masked;
+})();
+</script>
 </head>
 <body>
-<header class="bar">
-  <a class="bar__home" href="../index.html">外星词典</a>
-</header>
-<main class="page">
-<article class="entry">
-
-  <header class="head">
-    <div class="head__alien"><span class="gl-lines"><span class="gl gl--lg"><span class="gl__word" title="有人（someone）" data-spoiler-title="有人（someone）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="有人（someone）" data-spoiler-label="有人（someone）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
+<div id="app"><!--[--><header class="bar"><a class="bar__home" href="../index.html">外星词典</a><button class="bar__spoiler" type="button" aria-pressed="true" title="防剧透：译文默认遮住，点一下切换">防剧透：开</button></header><main class="page"><article class="entry"><header class="head"><div class="head__alien"><span class="gl-lines"><!--[--><!--[--><span class="gl gl--lg"><!--[--><!--[--><span class="gl__word" title="有人（someone）" data-spoiler-title="有人（someone）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="有人（someone）" data-spoiler-label="有人（someone）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
 <rect x="0" y="2" width="1" height="13" fill="currentColor"/>
 <rect x="4" y="5" width="1" height="1" fill="currentColor"/>
 <rect x="7" y="5" width="1" height="2" fill="currentColor"/>
@@ -30,15 +35,7 @@
 <rect x="9" y="10" width="1" height="1" fill="currentColor"/>
 <rect x="4" y="11" width="1" height="1" fill="currentColor"/>
 <rect x="10" y="11" width="1" height="1" fill="currentColor"/>
-<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></span></span></span></div>
-    <div class="head__gloss" data-spoiler>
-      <h1 class="head__zh">有人</h1>
-<p class="head__en">someone</p>    </div>
-  </header>
-
-  <div class="text">
-    <div class="text__alien">
-<span class="gl-lines"><span class="gl"><a class="gl__link" href="../w/someone.html" title="有人（someone）" data-spoiler-title="有人（someone）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="有人（someone）" data-spoiler-label="有人（someone）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
+<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></span><!--]--><!--]--></span><!--]--><!--]--></span></div><div class="head__gloss" data-spoiler><h1 class="head__zh">有人</h1><p class="head__en">someone</p></div></header><div class="text"><div class="text__alien"><!--[--><!--[--><span class="gl-lines"><!--[--><!--[--><span class="gl"><!--[--><!--[--><a class="gl__link" href="../w/someone.html" title="有人（someone）" data-spoiler-title="有人（someone）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="有人（someone）" data-spoiler-label="有人（someone）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
 <rect x="0" y="2" width="1" height="13" fill="currentColor"/>
 <rect x="4" y="5" width="1" height="1" fill="currentColor"/>
 <rect x="7" y="5" width="1" height="2" fill="currentColor"/>
@@ -53,11 +50,11 @@
 <rect x="9" y="10" width="1" height="1" fill="currentColor"/>
 <rect x="4" y="11" width="1" height="1" fill="currentColor"/>
 <rect x="10" y="11" width="1" height="1" fill="currentColor"/>
-<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/be.html" title="是（be）" data-spoiler-title="是（be）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="是（be）" data-spoiler-label="是（be）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
+<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/be.html" title="是（be）" data-spoiler-title="是（be）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="是（be）" data-spoiler-label="是（be）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
 <rect x="4" y="5" width="7" height="1" fill="currentColor"/>
 <rect x="4" y="6" width="1" height="5" fill="currentColor"/>
 <rect x="4" y="11" width="7" height="1" fill="currentColor"/>
-<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/adjective.html" title="形容词（adjective）" data-spoiler-title="形容词（adjective）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="形容词（adjective）" data-spoiler-label="形容词（adjective）" shape-rendering="crispEdges" focusable="false"><rect x="10" y="4" width="5" height="1" fill="currentColor"/>
+<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/adjective.html" title="形容词（adjective）" data-spoiler-title="形容词（adjective）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="形容词（adjective）" data-spoiler-label="形容词（adjective）" shape-rendering="crispEdges" focusable="false"><rect x="10" y="4" width="5" height="1" fill="currentColor"/>
 <rect x="3" y="5" width="1" height="1" fill="currentColor"/>
 <rect x="8" y="5" width="1" height="5" fill="currentColor"/>
 <rect x="12" y="5" width="1" height="1" fill="currentColor"/>
@@ -70,7 +67,7 @@
 <rect x="10" y="7" width="5" height="1" fill="currentColor"/>
 <rect x="0" y="8" width="1" height="1" fill="currentColor"/>
 <rect x="6" y="8" width="1" height="1" fill="currentColor"/>
-<rect x="8" y="10" width="7" height="1" fill="currentColor"/></svg></a></span></span><span class="gl-lines"><span class="gl"><a class="gl__link" href="../w/someone.html" title="有人（someone）" data-spoiler-title="有人（someone）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="有人（someone）" data-spoiler-label="有人（someone）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
+<rect x="8" y="10" width="7" height="1" fill="currentColor"/></svg></a><!--]--><!--]--></span><!--]--><!--]--></span><!--]--><!--[--><span class="gl-lines"><!--[--><!--[--><span class="gl"><!--[--><!--[--><a class="gl__link" href="../w/someone.html" title="有人（someone）" data-spoiler-title="有人（someone）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="有人（someone）" data-spoiler-label="有人（someone）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
 <rect x="0" y="2" width="1" height="13" fill="currentColor"/>
 <rect x="4" y="5" width="1" height="1" fill="currentColor"/>
 <rect x="7" y="5" width="1" height="2" fill="currentColor"/>
@@ -85,7 +82,7 @@
 <rect x="9" y="10" width="1" height="1" fill="currentColor"/>
 <rect x="4" y="11" width="1" height="1" fill="currentColor"/>
 <rect x="10" y="11" width="1" height="1" fill="currentColor"/>
-<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/of.html" title="的（of）" data-spoiler-title="的（of）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="的（of）" data-spoiler-label="的（of）" shape-rendering="crispEdges" focusable="false"><rect x="7" y="1" width="1" height="1" fill="currentColor"/>
+<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/of.html" title="的（of）" data-spoiler-title="的（of）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="的（of）" data-spoiler-label="的（of）" shape-rendering="crispEdges" focusable="false"><rect x="7" y="1" width="1" height="1" fill="currentColor"/>
 <rect x="6" y="2" width="1" height="1" fill="currentColor"/>
 <rect x="8" y="2" width="1" height="1" fill="currentColor"/>
 <rect x="5" y="3" width="1" height="1" fill="currentColor"/>
@@ -99,7 +96,7 @@
 <rect x="1" y="7" width="1" height="1" fill="currentColor"/>
 <rect x="13" y="7" width="1" height="1" fill="currentColor"/>
 <rect x="0" y="8" width="1" height="1" fill="currentColor"/>
-<rect x="14" y="8" width="1" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/morpheme.html" title="词素（morpheme）" data-spoiler-title="词素（morpheme）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="词素（morpheme）" data-spoiler-label="词素（morpheme）" shape-rendering="crispEdges" focusable="false"><rect x="7" y="1" width="5" height="1" fill="currentColor"/>
+<rect x="14" y="8" width="1" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/morpheme.html" title="词素（morpheme）" data-spoiler-title="词素（morpheme）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="词素（morpheme）" data-spoiler-label="词素（morpheme）" shape-rendering="crispEdges" focusable="false"><rect x="7" y="1" width="5" height="1" fill="currentColor"/>
 <rect x="3" y="2" width="1" height="5" fill="currentColor"/>
 <rect x="9" y="2" width="1" height="1" fill="currentColor"/>
 <rect x="8" y="3" width="1" height="1" fill="currentColor"/>
@@ -107,13 +104,13 @@
 <rect x="7" y="4" width="5" height="1" fill="currentColor"/>
 <rect x="3" y="7" width="9" height="1" fill="currentColor"/>
 <rect x="5" y="9" width="1" height="7" fill="currentColor"/>
-<rect x="9" y="9" width="1" height="7" fill="currentColor"/></svg></a><a class="gl__link" href="../w/be.html" title="是（be）" data-spoiler-title="是（be）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="是（be）" data-spoiler-label="是（be）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
+<rect x="9" y="9" width="1" height="7" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/be.html" title="是（be）" data-spoiler-title="是（be）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="是（be）" data-spoiler-label="是（be）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
 <rect x="4" y="5" width="7" height="1" fill="currentColor"/>
 <rect x="4" y="6" width="1" height="5" fill="currentColor"/>
 <rect x="4" y="11" width="7" height="1" fill="currentColor"/>
-<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/true.html" title="真（true）" data-spoiler-title="真（true）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="真（true）" data-spoiler-label="真（true）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
+<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/true.html" title="真（true）" data-spoiler-title="真（true）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="真（true）" data-spoiler-label="真（true）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
 <rect x="0" y="2" width="1" height="13" fill="currentColor"/>
-<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/and.html" title="与（and）" data-spoiler-title="与（and）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="与（and）" data-spoiler-label="与（and）" shape-rendering="crispEdges" focusable="false"><rect x="5" y="6" width="1" height="1" fill="currentColor"/>
+<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/and.html" title="与（and）" data-spoiler-title="与（and）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="与（and）" data-spoiler-label="与（and）" shape-rendering="crispEdges" focusable="false"><rect x="5" y="6" width="1" height="1" fill="currentColor"/>
 <rect x="13" y="6" width="1" height="1" fill="currentColor"/>
 <rect x="4" y="7" width="1" height="1" fill="currentColor"/>
 <rect x="6" y="7" width="1" height="1" fill="currentColor"/>
@@ -125,7 +122,7 @@
 <rect x="8" y="9" width="1" height="1" fill="currentColor"/>
 <rect x="10" y="9" width="1" height="1" fill="currentColor"/>
 <rect x="1" y="10" width="1" height="1" fill="currentColor"/>
-<rect x="9" y="10" width="1" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/alien.html" title="外星人（alien）" data-spoiler-title="外星人（alien）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="外星人（alien）" data-spoiler-label="外星人（alien）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="1" height="1" fill="currentColor"/>
+<rect x="9" y="10" width="1" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/alien.html" title="外星人（alien）" data-spoiler-title="外星人（alien）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="外星人（alien）" data-spoiler-label="外星人（alien）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="1" height="1" fill="currentColor"/>
 <rect x="7" y="1" width="1" height="6" fill="currentColor"/>
 <rect x="14" y="1" width="1" height="1" fill="currentColor"/>
 <rect x="1" y="2" width="1" height="1" fill="currentColor"/>
@@ -153,14 +150,13 @@
 <rect x="1" y="14" width="1" height="1" fill="currentColor"/>
 <rect x="13" y="14" width="1" height="1" fill="currentColor"/>
 <rect x="0" y="15" width="1" height="1" fill="currentColor"/>
-<rect x="14" y="15" width="1" height="1" fill="currentColor"/></svg></a></span></span><span class="gl gl--blank" aria-hidden="true"></span>
-<span class="gl-lines"><span class="gl"><a class="gl__link" href="../w/cannot.html" title="不能（cannot）" data-spoiler-title="不能（cannot）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="不能（cannot）" data-spoiler-label="不能（cannot）" shape-rendering="crispEdges" focusable="false"><rect x="3" y="1" width="9" height="1" fill="currentColor"/>
+<rect x="14" y="15" width="1" height="1" fill="currentColor"/></svg></a><!--]--><!--]--></span><!--]--><!--]--></span><!--]--><!--[--><span class="gl gl--blank" aria-hidden="true"></span><!--]--><!--[--><span class="gl-lines"><!--[--><!--[--><span class="gl"><!--[--><!--[--><a class="gl__link" href="../w/cannot.html" title="不能（cannot）" data-spoiler-title="不能（cannot）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="不能（cannot）" data-spoiler-label="不能（cannot）" shape-rendering="crispEdges" focusable="false"><rect x="3" y="1" width="9" height="1" fill="currentColor"/>
 <rect x="11" y="2" width="1" height="7" fill="currentColor"/>
 <rect x="3" y="9" width="9" height="1" fill="currentColor"/>
 <rect x="3" y="11" width="1" height="4" fill="currentColor"/>
 <rect x="7" y="11" width="5" height="1" fill="currentColor"/>
 <rect x="11" y="12" width="1" height="3" fill="currentColor"/>
-<rect x="3" y="15" width="9" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/do.html" title="做（do）" data-spoiler-title="做（do）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="做（do）" data-spoiler-label="做（do）" shape-rendering="crispEdges" focusable="false"><rect x="7" y="1" width="1" height="4" fill="currentColor"/>
+<rect x="3" y="15" width="9" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/do.html" title="做（do）" data-spoiler-title="做（do）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="做（do）" data-spoiler-label="做（do）" shape-rendering="crispEdges" focusable="false"><rect x="7" y="1" width="1" height="4" fill="currentColor"/>
 <rect x="3" y="5" width="1" height="4" fill="currentColor"/>
 <rect x="7" y="5" width="5" height="1" fill="currentColor"/>
 <rect x="7" y="6" width="1" height="3" fill="currentColor"/>
@@ -169,14 +165,14 @@
 <rect x="7" y="11" width="5" height="1" fill="currentColor"/>
 <rect x="3" y="12" width="1" height="3" fill="currentColor"/>
 <rect x="11" y="12" width="1" height="3" fill="currentColor"/>
-<rect x="3" y="15" width="9" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/be_not_included.html" title="不包含于（be not included）" data-spoiler-title="不包含于（be not included）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="不包含于（be not included）" data-spoiler-label="不包含于（be not included）" shape-rendering="crispEdges" focusable="false"><rect x="2" y="5" width="1" height="7" fill="currentColor"/>
+<rect x="3" y="15" width="9" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/be_not_included.html" title="不包含于（be not included）" data-spoiler-title="不包含于（be not included）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="不包含于（be not included）" data-spoiler-label="不包含于（be not included）" shape-rendering="crispEdges" focusable="false"><rect x="2" y="5" width="1" height="7" fill="currentColor"/>
 <rect x="6" y="5" width="4" height="1" fill="currentColor"/>
 <rect x="10" y="6" width="1" height="1" fill="currentColor"/>
 <rect x="11" y="7" width="1" height="1" fill="currentColor"/>
 <rect x="12" y="8" width="1" height="1" fill="currentColor"/>
 <rect x="11" y="9" width="1" height="1" fill="currentColor"/>
 <rect x="10" y="10" width="1" height="1" fill="currentColor"/>
-<rect x="6" y="11" width="4" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/alien.html" title="外星人（alien）" data-spoiler-title="外星人（alien）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="外星人（alien）" data-spoiler-label="外星人（alien）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="1" height="1" fill="currentColor"/>
+<rect x="6" y="11" width="4" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/alien.html" title="外星人（alien）" data-spoiler-title="外星人（alien）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="外星人（alien）" data-spoiler-label="外星人（alien）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="1" height="1" fill="currentColor"/>
 <rect x="7" y="1" width="1" height="6" fill="currentColor"/>
 <rect x="14" y="1" width="1" height="1" fill="currentColor"/>
 <rect x="1" y="2" width="1" height="1" fill="currentColor"/>
@@ -204,7 +200,7 @@
 <rect x="1" y="14" width="1" height="1" fill="currentColor"/>
 <rect x="13" y="14" width="1" height="1" fill="currentColor"/>
 <rect x="0" y="15" width="1" height="1" fill="currentColor"/>
-<rect x="14" y="15" width="1" height="1" fill="currentColor"/></svg></a></span></span><span class="gl-lines"><span class="gl"><a class="gl__link" href="../w/or.html" title="或（or）" data-spoiler-title="或（or）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="或（or）" data-spoiler-label="或（or）" shape-rendering="crispEdges" focusable="false"><rect x="7" y="5" width="1" height="2" fill="currentColor"/>
+<rect x="14" y="15" width="1" height="1" fill="currentColor"/></svg></a><!--]--><!--]--></span><!--]--><!--]--></span><!--]--><!--[--><span class="gl-lines"><!--[--><!--[--><span class="gl"><!--[--><!--[--><a class="gl__link" href="../w/or.html" title="或（or）" data-spoiler-title="或（or）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="或（or）" data-spoiler-label="或（or）" shape-rendering="crispEdges" focusable="false"><rect x="7" y="5" width="1" height="2" fill="currentColor"/>
 <rect x="5" y="6" width="1" height="1" fill="currentColor"/>
 <rect x="13" y="6" width="1" height="1" fill="currentColor"/>
 <rect x="4" y="7" width="1" height="1" fill="currentColor"/>
@@ -218,10 +214,10 @@
 <rect x="10" y="9" width="1" height="1" fill="currentColor"/>
 <rect x="1" y="10" width="1" height="1" fill="currentColor"/>
 <rect x="7" y="10" width="1" height="2" fill="currentColor"/>
-<rect x="9" y="10" width="1" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/space.html" title="空间（space）" data-spoiler-title="空间（space）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="空间（space）" data-spoiler-label="空间（space）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
+<rect x="9" y="10" width="1" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/space.html" title="空间（space）" data-spoiler-title="空间（space）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="空间（space）" data-spoiler-label="空间（space）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
 <rect x="0" y="2" width="1" height="13" fill="currentColor"/>
 <rect x="14" y="2" width="1" height="13" fill="currentColor"/>
-<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/be_included.html" title="包含于（be included）" data-spoiler-title="包含于（be included）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="包含于（be included）" data-spoiler-label="包含于（be included）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="8" height="1" fill="currentColor"/>
+<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/be_included.html" title="包含于（be included）" data-spoiler-title="包含于（be included）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="包含于（be included）" data-spoiler-label="包含于（be included）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="8" height="1" fill="currentColor"/>
 <rect x="7" y="2" width="2" height="1" fill="currentColor"/>
 <rect x="7" y="3" width="1" height="11" fill="currentColor"/>
 <rect x="9" y="3" width="1" height="1" fill="currentColor"/>
@@ -236,7 +232,7 @@
 <rect x="10" y="12" width="1" height="1" fill="currentColor"/>
 <rect x="9" y="13" width="1" height="1" fill="currentColor"/>
 <rect x="7" y="14" width="2" height="1" fill="currentColor"/>
-<rect x="0" y="15" width="8" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/alien.html" title="外星人（alien）" data-spoiler-title="外星人（alien）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="外星人（alien）" data-spoiler-label="外星人（alien）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="1" height="1" fill="currentColor"/>
+<rect x="0" y="15" width="8" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/alien.html" title="外星人（alien）" data-spoiler-title="外星人（alien）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="外星人（alien）" data-spoiler-label="外星人（alien）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="1" height="1" fill="currentColor"/>
 <rect x="7" y="1" width="1" height="6" fill="currentColor"/>
 <rect x="14" y="1" width="1" height="1" fill="currentColor"/>
 <rect x="1" y="2" width="1" height="1" fill="currentColor"/>
@@ -264,21 +260,9 @@
 <rect x="1" y="14" width="1" height="1" fill="currentColor"/>
 <rect x="13" y="14" width="1" height="1" fill="currentColor"/>
 <rect x="0" y="15" width="1" height="1" fill="currentColor"/>
-<rect x="14" y="15" width="1" height="1" fill="currentColor"/></svg></a></span></span>    </div>
-    <h2 class="text__label">翻译</h2>
-    <div class="text__zh" data-spoiler>
-<span class="line">有人是形容词</span><span class="line">有人由真与外星人构成</span><span class="line line--blank" aria-hidden="true"></span>
-<span class="line">不用人不能做</span><span class="line">或有人的空间</span>    </div>
-  </div>
-
-  <section class="morph">
-    <h2 class="morph__h">词素</h2>
-
-    <div class="morph__row">
-      <span class="morph__label">由这些词素构成</span>
-      <div class="chips"><a class="chip" href="../w/true.html" title="真（true）" data-spoiler-title="真（true）"><span class="chip__glyph"><span class="gl__word" title="真（true）" data-spoiler-title="真（true）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="真（true）" data-spoiler-label="真（true）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
+<rect x="14" y="15" width="1" height="1" fill="currentColor"/></svg></a><!--]--><!--]--></span><!--]--><!--]--></span><!--]--><!--]--></div><h2 class="text__label">翻译</h2><div class="text__zh" data-spoiler><!--[--><!--[--><span class="line"><!--[-->有人是形容词<!--]--></span><!--]--><!--[--><span class="line"><!--[-->有人由真与外星人构成<!--]--></span><!--]--><!--[--><span class="line line--blank" aria-hidden="true"></span><!--]--><!--[--><span class="line"><!--[-->不用人不能做<!--]--></span><!--]--><!--[--><span class="line"><!--[-->或有人的空间<!--]--></span><!--]--><!--]--></div></div><!----><section class="morph"><h2 class="morph__h">词素</h2><div class="morph__row"><span class="morph__label">由这些词素构成</span><div class="chips"><!--[--><a class="chip chip--base" href="../w/true.html" title="真（true）" data-spoiler-title="真（true）"><!--[--><span class="chip__glyph"><span class="gl__word" title="真（true）" data-spoiler-title="真（true）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="真（true）" data-spoiler-label="真（true）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
 <rect x="0" y="2" width="1" height="13" fill="currentColor"/>
-<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></span></span><span class="chip__zh" data-spoiler>真</span><span class="chip__en" data-spoiler>true</span></a><a class="chip" href="../w/alien.html" title="外星人（alien）" data-spoiler-title="外星人（alien）"><span class="chip__glyph"><span class="gl__word" title="外星人（alien）" data-spoiler-title="外星人（alien）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="外星人（alien）" data-spoiler-label="外星人（alien）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="1" height="1" fill="currentColor"/>
+<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></span></span><span class="chip__zh" data-spoiler="">真</span><!----><!--]--></a><a class="chip chip--base" href="../w/alien.html" title="外星人（alien）" data-spoiler-title="外星人（alien）"><!--[--><span class="chip__glyph"><span class="gl__word" title="外星人（alien）" data-spoiler-title="外星人（alien）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="外星人（alien）" data-spoiler-label="外星人（alien）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="1" height="1" fill="currentColor"/>
 <rect x="7" y="1" width="1" height="6" fill="currentColor"/>
 <rect x="14" y="1" width="1" height="1" fill="currentColor"/>
 <rect x="1" y="2" width="1" height="1" fill="currentColor"/>
@@ -306,16 +290,8 @@
 <rect x="1" y="14" width="1" height="1" fill="currentColor"/>
 <rect x="13" y="14" width="1" height="1" fill="currentColor"/>
 <rect x="0" y="15" width="1" height="1" fill="currentColor"/>
-<rect x="14" y="15" width="1" height="1" fill="currentColor"/></svg></span></span><span class="chip__zh" data-spoiler>外星人</span><span class="chip__en" data-spoiler>alien</span></a></div>
-    </div>
-
-  </section>
-
-  <nav class="nav">
-<a class="nav__link" data-spoiler href="../w/some.html">← 部分</a>    <a class="nav__link nav__link--home" href="../index.html">目录</a>
-<a class="nav__link" data-spoiler href="../w/space.html">空间 →</a>  </nav>
-
-</article>
-</main>
+<rect x="14" y="15" width="1" height="1" fill="currentColor"/></svg></span></span><span class="chip__zh" data-spoiler="">外星人</span><!----><!--]--></a><!--]--></div></div><!----></section><nav class="nav"><a class="nav__link" data-spoiler data-spoiler-direct href="../w/some.html">← 部分</a><a class="nav__link nav__link--home" href="../index.html">目录</a><a class="nav__link" data-spoiler data-spoiler-direct href="../w/space.html">空间 →</a></nav></article></main><div class="modal" id="spoiler-modal" role="dialog" aria-modal="true" aria-labelledby="spoiler-modal-title" aria-describedby="spoiler-modal-text" hidden><div class="modal__backdrop" data-modal-close></div><div class="modal__box"><h2 class="modal__title" id="spoiler-modal-title">剧透警告</h2><p class="modal__text" id="spoiler-modal-text">此处是可能导致游戏剧透的内容。确定吗？</p><div class="modal__actions"><button class="modal__btn" type="button">再想想</button><button class="modal__btn modal__btn--primary" type="button">确定</button></div></div></div><!--]--></div>
+<script>window.__ALIEN_DICT_PROPS__ = {"page":"entry","root":"../","site":{"title":"外星词典","description":"外星词的字形（原文）与译文对照。","lang":"zh-CN"},"entry":{"id":"someone","zh":"有人","en":"someone","title":"有人 someone · 外星词典","description":"有人（someone） —— 外星词的字形（原文）与译文对照。","glyph":"someone"},"headLines":[[{"id":"someone","link":true}]],"meanings":[{"lines":[[{"id":"someone"},{"id":"be"},{"id":"adjective"}]],"zh":"有人是形容词"},{"lines":[[{"id":"someone"},{"id":"of"},{"id":"morpheme"},{"id":"be"},{"id":"true"},{"id":"and"},{"id":"alien"}]],"zh":"有人由真与外星人构成"},{"blank":true},{"lines":[[{"id":"cannot"},{"id":"do"},{"id":"be_not_included"},{"id":"alien"}]],"zh":"不用人不能做"},{"lines":[[{"id":"or"},{"id":"space"},{"id":"be_included"},{"id":"alien"}]],"zh":"或有人的空间"}],"notes":[],"morph":{"morphemes":[{"id":"true","label":"真（true）","href":"../w/true.html","pending":false,"base":true},{"id":"alien","label":"外星人（alien）","href":"../w/alien.html","pending":false,"base":true}],"base":false,"derived":[]},"prev":{"id":"some","zh":"部分","href":"../w/some.html"},"next":{"id":"space","zh":"空间","href":"../w/space.html"},"words":{"someone":{"key":"someone","label":"有人（someone）","zh":"有人","href":"../w/someone.html","pending":false,"glyph":"someone","png":null,"missing":false},"be":{"key":"be","label":"是（be）","zh":"是","href":"../w/be.html","pending":false,"glyph":"be","png":null,"missing":false},"adjective":{"key":"adjective","label":"形容词（adjective）","zh":"形容词","href":"../w/adjective.html","pending":false,"glyph":"adjective","png":null,"missing":false},"of":{"key":"of","label":"的（of）","zh":"的","href":"../w/of.html","pending":false,"glyph":"of","png":null,"missing":false},"morpheme":{"key":"morpheme","label":"词素（morpheme）","zh":"词素","href":"../w/morpheme.html","pending":false,"glyph":"morpheme","png":null,"missing":false},"true":{"key":"true","label":"真（true）","zh":"真","href":"../w/true.html","pending":false,"glyph":"true","png":null,"missing":false},"and":{"key":"and","label":"与（and）","zh":"与","href":"../w/and.html","pending":false,"glyph":"and","png":null,"missing":false},"alien":{"key":"alien","label":"外星人（alien）","zh":"外星人","href":"../w/alien.html","pending":false,"glyph":"alien","png":null,"missing":false},"cannot":{"key":"cannot","label":"不能（cannot）","zh":"不能","href":"../w/cannot.html","pending":false,"glyph":"cannot","png":null,"missing":false},"do":{"key":"do","label":"做（do）","zh":"做","href":"../w/do.html","pending":false,"glyph":"do","png":null,"missing":false},"be_not_included":{"key":"be_not_included","label":"不包含于（be not included）","zh":"不包含于","href":"../w/be_not_included.html","pending":false,"glyph":"be_not_included","png":null,"missing":false},"or":{"key":"or","label":"或（or）","zh":"或","href":"../w/or.html","pending":false,"glyph":"or","png":null,"missing":false},"space":{"key":"space","label":"空间（space）","zh":"空间","href":"../w/space.html","pending":false,"glyph":"space","png":null,"missing":false},"be_included":{"key":"be_included","label":"包含于（be included）","zh":"包含于","href":"../w/be_included.html","pending":false,"glyph":"be_included","png":null,"missing":false}},"glyphs":{"someone":{"vb":"0 0 16 16","inner":"\u003crect x=\"0\" y=\"1\" width=\"15\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"2\" width=\"1\" height=\"13\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"5\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"5\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"5\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"5\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"6\" y=\"7\" width=\"3\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"8\" width=\"7\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"6\" y=\"9\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"8\" y=\"9\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"5\" y=\"10\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"10\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"11\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"11\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"15\" width=\"15\" height=\"1\" fill=\"currentColor\"/>"},"be":{"vb":"0 0 16 16","inner":"\u003crect x=\"0\" y=\"1\" width=\"15\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"5\" width=\"7\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"6\" width=\"1\" height=\"5\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"11\" width=\"7\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"15\" width=\"15\" height=\"1\" fill=\"currentColor\"/>"},"adjective":{"vb":"0 0 16 16","inner":"\u003crect x=\"10\" y=\"4\" width=\"5\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"5\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"8\" y=\"5\" width=\"1\" height=\"5\" fill=\"currentColor\"/>\r\n\u003crect x=\"12\" y=\"5\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"13\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"1\" y=\"7\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"5\" y=\"7\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"7\" width=\"5\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"6\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"8\" y=\"10\" width=\"7\" height=\"1\" fill=\"currentColor\"/>"},"of":{"vb":"0 0 16 16","inner":"\u003crect x=\"7\" y=\"1\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"6\" y=\"2\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"8\" y=\"2\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"5\" y=\"3\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"3\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"4\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"4\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"5\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"5\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"12\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"1\" y=\"7\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"13\" y=\"7\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"14\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>"},"morpheme":{"vb":"0 0 16 16","inner":"\u003crect x=\"7\" y=\"1\" width=\"5\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"2\" width=\"1\" height=\"5\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"2\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"8\" y=\"3\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"3\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"4\" width=\"5\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"7\" width=\"9\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"5\" y=\"9\" width=\"1\" height=\"7\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"9\" width=\"1\" height=\"7\" fill=\"currentColor\"/>"},"true":{"vb":"0 0 16 16","inner":"\u003crect x=\"0\" y=\"1\" width=\"15\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"2\" width=\"1\" height=\"13\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"15\" width=\"15\" height=\"1\" fill=\"currentColor\"/>"},"and":{"vb":"0 0 16 16","inner":"\u003crect x=\"5\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"13\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"7\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"6\" y=\"7\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"12\" y=\"7\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"9\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"8\" y=\"9\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"9\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"1\" y=\"10\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"10\" width=\"1\" height=\"1\" fill=\"currentColor\"/>"},"alien":{"vb":"0 0 16 16","inner":"\u003crect x=\"0\" y=\"1\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"1\" width=\"1\" height=\"6\" fill=\"currentColor\"/>\r\n\u003crect x=\"14\" y=\"1\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"1\" y=\"2\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"13\" y=\"2\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"3\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"12\" y=\"3\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"4\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"4\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"5\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"5\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"5\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"6\" y=\"7\" width=\"3\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"8\" width=\"15\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"6\" y=\"9\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"8\" y=\"9\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"5\" y=\"10\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"10\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"11\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"11\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"12\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"12\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"13\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"12\" y=\"13\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"1\" y=\"14\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"13\" y=\"14\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"15\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"14\" y=\"15\" width=\"1\" height=\"1\" fill=\"currentColor\"/>"},"cannot":{"vb":"0 0 16 16","inner":"\u003crect x=\"3\" y=\"1\" width=\"9\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"2\" width=\"1\" height=\"7\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"9\" width=\"9\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"11\" width=\"1\" height=\"4\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"11\" width=\"5\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"12\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"15\" width=\"9\" height=\"1\" fill=\"currentColor\"/>"},"do":{"vb":"0 0 16 16","inner":"\u003crect x=\"7\" y=\"1\" width=\"1\" height=\"4\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"5\" width=\"1\" height=\"4\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"5\" width=\"5\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"6\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"6\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"9\" width=\"9\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"11\" width=\"5\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"12\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"12\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"15\" width=\"9\" height=\"1\" fill=\"currentColor\"/>"},"be_not_included":{"vb":"0 0 16 16","inner":"\u003crect x=\"2\" y=\"5\" width=\"1\" height=\"7\" fill=\"currentColor\"/>\r\n\u003crect x=\"6\" y=\"5\" width=\"4\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"7\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"12\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"9\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"10\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"6\" y=\"11\" width=\"4\" height=\"1\" fill=\"currentColor\"/>"},"or":{"vb":"0 0 16 16","inner":"\u003crect x=\"7\" y=\"5\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"5\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"13\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"7\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"6\" y=\"7\" width=\"2\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"12\" y=\"7\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"9\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"9\" width=\"2\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"9\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"1\" y=\"10\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"10\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"10\" width=\"1\" height=\"1\" fill=\"currentColor\"/>"},"space":{"vb":"0 0 16 16","inner":"\u003crect x=\"0\" y=\"1\" width=\"15\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"2\" width=\"1\" height=\"13\" fill=\"currentColor\"/>\r\n\u003crect x=\"14\" y=\"2\" width=\"1\" height=\"13\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"15\" width=\"15\" height=\"1\" fill=\"currentColor\"/>"},"be_included":{"vb":"0 0 16 16","inner":"\u003crect x=\"0\" y=\"1\" width=\"8\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"2\" width=\"2\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"3\" width=\"1\" height=\"11\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"3\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"4\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"5\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"12\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"13\" y=\"7\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"14\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"13\" y=\"9\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"12\" y=\"10\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"11\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"12\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"13\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"14\" width=\"2\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"15\" width=\"8\" height=\"1\" fill=\"currentColor\"/>"}}};</script>
+<script src="../assets/app.js" defer></script>
 </body>
 </html>

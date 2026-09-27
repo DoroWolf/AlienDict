@@ -4,8 +4,8 @@ en: be
 meanings: 
   - alien: ["be", "be", "verb"]
     zh: 是是动词
-  - alien: ["be", "of", "morpheme", "be", "(overline_and_underline)", "and", "true"]
-    zh: 是由上下划线与真构成
+  - alien: ["be", "of", "morpheme", "be", "equal_shape", "and", "true"]
+    zh: 是由等于形状与真构成
   - alien: ["\n"]
   - alien: ["previous_word", "and", "next_word", "have", "same", "description"]
     zh: 前词与后词有相同描述

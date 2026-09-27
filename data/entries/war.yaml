@@ -4,7 +4,7 @@ en: war
 meanings: 
   - alien: ["war", "be", "verb"]
     zh: 战争是动词
-  - alien: ["war", "of", "morpheme", "be", "weapon", "and", "(mirrored_weapon)"]
+  - alien: ["war", "of", "morpheme", "be", "weapon", "and", "mirrored_weapon"]
     zh: 战争由武器与反向武器构成
   - alien: ["\n"]
   - alien: ["many", "soldier", "attack", "distinct"]

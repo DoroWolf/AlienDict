@@ -4,8 +4,8 @@ en: meanwhile
 meanings: 
   - alien: ["meanwhile", "be", "conjunction"]
     zh: 同时是连词
-  - alien: ["meanwhile", "of", "morpheme", "be", "(overline_and_underline)", "and", "moment"]
-    zh: 同时由上下划线与时刻构成
+  - alien: ["meanwhile", "of", "morpheme", "be", "equal_shape", "and", "moment"]
+    zh: 同时由等于形状与时刻构成
   - alien: ["\n"]
   - alien: ["meanwhile", "amass", "same", "moment", "of", "two_objects", "act"]
     zh: 同时累积相同时刻的两个行动

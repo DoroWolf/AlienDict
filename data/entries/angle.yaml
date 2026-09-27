@@ -4,7 +4,7 @@ en: angle
 meanings: 
   - alien: ["angle", "be", "noun"]
     zh: 角是名词
-  - alien: ["angle", "of", "morpheme", "be", "mark", "and", "(angle_shape)"]
+  - alien: ["angle", "of", "morpheme", "be", "mark", "and", "angle_shape"]
     zh: 角由标记与角的形状构成
   - alien: ["\n"]
   - alien: ["mark", "include", "one_object", "direction", "of", "change"]

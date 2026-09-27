@@ -4,8 +4,8 @@ en: less than
 meanings: 
   - alien: ["less_than", "be", "verb"]
     zh: 小于是动词
-  - alien: ["less_than", "of", "morpheme", "be", "(overline_and_underline)", "and", "small"]
-    zh: 小于由上下划线与小构成
+  - alien: ["less_than", "of", "morpheme", "be", "equal_shape", "and", "small"]
+    zh: 小于由等于形状与小构成
   - alien: ["\n"]
   - alien: ["be", "less", "count", "from"]
     zh: 是比另一个数量更少的数量

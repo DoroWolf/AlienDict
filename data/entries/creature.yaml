@@ -4,7 +4,7 @@ en: creature
 meanings: 
   - alien: ["creature", "be", "noun"]
     zh: 生物是名词
-  - alien: ["creature", "of", "morpheme", "be", "(animals)", "and", "(plants)"]
+  - alien: ["creature", "of", "morpheme", "be", "animals", "and", "plants"]
     zh: 生物由动物与植物构成
   - alien: ["\n"]
   - alien: ["total", "animal", "and", "plant"]

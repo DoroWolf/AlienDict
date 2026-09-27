@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!-- 开发入口（npm run dev）：生产产物由 tools/build.mjs 预渲染出 site/*.html，
+     结构与这里一致 —— 同一套 Vue 组件，数据走 /__props__/（见 web/dev-plugin.mjs）。
+     head 里的防剧透引导脚本由 dev 插件塞进来（与产物里那段同一份源码，
+     见 web/src/composables/spoilerBoot.mjs）。 -->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>外星词典</title>
+<link rel="stylesheet" href="/static/fonts.css">
+<!-- alien-dict:spoiler-boot -->
+</head>
+<body>
+<div id="app"></div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

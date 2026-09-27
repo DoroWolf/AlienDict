@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-page-title="最小 least · 外星词典" data-masked-title="外星词典">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>最小 least · 外星词典</title>
 <meta name="description" content="最小（least） —— 外星词的字形（原文）与译文对照。">
+<link rel="stylesheet" href="../assets/fonts.css">
 <link rel="stylesheet" href="../assets/style.css">
+<script>
+(function () {
+  var off = false;
+  try { off = localStorage.getItem('alien-dict-spoiler') === 'off'; } catch (err) {}
+  if (off) return;
+  var root = document.documentElement;
+  root.className += ' spoiler-on';
+  var masked = root.getAttribute('data-masked-title');   // 标签页标题里也带着译文
+  if (masked) document.title = masked;
+})();
+</script>
 </head>
 <body>
-<header class="bar">
-  <a class="bar__home" href="../index.html">外星词典</a>
-</header>
-<main class="page">
-<article class="entry">
-
-  <header class="head">
-    <div class="head__alien"><span class="gl-lines"><span class="gl gl--lg"><span class="gl__word" title="最小（least）" data-spoiler-title="最小（least）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="最小（least）" data-spoiler-label="最小（least）" shape-rendering="crispEdges" focusable="false"><rect x="4" y="1" width="1" height="3" fill="currentColor"/>
+<div id="app"><!--[--><header class="bar"><a class="bar__home" href="../index.html">外星词典</a><button class="bar__spoiler" type="button" aria-pressed="true" title="防剧透：译文默认遮住，点一下切换">防剧透：开</button></header><main class="page"><article class="entry"><header class="head"><div class="head__alien"><span class="gl-lines"><!--[--><!--[--><span class="gl gl--lg"><!--[--><!--[--><span class="gl__word" title="最小（least）" data-spoiler-title="最小（least）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="最小（least）" data-spoiler-label="最小（least）" shape-rendering="crispEdges" focusable="false"><rect x="4" y="1" width="1" height="3" fill="currentColor"/>
 <rect x="10" y="1" width="1" height="3" fill="currentColor"/>
 <rect x="4" y="4" width="7" height="1" fill="currentColor"/>
 <rect x="4" y="5" width="1" height="3" fill="currentColor"/>
@@ -26,15 +31,7 @@
 <rect x="0" y="12" width="7" height="1" fill="currentColor"/>
 <rect x="8" y="12" width="7" height="1" fill="currentColor"/>
 <rect x="0" y="13" width="1" height="3" fill="currentColor"/>
-<rect x="8" y="13" width="1" height="3" fill="currentColor"/></svg></span></span></span></div>
-    <div class="head__gloss" data-spoiler>
-      <h1 class="head__zh">最小</h1>
-<p class="head__en">least</p>    </div>
-  </header>
-
-  <div class="text">
-    <div class="text__alien">
-<span class="gl-lines"><span class="gl"><a class="gl__link" href="../w/least.html" title="最小（least）" data-spoiler-title="最小（least）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="最小（least）" data-spoiler-label="最小（least）" shape-rendering="crispEdges" focusable="false"><rect x="4" y="1" width="1" height="3" fill="currentColor"/>
+<rect x="8" y="13" width="1" height="3" fill="currentColor"/></svg></span><!--]--><!--]--></span><!--]--><!--]--></span></div><div class="head__gloss" data-spoiler><h1 class="head__zh">最小</h1><p class="head__en">least</p></div></header><div class="text"><div class="text__alien"><!--[--><!--[--><span class="gl-lines"><!--[--><!--[--><span class="gl"><!--[--><!--[--><a class="gl__link" href="../w/least.html" title="最小（least）" data-spoiler-title="最小（least）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="最小（least）" data-spoiler-label="最小（least）" shape-rendering="crispEdges" focusable="false"><rect x="4" y="1" width="1" height="3" fill="currentColor"/>
 <rect x="10" y="1" width="1" height="3" fill="currentColor"/>
 <rect x="4" y="4" width="7" height="1" fill="currentColor"/>
 <rect x="4" y="5" width="1" height="3" fill="currentColor"/>
@@ -45,11 +42,11 @@
 <rect x="0" y="12" width="7" height="1" fill="currentColor"/>
 <rect x="8" y="12" width="7" height="1" fill="currentColor"/>
 <rect x="0" y="13" width="1" height="3" fill="currentColor"/>
-<rect x="8" y="13" width="1" height="3" fill="currentColor"/></svg></a><a class="gl__link" href="../w/be.html" title="是（be）" data-spoiler-title="是（be）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="是（be）" data-spoiler-label="是（be）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
+<rect x="8" y="13" width="1" height="3" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/be.html" title="是（be）" data-spoiler-title="是（be）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="是（be）" data-spoiler-label="是（be）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
 <rect x="4" y="5" width="7" height="1" fill="currentColor"/>
 <rect x="4" y="6" width="1" height="5" fill="currentColor"/>
 <rect x="4" y="11" width="7" height="1" fill="currentColor"/>
-<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/adjective.html" title="形容词（adjective）" data-spoiler-title="形容词（adjective）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="形容词（adjective）" data-spoiler-label="形容词（adjective）" shape-rendering="crispEdges" focusable="false"><rect x="10" y="4" width="5" height="1" fill="currentColor"/>
+<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/adjective.html" title="形容词（adjective）" data-spoiler-title="形容词（adjective）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="形容词（adjective）" data-spoiler-label="形容词（adjective）" shape-rendering="crispEdges" focusable="false"><rect x="10" y="4" width="5" height="1" fill="currentColor"/>
 <rect x="3" y="5" width="1" height="1" fill="currentColor"/>
 <rect x="8" y="5" width="1" height="5" fill="currentColor"/>
 <rect x="12" y="5" width="1" height="1" fill="currentColor"/>
@@ -62,7 +59,7 @@
 <rect x="10" y="7" width="5" height="1" fill="currentColor"/>
 <rect x="0" y="8" width="1" height="1" fill="currentColor"/>
 <rect x="6" y="8" width="1" height="1" fill="currentColor"/>
-<rect x="8" y="10" width="7" height="1" fill="currentColor"/></svg></a></span></span><span class="gl-lines"><span class="gl"><a class="gl__link" href="../w/least.html" title="最小（least）" data-spoiler-title="最小（least）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="最小（least）" data-spoiler-label="最小（least）" shape-rendering="crispEdges" focusable="false"><rect x="4" y="1" width="1" height="3" fill="currentColor"/>
+<rect x="8" y="10" width="7" height="1" fill="currentColor"/></svg></a><!--]--><!--]--></span><!--]--><!--]--></span><!--]--><!--[--><span class="gl-lines"><!--[--><!--[--><span class="gl"><!--[--><!--[--><a class="gl__link" href="../w/least.html" title="最小（least）" data-spoiler-title="最小（least）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="最小（least）" data-spoiler-label="最小（least）" shape-rendering="crispEdges" focusable="false"><rect x="4" y="1" width="1" height="3" fill="currentColor"/>
 <rect x="10" y="1" width="1" height="3" fill="currentColor"/>
 <rect x="4" y="4" width="7" height="1" fill="currentColor"/>
 <rect x="4" y="5" width="1" height="3" fill="currentColor"/>
@@ -73,7 +70,7 @@
 <rect x="0" y="12" width="7" height="1" fill="currentColor"/>
 <rect x="8" y="12" width="7" height="1" fill="currentColor"/>
 <rect x="0" y="13" width="1" height="3" fill="currentColor"/>
-<rect x="8" y="13" width="1" height="3" fill="currentColor"/></svg></a><a class="gl__link" href="../w/of.html" title="的（of）" data-spoiler-title="的（of）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="的（of）" data-spoiler-label="的（of）" shape-rendering="crispEdges" focusable="false"><rect x="7" y="1" width="1" height="1" fill="currentColor"/>
+<rect x="8" y="13" width="1" height="3" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/of.html" title="的（of）" data-spoiler-title="的（of）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="的（of）" data-spoiler-label="的（of）" shape-rendering="crispEdges" focusable="false"><rect x="7" y="1" width="1" height="1" fill="currentColor"/>
 <rect x="6" y="2" width="1" height="1" fill="currentColor"/>
 <rect x="8" y="2" width="1" height="1" fill="currentColor"/>
 <rect x="5" y="3" width="1" height="1" fill="currentColor"/>
@@ -87,7 +84,7 @@
 <rect x="1" y="7" width="1" height="1" fill="currentColor"/>
 <rect x="13" y="7" width="1" height="1" fill="currentColor"/>
 <rect x="0" y="8" width="1" height="1" fill="currentColor"/>
-<rect x="14" y="8" width="1" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/morpheme.html" title="词素（morpheme）" data-spoiler-title="词素（morpheme）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="词素（morpheme）" data-spoiler-label="词素（morpheme）" shape-rendering="crispEdges" focusable="false"><rect x="7" y="1" width="5" height="1" fill="currentColor"/>
+<rect x="14" y="8" width="1" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/morpheme.html" title="词素（morpheme）" data-spoiler-title="词素（morpheme）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="词素（morpheme）" data-spoiler-label="词素（morpheme）" shape-rendering="crispEdges" focusable="false"><rect x="7" y="1" width="5" height="1" fill="currentColor"/>
 <rect x="3" y="2" width="1" height="5" fill="currentColor"/>
 <rect x="9" y="2" width="1" height="1" fill="currentColor"/>
 <rect x="8" y="3" width="1" height="1" fill="currentColor"/>
@@ -95,20 +92,19 @@
 <rect x="7" y="4" width="5" height="1" fill="currentColor"/>
 <rect x="3" y="7" width="9" height="1" fill="currentColor"/>
 <rect x="5" y="9" width="1" height="7" fill="currentColor"/>
-<rect x="9" y="9" width="1" height="7" fill="currentColor"/></svg></a><a class="gl__link" href="../w/be.html" title="是（be）" data-spoiler-title="是（be）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="是（be）" data-spoiler-label="是（be）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
+<rect x="9" y="9" width="1" height="7" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/be.html" title="是（be）" data-spoiler-title="是（be）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="是（be）" data-spoiler-label="是（be）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
 <rect x="4" y="5" width="7" height="1" fill="currentColor"/>
 <rect x="4" y="6" width="1" height="5" fill="currentColor"/>
 <rect x="4" y="11" width="7" height="1" fill="currentColor"/>
-<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/small.html" title="小（small）" data-spoiler-title="小（small）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="小（small）" data-spoiler-label="小（small）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="1" height="7" fill="currentColor"/>
+<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/small.html" title="小（small）" data-spoiler-title="小（small）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="小（small）" data-spoiler-label="小（small）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="1" height="7" fill="currentColor"/>
 <rect x="14" y="1" width="1" height="7" fill="currentColor"/>
 <rect x="0" y="8" width="15" height="1" fill="currentColor"/>
-<rect x="0" y="9" width="1" height="7" fill="currentColor"/></svg></a></span></span><span class="gl gl--blank" aria-hidden="true"></span>
-<span class="gl-lines"><span class="gl"><a class="gl__link" href="../w/less_than.html" title="小于（less than）" data-spoiler-title="小于（less than）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="小于（less than）" data-spoiler-label="小于（less than）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
+<rect x="0" y="9" width="1" height="7" fill="currentColor"/></svg></a><!--]--><!--]--></span><!--]--><!--]--></span><!--]--><!--[--><span class="gl gl--blank" aria-hidden="true"></span><!--]--><!--[--><span class="gl-lines"><!--[--><!--[--><span class="gl"><!--[--><!--[--><a class="gl__link" href="../w/less_than.html" title="小于（less than）" data-spoiler-title="小于（less than）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="小于（less than）" data-spoiler-label="小于（less than）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="15" height="1" fill="currentColor"/>
 <rect x="4" y="5" width="1" height="3" fill="currentColor"/>
 <rect x="10" y="5" width="1" height="3" fill="currentColor"/>
 <rect x="4" y="8" width="7" height="1" fill="currentColor"/>
 <rect x="4" y="9" width="1" height="3" fill="currentColor"/>
-<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/total.html" title="总和（total）" data-spoiler-title="总和（total）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="总和（total）" data-spoiler-label="总和（total）" shape-rendering="crispEdges" focusable="false"><rect x="2" y="1" width="4" height="1" fill="currentColor"/>
+<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/total.html" title="总和（total）" data-spoiler-title="总和（total）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="总和（total）" data-spoiler-label="总和（total）" shape-rendering="crispEdges" focusable="false"><rect x="2" y="1" width="4" height="1" fill="currentColor"/>
 <rect x="9" y="1" width="4" height="1" fill="currentColor"/>
 <rect x="2" y="2" width="1" height="2" fill="currentColor"/>
 <rect x="5" y="2" width="1" height="2" fill="currentColor"/>
@@ -135,36 +131,16 @@
 <rect x="9" y="13" width="1" height="2" fill="currentColor"/>
 <rect x="12" y="13" width="1" height="2" fill="currentColor"/>
 <rect x="2" y="15" width="4" height="1" fill="currentColor"/>
-<rect x="9" y="15" width="4" height="1" fill="currentColor"/></svg></a><a class="gl__link" href="../w/distinct.html" title="各异（distinct）" data-spoiler-title="各异（distinct）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="各异（distinct）" data-spoiler-label="各异（distinct）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="8" height="1" fill="currentColor"/>
+<rect x="9" y="15" width="4" height="1" fill="currentColor"/></svg></a><!--]--><!--[--><a class="gl__link" href="../w/distinct.html" title="各异（distinct）" data-spoiler-title="各异（distinct）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="各异（distinct）" data-spoiler-label="各异（distinct）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="8" height="1" fill="currentColor"/>
 <rect x="7" y="2" width="1" height="5" fill="currentColor"/>
 <rect x="7" y="7" width="8" height="1" fill="currentColor"/>
 <rect x="0" y="9" width="1" height="6" fill="currentColor"/>
 <rect x="14" y="9" width="1" height="6" fill="currentColor"/>
-<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a></span></span>    </div>
-    <h2 class="text__label">翻译</h2>
-    <div class="text__zh" data-spoiler>
-<span class="line">最小是形容词</span><span class="line">最小由小构成</span><span class="line line--blank" aria-hidden="true"></span>
-<span class="line">小于所有不同的物体</span>    </div>
-  </div>
-
-  <section class="morph">
-    <h2 class="morph__h">词素</h2>
-
-    <div class="morph__row">
-      <span class="morph__label">由这些词素构成</span>
-      <div class="chips"><a class="chip" href="../w/small.html" title="小（small）" data-spoiler-title="小（small）"><span class="chip__glyph"><span class="gl__word" title="小（small）" data-spoiler-title="小（small）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="小（small）" data-spoiler-label="小（small）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="1" height="7" fill="currentColor"/>
+<rect x="0" y="15" width="15" height="1" fill="currentColor"/></svg></a><!--]--><!--]--></span><!--]--><!--]--></span><!--]--><!--]--></div><h2 class="text__label">翻译</h2><div class="text__zh" data-spoiler><!--[--><!--[--><span class="line"><!--[-->最小是形容词<!--]--></span><!--]--><!--[--><span class="line"><!--[-->最小由小构成<!--]--></span><!--]--><!--[--><span class="line line--blank" aria-hidden="true"></span><!--]--><!--[--><span class="line"><!--[-->小于所有不同的物体<!--]--></span><!--]--><!--]--></div></div><!----><section class="morph"><h2 class="morph__h">词素</h2><div class="morph__row"><span class="morph__label">由这些词素构成</span><div class="chips"><!--[--><a class="chip chip--base" href="../w/small.html" title="小（small）" data-spoiler-title="小（small）"><!--[--><span class="chip__glyph"><span class="gl__word" title="小（small）" data-spoiler-title="小（small）"><svg class="gl__glyph" viewBox="0 0 16 16" role="img" aria-label="小（small）" data-spoiler-label="小（small）" shape-rendering="crispEdges" focusable="false"><rect x="0" y="1" width="1" height="7" fill="currentColor"/>
 <rect x="14" y="1" width="1" height="7" fill="currentColor"/>
 <rect x="0" y="8" width="15" height="1" fill="currentColor"/>
-<rect x="0" y="9" width="1" height="7" fill="currentColor"/></svg></span></span><span class="chip__zh" data-spoiler>小</span><span class="chip__en" data-spoiler>small</span></a></div>
-    </div>
-
-  </section>
-
-  <nav class="nav">
-<a class="nav__link" data-spoiler href="../w/lava.html">← 熔岩</a>    <a class="nav__link nav__link--home" href="../index.html">目录</a>
-<a class="nav__link" data-spoiler href="../w/leave.html">离开 →</a>  </nav>
-
-</article>
-</main>
+<rect x="0" y="9" width="1" height="7" fill="currentColor"/></svg></span></span><span class="chip__zh" data-spoiler="">小</span><!----><!--]--></a><!--]--></div></div><!----></section><nav class="nav"><a class="nav__link" data-spoiler data-spoiler-direct href="../w/lava.html">← 熔岩</a><a class="nav__link nav__link--home" href="../index.html">目录</a><a class="nav__link" data-spoiler data-spoiler-direct href="../w/leave.html">离开 →</a></nav></article></main><div class="modal" id="spoiler-modal" role="dialog" aria-modal="true" aria-labelledby="spoiler-modal-title" aria-describedby="spoiler-modal-text" hidden><div class="modal__backdrop" data-modal-close></div><div class="modal__box"><h2 class="modal__title" id="spoiler-modal-title">剧透警告</h2><p class="modal__text" id="spoiler-modal-text">此处是可能导致游戏剧透的内容。确定吗？</p><div class="modal__actions"><button class="modal__btn" type="button">再想想</button><button class="modal__btn modal__btn--primary" type="button">确定</button></div></div></div><!--]--></div>
+<script>window.__ALIEN_DICT_PROPS__ = {"page":"entry","root":"../","site":{"title":"外星词典","description":"外星词的字形（原文）与译文对照。","lang":"zh-CN"},"entry":{"id":"least","zh":"最小","en":"least","title":"最小 least · 外星词典","description":"最小（least） —— 外星词的字形（原文）与译文对照。","glyph":"least"},"headLines":[[{"id":"least","link":true}]],"meanings":[{"lines":[[{"id":"least"},{"id":"be"},{"id":"adjective"}]],"zh":"最小是形容词"},{"lines":[[{"id":"least"},{"id":"of"},{"id":"morpheme"},{"id":"be"},{"id":"small"}]],"zh":"最小由小构成"},{"blank":true},{"lines":[[{"id":"less_than"},{"id":"total"},{"id":"distinct"}]],"zh":"小于所有不同的物体"}],"notes":[],"morph":{"morphemes":[{"id":"small","label":"小（small）","href":"../w/small.html","pending":false,"base":true}],"base":false,"derived":[]},"prev":{"id":"lava","zh":"熔岩","href":"../w/lava.html"},"next":{"id":"leave","zh":"离开","href":"../w/leave.html"},"words":{"least":{"key":"least","label":"最小（least）","zh":"最小","href":"../w/least.html","pending":false,"glyph":"least","png":null,"missing":false},"be":{"key":"be","label":"是（be）","zh":"是","href":"../w/be.html","pending":false,"glyph":"be","png":null,"missing":false},"adjective":{"key":"adjective","label":"形容词（adjective）","zh":"形容词","href":"../w/adjective.html","pending":false,"glyph":"adjective","png":null,"missing":false},"of":{"key":"of","label":"的（of）","zh":"的","href":"../w/of.html","pending":false,"glyph":"of","png":null,"missing":false},"morpheme":{"key":"morpheme","label":"词素（morpheme）","zh":"词素","href":"../w/morpheme.html","pending":false,"glyph":"morpheme","png":null,"missing":false},"small":{"key":"small","label":"小（small）","zh":"小","href":"../w/small.html","pending":false,"glyph":"small","png":null,"missing":false},"less_than":{"key":"less_than","label":"小于（less than）","zh":"小于","href":"../w/less_than.html","pending":false,"glyph":"less_than","png":null,"missing":false},"total":{"key":"total","label":"总和（total）","zh":"总和","href":"../w/total.html","pending":false,"glyph":"total","png":null,"missing":false},"distinct":{"key":"distinct","label":"各异（distinct）","zh":"各异","href":"../w/distinct.html","pending":false,"glyph":"distinct","png":null,"missing":false}},"glyphs":{"least":{"vb":"0 0 16 16","inner":"\u003crect x=\"4\" y=\"1\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"1\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"4\" width=\"7\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"5\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"9\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"6\" y=\"9\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"8\" y=\"9\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"14\" y=\"9\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"12\" width=\"7\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"8\" y=\"12\" width=\"7\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"13\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"8\" y=\"13\" width=\"1\" height=\"3\" fill=\"currentColor\"/>"},"be":{"vb":"0 0 16 16","inner":"\u003crect x=\"0\" y=\"1\" width=\"15\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"5\" width=\"7\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"6\" width=\"1\" height=\"5\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"11\" width=\"7\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"15\" width=\"15\" height=\"1\" fill=\"currentColor\"/>"},"adjective":{"vb":"0 0 16 16","inner":"\u003crect x=\"10\" y=\"4\" width=\"5\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"5\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"8\" y=\"5\" width=\"1\" height=\"5\" fill=\"currentColor\"/>\r\n\u003crect x=\"12\" y=\"5\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"13\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"1\" y=\"7\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"5\" y=\"7\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"7\" width=\"5\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"6\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"8\" y=\"10\" width=\"7\" height=\"1\" fill=\"currentColor\"/>"},"of":{"vb":"0 0 16 16","inner":"\u003crect x=\"7\" y=\"1\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"6\" y=\"2\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"8\" y=\"2\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"5\" y=\"3\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"3\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"4\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"4\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"5\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"11\" y=\"5\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"12\" y=\"6\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"1\" y=\"7\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"13\" y=\"7\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"14\" y=\"8\" width=\"1\" height=\"1\" fill=\"currentColor\"/>"},"morpheme":{"vb":"0 0 16 16","inner":"\u003crect x=\"7\" y=\"1\" width=\"5\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"2\" width=\"1\" height=\"5\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"2\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"8\" y=\"3\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"3\" width=\"1\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"4\" width=\"5\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"3\" y=\"7\" width=\"9\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"5\" y=\"9\" width=\"1\" height=\"7\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"9\" width=\"1\" height=\"7\" fill=\"currentColor\"/>"},"small":{"vb":"0 0 16 16","inner":"\u003crect x=\"0\" y=\"1\" width=\"1\" height=\"7\" fill=\"currentColor\"/>\r\n\u003crect x=\"14\" y=\"1\" width=\"1\" height=\"7\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"8\" width=\"15\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"9\" width=\"1\" height=\"7\" fill=\"currentColor\"/>"},"less_than":{"vb":"0 0 16 16","inner":"\u003crect x=\"0\" y=\"1\" width=\"15\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"5\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"10\" y=\"5\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"8\" width=\"7\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"4\" y=\"9\" width=\"1\" height=\"3\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"15\" width=\"15\" height=\"1\" fill=\"currentColor\"/>"},"total":{"vb":"0 0 16 16","inner":"\u003crect x=\"2\" y=\"1\" width=\"4\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"1\" width=\"4\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"2\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"5\" y=\"2\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"2\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"12\" y=\"2\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"4\" width=\"4\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"4\" width=\"4\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"5\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"5\" y=\"5\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"5\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"12\" y=\"5\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"7\" width=\"4\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"7\" width=\"4\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"9\" width=\"4\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"9\" width=\"4\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"10\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"5\" y=\"10\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"10\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"12\" y=\"10\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"12\" width=\"4\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"12\" width=\"4\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"13\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"5\" y=\"13\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"13\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"12\" y=\"13\" width=\"1\" height=\"2\" fill=\"currentColor\"/>\r\n\u003crect x=\"2\" y=\"15\" width=\"4\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"9\" y=\"15\" width=\"4\" height=\"1\" fill=\"currentColor\"/>"},"distinct":{"vb":"0 0 16 16","inner":"\u003crect x=\"0\" y=\"1\" width=\"8\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"2\" width=\"1\" height=\"5\" fill=\"currentColor\"/>\r\n\u003crect x=\"7\" y=\"7\" width=\"8\" height=\"1\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"9\" width=\"1\" height=\"6\" fill=\"currentColor\"/>\r\n\u003crect x=\"14\" y=\"9\" width=\"1\" height=\"6\" fill=\"currentColor\"/>\r\n\u003crect x=\"0\" y=\"15\" width=\"15\" height=\"1\" fill=\"currentColor\"/>"}}};</script>
+<script src="../assets/app.js" defer></script>
 </body>
 </html>

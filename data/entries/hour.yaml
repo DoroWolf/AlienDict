@@ -6,7 +6,7 @@ notes:
 meanings: 
   - alien: ["hour", "be", "noun"]
     zh: 小时是名词
-  - alien: ["hour", "of", "morpheme", "be", "(double_horizontal_line)", "and", "second_(time)"]
+  - alien: ["hour", "of", "morpheme", "be", "double_horizontal_line", "and", "second_(time)"]
     zh: 小时由双横线与秒构成
   - alien: ["\n"]
   - alien: ["percent", "day"]

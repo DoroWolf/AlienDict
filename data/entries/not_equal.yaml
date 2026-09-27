@@ -4,8 +4,8 @@ en: not equal
 meanings: 
   - alien: ["not_equal", "be", "verb"]
     zh: 不等于是动词
-  - alien: ["not_equal", "of", "morpheme", "be", "(overline_and_underline)", "and", "different"]
-    zh: 不等于由上下划线与不同构成
+  - alien: ["not_equal", "of", "morpheme", "be", "equal_shape", "and", "different"]
+    zh: 不等于由等于形状与不同构成
   - alien: ["\n"]
   - alien: ["be", "different", "count"]
     zh: 是不同的数量

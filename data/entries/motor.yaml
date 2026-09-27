@@ -9,5 +9,5 @@ meanings:
   - alien: ["\n"]
   - alien: ["electric_load"]
     zh: 负载
-  - alien: ["move", "accross", "motor", "of", "electric_current", "send", "kinetic_energy"]
+  - alien: ["move", "across", "motor", "of", "electric_current", "send", "kinetic_energy"]
     zh: 穿过电机的电流传送动能

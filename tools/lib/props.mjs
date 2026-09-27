@@ -137,6 +137,43 @@ export function buildIndexProps(data, options = {}) {
   };
 }
 
+/** 义项 → props：原文各行与译文各行一一对应；blank ＝空行分隔行
+ *  （顺带登记原文里用到的词与字形，写作页的词条弹窗也用这一份） */
+function meaningsOf(ctx, entry) {
+  return entry.meanings.map((meaning) => {
+    if (meaning.blank) return { blank: true };
+    linesOf(ctx, meaning.alien);
+    return { lines: meaning.alien, zh: meaning.zh };
+  });
+}
+
+/** 写作页 props：全部词（按含义搜的搜索词 + 整条词条内容，供右键弹窗）+ 全部字形 */
+export function buildWriteProps(data, options = {}) {
+  const root = options.root ?? '';
+  const ctx = makeCtx(data, root);
+  const items = data.ordered.map((entry) => {
+    wordRef(ctx, entry.id);
+    return {
+      id: entry.id,
+      zh: entry.zh,
+      en: entry.en,
+      title: gloss(entry),
+      search: `${entry.zh} ${entry.en} ${entry.id}`.toLowerCase(),   // 与目录页同一套搜索词
+      meanings: meaningsOf(ctx, entry),   // 右键弹窗里的「词典内容及其翻译」
+      notes: entry.notes,
+    };
+  });
+  return {
+    page: 'write',
+    root,
+    site: data.site,
+    total: items.length,
+    items,
+    words: ctx.words,
+    glyphs: ctx.glyphs,
+  };
+}
+
 /** 词条页 props（没有这个词条时返回 null） */
 export function buildEntryProps(data, id, options = {}) {
   const root = options.root ?? '../';
@@ -146,11 +183,7 @@ export function buildEntryProps(data, id, options = {}) {
   linesOf(ctx, entry.alien);
 
   // 义项：原文各行与译文各行一一对应；blank ＝空行分隔行
-  const meanings = entry.meanings.map((meaning) => {
-    if (meaning.blank) return { blank: true };
-    linesOf(ctx, meaning.alien);
-    return { lines: meaning.alien, zh: meaning.zh };
-  });
+  const meanings = meaningsOf(ctx, entry);
 
   const index = data.ordered.findIndex((item) => item.id === id);
   const neighbor = (item) => (item ? { id: item.id, zh: item.zh, href: `${root}w/${item.id}.html` } : null);
@@ -188,5 +221,6 @@ export function propsForRoute(data, routePath) {
   const clean = String(routePath || '/').split('?')[0].split('#')[0];
   const entry = /\/w\/(.+)\.html$/.exec(clean);
   if (entry) return buildEntryProps(data, decodeURIComponent(entry[1]));
+  if (/\/write\.html$/.test(clean)) return buildWriteProps(data, { root: '' });
   return buildIndexProps(data, { root: '' });
 }

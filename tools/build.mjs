@@ -22,7 +22,7 @@ import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
 import { ROOT, DEFAULT_OUT, isBaseMorpheme, isNonword, morphemesOf } from './lib/lexicon.mjs';
-import { loadSite, buildIndexProps, buildEntryProps } from './lib/props.mjs';
+import { loadSite, buildIndexProps, buildEntryProps, buildWriteProps } from './lib/props.mjs';
 import { renderShell } from './lib/shell.mjs';
 
 const WEB_DIR = path.join(ROOT, 'web');
@@ -86,18 +86,25 @@ async function build({ out, only, clean, font, quiet }) {
     : [];
   for (const name of pngs) copyFile(path.join(GLYPH_DIR, name), path.join(assets, 'glyph', name));
 
-  const expected = new Set(['index.html', 'assets/app.js', 'assets/style.css']);
+  const expected = new Set(['index.html', 'write.html', 'assets/app.js', 'assets/style.css']);
   for (const name of fs.readdirSync(STATIC_DIR)) expected.add(`assets/${name}`);
   for (const name of pngs) expected.add(`assets/glyph/${name}`);
 
+  // 页面外壳：标题与描述按页取（写作页没有词条，用固定文案）
   const shell = (props, appHtml) => renderShell({
     siteTitle: props.site.title,
     lang: props.site.lang,
-    title: props.page === 'index' ? props.site.title : props.entry.title,
-    description: props.page === 'index' ? props.site.description : props.entry.description,
     root: props.root,
     props,
     body: appHtml,
+    ...(props.page === 'entry'
+      ? { title: props.entry.title, description: props.entry.description }
+      : props.page === 'write'
+        ? {
+          title: `外星写作 · ${props.site.title}`,
+          description: `输入含义找到外星词，左键点字形写进写作栏。${props.site.description}`,
+        }
+        : { title: props.site.title, description: props.site.description }),
   });
 
   const written = [];
@@ -119,6 +126,19 @@ async function build({ out, only, clean, font, quiet }) {
     fs.writeFileSync(path.join(out, 'index.html'), html, 'utf8');
   }
 
+  // 写作页（整站唯一一页：全部词与字形都带上了，按含义搜索与写作都用它）
+  if (!only) {
+    const props = buildWriteProps(data, { root: '' });
+    const html = shell(props, await render(props));
+    fs.writeFileSync(path.join(out, 'write.html'), html, 'utf8');
+    written.push('write.html');
+  }
+
+  // 字库（子集化出来的 unifont.woff2）：不管这轮是重建还是留着，它都是本站产物，
+  // 先写进白名单 —— 子集化跑在下面的清理之后，不先登记就会被当成多余产物删掉
+  const subsetFont = path.join(assets, 'fonts', 'unifont.woff2');
+  expected.add('assets/fonts/unifont.woff2');
+
   // 清理多余产物：不整目录删除（Windows 下文件被占用会让全量删除中断），只删本轮没写到的
   const removed = [];
   if (!only) {
@@ -136,7 +156,6 @@ async function build({ out, only, clean, font, quiet }) {
 
   // 字库子集化：扫描刚写出的产物，把 5 MB 的 Unifont 裁成站点实际用到的字符
   let fontStats = null;
-  const subsetFont = path.join(assets, 'fonts', 'unifont.woff2');
   if (font) {
     const result = spawnSync('python', [
       path.join(ROOT, 'tools', 'subset_font.py'),
@@ -145,15 +164,11 @@ async function build({ out, only, clean, font, quiet }) {
     ], { cwd: ROOT, encoding: 'utf8' });
     if (result.status === 0) {
       fontStats = { bytes: fs.statSync(subsetFont).size, source: fs.statSync(fontSourcePath()).size };
-      expected.add('assets/fonts/unifont.woff2');
     } else {
       const detail = (result.stderr || result.stdout || '').trim().split('\n').pop();
       warnings.push(`字库子集化失败：${detail}`);
     }
-  } else if (fs.existsSync(subsetFont)) {
-    // 跳过子集化也要保住既有的字库，别让它被当成多余产物清掉
-    expected.add('assets/fonts/unifont.woff2');
-  } else {
+  } else if (!fs.existsSync(subsetFont)) {
     warnings.push('--no-font 且无既存 unifont.woff2，文字将回退系统等宽字体');
   }
 
@@ -190,7 +205,7 @@ function report({ data, out, written, removed, warnings, fontStats, only }) {
     const shown = removed.slice(0, 5).join('、') + (removed.length > 5 ? '…' : '');
     console.log(`[清理] 删除多余产物 ${removed.length} 个：${shown}`);
   }
-  console.log(`[输出] ${out} —— ${written.length} 页${only ? '' : ' + 目录'}`);
+  console.log(`[输出] ${out} —— ${written.length} 页${only ? '' : ' + 目录/写作'}`);
 }
 
 function* walk(dir) {

@@ -3,7 +3,8 @@
  * `npm run dev` 时让浏览器里的页面与预渲染产物完全一样：
  *   /__props__/index.html   目录页
  *   /__props__/w/<id>.html  词条页
- *   /w/<id>.html            指回 index.html（纯客户端渲染，路由由页面自己读）
+ *   /__props__/write.html   写作页
+ *   /w/<id>.html、/write.html  指回 index.html（纯客户端渲染，路由由页面自己读）
  *   head 里的防剧透引导脚本按同一份源码塞进去（web/index.html 里留了 <!-- alien-dict:spoiler-boot -->）
  * 顺带把字形 PNG 与子集字库指到仓库里的真实文件，开发时和产物一致。
  */
@@ -67,7 +68,8 @@ export function devProps() {
           return next();
         }
 
-        if (url.startsWith('/w/') && url.endsWith('.html')) {     // 一词一页在开发时也是同一个入口
+        // 一词一页与写作页在开发时也是同一个入口
+        if ((url.startsWith('/w/') || url === '/write.html') && url.endsWith('.html')) {
           return server.transformIndexHtml(url, fs.readFileSync(path.join(ROOT, 'web', 'index.html'), 'utf8'))
             .then((html) => send(res, 200, html, 'text/html; charset=utf-8'))
             .catch(next);

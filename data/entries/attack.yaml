@@ -1,14 +1,11 @@
 id: attack
-translation: 攻击
+zh: 攻击
 en: attack
 meanings: 
   - alien: ["attack", "be", "verb"]
     zh: 攻击是动词
-    en: Attack is a verb
   - alien: ["attack", "of", "morpheme", "be", "weapon", "and", "hand"]
     zh: 攻击由武器与手构成
-    en: Attack is made up of weapon and hand
   - alien: ["\n"]
   - alien: ["action", "for", "destroy", "and", "kill"]
     zh: 为了破坏与杀死的动作
-    en: Actions for destruction and killing

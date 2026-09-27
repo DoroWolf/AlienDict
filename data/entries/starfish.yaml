@@ -1,14 +1,11 @@
 id: starfish
-translation: 海星
+zh: 海星
 en: starfish
 meanings: 
   - alien: ["starfish", "be", "noun"]
     zh: 海星是名词
-    en: Starfish is a noun
   - alien: ["and", "be", "base", "morpheme"]
     zh: 海星是基础词素
-    en: Starfish is a basic morpheme
   - alien: ["\n"]
   - alien: ["star", "shape", "of", "animal"]
     zh: 星形的动物
-    en: Star-shaped animals

@@ -1,16 +1,13 @@
 id: half
-translation: 一半
+zh: 一半
 en: half
 notes:
   - 外星人使用七进制，即满七进一。
 meanings: 
   - alien: ["half", "be", "numeral"]
     zh: 一半是数词
-    en: Half is a numeral
   - alien: ["half", "of", "morpheme", "be", "count", "and", "two"]
     zh: 一半由数量与二构成
-    en: Half is made up of count and two
   - alien: ["\n"]
   - alien: ["divided_by", "two"]
     zh: 除以二
-    en: Divided by two

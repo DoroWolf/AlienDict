@@ -1,14 +1,11 @@
 id: residence
-translation: 住处
+zh: 住处
 en: residence
 meanings: 
   - alien: ["residence", "be", "noun"]
     zh: 住处是名词
-    en: Residence is a noun
   - alien: ["residence", "of", "morpheme", "be", "space", "and", "someone"]
     zh: 住处由空间与有人构成
-    en: Residence is made up of space and someone
   - alien: ["\n"]
   - alien: ["create", "need", "alien", "of", "space"]
     zh: 需要外星人创造的空间
-    en: Space that needs to be created by aliens

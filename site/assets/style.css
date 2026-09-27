@@ -167,7 +167,6 @@ code {
   gap: 0;                   /* 译文行与行紧贴，与原文行一一对应 */
 }
 .line { display: block; }
-.line__en { color: var(--muted); margin-left: 0.6em; }
 .line--blank { height: 1.6em; }   /* 译文的空行＝一行译文的高度 */
 .dash, .empty { color: var(--muted); }
 

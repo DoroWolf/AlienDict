@@ -1,14 +1,11 @@
 id: buy
-translation: 买
+zh: 买
 en: buy
 meanings: 
   - alien: ["buy", "be", "verb"]
     zh: 买是动词
-    en: Buy is a verb
   - alien: ["buy", "of", "morpheme", "be", "trade", "and", "from"]
     zh: 买由交易与从构成
-    en: Buy is made up of trade and from
   - alien: ["\n"]
   - alien: ["trade", "currency", "become", "possession"]
     zh: 交易货币成为所有物
-    en: Trading currency becomes a possession

@@ -1,0 +1,13 @@
+id: match
+zh: 符合
+en: match
+meanings: 
+  - alien: ["match", "be", "verb"]
+    zh: 符合是动词
+  - alien: ["match", "of", "morpheme", "be", "bump", "and", "bump"]
+    zh: 符合由凸起与凸起构成
+  - alien: ["\n"]
+  - alien: ["if", "first", "object", "of", "outer_face", "be", "same", "shape", "to", "second", "surface", "of", "inner_face"]
+    zh: 如果第一个物体的外面与第二个物体的内面是相同形状
+  - alien: ["then", "first", "object", "match", "second", "surface"]
+    zh: 则第一个物体符合第二个物体

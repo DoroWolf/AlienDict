@@ -1,14 +1,11 @@
 id: boy
-translation: 男孩
+zh: 男孩
 en: boy
 meanings: 
   - alien: ["boy", "be", "noun"]
     zh: 男孩是名词
-    en: Boy is a noun
   - alien: ["boy", "of", "morpheme", "be", "small", "and", "male"]
     zh: 男孩由小与雄性构成
-    en: Boy is made up of small and male
   - alien: ["\n"]
   - alien: ["male", "child"]
     zh: 雄性儿童
-    en: Male children

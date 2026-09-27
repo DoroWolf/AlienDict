@@ -1,14 +1,11 @@
 id: stomach
-translation: 胃
+zh: 胃
 en: stomach
 meanings: 
   - alien: ["stomach", "be", "noun"]
     zh: 胃是名词
-    en: Stomach is a noun
   - alien: ["stomach", "be", "base", "morpheme"]
     zh: 胃是基础词素
-    en: Stomach is a basic morpheme
   - alien: ["\n"]
   - alien: ["head", "of", "element_(math)", "for", "digest", "food"]
     zh: 头用来消化食物的元素
-    en: The elements used by the head to digest food

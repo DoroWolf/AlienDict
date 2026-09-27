@@ -1,14 +1,11 @@
 id: girl
-translation: 女孩
+zh: 女孩
 en: girl
 meanings: 
   - alien: ["girl", "be", "noun"]
     zh: 女孩是名词
-    en: Girl is a noun
   - alien: ["girl", "of", "morpheme", "be", "small", "and", "female"]
     zh: 女孩由小与雌性构成
-    en: Girl is made up of small and female
   - alien: ["\n"]
   - alien: ["female", "child"]
     zh: 雌性儿童
-    en: Female children

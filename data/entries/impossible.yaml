@@ -1,14 +1,11 @@
 id: impossible
-translation: 不可能
+zh: 不可能
 en: impossible
 meanings: 
   - alien: ["impossible", "be", "adjective"]
     zh: 不可能是形容词
-    en: Impossible is an adjective
   - alien: ["impossible", "of", "morpheme", "be", "false", "and", "moment"]
     zh: 不可能由假与时刻构成
-    en: Impossible is made up of false and moment
   - alien: ["\n"]
   - alien: ["probability", "equal", "zero"]
     zh: 概率等于零
-    en: The probability equals zero

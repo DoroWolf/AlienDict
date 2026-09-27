@@ -1,14 +1,11 @@
 id: throw
-translation: 抛
+zh: 抛
 en: throw
 meanings: 
   - alien: ["throw", "be", "verb"]
     zh: 抛是动词
-    en: Throw is a verb
   - alien: ["throw", "of", "morpheme", "be", "sky", "and", "hand"]
     zh: 抛由天空与手构成
-    en: Throw is made up of sky and hand
   - alien: ["\n"]
   - alien: ["send", "object", "to", "air", "need", "force"]
     zh: 需要力将物体发送到空中
-    en: Need force to send an object into the air

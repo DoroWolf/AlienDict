@@ -1,14 +1,11 @@
 id: create
-translation: 创造
+zh: 创造
 en: create
 meanings: 
   - alien: ["create", "be", "verb"]
     zh: 创造是动词
-    en: Create is a verb
   - alien: ["create", "of", "morpheme", "be", "object", "and", "hand"]
     zh: 创造由物体与手构成
-    en: Create is made up of object and hand
   - alien: ["\n"]
   - alien: ["alter", "idea", "become", "works"]
     zh: 改变创意成为作品
-    en: Altering an idea so that it becomes a work

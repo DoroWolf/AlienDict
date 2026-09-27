@@ -1,14 +1,11 @@
 id: walk
-translation: 走
+zh: 走
 en: walk
 meanings: 
   - alien: ["walk", "be", "verb"]
     zh: 走是动词
-    en: Walk is a verb
   - alien: ["walk", "of", "morpheme", "be", "hand", "and", "land"]
     zh: 走由手与陆地构成
-    en: Walk is made up of hand and land
   - alien: ["\n"]
   - alien: ["move", "depend", "land"]
     zh: 依靠陆地移动
-    en: Move depending on land

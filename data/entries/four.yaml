@@ -1,16 +1,13 @@
 id: four
-translation: 四
+zh: 四
 en: four
 notes:
   - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["four", "be", "numeral"]
     zh: 四是数词
-    en: Four is a numeral
   - alien: ["four", "be", "base", "morpheme"]
     zh: 四是基础词素
-    en: Four is a basic morpheme
   - alien: ["\n"]
   - alien: ["base", "number"]
     zh: 基础数
-    en: The basic number

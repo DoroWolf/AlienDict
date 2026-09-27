@@ -1,17 +1,13 @@
 id: force
-translation: 力
+zh: 力
 en: force
 meanings: 
   - alien: ["force", "be", "noun"]
     zh: 力是名词
-    en: Force is a noun
   - alien: ["force", "of", "morpheme", "be", "hand", "and", "count"]
     zh: 力由手与数量构成
-    en: Force is made up of hand and count
   - alien: ["\n"]
   - alien: ["hand", "or", "machine", "of", "ability"]
     zh: 手或机器的能力
-    en: The ability of a hand or a machine
   - alien: ["force", "equal", "mass", "multiply", "acceleration"]
     zh: 力等于质量乘加速度
-    en: Force equals mass times acceleration

@@ -1,14 +1,11 @@
 id: believe
-translation: 相信
+zh: 相信
 en: believe
 meanings: 
   - alien: ["believe", "be", "verb"]
     zh: 相信是动词
-    en: Believe is a verb
   - alien: ["believe", "of", "morpheme", "be", "exist", "and", "think"]
     zh: 相信由存在与想构成
-    en: Believe is made up of exist and think
   - alien: ["\n"]
   - alien: ["more", "think", "thought", "be", "true"]
     zh: 认为更大的想法是真
-    en: Thinking that a bigger thought is true

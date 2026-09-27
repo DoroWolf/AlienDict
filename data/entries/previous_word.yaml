@@ -1,0 +1,11 @@
+id: previous_word
+zh: 前词
+en: previous word
+meanings: 
+  - alien: ["previous_word", "be", "noun"]
+    zh: 前词是名词
+  - alien: ["previous_word", "of", "morpheme", "be", "up", "and", "word"]
+    zh: 前词由上与词构成
+  - alien: ["\n"]
+  - alien: ["previous_one", "word", "be_included", "sentence", "or", "previous_one", "page", "be_included", "book"]
+    zh: 包含在句子中的上一个词或包含书中的上一页面

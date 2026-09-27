@@ -1,14 +1,11 @@
 id: component
-translation: 句子成分
+zh: 句子成分
 en: component
 meanings: 
   - alien: ["component", "be", "noun"]
     zh: 句子成分是名词
-    en: Component is a noun
   - alien: ["component", "of", "morpheme", "be", "sentence", "and", "two"]
     zh: 句子成分由句子与二构成
-    en: Component is made up of sentence and two
   - alien: ["\n"]
   - alien: ["sentence", "of", "element_(math)"]
     zh: 句子的元素
-    en: The elements of a sentence

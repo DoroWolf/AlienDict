@@ -1,14 +1,11 @@
 id: quotient
-translation: 商
+zh: 商
 en: quotient
 meanings: 
   - alien: ["quotient", "be", "noun"]
     zh: 商是名词
-    en: Quotient is a noun
   - alien: ["quotient", "of", "morpheme", "be", "divided_by", "and", "to"]
     zh: 商由除以与到构成
-    en: Quotient is made up of divided by and to
   - alien: ["\n"]
   - alien: ["divided_by", "of", "result"]
     zh: 除以的结果
-    en: The result of divided by

@@ -1,14 +1,11 @@
 id: depth
-translation: 深度
+zh: 深度
 en: depth
 meanings: 
   - alien: ["depth", "be", "noun"]
     zh: 深度是名词
-    en: Depth is a noun
   - alien: ["depth", "of", "morpheme", "be", "down", "and", "count"]
     zh: 深度由下与数量构成
-    en: Depth is made up of down and count
   - alien: ["\n"]
-  - alien: ["displacement", "down", "from", "level"]
-    zh: 从水平面向下位移
-    en: The displacement downward from a level
+  - alien: ["displacement", "down", "from", "water_surface"]
+    zh: 从水面向下位移

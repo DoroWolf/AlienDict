@@ -1,14 +1,11 @@
 id: produce
-translation: 生产
+zh: 生产
 en: produce
 meanings: 
   - alien: ["produce", "be", "verb"]
     zh: 生产是动词
-    en: Produce is a verb
   - alien: ["produce", "of", "morpheme", "be", "tool", "and", "hand"]
     zh: 生产由工具与手构成
-    en: Produce is made up of tool and hand
   - alien: ["\n"]
   - alien: ["action", "for", "create"]
     zh: 用于创造的动作
-    en: An action for creating

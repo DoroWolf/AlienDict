@@ -1,7 +1,7 @@
 {% extends "base.html.j2" %}
 
-{% block title %}{{ entry.translation }}{% if entry.en %} {{ entry.en }}{% endif %} · {{ site.title }}{% endblock %}
-{% block desc %}{{ entry.translation }}{% if entry.en %}（{{ entry.en }}）{% endif %} —— {{ site.description }}{% endblock %}
+{% block title %}{{ entry.zh }}{% if entry.en %} {{ entry.en }}{% endif %} · {{ site.title }}{% endblock %}
+{% block desc %}{{ entry.zh }}{% if entry.en %}（{{ entry.en }}）{% endif %} —— {{ site.description }}{% endblock %}
 
 {% block content %}
 <article class="entry">
@@ -10,7 +10,7 @@
   <header class="head">
     <div class="head__alien">{{ alien_head }}</div>
     <div class="head__gloss" data-spoiler>
-      <h1 class="head__zh">{{ entry.translation }}</h1>
+      <h1 class="head__zh">{{ entry.zh }}</h1>
       {% if entry.en %}<p class="head__en">{{ entry.en }}</p>{% endif %}
     </div>
   </header>
@@ -29,7 +29,7 @@
     <div class="text__zh" data-spoiler>
       {% for m in meanings %}
       {% if m.blank %}<span class="line line--blank" aria-hidden="true"></span>
-      {% else %}<span class="line">{% if m.zh %}{{ m.zh }}{% endif %}{% if m.en %}<span class="line__en">{{ m.en }}</span>{% endif %}{% if not m.zh and not m.en %}<span class="dash">—</span>{% endif %}</span>{% endif %}
+      {% else %}<span class="line">{% if m.zh %}{{ m.zh }}{% else %}<span class="dash">—</span>{% endif %}</span>{% endif %}
       {% endfor %}
     </div>
   </div>
@@ -85,9 +85,9 @@
   {% endif %}
 
   <nav class="nav">
-    {% if prev %}<a class="nav__link" data-spoiler href="{{ root }}w/{{ prev.id }}.html">← {{ prev.translation }}</a>{% else %}<span class="nav__off">←</span>{% endif %}
+    {% if prev %}<a class="nav__link" data-spoiler href="{{ root }}w/{{ prev.id }}.html">← {{ prev.zh }}</a>{% else %}<span class="nav__off">←</span>{% endif %}
     <a class="nav__link nav__link--home" href="{{ root }}index.html">目录</a>
-    {% if next %}<a class="nav__link" data-spoiler href="{{ root }}w/{{ next.id }}.html">{{ next.translation }} →</a>{% else %}<span class="nav__off">→</span>{% endif %}
+    {% if next %}<a class="nav__link" data-spoiler href="{{ root }}w/{{ next.id }}.html">{{ next.zh }} →</a>{% else %}<span class="nav__off">→</span>{% endif %}
   </nav>
 
 </article>

@@ -1,14 +1,11 @@
 id: near
-translation: 靠近
+zh: 靠近
 en: near
 meanings: 
   - alien: ["near", "be", "adjective"]
     zh: 靠近是形容词
-    en: Near is an adjective
   - alien: ["near", "of", "morpheme", "be", "true", "and", "accumulate"]
     zh: 靠近由真与积累构成
-    en: Near is made up of true and accumulate
   - alien: ["\n"]
   - alien: ["small", "displacement", "from", "space"]
     zh: 从空间的小位移
-    en: A small displacement from space

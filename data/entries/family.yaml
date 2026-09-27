@@ -1,0 +1,11 @@
+id: family
+zh: 家庭
+en: family
+meanings: 
+  - alien: ["family", "be", "noun"]
+    zh: 家庭是名词
+  - alien: ["family", "of", "morpheme", "be", "space", "and", "couple"]
+    zh: 家庭由空间与伴侣构成
+  - alien: ["\n"]
+  - alien: ["couple", "and", "child", "be_included", "same", "home"]
+    zh: 伴侣与儿童处于相同家

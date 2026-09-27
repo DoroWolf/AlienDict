@@ -1,16 +1,13 @@
 id: year
-translation: 年
+zh: 年
 en: year
 notes:
   - 1 外星秒约等于 0.64 地球秒。外星人的星球没有类似月球的卫星。
 meanings: 
   - alien: ["year", "be", "noun"]
     zh: 年是名词
-    en: Year is a noun
   - alien: ["year", "of", "morpheme", "be", "big", "and", "moment"]
     zh: 年由大与时刻构成
-    en: Year is made up of big and moment
   - alien: ["\n"]
   - alien: ["world", "of", "cycle", "of", "period"]
     zh: 世界的循环周期
-    en: The cycle period of the world

@@ -1,14 +1,11 @@
 id: function
-translation: 功能
+zh: 功能
 en: function
 meanings: 
   - alien: ["function", "be", "noun"]
     zh: 功能是名词
-    en: Function is a noun
   - alien: ["function", "of", "morpheme", "be", "tool", "and", "can"]
     zh: 功能由工具与能构成
-    en: Function is made up of tool and can
   - alien: ["\n"]
   - alien: ["machine", "of", "skill"]
     zh: 机器的技能
-    en: The skill of a machine

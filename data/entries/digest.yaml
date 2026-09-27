@@ -1,14 +1,11 @@
 id: digest
-translation: 消化
+zh: 消化
 en: digest
 meanings: 
   - alien: ["digest", "be", "verb"]
     zh: 消化是动词
-    en: Digest is a verb
   - alien: ["digest", "of", "morpheme", "be", "stomach", "and", "change"]
     zh: 消化由胃与变化构成
-    en: Digest is made up of stomach and change
   - alien: ["\n"]
   - alien: ["change", "food", "become", "energy", "need", "stomach"]
     zh: 需要胃变化食物为能量
-    en: Need stomach to change food into energy

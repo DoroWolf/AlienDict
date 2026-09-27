@@ -1,19 +1,15 @@
 id: seven
-translation: 七
+zh: 七
 en: seven
 notes:
   - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["seven", "be", "numeral"]
     zh: 七是数词
-    en: Seven is a numeral
   - alien: ["seven", "be", "base", "morpheme"]
     zh: 七是基础词素
-    en: Seven is a basic morpheme
   - alien: ["\n"]
   - alien: ["number"]
     zh: 数
-    en: The number
   - alien: ["first", "false", "base", "number"]
     zh: 第一个非基础数
-    en: The first non-basic number

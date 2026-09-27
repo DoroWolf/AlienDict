@@ -1,14 +1,11 @@
 id: cure
-translation: 治疗
+zh: 治疗
 en: cure
 meanings: 
   - alien: ["cure", "be", "noun"]
     zh: 治疗是名词
-    en: Cure is a noun
   - alien: ["cure", "of", "morpheme", "be", "sick", "and", "not"]
     zh: 治疗由生病与不得构成
-    en: Cure is made up of sick and not
   - alien: ["\n"]
   - alien: ["alter", "sick", "become", "healthy"]
     zh: 改变生病为健康
-    en: Alter from sick to healthy

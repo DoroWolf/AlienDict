@@ -1,14 +1,11 @@
 id: left_number
-translation: 左侧数
+zh: 左侧数
 en: left number
 meanings: 
   - alien: ["left_number", "be", "noun"]
     zh: 左侧数是名词
-    en: Left number is a noun
   - alien: ["left_number", "of", "morpheme", "be", "left", "and", "number"]
     zh: 左侧数由左与数构成
-    en: Left number is made up of left and number
   - alien: ["\n"]
   - alien: ["algebra", "verb", "of", "previous_word"]
     zh: 代数动词的前词
-    en: The previous word of an algebraic verb

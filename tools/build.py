@@ -175,13 +175,13 @@ def is_break_only(item):
         return not item.strip()
     if not isinstance(item, dict):
         return False
-    if item.get("zh") or item.get("translation") or item.get("en") or item.get("english"):
+    if item.get("zh"):
         return False
     return item.get("alien") is not None and not parse_alien(item.get("alien"))
 
 
 def load_entries(warnings):
-    """读 data/entries/*.yaml。字段只有 id / glyph / translation / en / alien / meanings / order。"""
+    """读 data/entries/*.yaml。字段只有 id / glyph / zh / en / alien / meanings / order。"""
     entries = {}
     for path in sorted(ENTRY_DIR.glob("*.yaml")):
         raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
@@ -192,7 +192,7 @@ def load_entries(warnings):
         raw["file"] = path.name
         # 字形文件名与 id / 英文释义解耦：缺省同名，需要时用 glyph 单独指定
         raw["glyph"] = str(raw.get("glyph") or eid)
-        raw["translation"] = str(raw.get("translation") or eid)
+        raw["zh"] = str(raw.get("zh") or eid)
         raw["en"] = str(raw.get("en") or "")
         if not raw["en"]:
             warnings.append("{}：缺 en（英文释义）".format(path.name))
@@ -253,28 +253,25 @@ def normalize_notes(entry, warnings):
 
 
 def normalize_meanings(entry, warnings):
-    """含义统一成 [{'alien': [[token...]], 'zh': '…', 'en': '…', 'blank': 是否空行分隔行}]；
+    """含义统一成 [{'alien': [[token...]], 'zh': '…', 'blank': 是否空行分隔行}]；
 
     允许直接写字符串，也允许写一条只有 alien: "\\n" 的空行分隔行（额外换一行）。
     """
     result = []
     for index, item in enumerate(entry.get("meanings") or [], 1):
         if is_break_only(item):
-            result.append({"alien": [], "zh": "", "en": "", "blank": True})
+            result.append({"alien": [], "zh": "", "blank": True})
             continue
         if isinstance(item, str):
-            result.append({"alien": [], "zh": item, "en": "", "blank": False})
+            result.append({"alien": [], "zh": item, "blank": False})
         elif isinstance(item, dict):
-            zh = str(item.get("zh") or item.get("translation") or "")
-            en = str(item.get("en") or item.get("english") or "")
-            if not zh and not en:
-                warnings.append("{}：第 {} 条含义缺 zh/en".format(entry["file"], index))
-            result.append(
-                {"alien": parse_alien(item.get("alien")), "zh": zh, "en": en, "blank": False}
-            )
+            zh = str(item.get("zh") or "")
+            if not zh:
+                warnings.append("{}：第 {} 条含义缺 zh".format(entry["file"], index))
+            result.append({"alien": parse_alien(item.get("alien")), "zh": zh, "blank": False})
         else:
             warnings.append(
-                "{}：第 {} 条含义格式不对（应为字符串或 alien/zh/en 映射）".format(entry["file"], index)
+                "{}：第 {} 条含义格式不对（应为字符串或 alien/zh 映射）".format(entry["file"], index)
             )
     return result
 
@@ -420,7 +417,7 @@ def collect_pending(entries):
 
 def gloss(entry):
     """中英释义：中文（英文），缺一边时只给有的那边。"""
-    zh = str(entry.get("translation") or "")
+    zh = str(entry.get("zh") or "")
     en = str(entry.get("en") or "")
     if zh and en:
         return "{}（{}）".format(zh, en)
@@ -521,7 +518,7 @@ def chip_body(word_id, entries, root, count=None):
     """
     entry = entries.get(word_id)
     glyph = glyph_node(word_id, entries, root, link=False, nested=False, plain=True)
-    zh = escape(str(entry["translation"])) if entry else escape(word_id)
+    zh = escape(str(entry["zh"])) if entry else escape(word_id)
     body = '<span class="chip__glyph">{}</span><span class="chip__zh"{}>{}</span>'.format(
         glyph, " data-spoiler" if entry else "", zh
     )
@@ -569,7 +566,7 @@ def morpheme_button(word_id, entries, root, words):
             " chip--base" if entry and is_base_morpheme(entry) else "",
             escape(word_id),
             escape(" ".join(words)),
-            escape(str(entry["translation"]) if entry else word_id),
+            escape(str(entry["zh"]) if entry else word_id),
             escape(label),
             spoiler_attrs(title=label) if entry else "",
             chip_body(word_id, entries, root, len(words)),
@@ -670,7 +667,6 @@ def build(out_dir, only=None, quiet=False, clean=False, font=True):
             {
                 "alien": render_alien(m["alien"], entries, "../") if m["alien"] else None,
                 "zh": m["zh"],
-                "en": m["en"],
                 "blank": m["blank"],
             }
             for m in entry["meanings"]
@@ -713,7 +709,7 @@ def build(out_dir, only=None, quiet=False, clean=False, font=True):
     items = [
         {
             "id": entry["id"],
-            "zh": str(entry["translation"]),
+            "zh": str(entry["zh"]),
             "en": str(entry["en"]),
             "gloss": gloss(entry),
             "url": "w/{}.html".format(entry["id"]),

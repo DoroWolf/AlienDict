@@ -1,14 +1,11 @@
 id: androgynous
-translation: 双性
+zh: 双性
 en: androgynous
 meanings: 
   - alien: ["androgynous", "be", "adjective"]
     zh: 双性是形容词
-    en: Androgynous is an adjective
   - alien: ["androgynous", "be", "base", "morpheme"]
     zh: 双性是基础词素
-    en: Androgynous is a basic morpheme
   - alien: ["\n"]
   - alien: ["alien", "of", "sex", "predicate"]
     zh: 外星人的性别谓词
-    en: The predicate of sex for aliens

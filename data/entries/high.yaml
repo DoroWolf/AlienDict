@@ -1,5 +1,5 @@
 id: high
-translation: 高
+zh: 高
 en: high
 meanings: 
   - alien: ["high", "be", "adjective"]
@@ -7,5 +7,5 @@ meanings:
   - alien: ["high", "of", "morpheme", "be", "(diagonal_line)", "and", "direction"]
     zh: 高由一与方位构成
   - alien: ["\n"]
-  - alien: ["front", "and", "back_(direction)"]
+  - alien: ["front_(direction)", "and", "back_(direction)"]
     zh: 前与后

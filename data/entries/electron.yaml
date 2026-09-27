@@ -1,16 +1,13 @@
 id: electron
-translation: 电子
+zh: 电子
 en: electron
 notes:
   - 外星人的电荷正负规定与人类相反。
 meanings: 
   - alien: ["electron", "be", "noun"]
     zh: 电子是名词
-    en: Electron is a noun
   - alien: ["electron", "of", "morpheme", "be", "positive", "and", "scale"]
     zh: 电子由正与鳞片构成
-    en: Electron is made up of positive and scale
   - alien: ["\n"]
   - alien: ["atomic_nucleus", "of", "element_(math)", "include", "positive", "electric_charge"]
     zh: 原子核的包含正电荷的元素
-    en: The element of the atomic nucleus that includes positive electric charge

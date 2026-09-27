@@ -1,14 +1,11 @@
 id: egg
-translation: 卵
+zh: 卵
 en: egg
 meanings: 
   - alien: ["egg", "be", "noun"]
     zh: 卵是名词
-    en: Egg is a noun
   - alien: ["egg", "of", "morpheme", "be", "fish", "and", "circle"]
     zh: 卵由鱼与圆构成
-    en: Egg is made up of fish and circle
   - alien: ["\n"]
   - alien: ["egg", "future", "be", "fish"]
     zh: 卵的未来是鱼
-    en: The future of the eggs is the fish

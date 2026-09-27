@@ -1,16 +1,13 @@
 id: milli
-translation: 千分之一
+zh: 千分之一
 en: milli
 notes:
   - 外星人使用七进制，即满七进一。
 meanings:
   - alien: ["milli", "be", "numeral"]
     zh: 千分之一是数词
-    en: Milli is a numeral
   - alien: ["milli", "be", "base", "morpheme"]
     zh: 千分之一是基础词素
-    en: Milli is a basic morpheme
   - alien: ["\n"]
   - alien: ["decimal"]
     zh: 小数
-    en: The decimal

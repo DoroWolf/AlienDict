@@ -1,17 +1,13 @@
 id: button
-translation: 按钮
+zh: 按钮
 en: button
 meanings: 
   - alien: ["button", "be", "noun"]
     zh: 按钮是名词
-    en: Button is a noun
   - alien: ["button", "of", "morpheme", "be", "bump", "and", "machine"]
     zh: 按钮由凸起与机器构成
-    en: Button is made up of bump and machine
   - alien: ["\n"]
   - alien: ["machine", "of", "bump", "element_(math)"]
     zh: 机器的凸起元素
-    en: The bump element of a machine
   - alien: ["press", "button", "for", "it", "of", "function"]
     zh: 按下按钮以实现其功能
-    en: Pressing a button for its function

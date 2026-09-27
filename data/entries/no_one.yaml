@@ -1,17 +1,13 @@
 id: no_one
-translation: 无人
+zh: 无人
 en: no one
 meanings: 
   - alien: ["no_one", "be", "adjective"]
     zh: 无人是形容词
-    en: No one is an adjective
   - alien: ["no_one", "of", "morpheme", "be", "false", "and", "alien"]
     zh: 无人由假与外星人构成
-    en: No one is made up of false and alien
   - alien: ["\n"]
   - alien: ["can", "do", "be_not_included", "alien"]
     zh: 不用人就能做
-    en: Can do without an alien
   - alien: ["or", "space", "be_not_included", "alien"]
     zh: 或没有人的空间
-    en: Or a space that does not include an alien

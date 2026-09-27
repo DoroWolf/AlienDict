@@ -1,17 +1,13 @@
 id: healthy
-translation: 健康
+zh: 健康
 en: healthy
 meanings: 
   - alien: ["healthy", "be", "adjective"]
     zh: 健康是形容词
-    en: Healthy is an adjective
   - alien: ["healthy", "of", "morpheme", "be", "true", "and", "act"]
     zh: 健康由真与行动构成
-    en: Healthy is made up of true and act
   - alien: ["\n"]
   - alien: ["more", "alive"]
     zh: 更容易存活
-    en: Easier to alive
   - alien: ["alien", "false", "have", "disease"]
     zh: 外星人没有疾病
-    en: Aliens have no disease

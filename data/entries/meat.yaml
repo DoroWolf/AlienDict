@@ -1,17 +1,13 @@
 id: meat
-translation: 肉
+zh: 肉
 en: meat
 meanings: 
   - alien: ["meat", "be", "noun"]
     zh: 肉是名词
-    en: Meat is a noun
   - alien: ["meat", "of", "morpheme", "be", "be_included", "and", "fish"]
     zh: 肉由包含于与鱼构成
-    en: Meat is made up of be included and fish
   - alien: ["\n"]
   - alien: ["soft", "element_(math)", "be_included", "animal"]
     zh: 动物上的软元素
-    en: Soft elements on animals
   - alien: ["meat", "be", "food"]
     zh: 肉是食物
-    en: Meat is food

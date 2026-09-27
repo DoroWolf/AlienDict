@@ -1,14 +1,11 @@
 id: multiplier
-translation: 因数
+zh: 因数
 en: multiplier
 meanings: 
   - alien: ["multiplier", "be", "noun"]
     zh: 因数是名词
-    en: Multiplier is a noun
   - alien: ["multiplier", "of", "morpheme", "be", "multiply", "and", "count"]
     zh: 因数由乘与数量构成
-    en: Multiplier is made up of multiply and count
   - alien: ["\n"]
   - alien: ["multiply", "of", "right_number"]
     zh: 乘的右侧数
-    en: Number on the right side of multiplication

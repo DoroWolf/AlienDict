@@ -1,14 +1,11 @@
 id: computer
-translation: 计算机
+zh: 计算机
 en: computer
 meanings: 
   - alien: ["computer", "be", "noun"]
     zh: 计算机是名词
-    en: Computer is a noun
   - alien: ["computer", "of", "morpheme", "be", "electricity", "and", "brain"]
     zh: 计算机由电与脑构成
-    en: Computer is made up of electricity and brain
   - alien: ["\n"]
   - alien: ["electric_load"]
     zh: 负载
-    en: Electric load

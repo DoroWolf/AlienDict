@@ -1,0 +1,11 @@
+id: next_word
+zh: 后词
+en: next word
+meanings: 
+  - alien: ["next_word", "be", "noun"]
+    zh: 后词是名词
+  - alien: ["next_word", "of", "morpheme", "be", "down", "and", "word"]
+    zh: 后词由下与词构成
+  - alien: ["\n"]
+  - alien: ["next_one", "word", "be_included", "sentence", "or", "next_one", "page", "be_included", "book"]
+    zh: 包含在句子中的下一个词或包含书中的下一页面

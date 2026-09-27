@@ -1,14 +1,11 @@
 id: yet
-translation: 尚未
+zh: 尚未
 en: yet
 meanings: 
   - alien: ["yet", "be", "conjunction"]
     zh: 尚未是连词
-    en: Yet is a conjunction
   - alien: ["yet", "of", "morpheme", "be", "before"]
     zh: 尚未由之前构成
-    en: Yet is made up of before
   - alien: ["\n"]
   - alien: ["next_word", "of", "before", "moment"]
     zh: 后词的之前时刻
-    en: The moment before the next word

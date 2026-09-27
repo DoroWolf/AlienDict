@@ -1,17 +1,13 @@
 id: shock
-translation: 震惊
+zh: 震惊
 en: shock
 meanings: 
   - alien: ["shock", "be", "verb"]
     zh: 震惊是动词
-    en: Shock is a verb
   - alien: ["shock", "of", "morpheme", "be", "electricity", "and", "head"]
     zh: 震惊由电与头构成
-    en: Shock is made up of electricity and head
   - alien: ["\n"]
   - alien: ["alien", "receive", "electric_current"]
     zh: 外星人触电
-    en: An alien receives an electric current
   - alien: ["or", "alien", "of", "emotion", "from", "small", "probability", "act"]
     zh: 或经历小概率事件的外星人的情绪
-    en: Or the emotion of an alien from a small-probability event

@@ -1,14 +1,11 @@
 id: shape
-translation: 形状
+zh: 形状
 en: shape
 meanings: 
   - alien: ["shape", "be", "noun"]
     zh: 形状是名词
-    en: shape is a noun
   - alien: ["shape", "of", "morpheme", "be", "mark", "and", "object"]
     zh: 形状由标记与物体构成
-    en: shape is made up of mark and object
   - alien: ["\n"]
   - alien: ["object", "of", "mark"]
     zh: 物体的标记
-    en: The mark of an object

@@ -1,14 +1,11 @@
 id: express
-translation: 表达
+zh: 表达
 en: express
 meanings: 
   - alien: ["express", "be", "verb"]
     zh: 表达是动词
-    en: Express is a verb
   - alien: ["express", "of", "morpheme", "be", "word", "and", "hand"]
     zh: 表达由词与手构成
-    en: Express is made up of word and hand
   - alien: ["\n"]
   - alien: ["draw", "word"]
     zh: 画词
-    en: Drawing words

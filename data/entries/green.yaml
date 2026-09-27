@@ -1,17 +1,13 @@
 id: green
-translation: 绿色
+zh: 绿色
 en: green
 meanings: 
   - alien: ["green", "be", "noun"]
     zh: 绿色是名词
-    en: Green is a noun
   - alien: ["green", "of", "morpheme", "be", "seaweed", "and", "color"]
     zh: 绿色由海草与色彩构成
-    en: Green is made up of seaweed and color
   - alien: ["\n"]
   - alien: ["through", "yellow", "and", "blue", "of", "color"]
     zh: 跨越黄色与蓝色的色彩
-    en: The color that goes through yellow and blue
   - alien: ["seaweed", "of", "color"]
     zh: 海草的色彩
-    en: The color of the seaweed

@@ -1,0 +1,11 @@
+id: area_(math)
+zh: 面积
+en: area
+meanings: 
+  - alien: ["area_(math)", "be", "noun"]
+    zh: 面积是名词
+  - alien: ["area_(math)", "of", "morpheme", "be", "space", "and", "count"]
+    zh: 面积由空间与数量构成
+  - alien: ["\n"]
+  - alien: ["void", "be_included", "closed_shape", "of", "count"]
+    zh: 包含于封闭图形的虚空数量

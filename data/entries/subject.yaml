@@ -1,20 +1,15 @@
 id: subject
-translation: 主题
+zh: 主题
 en: subject
 meanings: 
   - alien: ["subject", "be", "noun"]
     zh: 主题是名词
-    en: Subject is a noun
   - alien: ["subject", "of", "morpheme", "be", "true", "and", "think"]
     zh: 主题由真与想构成
-    en: Subject is made up of true and think
   - alien: ["\n"]
   - alien: ["reality", "message"]
-    zh: 实际消息
-    en: The message of reality
+    zh: 实际信息
   - alien: ["subject", "diverse", "think", "thought", "for", "understand", "universe"]
     zh: 不同主题认为的想法用于理解宇宙
-    en: Different subjects think thoughts in order to understand the universe
   - alien: ["subject", "be", "universe", "of", "same", "thought"]
     zh: 主题是宇宙的相同想法
-    en: Subject is the same thought of the universe

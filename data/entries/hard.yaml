@@ -1,14 +1,11 @@
 id: hard
-translation: 硬
+zh: 硬
 en: hard
 meanings: 
   - alien: ["hard", "be", "adjective"]
     zh: 硬是形容词
-    en: Hard is an adjective
   - alien: ["hard", "of", "morpheme", "be", "true", "and", "shell"]
     zh: 硬由真与壳构成
-    en: Hard is made up of true and shell
   - alien: ["\n"]
   - alien: ["less", "can", "be_done", "change", "shape"]
     zh: 难以被改变形状
-    en: Difficult to change the shape

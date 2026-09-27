@@ -1,15 +1,12 @@
 id: meanwhile
-translation: 同时
+zh: 同时
 en: meanwhile
 meanings: 
   - alien: ["meanwhile", "be", "conjunction"]
     zh: 同时是连词
-    en: Meanwhile is a conjunction
   - alien: ["meanwhile", "of", "morpheme", "be", "(overline_and_underline)", "and", "moment"]
     zh: 同时由上下划线与时刻构成
-    en: Meanwhile is made up of the overline & underline and moment
   - alien: ["\n"]
   - alien: ["meanwhile", "amass", "same", "moment", "of", "two_objects", "act"]
     zh: 同时累积相同时刻的两个行动
-    en: Meanwhile amasses two actions at the same time
 

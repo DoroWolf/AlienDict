@@ -1,14 +1,11 @@
 id: medicine
-translation: 药
+zh: 药
 en: medicine
 meanings: 
   - alien: ["medicine", "be", "noun"]
     zh: 药是名词
-    en: Medicine is a noun
   - alien: ["medicine", "of", "morpheme", "be", "false", "and", "snake"]
     zh: 药由假与蛇构成
-    en: Medicine is made up of false and snake
   - alien: ["\n"]
   - alien: ["alien", "eat", "medicine", "for", "not", "toxin", "or", "cure", "disease"]
     zh: 外星人为了不中毒或治疗感染而吃药
-    en: Aliens take medicine ti avoid poisoning or to treat diseases

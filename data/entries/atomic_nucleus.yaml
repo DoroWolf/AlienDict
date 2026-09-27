@@ -1,14 +1,11 @@
 id: atomic_nucleus
-translation: 原子核
+zh: 原子核
 en: atomic nucleus
 meanings: 
   - alien: ["atomic_nucleus", "be", "noun"]
     zh: 原子核是名词
-    en: Atomic nucleus is a noun
   - alien: ["atomic_nucleus", "of", "morpheme", "be", "central", "and", "scale"]
     zh: 原子核由中心与鳞片构成
-    en: Atomic nucleus is made up of central and scale
   - alien: ["\n"]
   - alien: ["atom", "of", "central", "element_(math)"]
     zh: 原子的中心元素
-    en: The central element of an atom

@@ -1,14 +1,11 @@
 id: lifespan
-translation: 生命
+zh: 生命
 en: lifespan
 meanings: 
   - alien: ["lifespan", "be", "noun"]
     zh: 生命是名词
-    en: Lifespan is a noun
   - alien: ["lifespan", "of", "morpheme", "be", "moment", "and", "alien"]
     zh: 生命由时刻与外星人构成
-    en: Lifespan is made up of moment and alien
   - alien: ["\n"]
   - alien: ["alive", "alien", "of", "time"]
     zh: 活外星人的时间
-    en: The time an alien is alive

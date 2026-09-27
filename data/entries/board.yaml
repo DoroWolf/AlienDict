@@ -1,0 +1,11 @@
+id: board
+zh: 板
+en: board
+meanings: 
+  - alien: ["board", "be", "noun"]
+    zh: 板是名词
+  - alien: ["board", "of", "morpheme", "be", "space", "and", "mark"]
+    zh: 板由空间与标记构成
+  - alien: ["\n"]
+  - alien: ["level", "for", "draw"]
+    zh: 用于画的水平面

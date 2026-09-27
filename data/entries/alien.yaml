@@ -1,14 +1,11 @@
 id: alien
-translation: 外星人
+zh: 外星人
 en: alien
 meanings: 
   - alien: ["alien", "be", "noun"]
     zh: 外星人是名词
-    en: Alien is a noun
   - alien: ["alien", "be", "base", "morpheme"]
     zh: 外星人是基础词素
-    en: Alien is a basic morpheme
   - alien: ["\n"]
   - alien: ["think", "of", "animal", "depend", "world"]
     zh: 思考的动物，依赖世界
-    en: Thinking animals, dependent on the world

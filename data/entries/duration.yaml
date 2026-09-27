@@ -1,14 +1,11 @@
 id: duration
-translation: 时长
+zh: 时长
 en: duration
 meanings: 
   - alien: ["duration", "be", "noun"]
     zh: 时长是名词
-    en: Duration is a noun
   - alien: ["duration", "of", "morpheme", "be", "moment"]
     zh: 时长由时刻构成
-    en: Duration is made up of moment
   - alien: ["\n"]
   - alien: ["small", "time"]
     zh: 小的时间
-    en: The small time

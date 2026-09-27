@@ -1,14 +1,11 @@
 id: swim
-translation: 游
+zh: 游
 en: swim
 meanings: 
   - alien: ["swim", "be", "verb"]
     zh: 游是动词
-    en: Swim is a verb
   - alien: ["swim", "of", "morpheme", "be", "hand", "and", "seawater"]
     zh: 游由手与海水构成
-    en: Swim is made up of hand and seawater
   - alien: ["\n"]
   - alien: ["move", "be_included", "seawater"]
     zh: 在海水中移动
-    en: Moving within seawater

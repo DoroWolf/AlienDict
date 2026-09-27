@@ -1,23 +1,17 @@
 id: power_source
-translation: 电源
+zh: 电源
 en: power source
 meanings: 
   - alien: ["power_source", "be", "noun"]
     zh: 电源是名词
-    en: Power source is a noun
   - alien: ["power_source", "of", "morpheme", "be", "electricity", "and", "from"]
     zh: 电源由电与从构成
-    en: Power source is made up of electricity and from
   - alien: ["\n"]
   - alien: ["circuit", "of", "element_(math)"]
     zh: 电路的元素
-    en: The element of a circuit
   - alien: ["power_source", "send", "voltage"]
     zh: 电源发送电压
-    en: A power source sends voltage
   - alien: ["power_source", "send", "electric_energy"]
     zh: 电源发送电能
-    en: A power source sends electric energy
   - alien: ["electric_current", "move", "from", "power_source", "of", "positive", "polar", "to", "negative", "polar"]
     zh: 电流从电源正极到负极移动
-    en: Electric current moves from the positive pole of a power source to the negative pole

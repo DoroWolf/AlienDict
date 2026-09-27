@@ -1,14 +1,11 @@
 id: choose
-translation: 选择
+zh: 选择
 en: choose
 meanings: 
   - alien: ["choose", "be", "verb"]
     zh: 选择是动词
-    en: Choose is a verb
   - alien: ["choose", "of", "morpheme", "be", "unique", "and", "hand"]
     zh: 选择由独特与手构成
-    en: Choose is made up of unique and hand
   - alien: ["\n"]
   - alien: ["receive", "one_object", "object", "and", "false", "receive", "distinct"]
     zh: 接受一个物体，不接受其他的
-    en: Receiving one object and not receiving others

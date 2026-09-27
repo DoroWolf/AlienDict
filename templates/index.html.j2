@@ -46,9 +46,9 @@
 <ul class="grid">
   {% for e in ordered %}
   <li class="card" id="card-{{ e.id }}">
-    <a class="card__link" href="{{ root }}w/{{ e.id }}.html" title="{{ e.translation }}{% if e.en %}（{{ e.en }}）{% endif %}" data-spoiler-title="{{ e.translation }}{% if e.en %}（{{ e.en }}）{% endif %}">
+    <a class="card__link" href="{{ root }}w/{{ e.id }}.html" title="{{ e.zh }}{% if e.en %}（{{ e.en }}）{% endif %}" data-spoiler-title="{{ e.zh }}{% if e.en %}（{{ e.en }}）{% endif %}">
       <span class="card__glyph">{{ cards[e.id] }}</span>
-      <span class="card__zh" data-spoiler>{{ e.translation }}</span>
+      <span class="card__zh" data-spoiler>{{ e.zh }}</span>
       {% if e.en %}<span class="card__en" data-spoiler>{{ e.en }}</span>{% endif %}
     </a>
   </li>

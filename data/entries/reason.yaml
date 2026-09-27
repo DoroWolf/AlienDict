@@ -1,14 +1,11 @@
 id: reason
-translation: 原因
+zh: 原因
 en: reason
 meanings: 
   - alien: ["reason", "be", "noun"]
     zh: 原因是名词
-    en: Reason is a noun
   - alien: ["reason", "of", "morpheme", "be", "from", "and", "be_called"]
     zh: 原因由从与被称为构成
-    en: Reason is made up of from and be called
   - alien: ["\n"]
   - alien: ["yet", "action", "of", "object"]
     zh: 尚未动作的物体
-    en: The object that has not completed the action

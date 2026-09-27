@@ -1,14 +1,11 @@
 id: much_probability
-translation: 大概率
+zh: 大概率
 en: much probability
 meanings: 
   - alien: ["much_probability", "be", "adjective"]
     zh: 大概率是形容词
-    en: Much probability is an adjective
   - alien: ["much_probability", "of", "morpheme", "be", "false", "and", "probability"]
     zh: 大概率由假与概率构成
-    en: Much probability is made up of false and probability
   - alien: ["\n"]
   - alien: ["big", "probability"]
     zh: 大的概率
-    en: A big probability

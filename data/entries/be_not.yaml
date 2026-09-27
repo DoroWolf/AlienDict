@@ -1,14 +1,11 @@
 id: be_not
-translation: 不是
+zh: 不是
 en: be not
 meanings: 
   - alien: ["be_not", "be", "verb"]
     zh: 不是是动词
-    en: Be not is a verb
   - alien: ["be_not", "of", "morpheme", "be", "(overline_and_underline)", "and", "false"]
     zh: 不是由上下划线与假构成
-    en: Be not is made up of the overline & underline and false
   - alien: ["\n"]
   - alien: ["previous_word", "and", "next_word", "have", "different", "description"]
     zh: 前词与后词有不同描述
-    en: The previous word has a different description from the next word

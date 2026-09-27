@@ -1,14 +1,11 @@
 id: works
-translation: 作品
+zh: 作品
 en: works
 meanings: 
   - alien: ["works", "be", "noun"]
     zh: 作品是名词
-    en: Works is a noun
   - alien: ["works", "of", "morpheme", "be", "create", "and", "to"]
     zh: 作品由创造与到构成
-    en: Works is made up of create and to
   - alien: ["\n"]
   - alien: ["be_done", "create", "of", "object"]
     zh: 被创造的物体
-    en: Objects that have been created

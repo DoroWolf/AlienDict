@@ -1,14 +1,11 @@
 id: decrease
-translation: 减小
+zh: 减小
 en: decrease
 meanings: 
   - alien: ["decrease", "be", "verb"]
     zh: 减小是动词
-    en: Decrease is a verb
   - alien: ["decrease", "of", "morpheme", "be", "small", "and", "hand"]
     zh: 减小由小与手构成
-    en: Decrease is made up of small and hand
   - alien: ["\n"]
   - alien: ["alter", "object", "become", "small"]
     zh: 改变物体变小
-    en: Changing an object so that it becomes small

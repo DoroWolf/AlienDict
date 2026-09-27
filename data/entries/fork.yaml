@@ -1,14 +1,11 @@
 id: fork
-translation: 分叉
+zh: 分叉
 en: fork
 meanings: 
   - alien: ["fork", "be", "noun"]
     zh: 分叉是名词
-    en: Fork is a noun
   - alien: ["fork", "be", "base", "morpheme"]
     zh: 分叉是基础词素
-    en: Fork is a basic morpheme
   - alien: ["\n"]
   - alien: ["one_object", "line", "disperse", "become", "many", "line", "of", "shape"]
     zh: 一根线分散成为多根线的形状
-    en: A shape where a line dispersed into many lines

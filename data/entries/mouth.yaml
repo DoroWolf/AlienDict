@@ -1,14 +1,11 @@
 id: mouth
-translation: 口
+zh: 口
 en: mouth
 meanings: 
   - alien: ["mouth", "be", "noun"]
     zh: 口是名词
-    en: Mouth is a noun
   - alien: ["mouth", "be", "base", "morpheme"]
     zh: 口是基础词素
-    en: Mouth is a basic morpheme
   - alien: ["\n"]
   - alien: ["head", "of", "element_(math)", "for", "eat", "food"]
     zh: 头的为了吃食物的元素
-    en: The elements of the head for eating foods

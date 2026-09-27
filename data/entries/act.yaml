@@ -1,14 +1,11 @@
 id: act
-translation: 行动
+zh: 行动
 en: act
 meanings: 
   - alien: ["act", "be", "noun"]
     zh: 行动是名词
-    en: Act is a noun
   - alien: ["act", "be", "base", "morpheme"]
     zh: 行动是基础词素
-    en: Act is a basic morpheme
   - alien: ["\n"]
   - alien: ["action", "be_included", "duration"]
     zh: 一段时间内的动作
-    en: Actions over a period of time

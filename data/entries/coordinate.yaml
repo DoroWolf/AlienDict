@@ -1,0 +1,11 @@
+id: coordinate
+zh: 坐标
+en: coordinate
+meanings: 
+  - alien: ["coordinate", "be", "noun"]
+    zh: 坐标是名词
+  - alien: ["coordinate", "of", "morpheme", "be", "space", "and", "number"]
+    zh: 坐标由空间与数构成
+  - alien: ["\n"]
+  - alien: ["dot", "of", "location", "for", "number"]
+    zh: 需要数表示点的所在空间

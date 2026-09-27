@@ -1,14 +1,11 @@
 id: field_(physics)
-translation: 场
+zh: 场
 en: field
 meanings: 
   - alien: ["field_(physics)", "be", "noun"]
     zh: 场是名词
-    en: Field is a noun
   - alien: ["field_(physics)", "of", "morpheme", "be", "space", "and", "space"]
     zh: 场由空间与空间构成
-    en: Field is made up of space and space
   - alien: ["\n"]
   - alien: ["near", "space", "of", "space"]
     zh: 能靠近空间的空间
-    en: The space near a space

@@ -1,0 +1,11 @@
+id: command_line
+zh: 命令行
+en: command line
+meanings: 
+  - alien: ["command_line", "be", "noun"]
+    zh: 命令行是名词
+  - alien: ["command_line", "of", "morpheme", "be", "space", "and", "command"]
+    zh: 命令行由空间与命令构成
+  - alien: ["\n"]
+  - alien: ["command", "of", "space"]
+    zh: 命令的空间

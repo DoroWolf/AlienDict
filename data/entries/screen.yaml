@@ -1,10 +1,10 @@
 id: screen
-translation: 屏幕
+zh: 屏幕
 en: screen
 meanings: 
   - alien: ["screen", "be", "noun"]
     zh: 屏幕是名词
-  - alien: ["screen", "of", "morpheme", "be", "tool", "and", "front"]
+  - alien: ["screen", "of", "morpheme", "be", "tool", "and", "front_(direction)"]
     zh: 屏幕由屏幕与前构成
   - alien: ["\n"]
   - alien: ["machine", "of", "element_(math)", "for", "alien", "see"]

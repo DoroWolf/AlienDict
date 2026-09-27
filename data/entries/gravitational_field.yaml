@@ -1,17 +1,13 @@
 id: gravitational_field
-translation: 引力场
+zh: 引力场
 en: gravitational field
 meanings: 
   - alien: ["gravitational_field", "be", "noun"]
     zh: 引力场是名词
-    en: Gravitational field is a noun
   - alien: ["gravitational_field", "of", "morpheme", "be", "force", "and", "field_(physics)"]
     zh: 引力场由力与场构成
-    en: Gravitational field is made up of force and field
   - alien: ["\n"]
   - alien: ["object", "of", "field_(physics)"]
     zh: 物体的场
-    en: The field of an object
   - alien: ["be_included", "gravitational_field", "of", "distinct", "object", "receive", "force"]
     zh: 引力场内不同的物体接受力
-    en: Different objects inside a gravitational field receive force

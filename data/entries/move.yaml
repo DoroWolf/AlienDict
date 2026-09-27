@@ -1,14 +1,11 @@
 id: move
-translation: 移动
+zh: 移动
 en: move
 meanings: 
   - alien: ["move", "be", "verb"]
     zh: 移动是动词
-    en: Move is a verb
   - alien: ["move", "of", "morpheme", "be", "hand", "and", "space"]
     zh: 移动由手与空间构成
-    en: Move is made up of hand and space
   - alien: ["\n"]
   - alien: ["location", "change"]
     zh: 所在位置变化
-    en: Location changed

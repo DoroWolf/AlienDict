@@ -1,14 +1,11 @@
 id: value
-translation: 价值
+zh: 价值
 en: value
 meanings: 
   - alien: ["value", "be", "noun"]
     zh: 价值是名词
-    en: Value is a noun
   - alien: ["value", "of", "morpheme", "be", "(overline_and_underline)", "and", "currency"]
     zh: 价值由上下划线与货币构成
-    en: Value is made up of the overline & underline and currency
   - alien: ["\n"]
   - alien: ["equal", "of", "currency"]
     zh: 等于的货币
-    en: The currency of equal

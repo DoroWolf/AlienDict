@@ -1,14 +1,11 @@
 id: consistent
-translation: 一致
+zh: 一致
 en: consistent
 meanings: 
   - alien: ["consistent", "be", "adjective"]
     zh: 一致是形容词
-    en: Consistent is an adjective
   - alien: ["consistent", "of", "morpheme", "be", "same", "and", "think"]
     zh: 一致由相同与想构成
-    en: Consistent is made up of same and think
   - alien: ["\n"]
   - alien: ["be_done", "calculate", "count", "equal", "actual", "count"]
     zh: 被计算的数量等于实际数量
-    en: The calculated count equals the actual count

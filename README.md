@@ -40,12 +40,17 @@ alien_dict/
 │  ├─ png2svg.py          点阵 PNG -> SVG（pixel 模式，逐墨点无损）
 │  ├─ subset_font.py      GNU Unifont -> 只含站点用字的 woff2
 │  ├─ build.mjs           预渲染 + 拷资源 + 清理 + 字库子集化
+│  ├─ morpheme_graph.mjs  词素关系图：data/ -> out/morpheme-graph.html（内部校对用）
+│  ├─ _check_graph.mjs    上面那张图的自检（数据 / 布局 / 渲染冒烟测试）
 │  └─ lib/
 │     ├─ lexicon.mjs      YAML -> 词条 / 词素索引（原文与句式的语义都在这）
 │     ├─ glyphs.mjs       读 glyph/svg 与 glyph/*.png
 │     ├─ props.mjs        页面数据（每页只带自己用得到的词与字形）
-│     └─ shell.mjs        页面外壳（head / 内联数据 / app.js）
+│     ├─ shell.mjs        页面外壳（head / 内联数据 / app.js）
+│     ├─ graph-app.js     词素关系图的页面脚本（布局 / 渲染 / 交互，内联进单文件）
+│     └─ graph.css        词素关系图的样式
 ├─ assets/fonts/          GNU Unifont 源字体与授权说明
+├─ out/                   内部工具的产物（morpheme-graph.html，已 .gitignore）
 └─ site/                  产物：index.html、write.html（写作页）、w/<id>.html、assets/
 ```
 
@@ -58,6 +63,7 @@ npm run build                               # 全量：客户端 + 服务端构�
 npm run build:client                        # 只跑客户端构建（web/dist/client）
 npm run build:ssr                           # 只跑预渲染入口构建（web/dist/server）
 npm run build:site                          # 只重跑预渲染（vite 产物没变时最快）
+npm run graph                               # 词素关系图（内部校对工具 → out/morpheme-graph.html）
 
 node tools/build.mjs --only one             # 只重建某个词条的页面
 node tools/build.mjs --no-font              # 跳过字库子集化（改数据时快）
@@ -65,6 +71,9 @@ node tools/build.mjs --clean                # 先清空 site/ 再构建
 
 python tools/png2svg.py --all --changed     # 新画好字形后转 SVG（增量）
 python tools/subset_font.py                 # 单独重跑字库子集化（构建里已含）
+
+node tools/morpheme_graph.mjs               # 词素关系图 → out/morpheme-graph.html（内部校对用）
+node tools/_check_graph.mjs                 # 自检上面那张图（数据 / 布局 / 渲染冒烟测试）
 
 python -m http.server 8000 --directory site # 本地预览（也可直接双击 index.html）
 ```
@@ -134,6 +143,29 @@ python -m http.server 8000 --directory site # 本地预览（也可直接双击 
 
 原文里引用到的词 id 若还没有对应词条，字形照常显示但不可点击（虚线标记），
 并汇总到目录页底部的「待补词条」；补齐 YAML 后重新构建即自动点亮。
+
+## 词素关系图（校对用，内部工具）
+
+`node tools/morpheme_graph.mjs`（＝ `npm run graph`）把「谁由哪些词素构成」画成一张
+**分层图**，产物是自包含的单文件 `out/morpheme-graph.html`（内联字形与脚本，双击就能开、
+离线可用）。**这是内部工具**：不接进 `site/`、不进构建流程，`out/` 已 `.gitignore`；
+语义全部复用 `tools/lib/lexicon.mjs`，与站点同一套推导。
+
+- **怎么读**：层号＝这个词往下拆几层能拆到「不再拆分」（基础词素在第 0 层）；一条边＝一条
+  「X morpheme be A and B」声明。层内顺序按字序 + 重心法（少交叉）排，一层超过 32 个就折行
+  （`--per-row` 调，`0`＝不折行）。
+- **操作**：搜索（中译 / 英文 / id，回车跳第一个）、命中加黄圈、点节点看它的关系网
+  （蓝＝它的词素、绿＝由它构成的词）、双击只看这一片、滚轮缩放 / 拖动平移 /
+  `F` 适应视图 / `Esc` 取消选中；深链 `#<id>` 直接选中某个词。
+- **左栏「词条」**：字形 + 中英释义 + 每条**词素声明**（原文那句话 + 拆出的词素 + 递归到的
+  基础词素）+ 义项（原文在上、中译在下）+「由它构成的词」，用来逐条核对 `data/entries/<id>.yaml`。
+- **左栏「问题」**：词素声明首词不是本词 id、声明里把自己当词素、成环、被当作词素但没写构成、
+  没写构成也不作别人的词素、待补词条、zh / en / 义项中译缺失、字形缺失、`morphemes` 字段——
+  条目可点，点了跳到对应节点。
+- **筛选**：隐藏未写构成 / 隐藏非实义 / 只看有问题 / 只看选中网络（都会重排布局）。
+- **自检**：`node tools/_check_graph.mjs`（先跑一次图）。它把产物里的内联数据解出来做一致性
+  断言、把布局函数单独调出来验证（不重不漏、行内不重叠、层序单调、边朝上），再用一个最小
+  DOM 桩把页面脚本 `init()` 真的跑一遍（渲染 / 选中 / 点击 / 拖动 / 搜索 / 聚焦 / 筛选 / 三个页签）。
 
 ## 外星写作
 

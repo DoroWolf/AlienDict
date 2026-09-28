@@ -4,3 +4,5 @@ en: plants
 meanings: 
   - alien: ["plants", "be_not", "word"]
     zh: 植物不是词
+  - alien: ["plants", "of", "morpheme", "be", "plant"]
+    zh: 植物由动物构成

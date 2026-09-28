@@ -115,18 +115,6 @@ def inspect(grid, alphas, threshold):
         notes.append(
             "alpha 非二值（{} 级，已按阈值 {} 二值化）".format(len(alphas), threshold)
         )
-    if ink:
-        edges = []
-        if min(xs) == 0:
-            edges.append("左")
-        if max(xs) == width - 1:
-            edges.append("右")
-        if min(ys) == 0:
-            edges.append("上")
-        if max(ys) == height - 1:
-            edges.append("下")
-        if edges:
-            notes.append("墨点触及字面框{}缘（各字面框可能不统一）".format("、".join(edges)))
     return ink, bbox, notes
 
 

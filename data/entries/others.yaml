@@ -1,0 +1,11 @@
+id: others
+zh: 其他人
+en: others
+meanings:
+  - alien: ["others", "be", "noun"]
+    zh: 其他人是名词
+  - alien: ["others", "of", "morpheme", "be", "be_not_included", "and", "alien"]
+    zh: 其他人由不包含于与人构成
+  - alien: ["\n"]
+  - alien: ["false", "each_other", "of", "alien"]
+    zh: 不是彼此的人

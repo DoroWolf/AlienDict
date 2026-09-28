@@ -1,0 +1,11 @@
+id: interrogative
+zh: 疑问句
+en: interrogative
+meanings:
+  - alien: ["interrogative", "be", "noun"]
+    zh: 疑问句是名词
+  - alien: ["interrogative", "of", "morpheme", "be", "word", "and", "questioning"]
+    zh: 疑问句由说与不得构成
+  - alien: ["\n"]
+  - alien: ["sentence", "for", "not_know"]
+    zh: 用于不知道的句子

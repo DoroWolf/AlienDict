@@ -1,0 +1,11 @@
+id: he
+zh: 他
+en: he
+meanings:
+  - alien: ["he", "be", "noun"]
+    zh: 他是名词
+  - alien: ["he", "of", "morpheme", "be", "be_included", "and", "alien"]
+    zh: 他由包含于与人构成
+  - alien: ["\n"]
+  - alien: ["previous_word", "of", "same", "alien"]
+    zh: 上词的相同人

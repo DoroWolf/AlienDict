@@ -220,6 +220,27 @@ export function wordsOf(lines) {
   return lines.map((line) => line.filter((t) => !t.space).map((t) => t.id));
 }
 
+/** 词素声明：把原文里的「X morpheme be A and B」逐句解析出来（校对工具用）。
+ *  head＝句式首词（正常应等于本词 id），morphemes＝标记之后的词（去掉连接词 and/or），
+ *  words＝整行词，meaning/line＝出自第几条含义的第几行。morphemesOf 只取词素名，这里连句式一起给。 */
+export function morphemeDeclarations(entry) {
+  const result = [];
+  entry.meanings.forEach((meaning, index) => {
+    wordsOf(meaning.alien).forEach((words, line) => {
+      const at = words.findIndex((word, i) => word === MORPHEME_MARK[0] && words[i + 1] === MORPHEME_MARK[1]);
+      if (at < 0) return;
+      result.push({
+        meaning: index,
+        line,
+        head: words[0] || '',
+        words,
+        morphemes: words.slice(at + MORPHEME_MARK.length).filter((word) => !CONNECTORS.includes(word)),
+      });
+    });
+  });
+  return result;
+}
+
 /** 该词由哪些词素构成（句式「X morpheme be A and B」；也可用 morphemes: [...] 显式指定） */
 export function morphemesOf(entry) {
   const explicit = entry.morphemes;
@@ -228,15 +249,10 @@ export function morphemesOf(entry) {
     return list.map((w) => String(w).trim()).filter(Boolean);
   }
   const result = [];
-  for (const meaning of entry.meanings) {
-    for (const words of wordsOf(meaning.alien)) {
-      // 「morpheme be」＝词素标记，标记之后（到行尾）的词都是词素
-      const at = words.findIndex((word, index) => word === MORPHEME_MARK[0] && words[index + 1] === MORPHEME_MARK[1]);
-      if (at < 0) continue;
-      for (const token of words.slice(at + MORPHEME_MARK.length)) {
-        if (CONNECTORS.includes(token) || token === entry.id || result.includes(token)) continue;
-        result.push(token);
-      }
+  for (const declaration of morphemeDeclarations(entry)) {
+    for (const token of declaration.morphemes) {
+      if (token === entry.id || result.includes(token)) continue;
+      result.push(token);
     }
   }
   return result;

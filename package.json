@@ -11,7 +11,8 @@
     "build:ssr": "vite build --config web/vite.ssr.config.mjs",
     "build:site": "node tools/build.mjs",
     "glyph": "python tools/png2svg.py --all --changed",
-    "subset": "python tools/subset_font.py --scan site --out site/assets/fonts/unifont.woff2"
+    "subset": "python tools/subset_font.py --scan site --out site/assets/fonts/unifont.woff2",
+    "graph": "node tools/morpheme_graph.mjs"
   },
   "dependencies": {
     "vue": "^3.5.13"

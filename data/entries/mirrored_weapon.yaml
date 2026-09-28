@@ -4,3 +4,5 @@ en: weapon
 meanings: 
   - alien: ["mirrored_weapon", "be_not", "word"]
     zh: 武器不是词
+  - alien: ["mirrored_weapon", "of", "morpheme", "be", "weapon"]
+    zh: 武器由武器构成

@@ -2,7 +2,7 @@ id: from_to
 zh: 从到
 en: from & to
 meanings:
-  - alien: ["from_to", "not", "be", "word"]
+  - alien: ["from_to", "do_not", "be", "word"]
     zh: 从到不是词
   - alien: ["from_to", "of", "morpheme", "be", "from", "and", "to"]
     zh: 从到由从与到构成

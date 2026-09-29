@@ -1,0 +1,13 @@
+id: auxiliary
+zh: 助词
+en: auxiliary
+meanings: 
+  - alien: ["auxiliary", "be", "noun"]
+    zh: 助词是名词
+  - alien: ["auxiliary", "of", "morpheme", "be", "change", "and", "word"]
+    zh: 助词由变化与词构成
+  - alien: ["\n"]
+  - alien: ["alter", "previous_word", "or", "next_word", "of", "word"]
+    zh: 改变前词或后词的词
+  - alien: ["auxiliary", "be", "part_of_speech"]
+    zh: 助词是词性

@@ -7,5 +7,5 @@ meanings:
   - alien: ["up", "be", "base", "morpheme"]
     zh: 上是基础词素
   - alien: ["\n"]
-  - alien: ["opposite", "down"]
-    zh: 下的反义
+  - alien: ["reverse", "down"]
+    zh: 下的反面

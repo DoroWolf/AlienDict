@@ -7,5 +7,5 @@ meanings:
   - alien: ["back_(direction)", "be", "base", "morpheme"]
     zh: 后是基础词素
   - alien: ["\n"]
-  - alien: ["opposite", "front_(direction)"]
-    zh: 前的反义
+  - alien: ["reverse", "front_(direction)"]
+    zh: 前的反面

@@ -7,5 +7,5 @@ meanings:
   - alien: ["right_(direction)", "be", "base", "morpheme"]
     zh: 右是基础词素
   - alien: ["\n"]
-  - alien: ["opposite", "left"]
-    zh: 左的反义
+  - alien: ["reverse", "left"]
+    zh: 左的反面

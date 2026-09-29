@@ -7,8 +7,8 @@ meanings:
   - alien: ["reply", "of", "morpheme", "be", "say", "and", "do_not"]
     zh: 回复由说与不得构成
   - alien: ["\n"]
-  - alien: ["opposite", "say"]
-    zh: 说的反义
+  - alien: ["reverse", "say"]
+    zh: 说的反面
   - alien: ["say", "interrogative", "of", "answer"]
     zh: 说疑问句的回答
 

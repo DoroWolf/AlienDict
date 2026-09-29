@@ -2,8 +2,8 @@ id: do_not
 zh: 不得
 en: do not
 meanings: 
-  - alien: ["do_not", "be", "preposition"]
-    zh: 不得是介词
+  - alien: ["do_not", "be", "auxiliary"]
+    zh: 不得是助词
   - alien: ["do_not", "of", "morpheme", "be", "hand"]
     zh: 不得由手构成
   - alien: ["\n"]

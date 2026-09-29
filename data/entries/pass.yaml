@@ -10,4 +10,4 @@ meanings:
   - alien: ["pass", "amass", "two", "space"]
     zh: 通过累积两个空间
   - alien: ["pass", "first", "space", "and", "second", "space", "consider", "space", "from", "first", "space", "to", "second", "space"]
-    zh: 通过第一个空间与第二个空间认为空间从第一个空间到第二个空间
+    zh: 通过第一个空间与第二个空间，认为空间从第一个空间到第二个空间

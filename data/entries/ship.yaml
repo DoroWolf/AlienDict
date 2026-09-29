@@ -8,6 +8,6 @@ meanings:
     zh: 船是基础词素
   - alien: ["\n"]
   - alien: ["depend", "seawater", "of", "machine"]
-    zh: 依赖海水的船
+    zh: 依赖海水的机器
   - alien: ["alien", "control", "ship", "for", "big", "displacement", "of", "move"]
-    zh: 人控制船用于大位移的移动
+    zh: 人操控船进行大位移的移动

@@ -8,6 +8,6 @@ meanings:
     zh: 更大由大构成
   - alien: ["\n"]
   - alien: ["big", "number", "or", "object", "be_included", "two_objects"]
-    zh: 大的数或物体包含于两个物体
+    zh: 两个物体中较大的数或物体
   - alien: ["big", "from", "major", "count"]
-    zh: 主要是大的数量
+    zh: 比大部分数量大

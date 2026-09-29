@@ -8,4 +8,4 @@ meanings:
     zh: 平行由相同与方位构成
   - alien: ["\n"]
   - alien: ["two", "straight_line", "be_included", "same", "plane", "be_not_included", "same", "dot"]
-    zh: 两条直线有相同平面没有相同点
+    zh: 两条直线处于相同平面，且没有相同点

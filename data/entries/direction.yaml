@@ -8,4 +8,4 @@ meanings:
     zh: 方位是基础词素
   - alien: ["\n"]
   - alien: ["from", "startpoint", "to", "endpoint", "of", "line"]
-    zh: 从起点到终点的线
+    zh: 线从起点到终点的方位

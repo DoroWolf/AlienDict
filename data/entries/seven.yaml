@@ -12,4 +12,4 @@ meanings:
   - alien: ["number"]
     zh: 数
   - alien: ["first", "false", "base", "number"]
-    zh: 第一个非基础数
+    zh: 第一个不是基础数的数

@@ -8,6 +8,6 @@ meanings:
     zh: 有人由真与人构成
   - alien: ["\n"]
   - alien: ["cannot", "do", "be_not_included", "alien"]
-    zh: 不用人不能做
+    zh: 没有人就不能做
   - alien: ["or", "space", "be_included", "alien"]
     zh: 或有人的空间

@@ -8,4 +8,4 @@ meanings:
     zh: 原子序数由一与鳞片构成
   - alien: ["\n"]
   - alien: ["atom", "include", "same", "proton", "count"]
-    zh: 原子包含相同质子的数量
+    zh: 原子中相同质子的数量

@@ -8,4 +8,4 @@ meanings:
     zh: 后词由下与词构成
   - alien: ["\n"]
   - alien: ["next_one", "word", "be_included", "sentence", "or", "next_one", "page", "be_included", "book"]
-    zh: 包含在句子中的下一个词或包含书中的下一页面
+    zh: 句子中的下一个词，或书中的下一页面

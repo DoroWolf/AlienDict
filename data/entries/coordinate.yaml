@@ -8,4 +8,4 @@ meanings:
     zh: 坐标由空间与数构成
   - alien: ["\n"]
   - alien: ["dot", "of", "location", "for", "number"]
-    zh: 需要数表示点的所在空间
+    zh: 表示点所在位置的数

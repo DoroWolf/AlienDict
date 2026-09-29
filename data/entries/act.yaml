@@ -8,4 +8,4 @@ meanings:
     zh: 行动是基础词素
   - alien: ["\n"]
   - alien: ["action", "be_included", "duration"]
-    zh: 一段时间内的动作
+    zh: 包含时长的动作

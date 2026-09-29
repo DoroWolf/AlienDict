@@ -8,4 +8,4 @@ meanings:
     zh: 轨迹由移动与线段构成
   - alien: ["\n"]
   - alien: ["line", "from", "startpoint", "to", "endpoint"]
-    zh: 线从起点到终点
+    zh: 从起点到终点的线
